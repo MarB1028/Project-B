@@ -15,8 +15,8 @@
         // 2. Je kiest een bestemming voor het vliegtuig. Voor dit voorbeeld doe ik duitsland.
         // Je geeft eerst het vlucht ID dat is hierzo GER1. Daarna geef je het vliegtuig object, boeing747.
         // Dan geef je de boarding time and arrival time
-        // Daarna laatste geef je het land en de bestemming.
-        // Als geef je aan wat de multiplier moet zijn van het vlucht. Dit is om de prijs van de stoelen uit te rekenen.
+        // Daarna geef je het land en de bestemming.
+        // Als laatst geef je aan wat de multiplier moet zijn van het vlucht. Dit is om de prijs van de stoelen uit te rekenen.
         Flight germany = new Flight("GER1", boeing747, DateTime.Now, DateTime.Now, "Germany", "Frankfort", 1.02);
         
         // 3. Je maakt tickets aan voor het vlucht, het wordt automatisch gedaan.
