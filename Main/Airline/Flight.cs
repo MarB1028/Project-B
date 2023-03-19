@@ -26,9 +26,9 @@
         return startprice * Multiplier;
     }
 
-    // Print de informatie van de vlucht. Is ook niet klaar.
+    // Print de informatie van de vlucht.
     public void PrintFlightInformation()
     {
-        
+        // Moet nog ingevuld worden.
     }
 }

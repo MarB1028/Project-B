@@ -15,15 +15,10 @@
         Gate = gate;
     }
 
-    public void PrintTicket()
+    // Print de ticket van de klant, met het doorgegeven voornaam en achternaam (Concept).
+    // Kan ook iets anders doorgegeven en de ticket uitprinten.
+    public void PrintTicket(string firstname, string lastname)
     {
-        Console.WriteLine($"Flight: {Flight.FlightId}");
-        Console.WriteLine($"Destination: {Flight.Destination}");
-        Console.WriteLine($"Boarding time: {Flight.BoardingDate}");
-        Console.WriteLine($"Arrrival time: {Flight.EstimatedArrival}");
-        Console.WriteLine($"Seat number: {Seat.SeatNumber}");
-        Console.WriteLine($"Seat type: {Seat.SeatType}");
-        Console.WriteLine($"Gate: {Gate}");
-        Console.WriteLine($"Ticket price: {Seat.Price}$");
+        // Hier moet ik nog aan werken
     }
 }

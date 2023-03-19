@@ -9,7 +9,6 @@
         Ticket = ticket;
     }
 
-
     // Checkt als de stoel vrij is.
     public void CheckSeatAvailability()
     {

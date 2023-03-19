@@ -13,6 +13,7 @@ class MakeTicketsForFlight
     {
         List<BookTicket> bookticketlist = new List<BookTicket>() { };
         
+        // Type stoelen, wordt later gebruikt voor het genereren van de json file.
         List<string> Seatype = new List<string>()
         {
             "First-Class",
@@ -21,6 +22,8 @@ class MakeTicketsForFlight
             "Regular"
         };
         
+
+        // Een lijst met hoeveel stoelen er zijn voor elk type.
         List<int> AllSeats = new List<int>()
         {
             Flight.Airplane.FirstClassSeat,
@@ -29,15 +32,17 @@ class MakeTicketsForFlight
             Flight.Airplane.RegularSeat
         };
 
-        // Je moet hier de standaard prijs doorgeven in de method Flight.CalculateSeatPrice(x).
-        // De prijs wordt berekend door de te vermenigvuldigen met de multiplier van de vlucht die je meegeeft.
+        // Dit stukje maakt het json file aan.
         int seatnumber = 0;
         for (int i = 0; i < AllSeats.Count; i++)
         {
             for (int j = 0; j < AllSeats[i]; j++)
-            {
+            {   
+                // Checkt welke stoelen er zijn en hoeveel er gemaakt moet worden.
                 switch (Seatype[i])
                 {
+                    // Je moet hier de standaard prijs doorgeven in de method Flight.CalculateSeatPrice(x).
+                    // De prijs wordt berekend door de te vermenigvuldigen met de multiplier van de vlucht die je meegeeft.
                     case "First-Class":
                         seatnumber++;
                         bookticketlist.Add(new BookTicket(false, new Ticket("Empty", "Empty", null, new Seat($"{Flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], Flight.CalculateSeatPrice(0)), "Empty")));
@@ -58,6 +63,7 @@ class MakeTicketsForFlight
             }                      
         }
         
+        // Maakt het json file aan als er geen eentje bestaat
         string json = JsonConvert.SerializeObject(bookticketlist, Formatting.Indented);
         if (!File.Exists($"{Flight.Airplane.Name}-{Flight.Destination}.json"))
         {
