@@ -6,7 +6,7 @@
         // Objects maken
 
         // 1. Je kiest eerst een vliegtuig uit. Ik kies bijvoorbeeld de vliegtuig boeing747
-        // Dan geef je de carrier ID mee. Dat is hierzo BO en wordt later gebruik gemaakt voor de stoelen.
+        // Dan geef je de carrier ID mee (Afkorting van het vliegtuig). Dat is hierzo BO en wordt later gebruik gemaakt voor de stoelen.
         // Na het aangeven van een de carrierid geef je de Airplane ID mee. Dat is hierzo 1.
         // Daarna kies je de aantal stoelen voor FirstClass(10), Premium(20), Economy(40) en Regular(100).
         // Niet alle stoelen staan hierin. Ik heb alleen een paar gekozen. 
