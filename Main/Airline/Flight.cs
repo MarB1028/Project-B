@@ -6,8 +6,9 @@
     public DateTime EstimatedArrival;
     public string Country;
     public string Destination;
+    public double Multiplier;
 
-    public Flight(string flightid, Airplane airplane, DateTime boardingdate, DateTime estimatedarrival, string country, string destination)
+    public Flight(string flightid, Airplane airplane, DateTime boardingdate, DateTime estimatedarrival, string country, string destination, double multiplier)
     {
         FlightId = flightid;
         Airplane = airplane;
@@ -15,13 +16,14 @@
         EstimatedArrival = estimatedarrival;
         Country = country;
         Destination = destination;
+        Multiplier = multiplier;
     }
 
 
-    // Calculate de prijs van de stoel, is nog niet klaar.
+    // Calculate de prijs van de stoel, is nog niet klaar. Dit is alleen een test.
     public double CalculateSeatPrice(double startprice)
     {
-        return startprice = 0;
+        return startprice * Multiplier;
     }
 
     // Print de informatie van de vlucht. Is ook niet klaar.

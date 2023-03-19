@@ -16,7 +16,7 @@
         // Je geeft eerst het vlucht ID dat is hierzo GER1. Daarna geef je het vliegtuig object, boeing747.
         // Dan geef je de boarding time and arrival time
         // Als laatste geef je het land en de bestemming.
-        Flight germany = new Flight("GER1", boeing747, DateTime.Now, DateTime.Now, "Germany", "Frankfort");
+        Flight germany = new Flight("GER1", boeing747, DateTime.Now, DateTime.Now, "Germany", "Frankfort", 1.02);
         
         // 3. Je maakt tickets aan voor het vlucht, het wordt automatisch gedaan.
         MakeTicketsForFlight flightgermany = new MakeTicketsForFlight(germany);

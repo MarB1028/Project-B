@@ -29,14 +29,33 @@ class MakeTicketsForFlight
             Flight.Airplane.RegularSeat
         };
 
+        // Je moet hier de standaard prijs doorgeven in de method Flight.CalculateSeatPrice(x).
+        // De prijs wordt berekend door de te vermenigvuldigen met de multiplier van de vlucht die je meegeeft.
         int seatnumber = 0;
         for (int i = 0; i < AllSeats.Count; i++)
         {
             for (int j = 0; j < AllSeats[i]; j++)
-            {   
-                seatnumber++;
-                bookticketlist.Add(new BookTicket(false, new Ticket("Empty", "Empty", null, new Seat($"{Flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], Flight.CalculateSeatPrice(0)), "Empty")));
-            }
+            {
+                switch (Seatype[i])
+                {
+                    case "First-Class":
+                        seatnumber++;
+                        bookticketlist.Add(new BookTicket(false, new Ticket("Empty", "Empty", null, new Seat($"{Flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], Flight.CalculateSeatPrice(0)), "Empty")));
+                        break;
+                    case "Premium":
+                        seatnumber++;
+                        bookticketlist.Add(new BookTicket(false, new Ticket("Empty", "Empty", null, new Seat($"{Flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], Flight.CalculateSeatPrice(0)), "Empty")));
+                        break;
+                    case "Economy":
+                        seatnumber++;
+                        bookticketlist.Add(new BookTicket(false, new Ticket("Empty", "Empty", null, new Seat($"{Flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], Flight.CalculateSeatPrice(0)), "Empty")));
+                        break;
+                    case "Regular":
+                        seatnumber++;
+                        bookticketlist.Add(new BookTicket(false, new Ticket("Empty", "Empty", null, new Seat($"{Flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], Flight.CalculateSeatPrice(0)), "Empty")));
+                        break;
+                }
+            }                      
         }
         
         string json = JsonConvert.SerializeObject(bookticketlist, Formatting.Indented);
