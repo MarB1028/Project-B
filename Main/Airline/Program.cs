@@ -11,7 +11,7 @@
         // Daarna kies je de aantal stoelen voor FirstClass(10), Premium(20), Economy(40) en Regular(100).
         // Niet alle stoelen staan hierin. Ik heb alleen een paar gekozen. 
         Airplane boeing747 = new Airplane("BOEING747", "BO", 1, 10, 20, 40, 100);
-        
+
         // 2. Je kiest een bestemming voor het vliegtuig. Voor dit voorbeeld doe ik duitsland.
         // Je geeft eerst het vlucht ID dat is hierzo GER1. Daarna geef je het vliegtuig object, boeing747.
         // Dan geef je de boarding time and arrival time

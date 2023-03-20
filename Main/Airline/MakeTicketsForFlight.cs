@@ -45,19 +45,19 @@ class MakeTicketsForFlight
                     // De prijs wordt berekend door de te vermenigvuldigen met de multiplier van de vlucht die je meegeeft.
                     case "First-Class":
                         seatnumber++;
-                        bookticketlist.Add(new BookTicket(false, new Ticket("Empty", "Empty", null, new Seat($"{Flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], Flight.CalculateSeatPrice(0)), "Empty")));
+                        bookticketlist.Add(new BookTicket(new Ticket("Empty", "Empty", null, new Seat($"{Flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], Flight.CalculateSeatPrice(0)), "Empty")));
                         break;
                     case "Premium":
                         seatnumber++;
-                        bookticketlist.Add(new BookTicket(false, new Ticket("Empty", "Empty", null, new Seat($"{Flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], Flight.CalculateSeatPrice(0)), "Empty")));
+                        bookticketlist.Add(new BookTicket(new Ticket("Empty", "Empty", null, new Seat($"{Flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], Flight.CalculateSeatPrice(0)), "Empty")));
                         break;
                     case "Economy":
                         seatnumber++;
-                        bookticketlist.Add(new BookTicket(false, new Ticket("Empty", "Empty", null, new Seat($"{Flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], Flight.CalculateSeatPrice(0)), "Empty")));
+                        bookticketlist.Add(new BookTicket(new Ticket("Empty", "Empty", null, new Seat($"{Flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], Flight.CalculateSeatPrice(0)), "Empty")));
                         break;
                     case "Regular":
                         seatnumber++;
-                        bookticketlist.Add(new BookTicket(false, new Ticket("Empty", "Empty", null, new Seat($"{Flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], Flight.CalculateSeatPrice(0)), "Empty")));
+                        bookticketlist.Add(new BookTicket(new Ticket("Empty", "Empty", null, new Seat($"{Flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], Flight.CalculateSeatPrice(0)), "Empty")));
                         break;
                 }
             }                      
