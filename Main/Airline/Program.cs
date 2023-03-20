@@ -30,5 +30,9 @@
         // Als je de vluchten
         OverviewFlights overview = new OverviewFlights();
         overview.ShowAvailableFlights();
+
+        //Persoonlijke gegevens invullen
+        Passenger passenger = PassengerForm.Form();
+        
     }
 }
