@@ -3,7 +3,7 @@
     // Account doorgeven nog om aan de ticket te koppelen.
     public bool Booked;
     public Ticket Ticket;
-    // Account account;
+    // public Account account;
 
     public BookTicket(Ticket ticket)
     {

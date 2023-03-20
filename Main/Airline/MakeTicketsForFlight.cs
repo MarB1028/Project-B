@@ -19,7 +19,7 @@ class MakeTicketsForFlight
             "First-Class",
             "Premium",
             "Economy",
-            "Regular"
+            "ExtraSpace"
         };
         
 
@@ -29,7 +29,7 @@ class MakeTicketsForFlight
             Flight.Airplane.FirstClassSeat,
             Flight.Airplane.PremiumSeat,
             Flight.Airplane.EconomySeat,
-            Flight.Airplane.RegularSeat
+            Flight.Airplane.ExtraSpace,
         };
 
         // Dit stukje maakt het json file aan.
@@ -50,12 +50,12 @@ class MakeTicketsForFlight
                     case "Premium":
                         seatnumber++;
                         bookticketlist.Add(new BookTicket(new Ticket("Empty", "Empty", null, new Seat($"{Flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], Flight.CalculateSeatPrice(0)), "Empty")));
-                        break;
+                        break;              
                     case "Economy":
                         seatnumber++;
                         bookticketlist.Add(new BookTicket(new Ticket("Empty", "Empty", null, new Seat($"{Flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], Flight.CalculateSeatPrice(0)), "Empty")));
                         break;
-                    case "Regular":
+                    case "ExtraSpace":
                         seatnumber++;
                         bookticketlist.Add(new BookTicket(new Ticket("Empty", "Empty", null, new Seat($"{Flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], Flight.CalculateSeatPrice(0)), "Empty")));
                         break;

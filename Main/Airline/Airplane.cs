@@ -7,8 +7,9 @@
     public int PremiumSeat;
     public int EconomySeat;
     public int RegularSeat;
+    public int ExtraSpace;
 
-    public Airplane(string name, string carrierintid, int airplaneid, int firstclassseat, int premiumseat, int economyseat, int regularseat)
+    public Airplane(string name, string carrierintid, int airplaneid, int firstclassseat, int premiumseat, int economyseat, int extraspace)
     {
         Name = name;
         Carrierid = carrierintid;
@@ -16,6 +17,6 @@
         FirstClassSeat = firstclassseat;
         PremiumSeat = premiumseat;
         EconomySeat = economyseat;
-        RegularSeat = regularseat;
+        ExtraSpace = extraspace;
     }
 }
