@@ -5,4 +5,10 @@
     {
         // Moet nog ingevuld worden.
     }
+
+    // Print de informatie van de vlucht.
+    public void PrintFlightInformation()
+    {
+        // Moet nog ingevuld worden.
+    }
 }

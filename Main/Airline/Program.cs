@@ -17,18 +17,11 @@
         // Dan geef je de boarding time and arrival time
         // Daarna geef je het land en de bestemming.
         // Als laatst geef je aan wat de multiplier moet zijn van het vlucht. Dit is om de prijs van de stoelen uit te rekenen.
-        Flight germany = new Flight("GER1", boeing747, DateTime.Now, DateTime.Now, "Germany", "Frankfort", 1.02);
+        Destination germany = new Destination("Germany", "Frankfort", "Frankfort Airport", 100, 2);
+        Flight frankfortairport = new Flight("GER1", boeing747, DateTime.Now, DateTime.Now, germany);
 
-        // 3.
-        MakeOverviewFlight OverviewGermany = new MakeOverviewFlight(germany);
-        OverviewGermany.MakeOverview();
-
-        // 4. Je maakt tickets aan voor het vlucht, het wordt automatisch gedaan.
-        MakeTicketsForFlight flightgermany = new MakeTicketsForFlight(germany);
+        // 3. Je maakt tickets aan voor het vlucht, het wordt automatisch gedaan.
+        MakeTicketsForFlight flightgermany = new MakeTicketsForFlight(frankfortairport);
         flightgermany.MakeTickets();
-
-        // Als je de vluchten
-        OverviewFlights overview = new OverviewFlights();
-        overview.ShowAvailableFlights();
     }
 }
