@@ -65,13 +65,14 @@ class MakeTicketsForFlight
         
         // Maakt het json file aan als er geen eentje bestaat
         string json = JsonConvert.SerializeObject(bookticketlist, Formatting.Indented);
+        string pathfile = $"C:\\Users\\{Environment.UserName}\\Documents\\GitHub\\Project-B\\Main\\Airline\\DataSources\\{Flight.Airplane.Name}-ID{Flight.Airplane.AirplaneId}-{Flight.FlightId}.json";
         if (!File.Exists($"{Flight.Airplane.Name}-{Flight.Destination}.json"))
         {
-            File.WriteAllText($"{Flight.Airplane.Name}-ID{Flight.Airplane.AirplaneId}-{Flight.FlightId}.json", json);
+            File.WriteAllText(pathfile, json);
         }
         else
         {
-            File.WriteAllText($"{Flight.Airplane.Name}-ID{Flight.Airplane.AirplaneId}-{Flight.FlightId}.json", json);
+            File.WriteAllText(pathfile, json);
         }
     }
 }
