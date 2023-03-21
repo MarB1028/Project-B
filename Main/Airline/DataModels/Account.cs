@@ -1,10 +1,11 @@
 ﻿class Account
 {
     public string Email;
-    private string Password;
-    public List<string> SpecialChar = new List<string>() { "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "+", "=", "/", "\\", "|", "[", "]", "{", "}", ";", ":", "<", ">", ".", ",", "?", "!" };
-    public List<string> Numbers = new List<string>() { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+    private string _password;
 
+    public string Password { get; set; }
+
+ 
     public Account(string email, string password)
     {
         Email = email;
@@ -28,6 +29,9 @@
 
     public bool CheckNewValidPassword(string password)
     {
+        List<string> SpecialChar = new List<string>() { "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "+", "=", "/", "\\", "|", "[", "]", "{", "}", ";", ":", "<", ">", ".", ",", "?", "!" };
+        List<string> Numbers = new List<string>() { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+
         foreach (string character in SpecialChar)
         {
             foreach (string number in Numbers)

@@ -1,4 +1,5 @@
 using Newtonsoft.Json;
+using System.IO;
 
 class Login
 {
@@ -51,6 +52,7 @@ class Login
 
     public void SetNewAccount()
     {
+        List<Account> accounts = ReadAccountsFromJSON();
 
         Console.WriteLine("Input a valid email adress");
         string email = Console.ReadLine()!;
@@ -70,6 +72,31 @@ class Login
         {
             Console.WriteLine("Input a password (At least 6 characters long,\none special character and one number");
             password = Console.ReadLine()!;
+        }
+
+        accounts.Add(account);
+        WriteAccountToJSON(accounts);
+    }
+
+    public List<Account> ReadAccountsFromJSON()
+    {
+        if (!File.Exists("Accounts.json"))
+        {
+            return new List<Account>();
+        }
+
+        string json = File.ReadAllText("Accounts.json");
+        List<Account> accounts = JsonConvert.DeserializeObject<List<Account>>(json);
+        return accounts ?? new List<Account>();
+    }
+
+    public void WriteAccountToJSON(List<Account> accounts)
+    {
+        string json = JsonConvert.SerializeObject(accounts);
+
+        using (StreamWriter streamWriter = File.CreateText("Accounts.json"))
+        {
+            streamWriter.Write(json);
         }
     }
 }
