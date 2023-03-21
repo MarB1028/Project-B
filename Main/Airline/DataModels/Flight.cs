@@ -14,4 +14,7 @@
         EstimatedArrival = estimatedarrival;
         Destination = destination;
     }
+
+     
+   
 }
