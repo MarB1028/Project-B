@@ -2,12 +2,14 @@
 {   
     // Account doorgeven nog om aan de ticket te koppelen.
     public bool Booked;
+    public int TicketID;
     public Ticket Ticket;
     // public Account account;
 
-    public BookTicket(Ticket ticket)
+    public BookTicket(int ticketid, Ticket ticket)
     {
         Booked = false;
+        TicketID = ticketid;
         Ticket = ticket;
     }
 

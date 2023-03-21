@@ -1,0 +1,46 @@
+[
+  {
+    "FlightId": "GER1",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 2,
+      "FirstClassSeat": 10,
+      "PremiumSeat": 20,
+      "EconomySeat": 100,
+      "RegularSeat": 0,
+      "ExtraSpace": 10
+    },
+    "BoardingDate": "2023-03-21T17:38:33.6636451+01:00",
+    "EstimatedArrival": "2023-03-21T17:38:33.6704255+01:00",
+    "Destination": {
+      "Country": "GERMANY",
+      "City": "FRANKFORT",
+      "Airport": "FRANKFORTAIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 2
+    }
+  },
+  {
+    "FlightId": "GER2",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 2,
+      "FirstClassSeat": 10,
+      "PremiumSeat": 20,
+      "EconomySeat": 100,
+      "RegularSeat": 0,
+      "ExtraSpace": 10
+    },
+    "BoardingDate": "2023-03-21T17:38:33.6705481+01:00",
+    "EstimatedArrival": "2023-03-21T17:38:33.6705491+01:00",
+    "Destination": {
+      "Country": "GERMANY",
+      "City": "MANNENHEIM",
+      "Airport": "MANNENHEIMAIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 2
+    }
+  }
+]

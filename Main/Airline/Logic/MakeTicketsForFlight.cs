@@ -34,6 +34,7 @@ class MakeTicketsForFlight
 
         // Dit stukje maakt het json file aan.
         int seatnumber = 0;
+        int ticketid = 0;
         for (int i = 0; i < AllSeats.Count; i++)
         {
             for (int j = 0; j < AllSeats[i]; j++)
@@ -45,19 +46,23 @@ class MakeTicketsForFlight
                     // De prijs wordt berekend door de te vermenigvuldigen met de multiplier van de vlucht die je meegeeft.
                     case "First-Class":
                         seatnumber++;
-                        bookticketlist.Add(new BookTicket(new Ticket("Empty", "Empty", null, new Seat($"{Flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], new CalculateSeatPrice(Flight).CalculateSeat(0)), "Empty")));
+                        ticketid++;
+                        bookticketlist.Add(new BookTicket(ticketid, new Ticket("Empty", "Empty", null, new Seat($"{Flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], new CalculateSeatPrice(Flight).CalculateSeat(0)), "Empty")));
                         break;
                     case "Premium":
                         seatnumber++;
-                        bookticketlist.Add(new BookTicket(new Ticket("Empty", "Empty", null, new Seat($"{Flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], new CalculateSeatPrice(Flight).CalculateSeat(0)), "Empty")));
+                        ticketid++;
+                        bookticketlist.Add(new BookTicket(ticketid, new Ticket("Empty", "Empty", null, new Seat($"{Flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], new CalculateSeatPrice(Flight).CalculateSeat(0)), "Empty")));
                         break;              
                     case "Economy":
                         seatnumber++;
-                        bookticketlist.Add(new BookTicket(new Ticket("Empty", "Empty", null, new Seat($"{Flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], new CalculateSeatPrice(Flight).CalculateSeat(0)), "Empty")));
+                        ticketid++;
+                        bookticketlist.Add(new BookTicket(ticketid, new Ticket("Empty", "Empty", null, new Seat($"{Flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], new CalculateSeatPrice(Flight).CalculateSeat(0)), "Empty")));
                         break;
                     case "ExtraSpace":
                         seatnumber++;
-                        bookticketlist.Add(new BookTicket(new Ticket("Empty", "Empty", null, new Seat($"{Flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], new CalculateSeatPrice(Flight).CalculateSeat(0)), "Empty")));
+                        ticketid++;
+                        bookticketlist.Add(new BookTicket(ticketid, new Ticket("Empty", "Empty", null, new Seat($"{Flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], new CalculateSeatPrice(Flight).CalculateSeat(0)), "Empty")));
                         break;
                 }
             }                      
@@ -65,12 +70,8 @@ class MakeTicketsForFlight
         
         // Maakt het json file aan als er geen eentje bestaat
         string json = JsonConvert.SerializeObject(bookticketlist, Formatting.Indented);
-        string pathfile = $"C:\\Users\\{Environment.UserName}\\Documents\\GitHub\\Project-B\\Main\\Airline\\DataSources\\{Flight.Airplane.Name}-ID{Flight.Airplane.AirplaneId}-{Flight.FlightId}.json";
-        if (!File.Exists($"{Flight.Airplane.Name}-{Flight.Destination}.json"))
-        {
-            File.WriteAllText(pathfile, json);
-        }
-        else
+        string pathfile = $"C:\\Users\\{Environment.UserName}\\Documents\\GitHub\\Project-B\\Main\\Airline\\DataSources\\{Flight.Airplane.Name};PLANEID{Flight.Airplane.AirplaneId};{Flight.FlightId}.json";
+        if (!File.Exists(pathfile))
         {
             File.WriteAllText(pathfile, json);
         }
