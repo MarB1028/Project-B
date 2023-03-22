@@ -38,10 +38,26 @@ public static class PassengerForm
         while (sex.ToUpper().Contains("M") == false || sex.ToUpper().Contains("V"));
 
         //Geboortedatum
-        string birthDate;
+        string birthDate0;
+        Console.WriteLine("Geboortedatum (DD-MM-JJJJ): ");
+        birthDate0 = Console.ReadLine();
+        DateTime birthDate = DateTime.Parse(birthDate0);
 
-        //Adres
-        string adress;
+
+        //Adres (straat huisnummer postcode stad)
+        string street;
+        string housenumber;
+        string zipcode;
+        string city;
+        Console.WriteLine("Straat: ");
+        street = Console.ReadLine();
+        Console.WriteLine("Huisnummer: ");
+        housenumber = Console.ReadLine();
+        Console.WriteLine("Postcode: ");
+        zipcode = Console.ReadLine();
+        Console.WriteLine("Stad: ");
+        city = Console.ReadLine();
+        string adress = $"{street} {housenumber} {zipcode} {city}";
 
         //Maak class
         return new Passenger(surname, lastname, sex, birthDate, adress);

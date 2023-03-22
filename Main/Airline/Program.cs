@@ -20,16 +20,11 @@
         Flight germany = new Flight("GER1", boeing747, DateTime.Now, DateTime.Now, "Germany", "Frankfort", 1.02);
 
         // 3.
-        MakeOverviewFlight OverviewGermany = new MakeOverviewFlight(germany);
-        OverviewGermany.MakeOverview();
 
         // 4. Je maakt tickets aan voor het vlucht, het wordt automatisch gedaan.
-        MakeTicketsForFlight flightgermany = new MakeTicketsForFlight(germany);
-        flightgermany.MakeTickets();
 
         // Als je de vluchten
-        OverviewFlights overview = new OverviewFlights();
-        overview.ShowAvailableFlights();
+
 
         //Persoonlijke gegevens invullen
         Passenger passenger = PassengerForm.Form();
