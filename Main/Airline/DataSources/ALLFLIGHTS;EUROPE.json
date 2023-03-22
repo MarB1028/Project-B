@@ -11,8 +11,8 @@
       "RegularSeat": 0,
       "ExtraSpace": 10
     },
-    "BoardingDate": "2023-03-21T17:38:33.6636451+01:00",
-    "EstimatedArrival": "2023-03-21T17:38:33.6704255+01:00",
+    "BoardingDate": "2023-03-22T14:56:25.2763851+01:00",
+    "EstimatedArrival": "2023-03-22T14:56:25.2799155+01:00",
     "Destination": {
       "Country": "GERMANY",
       "City": "FRANKFORT",
@@ -33,8 +33,8 @@
       "RegularSeat": 0,
       "ExtraSpace": 10
     },
-    "BoardingDate": "2023-03-21T17:38:33.6705481+01:00",
-    "EstimatedArrival": "2023-03-21T17:38:33.6705491+01:00",
+    "BoardingDate": "2023-03-22T14:56:25.2799788+01:00",
+    "EstimatedArrival": "2023-03-22T14:56:25.2799795+01:00",
     "Destination": {
       "Country": "GERMANY",
       "City": "MANNENHEIM",

@@ -17,22 +17,32 @@
         // Dan geef je de boarding time and arrival time
         // Daarna geef je het land en de bestemming.
         // Als laatst geef je aan wat de multiplier moet zijn van het vlucht. Dit is om de prijs van de stoelen uit te rekenen.
-        Destination frankfort = new Destination("GERMANY", "FRANKFORT", "FRANKFORTAIRPORT", 100, 2);
-        Destination mannenheim = new Destination("GERMANY", "MANNENHEIM", "MANNENHEIMAIRPORT", 100, 2);
+        Destination frankfort = new Destination("GER", "FRA", "FRANKFORTAIRPORT", 100, 2);
+        Destination mannenheim = new Destination("GER", "MAN", "MANNENHEIMAIRPORT", 100, 2);
         Flight flightfrankfort = new Flight("GER1", boeing747, DateTime.Now, DateTime.Now, frankfort);
         Flight flightmannenheim = new Flight("GER2", boeing747, DateTime.Now, DateTime.Now, mannenheim);
 
 
-        MakeOverviewFlight overview = new MakeOverviewFlight(flightfrankfort);
-        overview.MakeOverview();
-        MakeOverviewFlight overview1 = new MakeOverviewFlight(flightmannenheim);
-        overview1.MakeOverview();
+        //MakeOverviewFlightJson overview = new MakeOverviewFlightJson(flightfrankfort);
+        //overview.MakeOverviewJson();
+        //MakeOverviewFlightJson overview1 = new MakeOverviewFlightJson(flightmannenheim);
+        //overview1.MakeOverviewJson();
 
 
 
         // 3. Je maakt tickets aan voor het vlucht, het wordt automatisch gedaan.
-        MakeTicketsForFlight flightgermany = new MakeTicketsForFlight(flightmannenheim);
-        flightgermany.MakeTickets();
+        //MakeTicketsForFlightJson flightgermany = new MakeTicketsForFlightJson(flightfrankfort);
+        //flightgermany.MakeTickets();
+        //MakeTicketsForFlightJson flightgermany1 = new MakeTicketsForFlightJson(flightmannenheim);
+        //flightgermany1.MakeTickets();
         //test
+
+        LoadDataFlights load = new LoadDataFlights();
+        var test = load.LoadJsonFile();
+
+        foreach(Flight i in test)
+        {
+            Console.WriteLine(i);
+        }
     }
 }

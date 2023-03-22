@@ -1,10 +1,10 @@
 ﻿using Newtonsoft.Json;
 
-class MakeTicketsForFlight
+class MakeTicketsForFlightJson
 {
     public Flight Flight;
 
-    public MakeTicketsForFlight(Flight flight)
+    public MakeTicketsForFlightJson(Flight flight)
     {
         Flight = flight;
     }
@@ -70,7 +70,7 @@ class MakeTicketsForFlight
         
         // Maakt het json file aan als er geen eentje bestaat
         string json = JsonConvert.SerializeObject(bookticketlist, Formatting.Indented);
-        string pathfile = $"C:\\Users\\{Environment.UserName}\\Documents\\GitHub\\Project-B\\Main\\Airline\\DataSources\\{Flight.Airplane.Name};PLANEID{Flight.Airplane.AirplaneId};{Flight.FlightId}.json";
+        string pathfile = $"C:\\Users\\{Environment.UserName}\\Documents\\GitHub\\Project-B\\Main\\Airline\\DataSources\\{Flight.Airplane.Name};{Flight.Destination.Country};{Flight.Destination.City}.json";
         if (!File.Exists(pathfile))
         {
             File.WriteAllText(pathfile, json);
