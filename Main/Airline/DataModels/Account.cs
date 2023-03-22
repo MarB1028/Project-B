@@ -4,13 +4,11 @@
     private string _password;
 
     public string Password { get; set; }
-
  
     public Account(string email, string password)
     {
         Email = email;
         Password = password;
-
     }
 
     public bool CheckNewValidEmail(string email)
