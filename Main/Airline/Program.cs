@@ -2,6 +2,8 @@
 {
     public static void Main()
     {
+        Menu start = new Menu();
+        start.StartScreen();
         // Main
         // Objects maken
 
