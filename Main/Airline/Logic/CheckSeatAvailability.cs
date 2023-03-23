@@ -1,3 +1,4 @@
+using Newtonsoft.Json;
 class CheckSeatAvailability
 {
     public Flight Flight;
@@ -9,11 +10,29 @@ class CheckSeatAvailability
     // Checkt of de stoel vrij is.
     public void IsSeatTaken(string SeatNumber)
     {
-        StreamReader reader = new StreamReader($"C:\\Users\\marie\\OneDrive - Hogeschool Rotterdam\\Semester 2\\Project B\\Project-B\\Main\\Airline\\DataSources{Flight.Airplane.Name};PLANEID{Flight.Airplane.AirplaneId};{Flight.FlightId}.json"); 
-        string jsonString = reader.ReadToEnd();
+        //List<BookTicket> ReadAccountsFromJSON()
+    
+        // if (!File.Exists($"{Flight.Airplane.Name};PLANEID{Flight.Airplane.AirplaneId};{Flight.FlightId}.json"))
+        // {
+        //     return new List<BookTicket>();
+        // }
+
+        // string json = File.ReadAllText($"{Flight.Airplane.Name};PLANEID{Flight.Airplane.AirplaneId};{Flight.FlightId}.json");
+        // List<BookTicket> bookTickets = JsonConvert.DeserializeObject<List<BookTicket>>(json);
+        // foreach (BookTicket bt in bookTickets) {
+        //     Console.WriteLine(bt);
+        // }
+        // return bookTickets ?? new List<BookTicket>();
+   
+        string file = $"{Flight.Airplane.Name};PLANEID{Flight.Airplane.AirplaneId};{Flight.FlightId}.json";
+        StreamReader reader = new(file);
+        string File2Json = reader.ReadToEnd();
+        List<BookTicket> bookTickets = JsonConvert.DeserializeObject<List<BookTicket>>(file)!;
         reader.Close();
-        //var fromjson = JsonConvert.DeserializeObject<double>(jsonString)!;
-        Console.WriteLine(jsonString);
+
+        foreach (BookTicket bt in bookTickets) {
+            Console.WriteLine(bt);
+        }
     }
 
     // Print de beschikbare stoelen.
@@ -30,25 +49,30 @@ class CheckSeatAvailability
        
         for (int row = 0; row < TotalRows; row++) 
         {
+            
             if (row == 0) {
-                SeatingChart.Add("First Class");
+                
+                SeatingChart.Add(" |------------First Class-------------|");
             }
             else if (row == firstclass ) {
-                SeatingChart.Add("Premium Class");
+                SeatingChart.Add(" |-----------Premium Class------------|");
             }
             else if (row == premium + firstclass ) {
-                SeatingChart.Add("Economy Class");
+                SeatingChart.Add(" |-----------Economy Class------------|");
             }
             else if (row == economy + premium + firstclass ) {
-                SeatingChart.Add("Extra Space");
+                SeatingChart.Add(" |------------Extra Space-------------|");
             }
+            
 
             string seatsrow = " ";
             string seat = "";
+            seatsrow += "| ";
             for (int col = 0; col < 6; col++) //
             {  
                 if (col == 0) {
                     seat = "A";
+                    
                 }
                 else if (col == 1) {
                     seat = "B";
@@ -79,8 +103,12 @@ class CheckSeatAvailability
                 
                 //Voegt ruimte in het midden toe.
                 seatsrow += (col == 2 ? "    " : "");
+                seatsrow += (col == 5 ? " |" : "");
             }
             SeatingChart.Add(seatsrow);
+            if (row == TotalRows-1) {
+                SeatingChart.Add(" |------------------------------------|");
+            }
             
         }
         foreach (string row in SeatingChart)
