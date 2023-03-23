@@ -37,8 +37,8 @@
         //flightgermany1.MakeTickets();
         //test
 
-        LoadDataFlights load = new LoadDataFlights();
-        var test = load.LoadJsonFile();
+        DataFlights load = new DataFlights();
+        var test = load.ReadFlightsFromJson();
 
         foreach(Flight i in test)
         {

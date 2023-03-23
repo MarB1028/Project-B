@@ -13,18 +13,6 @@
         Ticket = ticket;
     }
 
-    // Checkt als de stoel vrij is.
-    public void CheckSeatAvailability()
-    {
-        // Hier moet ik nog aan werken.
-    }
-
-    // Print de beschikbare stoelen.
-    public void AvailableSeats()
-    {
-        // Hier moet ik nog aan werken.
-    }
-
     // Een beschikbare stoel boeken.
     public void BookSeat()
     {

@@ -1,8 +1,8 @@
 ﻿using Newtonsoft.Json;
 
-class LoadDataAccounts
+class DataAccounts
 {
-    public List<Account> ReadAccountsFromJSON()
+    public List<Account> ReadAccountsFromJson()
     {
         if (!File.Exists("Accounts.json"))
         {
