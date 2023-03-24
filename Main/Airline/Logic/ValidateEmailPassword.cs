@@ -12,7 +12,7 @@
 
                 if (loginOrRegister == 1)
                 {
-                    // go to method check if input email and password -> to object is same as json file object
+                    CheckLogin();
                     x = false;
                 }
                 else if (loginOrRegister == 2)
@@ -24,6 +24,7 @@
                 {
                     // go back to startscreen
                     Console.WriteLine("back to startscreen");
+                    Console.Clear();
                     x = false;
                 }
                 else
@@ -45,10 +46,7 @@
 
         Console.WriteLine("Input a valid email adress");
         string email = Console.ReadLine()!;
-
-        Console.WriteLine("Input a password (At least 6 characters long,\none special character and one number");
-        string password = Console.ReadLine()!;
-
+        Console.WriteLine();
 
         while (CheckNewValidEmail(email) == false)
         {
@@ -56,9 +54,13 @@
             email = Console.ReadLine()!;
         }
 
+        Console.WriteLine("Input a password (At least 6 characters long,\none special character and one number");
+        string password = Console.ReadLine()!;
+        Console.WriteLine();
+
         while (CheckNewValidPassword(password) == false)
         {
-            Console.WriteLine("Input a password (At least 6 characters long,\none special character and one number");
+            Console.WriteLine("Input a password (At least 6 characters long,\none special character and one number)");
             password = Console.ReadLine()!;
         }
 
@@ -69,11 +71,20 @@
 
     public bool CheckNewValidEmail(string email)
     {
-        //check for @ & .com / .nl / etc...
+        List<string> emailEndings = new List<string>() {".nl",".be", ".com", ".org", ".net", ".edu", ".gov", ".co", ".io", ".info", ".mail"};
+
         if (email.Contains("@"))
         {
-            Console.WriteLine("Email adress is valid");
-            return true;
+            foreach (string ending in emailEndings)
+            {
+                if (email.Contains(ending))
+                {
+                    Console.WriteLine("Email adress is valid");
+                    return true;
+                }
+            }
+            Console.WriteLine("Email adress is invalid");
+            return false;
         }
         else
         {
@@ -99,6 +110,116 @@
             }
         }
         Console.WriteLine("Password is invalid");
+        return false;
+    }
+
+    public void CheckLogin()
+    {
+        Console.WriteLine("Input your email adress");
+        string email = Console.ReadLine()!;
+
+        while (CheckExistingEmail(email) == false)
+        {
+            Console.WriteLine("The given email does not exist in our system.");
+            Console.WriteLine("Input a valid email adress");
+            email = Console.ReadLine()!;
+        }
+
+        Console.WriteLine("Input your password ");
+        string password = Console.ReadLine()!;
+
+        while (CheckExistingPassword(password) == false)
+        {
+            Console.WriteLine("The given password is incorrect");
+            Console.WriteLine("1. Try again\n2. Reset password");
+            int answer = Convert.ToInt32((Console.ReadLine()!));
+
+            if (answer == 1)
+            {
+                Console.WriteLine("Input your password");
+                password = Console.ReadLine()!;
+            }
+            else if (answer == 2)
+            {
+                Console.WriteLine("Enter your email to reset your password");
+                email = Console.ReadLine()!;
+                ResetPassword(email);
+
+                if (CheckExistingEmail(email) == true && ResetPassword(email) == true)
+                {
+                    Console.WriteLine("You logged in succesfully");
+                }
+                else if (CheckExistingEmail(email) == true && CheckExistingPassword(password) == true)
+                {
+                    // Account account = new(email, password);
+                    Console.WriteLine("You logged in succesfully");
+                }
+                else
+                {
+                    Console.WriteLine("Create a new account? y/n");
+                    // make new account or go to menu
+                }
+            }
+        }   
+    }
+
+    public bool CheckExistingEmail(string email)
+    {
+        SetGetAccounts setGetAccounts = new();
+        List<Account> accounts = setGetAccounts.ReadAccountsFromJSON();
+
+        foreach (Account account in accounts)
+        {
+            if (account.Email == email)
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    public bool CheckExistingPassword(string password)
+    {
+        SetGetAccounts setGetAccounts = new();
+        List<Account> accounts = setGetAccounts.ReadAccountsFromJSON();
+
+        foreach (Account account in accounts)
+        {
+            if (account.Password == password)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public bool ResetPassword(string email)
+    {
+        SetGetAccounts setGetAccounts = new SetGetAccounts();
+        List<Account> accounts = setGetAccounts.ReadAccountsFromJSON();
+
+        foreach (Account account in accounts)
+        {
+            if (account.Email == email)
+            {
+                Console.WriteLine("Input a new password (At least 6 characters long,\none special character and one number)");
+                string newPassword = Console.ReadLine()!;
+
+                while (CheckNewValidPassword(newPassword) == false)
+                {
+                    Console.WriteLine("Input a new password (At least 6 characters long,\none special character and one number)");
+                    newPassword = Console.ReadLine()!;
+                }
+
+                account.Password = newPassword;
+                Console.WriteLine("Password changed successfully!");
+                setGetAccounts.WriteAccountToJSON(accounts);
+                return true;
+            }
+        }
+
+        Console.WriteLine("The given email does not exist in our system.");
         return false;
     }
 }
