@@ -1,84 +1,100 @@
-using System.Text.RegularExpressions;
-public static class PassengerForm
+public class PassengerForm
 {
-    public static bool IsAlpha(string input)
-    {
-        string regex = ".*[a-zA-Z].*";
-        return (Regex.IsMatch(input, regex));        
-    }
-
-    public static Passenger Form()
-    {
-        string surname;
-        string lastname;
-        string sex;
-        
-        //Voornaam
-        do
-        {
-            Console.WriteLine("Voornaam: ");
-            surname = Console.ReadLine();
-        }
-        while (IsAlpha(surname) == false);
-
-        //Achternaam
-        do
-        {
-            Console.WriteLine("Achternaam: ");
-            lastname = Console.ReadLine();
-        }
-        while (IsAlpha(lastname) == false);
-
-        //Geslacht
-        do
-        {
-            Console.WriteLine("Geslacht (M/V): ");
-            sex = Console.ReadLine();
-        }
-        while (sex.ToUpper().Contains("M") == false || sex.ToUpper().Contains("V"));
-
-        //Geboortedatum
-        string birthDate0;
-        Console.WriteLine("Geboortedatum (DD-MM-JJJJ): ");
-        birthDate0 = Console.ReadLine();
-        DateTime birthDate = DateTime.Parse(birthDate0);
-
-
-        //Adres (straat huisnummer postcode stad)
-        string street;
-        string housenumber;
-        string zipcode;
-        string city;
-        Console.WriteLine("Straat: ");
-        street = Console.ReadLine();
-        Console.WriteLine("Huisnummer: ");
-        housenumber = Console.ReadLine();
-        Console.WriteLine("Postcode: ");
-        zipcode = Console.ReadLine();
-        Console.WriteLine("Stad: ");
-        city = Console.ReadLine();
-        string adress = $"{street} {housenumber} {zipcode} {city}";
-
-        //Maak class
-        return new Passenger(surname, lastname, sex, birthDate, adress);
-    }
-}
-
-public class Passenger
-{
-    public string Surname;
-    public string Lastname;
+    public List<string> TicketList;
+    public List<Passenger> Passengers;
+    public string SurName;
+    public string LastName;
     public string Sex;
     public DateTime BirthDate;
     public string Adress;
+    public string PhoneNumber;
 
-    public Passenger(string Surname, string Lastname, string Sex, DateTime BirthDate, string Adress)
+    public PassengerForm(List<string> ticketList)
     {
-        this.Surname = Surname;
-        this.Lastname = Lastname;
-        this.Sex = Sex;
-        this.BirthDate = BirthDate;
-        this.Adress = Adress;
+        TicketList = ticketList;
+        Passengers = new List<Passenger> ();
     }
 
+    public void Form()
+    {
+        foreach (string ticket in TicketList)
+        {
+
+            do
+            {
+            // Intro zin
+            Console.WriteLine(ticket);
+            Console.WriteLine("Voer de persoonlijke gegevens in:");
+
+            // Naam
+            SurName = Loop("Voornaam", x => ValidateInput.IsAlpha(x, " "), "Ongeldige voornaam. Een voornaam bestaat uitsluitend uit letters.");
+            LastName = Loop("Achternaam", x => ValidateInput.IsAlpha(x, " "), "Ongeldige achternaam. Een achternaam bestaat uitsluitend uit letters.");
+
+            // Geslacht
+            Sex = Loop("Geslacht(M/V)", x => ValidateInput.ValidateMatch(x, "MmVv"), "Ongeldige invoer. Voer uw geslacht in (M voor een man en V voor een vrouw).");
+
+            // Geboortedatum
+            string birthDate = Loop("Geboortedatum", x => ValidateInput.ValidateDate(x), "Ongeldige geboortedatum. Voer een geldige geboortedatum in het juiste formaat (DD-MM-JJJJ).");
+            BirthDate = Convert.ToDateTime(birthDate);
+
+            //Adres
+            string street = Loop("Straatnaam", x => ValidateInput.IsAlpha(x, " "), "Ongeldige straatnaam. Een straatnaam bestaat uitsluitend uit letters.");
+            string housenumber = Loop("Huisnummer", x => ValidateInput.IsNumber(x), "Ongeldige huisnummer. Voer een geldig huisnummer in dat uitsluitend [0=9] bevat.");
+            string addition =  Loop("Toevoeging(Druk op ENTER als dit niet van toepassing is)", x => ValidateInput.IsAlpha(x), "Voer een geldige huisnummer toevoeging in.");
+            string zipcode = Loop("Postcode(1234AB)", x =>ValidateInput.ValidateZipCode(x), "Ongeldige postcode. Voer een geldige geboortedatum in het juiste formaat (1234AB).");
+            string city = Loop("Plaats", x => ValidateInput.IsAlpha(x), "Ongeldige plaats. Voer een geldige plaats in");
+            Adress = $"{street} {housenumber} {addition} {zipcode} {city}";
+
+            //Telefoonnummer
+            PhoneNumber = Loop("Telefoonnummer", x => ValidateInput.IsNumber(x), "Ongeldige Telefoonnummer. Voer een geldige telefoonnummer in.");
+
+            
+            }
+            while (Overview() == false);
+            Passengers.Add(new Passenger(SurName, LastName, Sex, BirthDate, Adress, PhoneNumber));
+        }
+    }
+
+    public bool Overview()
+    {
+        Console.WriteLine($"\nVoornaam: {SurName}");
+        Console.WriteLine($"Achternaam: {LastName}");
+        Console.WriteLine($"Geslacht: {Sex}");
+        Console.WriteLine($"Geboortedatum: {BirthDate}");
+        Console.WriteLine($"Adres: {Adress}");
+        Console.WriteLine($"Telefoonnummer: {PhoneNumber}");
+
+        string input;
+            Console.WriteLine("Kloppen deze gegevens? (J/N)");
+            input =  Console.ReadLine();
+        while (ValidateInput.ValidateMatch(input, "JjNn") == false)
+        {
+            Console.WriteLine("Ongeldige invoer. Voer 'J' in als de gegevens kloppen en 'N' als de gegevens niet kloppen.");
+            input = Console.ReadLine();
+        }
+        if (input.ToUpper() == "J")
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+}
+
+    public string Loop(string field, Func<string, bool> validation, string error)
+    {
+        Console.WriteLine($"{field}: ");
+        string input = Console.ReadLine();
+
+        bool checkInput = validation(input);
+        while (checkInput)
+        {
+            Console.WriteLine(error);
+            Console.WriteLine($"{field}: ");
+            input = Console.ReadLine();
+            checkInput = validation(input);
+        }
+        return input;
+    }
 }

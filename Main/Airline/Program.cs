@@ -27,7 +27,9 @@
 
 
         //Persoonlijke gegevens invullen
-        Passenger passenger = PassengerForm.Form();
+        List<string> ticketList = new List<string> ();
+        PassengerForm passengerForm = new PassengerForm(ticketList);
+        passengerForm.Form();
         
     }
 }
