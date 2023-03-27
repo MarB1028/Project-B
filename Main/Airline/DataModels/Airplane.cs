@@ -6,7 +6,6 @@
     public int FirstClassSeat;
     public int PremiumSeat;
     public int EconomySeat;
-    public int RegularSeat;
     public int ExtraSpace;
 
     public Airplane(string name, string carrierintid, int airplaneid, int firstclassseat, int premiumseat, int economyseat, int extraspace)
