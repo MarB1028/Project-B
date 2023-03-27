@@ -88,7 +88,7 @@ public class PassengerForm
         string input = Console.ReadLine();
 
         bool checkInput = validation(input);
-        while (checkInput)
+        while (checkInput == false)
         {
             Console.WriteLine(error);
             Console.WriteLine($"{field}: ");

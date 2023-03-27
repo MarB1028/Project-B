@@ -27,17 +27,18 @@ public static class ValidateInput
 
     public static bool ValidateMatch(string input, string characters)
     {
-        if (characters.Length > 0)
+        if (input.Length == 1)
         {
             foreach (char character in characters)
             {
-                if (Convert.ToString(character) != input)
+                if (Convert.ToString(character) == input)
                 {
-                    return false;
+                    return true;
                 }
             }
+            return false;
         }
-        return true;
+        return false;
     }
 
     public static bool ValidateDate(string input)
@@ -59,8 +60,8 @@ public static class ValidateInput
         if (ValidateLength(input, 6) == true)
         {
             string zipcode = input.Replace(" ", "");
-            string number = zipcode.Substring(0, 4);
-            string letters = zipcode.Substring(4, 6);
+            string number = $"{zipcode[0]}{zipcode[1]}{zipcode[2]}{zipcode[3]}";
+            string letters = $"{zipcode[4]}{zipcode[5]}";
             if (IsNumber(number) == true && IsAlpha(letters) == true)
             {
                 return true;
