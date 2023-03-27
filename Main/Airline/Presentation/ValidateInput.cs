@@ -1,3 +1,4 @@
+using System.Globalization;
 public static class ValidateInput
 {
     public static bool IsAlpha(string input, string exception = null)
@@ -43,9 +44,9 @@ public static class ValidateInput
 
     public static bool ValidateDate(string input)
     {
-        string dateString = "31-12-2022";
+        string dateString = input;
         DateTime date;
-        return (DateTime.TryParse(dateString, out date) && date < DateTime.Now);
+        return (DateTime.TryParseExact(dateString, "dd-MM-yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out date) && date < DateTime.Now);
     }
 
     public static bool ValidateLength(string input, int length)

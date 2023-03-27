@@ -29,8 +29,8 @@ public class PassengerForm
             Console.WriteLine("Voer de persoonlijke gegevens in:");
 
             // Naam
-            SurName = Loop("Voornaam", x => ValidateInput.IsAlpha(x, " "), "Ongeldige voornaam. Een voornaam bestaat uitsluitend uit letters.");
-            LastName = Loop("Achternaam", x => ValidateInput.IsAlpha(x, " "), "Ongeldige achternaam. Een achternaam bestaat uitsluitend uit letters.");
+            SurName = Loop("Voornaam", x => ValidateInput.IsAlpha(x, "'-"), "Ongeldige voornaam.");
+            LastName = Loop("Achternaam", x => ValidateInput.IsAlpha(x, " "), "Ongeldige achternaam.");
 
             // Geslacht
             Sex = Loop("Geslacht(M/V)", x => ValidateInput.ValidateMatch(x, "MmVv"), "Ongeldige invoer. Voer uw geslacht in (M voor een man en V voor een vrouw).");
@@ -55,14 +55,17 @@ public class PassengerForm
             while (Overview() == false);
             Passengers.Add(new Passenger(SurName, LastName, Sex, BirthDate, Adress, PhoneNumber));
         }
+        foreach (Passenger passenger in Passengers)
+        {
+            Console.WriteLine(passenger.ID);
+        }
     }
-
     public bool Overview()
     {
         Console.WriteLine($"\nVoornaam: {SurName}");
         Console.WriteLine($"Achternaam: {LastName}");
         Console.WriteLine($"Geslacht: {Sex}");
-        Console.WriteLine($"Geboortedatum: {BirthDate}");
+        Console.WriteLine($"Geboortedatum: {BirthDate.ToString("dd-MM-yyyy")}");
         Console.WriteLine($"Adres: {Adress}");
         Console.WriteLine($"Telefoonnummer: {PhoneNumber}");
 
