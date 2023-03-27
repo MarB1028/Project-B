@@ -1,7 +1,10 @@
 using System.Globalization;
 public static class ValidateInput
 {
-    public static bool IsAlpha(string input, string exception = null)
+    //Elke method returnt een bool (valid of invalid)
+
+    //Controleert of de input uit letters bestaat 
+    public static bool IsAlpha(string input, string exception = null) // Je kan uitzonderingen meegeven (exception = "-" maakt marie-claire valid)
     {
         foreach (char character in input)
         {
@@ -13,6 +16,7 @@ public static class ValidateInput
         return true;
     }
 
+    // Controleert of een string uit alleen nummers bestaat
     public static bool IsNumber(string input)
     {
         foreach (char character in input)
@@ -26,6 +30,7 @@ public static class ValidateInput
         return true;
     }
 
+    // Controleert of input gelijk is aan een van de characters in character (vb. V en MmVv => true)
     public static bool ValidateMatch(string input, string characters)
     {
         if (input.Length == 1)
@@ -42,13 +47,24 @@ public static class ValidateInput
         return false;
     }
 
+    //Controleert of een datum de juiste format heeft en of het in het verleden is
     public static bool ValidateDate(string input)
     {
         string dateString = input;
         DateTime date;
-        return (DateTime.TryParseExact(dateString, "dd-MM-yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out date) && date < DateTime.Now);
+        bool checkDate = true;
+        checkDate = DateTime.TryParseExact(dateString, "dd-MM-yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out date);
+        if (checkDate == true)
+        {
+            if (date > DateTime.Now)
+            {
+                checkDate = false;
+            }
+        }
+        return checkDate;
     }
 
+    // Controleert de lengte van een string
     public static bool ValidateLength(string input, int length)
     {
         string inputNoSpace = input.Replace(" ", "");
@@ -56,6 +72,7 @@ public static class ValidateInput
     }
 
 
+    // Dit haalt alle spaties weg en controleert of de postcode in het juiste formaat is (1234AB)
     public static bool ValidateZipCode(string input)
     {
         if (ValidateLength(input, 6) == true)

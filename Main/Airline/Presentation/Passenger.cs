@@ -18,5 +18,6 @@ public class Passenger
         Sex = sex;
         BirthDate = birthDate;
         Adress = adress;
+        PhoneNumber = phoneNumber;
     }
 }

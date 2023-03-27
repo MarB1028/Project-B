@@ -14,11 +14,29 @@ public class PassengerForm
         TicketList = ticketList;
         Passengers = new List<Passenger> ();
     }
+    
+    // Dit controleert of de validatie true of false is en herhaalt de vraag als het false is
+    public string Loop(string field, Func<string, bool> validation, string error)
+    {
+        Console.WriteLine($"{field}: ");
+        string input = Console.ReadLine();
 
+        bool checkInput = validation(input);
+        while (checkInput == false)
+        {
+            Console.WriteLine(error);
+            Console.WriteLine($"{field}: ");
+            input = Console.ReadLine();
+            checkInput = validation(input);
+        }
+        return input;
+}
+
+    //Hier wordt het formulier gegenereerd
     public void Form()
     {
-        Console.WriteLine("Kies het aantal tickets:");
-        int amount = Convert.ToInt32(Console.ReadLine());
+        // Dit bepaalt hoeveel formulieren er moeten worden gegenereerd
+        int amount = Convert.ToInt32(Loop("Kies het aantal tickets", x => ValidateInput.IsNumber(x), "Voer een geldig getal in."));
 
         for (int i = 0; i < amount; i ++)
         {
@@ -55,11 +73,11 @@ public class PassengerForm
             while (Overview() == false);
             Passengers.Add(new Passenger(SurName, LastName, Sex, BirthDate, Adress, PhoneNumber));
         }
-        foreach (Passenger passenger in Passengers)
-        {
-            Console.WriteLine(passenger.ID);
-        }
+        PassengerToJSON passengerToJSON = new PassengerToJSON();
+        passengerToJSON.WritePassengerToJSON(Passengers);
     }
+
+    // Print een overview van het formulier en vraagt de gebruiker of het klopt of dat hij/zij het opnieuw wil invullen
     public bool Overview()
     {
         Console.WriteLine($"\nVoornaam: {SurName}");
@@ -86,20 +104,4 @@ public class PassengerForm
             return false;
         }
 }
-
-    public string Loop(string field, Func<string, bool> validation, string error)
-    {
-        Console.WriteLine($"{field}: ");
-        string input = Console.ReadLine();
-
-        bool checkInput = validation(input);
-        while (checkInput == false)
-        {
-            Console.WriteLine(error);
-            Console.WriteLine($"{field}: ");
-            input = Console.ReadLine();
-            checkInput = validation(input);
-        }
-        return input;
-    }
 }
