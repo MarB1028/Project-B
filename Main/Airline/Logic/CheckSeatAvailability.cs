@@ -42,7 +42,7 @@ class CheckSeatAvailability
                 
         }
         //Wanneer de seat niet bestaat
-        Console.WriteLine("Seat not found");
+        //Console.WriteLine("Seat not found");
         return false;
     }
 
@@ -111,7 +111,7 @@ class CheckSeatAvailability
                 seatint++;
 
                 
-            
+
                 //Stoelen toevoegen aan totale overzicht
                 //Geeft true/false terug, XXX komt er wanneer de stoel bezet is.-
                 if (IsSeatTaken(realseatnum)) {
@@ -121,18 +121,24 @@ class CheckSeatAvailability
                     if (row + 1 < 10) 
                     {
                         seatsrow += "0" + (row + 1).ToString() + seat + "  ";
+                    }
+                    else
+                    {
+                        seatsrow += (row + 1).ToString() + seat + "  ";
+                    }
+                    
+                }
+                
+                if (row + 1 < 10) 
+                    {
                         //Hier voeg ik de stoel gekoppeld aan de bookticket toe aan een dictionary
                         Seats.Add("0" + (row + 1).ToString() + seat, GetBookTicket(realseatnum));
                     }
                     else
                     {
-                        seatsrow += (row + 1).ToString() + seat + "  ";
                         //Hier voeg ik de stoel gekoppeld aan de bookticket toe aan een dictionary
                         Seats.Add((row + 1).ToString() + seat, GetBookTicket(realseatnum));
                     }
-                    
-                }
-                
                 //Voegt ruimte in het midden toe.
                 seatsrow += (col == 2 ? "    " : "");
                 seatsrow += (col == 5 ? " |" : "");
@@ -172,7 +178,7 @@ class CheckSeatAvailability
     {
         //Hier vult de user in hoeveel stoelen, maar in de toekomst moet dit nog veranderen. 
         //De user geeft namelijk al veel eerder aan hoeveel tickets hij/zij wilt boeken.
-        Console.WriteLine("Hoeveel stoelen wilt u boeken?\n->");
+        Console.WriteLine("How many seats?\n->");
         int amount = Convert.ToInt32(Console.ReadLine());
         while (amount < 0) {
             Console.WriteLine("Give a positive number.");
@@ -198,8 +204,9 @@ class CheckSeatAvailability
 
                 else {
                     BookTicket bookticket = Seats[SeatNumber];
-                    Console.WriteLine($"Je hebt stoelnummer {SeatNumber} ({bookticket.Ticket.Seat.SeatNumber}) gekozen in de {bookticket.Ticket.Seat.SeatType} klas.");
+                    Console.WriteLine($"You have booked seatnumber {SeatNumber} ({bookticket.Ticket.Seat.SeatNumber}) in the {bookticket.Ticket.Seat.SeatType} klas.");
                     //TODO: De bookedticket moet nu naar true gezet worden met alle informatie van de passenger
+                    bookticket.Booked = true;
                     y = false;
                 }
             }
