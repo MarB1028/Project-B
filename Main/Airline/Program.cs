@@ -35,14 +35,10 @@
         //flightgermany.MakeTickets();
         //MakeTicketsForFlightJson flightgermany1 = new MakeTicketsForFlightJson(flightmannenheim);
         //flightgermany1.MakeTickets();
-        //test
 
-        DataFlights load = new DataFlights();
-        var test = load.ReadFlightsFromJson();
+        BookTicket test = new BookTicket(new Ticket("Jiajun", "Li", flightmannenheim, new Seat("BO-1", "First-Class", 100), "Empty"));
+        DataTickets tickets = new DataTickets();
+        tickets.WriteTicketToJson(flightfrankfort, test);
 
-        foreach(Flight i in test)
-        {
-            Console.WriteLine(i);
-        }
     }
 }

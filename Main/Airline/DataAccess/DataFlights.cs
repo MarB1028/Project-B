@@ -15,9 +15,4 @@ class DataFlights
         List<Flight> flights = JsonConvert.DeserializeObject<List<Flight>>(json);
         return flights ?? new List<Flight>();
     }
-
-    public void WriteFlightsToJSON(Flight flight)
-    {
-        
-    }
 }

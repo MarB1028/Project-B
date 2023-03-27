@@ -1,15 +1,18 @@
 ﻿class BookTicket
-{   
+{
     // Account doorgeven nog om aan de ticket te koppelen.
+    private static int _ticketid;
+
     public bool Booked;
     public int TicketID;
     public Ticket Ticket;
     // public Account account;
 
-    public BookTicket(int ticketid, Ticket ticket)
+    public BookTicket(Ticket ticket)
     {
+        _ticketid++;
         Booked = false;
-        TicketID = ticketid;
+        TicketID = _ticketid;
         Ticket = ticket;
     }
 
