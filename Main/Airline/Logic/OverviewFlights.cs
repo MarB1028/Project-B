@@ -24,7 +24,7 @@
 
         // Randomly generate een boarding datum tussen 06:00-11:00 en 16:00-23:00
         // 13 vluhchten lol
-        for (int i = 0; i < 18; i++)
+        for (int i = 0; i < 60; i++)
         {
             // Randomly een destination selecten from the array
             Destination destination = destinations[random.Next(destinations.Length)];
@@ -70,7 +70,7 @@
 
         // Flightnumber, airline name, date and time of departure , Destination.
         Console.WriteLine($"            Flight No          operated by            Departure           Destination             Arrival  ");
-        int nummer = 0;
+        int nummer = 1;
 
         {
             foreach (Flight flight in flights)
