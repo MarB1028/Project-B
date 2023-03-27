@@ -17,13 +17,15 @@ public class PassengerForm
 
     public void Form()
     {
-        foreach (string ticket in TicketList)
-        {
+        Console.WriteLine("Kies het aantal tickets:");
+        int amount = Convert.ToInt32(Console.ReadLine());
 
+        for (int i = 0; i < amount; i ++)
+        {
             do
             {
             // Intro zin
-            Console.WriteLine(ticket);
+            Console.WriteLine($"Ticket {i + 1}: ");
             Console.WriteLine("Voer de persoonlijke gegevens in:");
 
             // Naam
@@ -34,7 +36,7 @@ public class PassengerForm
             Sex = Loop("Geslacht(M/V)", x => ValidateInput.ValidateMatch(x, "MmVv"), "Ongeldige invoer. Voer uw geslacht in (M voor een man en V voor een vrouw).");
 
             // Geboortedatum
-            string birthDate = Loop("Geboortedatum", x => ValidateInput.ValidateDate(x), "Ongeldige geboortedatum. Voer een geldige geboortedatum in het juiste formaat (DD-MM-JJJJ).");
+            string birthDate = Loop("Geboortedatum (DD-MM-JJJJ)", x => ValidateInput.ValidateDate(x), "Ongeldige geboortedatum. Voer een geldige geboortedatum in het juiste formaat (DD-MM-JJJJ).");
             BirthDate = Convert.ToDateTime(birthDate);
 
             //Adres

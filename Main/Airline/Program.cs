@@ -27,8 +27,7 @@
 
 
         //Persoonlijke gegevens invullen
-        Console.WriteLine("RR");
-        List<string> ticketList = new List<string> () {"a", "b"};
+        List<string> ticketList = new List<string> () {"Ticket a", "Ticket b"};
         PassengerForm passengerForm = new PassengerForm(ticketList);
         passengerForm.Form();
     }
