@@ -129,62 +129,70 @@
         {
             Console.WriteLine();
             Console.WriteLine("The given email does not exist in our system.");
-            Console.WriteLine("Input a valid email adress:");
-            email = Console.ReadLine()!;
+            Console.WriteLine("1. Try again\n2. Register");
+            int answer = Convert.ToInt32(Console.ReadLine()!);
+
+            if (answer == 1)
+            {
+                Console.WriteLine("Input your email adress:");
+                email = Console.ReadLine()!;
+            }
+            else if (answer == 2)
+            {
+                Console.WriteLine("No accoutn yet");
+                SetNewAccount();
+                return;
+            }
+            else
+            {
+                Console.WriteLine("Invalid input!");
+            }
         }
 
         Console.WriteLine();
         Console.WriteLine("Input your password:");
         string password = Console.ReadLine()!;
 
-        while (true)
+        while (CheckExistingPassword(email, password) == false)
         {
-            if (CheckExistingPassword(email, password))
+            Console.WriteLine();
+            Console.WriteLine("Incorrect password.");
+            Console.WriteLine("1. Try again\n2. Reset password\n3. Back to menu");
+            int answer = Convert.ToInt32((Console.ReadLine()!));
+
+            if (answer == 1)
             {
-                Console.WriteLine("You logged in successfully!");
-                Console.Clear();
-                ChangeLoggingStatus(email);
+                Console.WriteLine("Input your password:");
+                password = Console.ReadLine()!;
+            }
+            else if (answer == 2)
+            {
+                bool y = true;
+                while (y)
+                {
+                    Console.WriteLine("Enter your email to reset your password:");
+                    email = Console.ReadLine()!;
+
+                    if (ResetPassword(email) == true)
+                    {
+                        CheckLoginOrRegister();
+                        return;
+                    }
+                }
+            }
+            else if (answer == 3)
+            {
+                // terug naar het menu (nog aanroepen)
                 break;
             }
             else
             {
-                Console.WriteLine();
-                Console.WriteLine("Incorrect password.");
-                Console.WriteLine("1. Try again\n2. Reset password\n3. Back to menu");
-                int answer = Convert.ToInt32((Console.ReadLine()!));
-
-                if (answer == 1)
-                {
-                    Console.WriteLine();
-                    Console.WriteLine("Input your password:");
-                    password = Console.ReadLine()!;
-                }
-                else if (answer == 2)
-                {
-                    bool y = true;
-                    while (y)
-                    {
-                        Console.WriteLine();
-                        Console.WriteLine("Enter your email to reset your password:");
-                        email = Console.ReadLine()!;
-
-                        if (ResetPassword(email) == true)
-                        {
-                            y = false;
-                        }
-                    }
-                }
-                else if (answer == 3)
-                {
-                    Console.WriteLine("Back to menu");
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("Invalid input!");
-                }
+                Console.WriteLine("Invalid input!");
             }
         }
+        Console.WriteLine("You logged in succesfully!");
+        Console.Clear();
+        ChangeLoggingStatus(email);
     }
 
     public void ChangeLoggingStatus(string email) // veranderd login status van bestaande accounts naar true
@@ -214,7 +222,6 @@
                 return true;
             }
         }
-
         return false;
     }
 
