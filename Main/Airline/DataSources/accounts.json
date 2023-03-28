@@ -1,32 +1,23 @@
 [
   {
     "ID": 1,
-    "Email": "email1@example.com",
-    "Password": "password1"
+    "LoggedIn": false,
+    "Email": "hallo@there.nl",
+    "Password": "hallo123!",
+    "BoughtTickets": []
   },
   {
     "ID": 2,
-    "Email": "email2@example.com",
-    "Password": "password2"
+    "LoggedIn": false,
+    "Email": "joedoe@hotmail.com",
+    "Password": "password1!",
+    "BoughtTickets": []
   },
   {
     "ID": 3,
-    "Email": "email3@example.com",
-    "Password": "password3"
-  },
-  {
-    "ID": 4,
-    "Email": "email1@example.com",
-    "Password": "password1"
-  },
-  {
-    "ID": 5,
-    "Email": "email2@example.com",
-    "Password": "password2"
-  },
-  {
-    "ID": 6,
-    "Email": "email3@example.com",
-    "Password": "password3"
+    "LoggedIn": false,
+    "Email": "janedoe@hotmail.com",
+    "Password": "password2!",
+    "BoughtTickets": []
   }
 ]

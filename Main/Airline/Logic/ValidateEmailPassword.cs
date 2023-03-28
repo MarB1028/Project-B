@@ -1,8 +1,9 @@
 ﻿class ValidateEmailPassword
 {
-    public void CheckLoginOrRegister()
+    public void CheckLoginOrRegister() // check of de gebruiker wilt inloggen/registeren of terug wilt gaan naar het menu
     {
         bool x = true;
+        Login login = new();
         while (x)
         {
             try
@@ -12,19 +13,24 @@
 
                 if (loginOrRegister == 1)
                 {
+                    // login met bestaande account
+                    Console.Clear();
                     CheckLogin();
+                    login.LoggedInMessage(); // terug naar class Login naar method LoggedInMessage()
                     x = false;
                 }
                 else if (loginOrRegister == 2)
                 {
+                    Console.Clear();
                     SetNewAccount();
+                    login.LoggedInMessage();
+                    // ga naar overzicht beschikbare tickets na het registreren of het menu?
                     x = false;
                 }
                 else if (loginOrRegister == 3)
                 {
-                    // go back to startscreen
-                    Console.WriteLine("back to startscreen");
-                    Console.Clear();
+                    Console.Clear(); // maakt de terminal leeg
+                    // ga terug naar het menu (moet nog aangeroepen worden)
                     x = false;
                 }
                 else
@@ -39,37 +45,38 @@
         }
     }
 
-    public void SetNewAccount()
+    public void SetNewAccount() // nieuwe account aanmaken
     {
         SetGetAccounts setGetAccounts = new();
         List<Account> accounts = setGetAccounts.ReadAccountsFromJSON();
 
-        Console.WriteLine("Input a valid email adress");
+        Console.WriteLine("Input a valid email adress:");
         string email = Console.ReadLine()!;
         Console.WriteLine();
 
-        while (CheckNewValidEmail(email) == false)
+        while (CheckNewValidEmail(email) == false) // roept CheckNewValideEmail() aan en checkt de criteria van een email
         {
-            Console.WriteLine("Input a valid email adress");
+            Console.WriteLine("Input a valid email adress:");
             email = Console.ReadLine()!;
         }
 
-        Console.WriteLine("Input a password (At least 6 characters long,\none special character and one number");
+        Console.WriteLine("Input a password (At least 6 characters long,\none special character and one number).");
         string password = Console.ReadLine()!;
         Console.WriteLine();
 
-        while (CheckNewValidPassword(password) == false)
+        while (CheckNewValidPassword(password) == false) // roept CheckNewValidePassword() aan en checkt de criteria van een wachtwoord
         {
-            Console.WriteLine("Input a password (At least 6 characters long,\none special character and one number)");
+            Console.WriteLine("Input a password (At least 6 characters long,\none special character and one number).");
             password = Console.ReadLine()!;
         }
 
         Account account = new(email, password);
+        account.LoggedIn = true; // Zodra je een account heb aangemaakt ben je gelijk ingelogt!
         accounts.Add(account);
         setGetAccounts.WriteAccountToJSON(accounts);
     }
 
-    public bool CheckNewValidEmail(string email)
+    public bool CheckNewValidEmail(string email) // checkt of de email aan de criteria voldoet
     {
         List<string> emailEndings = new List<string>() {".nl",".be", ".com", ".org", ".net", ".edu", ".gov", ".co", ".io", ".info", ".mail"};
 
@@ -77,23 +84,23 @@
         {
             foreach (string ending in emailEndings)
             {
-                if (email.Contains(ending))
+                if (email.EndsWith(ending))
                 {
-                    Console.WriteLine("Email adress is valid");
+                    Console.WriteLine("Email adress is valid.");
                     return true;
                 }
             }
-            Console.WriteLine("Email adress is invalid");
+            Console.WriteLine("Email adress is invalid.");
             return false;
         }
         else
         {
-            Console.WriteLine("Email adress is invalid");
+            Console.WriteLine("Email adress is invalid.");
             return false;
         }
     }
 
-    public bool CheckNewValidPassword(string password)
+    public bool CheckNewValidPassword(string password) // checkt of het wachtwoord aan de criteria voldoet
     {
         List<string> SpecialChar = new List<string>() { "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "+", "=", "/", "\\", "|", "[", "]", "{", "}", ";", ":", "<", ">", ".", ",", "?", "!" };
         List<string> Numbers = new List<string>() { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" };
@@ -104,7 +111,7 @@
             {
                 if (password.Length >= 6 && password.Contains(character) && password.Contains(number))
                 {
-                    Console.WriteLine("Password is valid");
+                    Console.WriteLine("Password is valid.");
                     return true;
                 }
             }
@@ -113,57 +120,89 @@
         return false;
     }
 
-    public void CheckLogin()
+    public void CheckLogin() // inloggen met bestaande account (checkt json file)
     {
-        Console.WriteLine("Input your email adress");
+        Console.WriteLine("Input your email adress:");
         string email = Console.ReadLine()!;
 
         while (CheckExistingEmail(email) == false)
         {
+            Console.WriteLine();
             Console.WriteLine("The given email does not exist in our system.");
-            Console.WriteLine("Input a valid email adress");
+            Console.WriteLine("Input a valid email adress:");
             email = Console.ReadLine()!;
         }
 
-        Console.WriteLine("Input your password ");
+        Console.WriteLine();
+        Console.WriteLine("Input your password:");
         string password = Console.ReadLine()!;
 
-        while (CheckExistingPassword(password) == false)
+        while (true)
         {
-            Console.WriteLine("The given password is incorrect");
-            Console.WriteLine("1. Try again\n2. Reset password");
-            int answer = Convert.ToInt32((Console.ReadLine()!));
-
-            if (answer == 1)
+            if (CheckExistingPassword(email, password))
             {
-                Console.WriteLine("Input your password");
-                password = Console.ReadLine()!;
+                Console.WriteLine("You logged in successfully!");
+                Console.Clear();
+                ChangeLoggingStatus(email);
+                break;
             }
-            else if (answer == 2)
+            else
             {
-                Console.WriteLine("Enter your email to reset your password");
-                email = Console.ReadLine()!;
-                ResetPassword(email);
+                Console.WriteLine();
+                Console.WriteLine("Incorrect password.");
+                Console.WriteLine("1. Try again\n2. Reset password\n3. Back to menu");
+                int answer = Convert.ToInt32((Console.ReadLine()!));
 
-                if (CheckExistingEmail(email) == true && ResetPassword(email) == true)
+                if (answer == 1)
                 {
-                    Console.WriteLine("You logged in succesfully");
+                    Console.WriteLine();
+                    Console.WriteLine("Input your password:");
+                    password = Console.ReadLine()!;
                 }
-                else if (CheckExistingEmail(email) == true && CheckExistingPassword(password) == true)
+                else if (answer == 2)
                 {
-                    // Account account = new(email, password);
-                    Console.WriteLine("You logged in succesfully");
+                    bool y = true;
+                    while (y)
+                    {
+                        Console.WriteLine();
+                        Console.WriteLine("Enter your email to reset your password:");
+                        email = Console.ReadLine()!;
+
+                        if (ResetPassword(email) == true)
+                        {
+                            y = false;
+                        }
+                    }
+                }
+                else if (answer == 3)
+                {
+                    Console.WriteLine("Back to menu");
+                    break;
                 }
                 else
                 {
-                    Console.WriteLine("Create a new account? y/n");
-                    // make new account or go to menu
+                    Console.WriteLine("Invalid input!");
                 }
             }
-        }   
+        }
     }
 
-    public bool CheckExistingEmail(string email)
+    public void ChangeLoggingStatus(string email) // veranderd login status van bestaande accounts naar true
+    {
+        SetGetAccounts setGetAccounts = new();
+        List<Account> accounts = setGetAccounts.ReadAccountsFromJSON();
+
+        foreach (Account account in accounts)
+        {
+            if (account.Email == email)
+            {
+                account.LoggedIn = true;
+                setGetAccounts.WriteAccountToJSON(accounts);
+            }
+        }
+    }
+
+    public bool CheckExistingEmail(string email) // checkt of ingevulde email overeenkomt met een email in het json bestand
     {
         SetGetAccounts setGetAccounts = new();
         List<Account> accounts = setGetAccounts.ReadAccountsFromJSON();
@@ -179,14 +218,14 @@
         return false;
     }
 
-    public bool CheckExistingPassword(string password)
+    public bool CheckExistingPassword(string email, string password) // checkt of ingevulde wachtwoord overeenkomt met het wachtwoord in het json bestand.
     {
         SetGetAccounts setGetAccounts = new();
         List<Account> accounts = setGetAccounts.ReadAccountsFromJSON();
 
         foreach (Account account in accounts)
         {
-            if (account.Password == password)
+            if (account.Email == email && account.Password == password)
             {
                 return true;
             }
@@ -194,7 +233,7 @@
         return false;
     }
 
-    public bool ResetPassword(string email)
+    public bool ResetPassword(string email) // reset het wachtwoord in het json bestand
     {
         SetGetAccounts setGetAccounts = new SetGetAccounts();
         List<Account> accounts = setGetAccounts.ReadAccountsFromJSON();
@@ -203,12 +242,14 @@
         {
             if (account.Email == email)
             {
-                Console.WriteLine("Input a new password (At least 6 characters long,\none special character and one number)");
+                Console.WriteLine();
+                Console.WriteLine("Input a new password (At least 6 characters long,\none special character and one number).");
                 string newPassword = Console.ReadLine()!;
 
                 while (CheckNewValidPassword(newPassword) == false)
                 {
-                    Console.WriteLine("Input a new password (At least 6 characters long,\none special character and one number)");
+                    Console.WriteLine();
+                    Console.WriteLine("Input a new password (At least 6 characters long,\none special character and one number).");
                     newPassword = Console.ReadLine()!;
                 }
 
@@ -218,7 +259,6 @@
                 return true;
             }
         }
-
         Console.WriteLine("The given email does not exist in our system.");
         return false;
     }

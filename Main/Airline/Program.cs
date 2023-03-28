@@ -5,7 +5,7 @@ class Program
     public static void Main()
     {
         Login login = new Login();
-        login.LoginMessage();
+        login.LoginpageMessage();
         // Main
         // Objects maken
 
