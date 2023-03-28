@@ -1,9 +1,14 @@
 using System.Globalization;
 public static class ValidateInput
 {
-    //Elke method returnt een bool (valid of invalid)
+    //Elke method returnt een bool (true=valid of flase=invalid)
 
-    //Controleert of de input uit letters bestaat 
+
+
+
+    //De volgende vijf methods controleren input op algemene criteria
+
+    //Controleert of de input uitsluitend uit letters bestaat 
     public static bool IsAlpha(string input, string exception = null) // Je kan uitzonderingen meegeven (exception = "-" maakt marie-claire valid)
     {
         foreach (char character in input)
@@ -16,7 +21,7 @@ public static class ValidateInput
         return true;
     }
 
-    // Controleert of een string uit alleen nummers bestaat
+    // Controleert of een string uitsluitend uit positieve nummers bestaat
     public static bool IsNumber(string input)
     {
         foreach (char character in input)
@@ -30,14 +35,14 @@ public static class ValidateInput
         return true;
     }
 
-    // Controleert of input gelijk is aan een van de characters in character (vb. V en MmVv => true)
-    public static bool ValidateMatch(string input, string characters)
+    // Controleert of een characterinput gelijk is aan de gevraagde characters (vb. v en MV => true, v en JM => false)
+    public static bool IsMatch(string input, string characters)
     {
         if (input.Length == 1)
         {
             foreach (char character in characters)
             {
-                if (Convert.ToString(character) == input)
+                if (Convert.ToString(character) == input.ToUpper())
                 {
                     return true;
                 }
@@ -47,13 +52,29 @@ public static class ValidateInput
         return false;
     }
 
-    //Controleert of een datum de juiste format heeft en of het in het verleden is
-    public static bool ValidateDate(string input)
+     //Controleert of de lengte van een string gelijk is aan een getal
+    public static bool IsLength(string input, int length)
     {
+        string inputNoSpace = input.Replace(" ", ""); //Spaties worden genegeerd
+        return (inputNoSpace.Length == length);
+    }
+
+    // Dit is een overload die controleert of de lengte van een string in een bepaalde range zit
+    public static bool IsLength(string input, int min, int max)
+    {
+        string inputNoSpace = input.Replace(" ", "");
+        return (inputNoSpace.Length >= min && inputNoSpace.Length <= max);
+    }
+
+    //De volgende drie methods controleren methods op specifieke criteria
+
+    //Controleert of een datum de juiste format heeft (dd-mm-jjjj) en of het in het verleden is (01 en 1 zijn beide valid dagen/maanden)
+    public static bool ValidateDate(string input)
+    {   
         string dateString = input;
         DateTime date;
         bool checkDate = true;
-        checkDate = DateTime.TryParseExact(dateString, "dd-MM-yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out date);
+        checkDate = DateTime.TryParseExact(dateString, "dd-MM-yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out date); // InvariantCulture bevestigt dat dd-mm-jjjj gebruikt moet worden en niet de formaat van de gebruikers locatie
         if (checkDate == true)
         {
             if (date > DateTime.Now)
@@ -64,18 +85,12 @@ public static class ValidateInput
         return checkDate;
     }
 
-    // Controleert de lengte van een string
-    public static bool ValidateLength(string input, int length)
-    {
-        string inputNoSpace = input.Replace(" ", "");
-        return (inputNoSpace.Length == length);
-    }
 
 
     // Dit haalt alle spaties weg en controleert of de postcode in het juiste formaat is (1234AB)
     public static bool ValidateZipCode(string input)
     {
-        if (ValidateLength(input, 6) == true)
+        if (IsLength(input, 6) == true)
         {
             string zipcode = input.Replace(" ", "");
             string number = $"{zipcode[0]}{zipcode[1]}{zipcode[2]}{zipcode[3]}";
@@ -93,5 +108,11 @@ public static class ValidateInput
         {
             return false;
         }
+    }
+
+    //Controleert of het telefoonnummer aan de de juiste criteria voldoet
+    public bool ValidatePhoneNumber(string input)
+    {
+        if (input[0] =)
     }
 }
