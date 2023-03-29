@@ -26,10 +26,10 @@ class MakeTicketsForFlightJson
         // Een lijst met hoeveel stoelen er zijn voor elk type.
         List<int> AllSeats = new List<int>()
         {
-            Flight.Airplane.FirstClassSeat,
-            Flight.Airplane.PremiumSeat,
-            Flight.Airplane.EconomySeat,
-            Flight.Airplane.ExtraSpace,
+            Flight.Airplane.FirstClassSeat * 6,
+            Flight.Airplane.PremiumSeat * 6,
+            Flight.Airplane.EconomySeat * 6,
+            Flight.Airplane.ExtraSpace * 6,
         };
 
         // Dit stukje maakt het json file aan.

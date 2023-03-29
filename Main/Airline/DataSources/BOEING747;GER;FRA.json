@@ -10,15 +10,15 @@
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
-          "AirplaneId": 2,
-          "FirstClassSeat": 10,
-          "PremiumSeat": 20,
-          "EconomySeat": 100,
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
           "RegularSeat": 0,
-          "ExtraSpace": 10
+          "ExtraSpace": 2
         },
-        "BoardingDate": "2023-03-27T14:22:49.4869439+02:00",
-        "EstimatedArrival": "2023-03-27T14:22:49.4869445+02:00",
+        "BoardingDate": "2023-03-27T16:09:02.8112032+02:00",
+        "EstimatedArrival": "2023-03-27T16:09:02.8112039+02:00",
         "Destination": {
           "Country": "GER",
           "City": "MAN",
@@ -179,7 +179,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-11",
-        "SeatType": "Premium",
+        "SeatType": "First-Class",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -194,7 +194,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-12",
-        "SeatType": "Premium",
+        "SeatType": "First-Class",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -209,7 +209,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-13",
-        "SeatType": "Premium",
+        "SeatType": "First-Class",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -224,7 +224,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-14",
-        "SeatType": "Premium",
+        "SeatType": "First-Class",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -239,7 +239,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-15",
-        "SeatType": "Premium",
+        "SeatType": "First-Class",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -254,7 +254,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-16",
-        "SeatType": "Premium",
+        "SeatType": "First-Class",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -269,7 +269,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-17",
-        "SeatType": "Premium",
+        "SeatType": "First-Class",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -284,7 +284,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-18",
-        "SeatType": "Premium",
+        "SeatType": "First-Class",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -299,7 +299,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-19",
-        "SeatType": "Premium",
+        "SeatType": "First-Class",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -314,7 +314,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-20",
-        "SeatType": "Premium",
+        "SeatType": "First-Class",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -329,7 +329,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-21",
-        "SeatType": "Premium",
+        "SeatType": "First-Class",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -344,7 +344,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-22",
-        "SeatType": "Premium",
+        "SeatType": "First-Class",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -359,7 +359,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-23",
-        "SeatType": "Premium",
+        "SeatType": "First-Class",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -374,7 +374,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-24",
-        "SeatType": "Premium",
+        "SeatType": "First-Class",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -479,7 +479,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-31",
-        "SeatType": "Economy",
+        "SeatType": "Premium",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -494,7 +494,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-32",
-        "SeatType": "Economy",
+        "SeatType": "Premium",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -509,7 +509,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-33",
-        "SeatType": "Economy",
+        "SeatType": "Premium",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -524,7 +524,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-34",
-        "SeatType": "Economy",
+        "SeatType": "Premium",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -539,7 +539,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-35",
-        "SeatType": "Economy",
+        "SeatType": "Premium",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -554,7 +554,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-36",
-        "SeatType": "Economy",
+        "SeatType": "Premium",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -569,7 +569,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-37",
-        "SeatType": "Economy",
+        "SeatType": "Premium",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -584,7 +584,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-38",
-        "SeatType": "Economy",
+        "SeatType": "Premium",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -599,7 +599,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-39",
-        "SeatType": "Economy",
+        "SeatType": "Premium",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -614,7 +614,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-40",
-        "SeatType": "Economy",
+        "SeatType": "Premium",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -629,7 +629,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-41",
-        "SeatType": "Economy",
+        "SeatType": "Premium",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -644,7 +644,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-42",
-        "SeatType": "Economy",
+        "SeatType": "Premium",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -659,7 +659,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-43",
-        "SeatType": "Economy",
+        "SeatType": "Premium",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -674,7 +674,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-44",
-        "SeatType": "Economy",
+        "SeatType": "Premium",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -689,7 +689,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-45",
-        "SeatType": "Economy",
+        "SeatType": "Premium",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -704,7 +704,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-46",
-        "SeatType": "Economy",
+        "SeatType": "Premium",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -719,7 +719,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-47",
-        "SeatType": "Economy",
+        "SeatType": "Premium",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -734,7 +734,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-48",
-        "SeatType": "Economy",
+        "SeatType": "Premium",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -749,7 +749,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-49",
-        "SeatType": "Economy",
+        "SeatType": "Premium",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -764,7 +764,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-50",
-        "SeatType": "Economy",
+        "SeatType": "Premium",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -779,7 +779,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-51",
-        "SeatType": "Economy",
+        "SeatType": "Premium",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -794,7 +794,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-52",
-        "SeatType": "Economy",
+        "SeatType": "Premium",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -809,7 +809,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-53",
-        "SeatType": "Economy",
+        "SeatType": "Premium",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -824,7 +824,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-54",
-        "SeatType": "Economy",
+        "SeatType": "Premium",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -1379,7 +1379,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-91",
-        "SeatType": "Economy",
+        "SeatType": "ExtraSpace",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -1394,7 +1394,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-92",
-        "SeatType": "Economy",
+        "SeatType": "ExtraSpace",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -1409,7 +1409,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-93",
-        "SeatType": "Economy",
+        "SeatType": "ExtraSpace",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -1424,7 +1424,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-94",
-        "SeatType": "Economy",
+        "SeatType": "ExtraSpace",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -1439,7 +1439,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-95",
-        "SeatType": "Economy",
+        "SeatType": "ExtraSpace",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -1454,7 +1454,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-96",
-        "SeatType": "Economy",
+        "SeatType": "ExtraSpace",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -1469,7 +1469,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-97",
-        "SeatType": "Economy",
+        "SeatType": "ExtraSpace",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -1484,7 +1484,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-98",
-        "SeatType": "Economy",
+        "SeatType": "ExtraSpace",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -1499,7 +1499,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-99",
-        "SeatType": "Economy",
+        "SeatType": "ExtraSpace",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -1514,7 +1514,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-100",
-        "SeatType": "Economy",
+        "SeatType": "ExtraSpace",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -1529,7 +1529,7 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-101",
-        "SeatType": "Economy",
+        "SeatType": "ExtraSpace",
         "Price": 0.0
       },
       "Gate": "Empty"
@@ -1544,576 +1544,6 @@
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-102",
-        "SeatType": "Economy",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 103,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-103",
-        "SeatType": "Economy",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 104,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-104",
-        "SeatType": "Economy",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 105,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-105",
-        "SeatType": "Economy",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 106,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-106",
-        "SeatType": "Economy",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 107,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-107",
-        "SeatType": "Economy",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 108,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-108",
-        "SeatType": "Economy",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 109,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-109",
-        "SeatType": "Economy",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 110,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-110",
-        "SeatType": "Economy",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 111,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-111",
-        "SeatType": "Economy",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 112,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-112",
-        "SeatType": "Economy",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 113,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-113",
-        "SeatType": "Economy",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 114,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-114",
-        "SeatType": "Economy",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 115,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-115",
-        "SeatType": "Economy",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 116,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-116",
-        "SeatType": "Economy",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 117,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-117",
-        "SeatType": "Economy",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 118,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-118",
-        "SeatType": "Economy",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 119,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-119",
-        "SeatType": "Economy",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 120,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-120",
-        "SeatType": "Economy",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 121,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-121",
-        "SeatType": "Economy",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 122,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-122",
-        "SeatType": "Economy",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 123,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-123",
-        "SeatType": "Economy",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 124,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-124",
-        "SeatType": "Economy",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 125,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-125",
-        "SeatType": "Economy",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 126,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-126",
-        "SeatType": "Economy",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 127,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-127",
-        "SeatType": "Economy",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 128,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-128",
-        "SeatType": "Economy",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 129,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-129",
-        "SeatType": "Economy",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 130,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-130",
-        "SeatType": "Economy",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 131,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-131",
-        "SeatType": "ExtraSpace",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 132,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-132",
-        "SeatType": "ExtraSpace",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 133,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-133",
-        "SeatType": "ExtraSpace",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 134,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-134",
-        "SeatType": "ExtraSpace",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 135,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-135",
-        "SeatType": "ExtraSpace",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 136,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-136",
-        "SeatType": "ExtraSpace",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 137,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-137",
-        "SeatType": "ExtraSpace",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 138,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-138",
-        "SeatType": "ExtraSpace",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 139,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-139",
-        "SeatType": "ExtraSpace",
-        "Price": 0.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
-    "Booked": false,
-    "TicketID": 140,
-    "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
-      "Seat": {
-        "SeatNumber": "BO-140",
         "SeatType": "ExtraSpace",
         "Price": 0.0
       },

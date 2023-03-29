@@ -15,10 +15,4 @@
         TicketID = _ticketid;
         Ticket = ticket;
     }
-
-    // Een beschikbare stoel boeken.
-    public void BookSeat()
-    {
-        // Hier moet ik nog aan werken.
-    }
 }

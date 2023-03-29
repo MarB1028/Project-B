@@ -10,7 +10,7 @@
         // Na het aangeven van een de carrierid geef je de Airplane ID mee. Dat is hierzo 1.
         // Daarna kies je de aantal stoelen voor FirstClass(10), Premium(20), Economy(100) en ExtraSpace(10).
         // Niet alle stoelen staan hierin. Ik heb alleen een paar gekozen. 
-        Airplane boeing747 = new Airplane("BOEING747", "BO", 2, 10, 20, 100, 10);
+        Airplane boeing747 = new Airplane("BOEING747", "BO", 1, 4, 5, 6, 2);
 
         // 2. Je kiest een bestemming voor het vliegtuig. Voor dit voorbeeld doe ik duitsland.
         // Je geeft eerst het vlucht ID dat is hierzo GER1. Daarna geef je het vliegtuig object, boeing747.
@@ -23,18 +23,18 @@
         Flight flightmannenheim = new Flight("GER2", boeing747, DateTime.Now, DateTime.Now, mannenheim);
 
 
-        //MakeOverviewFlightJson overview = new MakeOverviewFlightJson(flightfrankfort);
-        //overview.MakeOverviewJson();
-        //MakeOverviewFlightJson overview1 = new MakeOverviewFlightJson(flightmannenheim);
-        //overview1.MakeOverviewJson();
+        MakeOverviewFlightJson overview = new MakeOverviewFlightJson(flightfrankfort);
+        overview.MakeOverviewJson();
+        MakeOverviewFlightJson overview1 = new MakeOverviewFlightJson(flightmannenheim);
+        overview1.MakeOverviewJson();
 
 
 
         // 3. Je maakt tickets aan voor het vlucht, het wordt automatisch gedaan.
-        //MakeTicketsForFlightJson flightgermany = new MakeTicketsForFlightJson(flightfrankfort);
-        //flightgermany.MakeTickets();
-        //MakeTicketsForFlightJson flightgermany1 = new MakeTicketsForFlightJson(flightmannenheim);
-        //flightgermany1.MakeTickets();
+        MakeTicketsForFlightJson flightgermany = new MakeTicketsForFlightJson(flightfrankfort);
+        flightgermany.MakeTickets();
+        MakeTicketsForFlightJson flightgermany1 = new MakeTicketsForFlightJson(flightmannenheim);
+        flightgermany1.MakeTickets();
 
         BookTicket test = new BookTicket(new Ticket("Jiajun", "Li", flightmannenheim, new Seat("BO-1", "First-Class", 100), "Empty"));
         DataTickets tickets = new DataTickets();
