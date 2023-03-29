@@ -16,7 +16,7 @@ public class PassengerForm
     }
     
     // Dit controleert of de validatie true of false is en herhaalt de vraag als het false is
-    public string Loop(string field, Func<string, bool> validation, string error)
+    public string Loop(string field, Func<string, bool> validation, string error) // Func<string, bool> validation is de method uit de validation class dat wordt meegegeven
     {
         Console.WriteLine($"{field}: ");
         string input = Console.ReadLine();
@@ -51,7 +51,7 @@ public class PassengerForm
             LastName = Loop("Achternaam", x => ValidateInput.IsAlpha(x, " "), "Ongeldige achternaam.");
 
             // Geslacht
-            Sex = Loop("Geslacht(M/V)", x => ValidateInput.ValidateMatch(x, "MmVv"), "Ongeldige invoer. Voer uw geslacht in (M voor een man en V voor een vrouw).");
+            Sex = Loop("Geslacht(M/V)", x => ValidateInput.IsMatch(x, "MV"), "Ongeldige invoer. Voer uw geslacht in (M voor een man en V voor een vrouw).");
 
             // Geboortedatum
             string birthDate = Loop("Geboortedatum (DD-MM-JJJJ)", x => ValidateInput.ValidateDate(x), "Ongeldige geboortedatum. Voer een geldige geboortedatum in het juiste formaat (DD-MM-JJJJ).");
@@ -90,7 +90,7 @@ public class PassengerForm
         string input;
             Console.WriteLine("Kloppen deze gegevens? (J/N)");
             input =  Console.ReadLine();
-        while (ValidateInput.ValidateMatch(input, "JjNn") == false)
+        while (ValidateInput.IsMatch(input, "JN") == false)
         {
             Console.WriteLine("Ongeldige invoer. Voer 'J' in als de gegevens kloppen en 'N' als de gegevens niet kloppen.");
             input = Console.ReadLine();

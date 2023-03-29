@@ -111,8 +111,44 @@ public static class ValidateInput
     }
 
     //Controleert of het telefoonnummer aan de de juiste criteria voldoet
-    public bool ValidatePhoneNumber(string input)
+    public static bool ValidatePhoneNumber(string input)
     {
-        if (input[0] =)
+        string phoneNumber = input.Replace(" ", "");
+        if (phoneNumber.StartsWith("+316"))
+        {
+            phoneNumber.Remove(0, 3);
+        }
+        else if (phoneNumber.StartsWith("06"))
+        {
+            phoneNumber.Remove(0, 2);
+        }
+        else
+        {
+            return false;
+        }
+        return (IsNumber(phoneNumber) && (IsLength(phoneNumber, 8)));
+    }
+
+    // Dit checkt de leeftijd van een persoon en berekent het percentage dat de persoon moet betalen op basis van leeftijd 
+    // Baby's t/m 3 jaar => 0
+    // van 4 t/m 12 jaar => 0.35
+    // van 13 t/m 17 jaar => 0.65
+    // 18+ => 1
+    public static double GetAgeRate(DateTime birthDate)
+    {
+        int age = DateTime.Today.Year - birthDate.Year;
+        switch(age)
+        {
+            case >= 0 and <= 3:
+                return 0;
+            case >= 4 and <= 12:
+                return 0.35;
+            case >= 13 and <= 17:
+                return 0.65;
+            case >= 18:
+                return 1;
+            default:
+                return 0;
+        }
     }
 }
