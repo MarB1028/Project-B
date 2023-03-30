@@ -137,9 +137,8 @@
                         else
                         {
                             Console.WriteLine("test");
-                            // Als de user het geselect heb... hier dan verder gaan en andere classes aanroepen?
-
-
+                        // Als de user het geselect heb... hier dan verder gaan en andere classes aanroepen?
+                        break;   
                         }
                     }
                 }
