@@ -1,6 +1,6 @@
-class Login
+static class Login
 {
-    public void LoginpageMessage()
+    public static void LoginpageMessage()
     {
         Console.WriteLine("Welcome to the login page");
         Console.WriteLine("===============================================");
@@ -9,8 +9,9 @@ class Login
         validateEmailPassword.CheckLoginOrRegister();
     }
 
-    public void LoggedInMessage()
+    public static void LoggedInMessage()
     {
-        Console.WriteLine("Welcome passager!\nWhat is our next destination?");
+        Console.WriteLine();
+        Console.WriteLine("Welcome passenger! What is our next destination?");
     }
 }

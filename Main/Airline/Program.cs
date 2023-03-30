@@ -4,8 +4,8 @@ class Program
 {
     public static void Main()
     {
-        Login login = new Login();
-        login.LoginpageMessage();
+        Login.LoginpageMessage();
+        return;
         // Main
         // Objects maken
 

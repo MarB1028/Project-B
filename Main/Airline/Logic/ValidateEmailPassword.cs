@@ -2,46 +2,36 @@
 {
     public void CheckLoginOrRegister() // check of de gebruiker wilt inloggen/registeren of terug wilt gaan naar het menu
     {
-        bool x = true;
-        Login login = new();
-        while (x)
+        try
         {
-            try
-            {
-                Console.WriteLine("1. Login into your account\n2. Register for a new account\n3. Back to the main menu");
-                int loginOrRegister = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("1. Login into your account\n2. Register for a new account\n3. Back to the main menu");
+            int loginOrRegister = Convert.ToInt32(Console.ReadLine());
 
-                if (loginOrRegister == 1)
-                {
-                    // login met bestaande account
-                    Console.Clear();
-                    CheckLogin();
-                    login.LoggedInMessage(); // terug naar class Login naar method LoggedInMessage()
-                    x = false;
-                }
-                else if (loginOrRegister == 2)
-                {
-                    Console.Clear();
-                    SetNewAccount();
-                    login.LoggedInMessage();
-                    // ga naar overzicht beschikbare tickets na het registreren of het menu?
-                    x = false;
-                }
-                else if (loginOrRegister == 3)
-                {
-                    Console.Clear(); // maakt de terminal leeg
-                    // ga terug naar het menu (moet nog aangeroepen worden)
-                    x = false;
-                }
-                else
-                {
-                    Console.WriteLine("Invalid input!");
-                }
-            }
-            catch (FormatException)
+            if (loginOrRegister == 1) // login met bestaande account
             {
-                Console.WriteLine("Invalid format!");
+                Console.Clear();
+                CheckLogin();
+                // ga naar overzicht beschikbare tickets na het registreren of het menu?
             }
+            else if (loginOrRegister == 2) // register nieuw account
+            {
+                Console.Clear();
+                SetNewAccount();
+                // ga naar overzicht beschikbare tickets na het registreren of het menu?
+            }
+            else if (loginOrRegister == 3) // terug naar het hoofdmenu
+            {
+                Console.Clear();
+                // menu [moet nog aangeroepen worden]
+            }
+            else
+            {
+                Console.WriteLine("Invalid input!");
+            }
+        }
+        catch (FormatException)
+        {
+            Console.WriteLine("Invalid format!");
         }
     }
 
@@ -72,8 +62,11 @@
 
         Account account = new(email, password);
         account.LoggedIn = true; // Zodra je een account heb aangemaakt ben je gelijk ingelogt!
+
         accounts.Add(account);
         setGetAccounts.WriteAccountToJSON(accounts);
+
+        Login.LoggedInMessage();
     }
 
     public bool CheckNewValidEmail(string email) // checkt of de email aan de criteria voldoet
@@ -122,77 +115,87 @@
 
     public void CheckLogin() // inloggen met bestaande account (checkt json file)
     {
-        Console.WriteLine("Input your email adress:");
-        string email = Console.ReadLine()!;
-
-        while (CheckExistingEmail(email) == false)
+        Console.WriteLine("In order to login you need to have an account\nDo you have an existing account?\n1. Yes\n2. No");
+        int userInput = Convert.ToInt32(Console.ReadLine()!);
+        try
         {
-            Console.WriteLine();
-            Console.WriteLine("The given email does not exist in our system.");
-            Console.WriteLine("1. Try again\n2. Register");
-            int answer = Convert.ToInt32(Console.ReadLine()!);
-
-            if (answer == 1)
+            if (userInput == 1)
             {
+                Console.Clear();
+                Console.WriteLine();
                 Console.WriteLine("Input your email adress:");
-                email = Console.ReadLine()!;
-            }
-            else if (answer == 2)
-            {
-                Console.WriteLine("No accoutn yet");
-                SetNewAccount();
-                return;
-            }
-            else
-            {
-                Console.WriteLine("Invalid input!");
-            }
-        }
+                string email = Console.ReadLine()!;
 
-        Console.WriteLine();
-        Console.WriteLine("Input your password:");
-        string password = Console.ReadLine()!;
-
-        while (CheckExistingPassword(email, password) == false)
-        {
-            Console.WriteLine();
-            Console.WriteLine("Incorrect password.");
-            Console.WriteLine("1. Try again\n2. Reset password\n3. Back to menu");
-            int answer = Convert.ToInt32((Console.ReadLine()!));
-
-            if (answer == 1)
-            {
-                Console.WriteLine("Input your password:");
-                password = Console.ReadLine()!;
-            }
-            else if (answer == 2)
-            {
-                bool y = true;
-                while (y)
+                while (CheckExistingEmail(email) == false)
                 {
-                    Console.WriteLine("Enter your email to reset your password:");
+                    Console.WriteLine();
+                    Console.WriteLine("The given email does not exist in our system.\nTry again");
                     email = Console.ReadLine()!;
 
-                    if (ResetPassword(email) == true)
+                }
+
+                Console.WriteLine();
+                Console.WriteLine("Input your password:");
+                string password = Console.ReadLine()!;
+
+                while (CheckExistingPassword(email, password) == false)
+                {
+                    Console.WriteLine();
+                    Console.WriteLine("Incorrect password.");
+                    Console.WriteLine("1. Try again\n2. Reset password\n3. Back to menu");
+                    int answer = Convert.ToInt32((Console.ReadLine()!));
+
+                    if (answer == 1)
                     {
-                        CheckLoginOrRegister();
-                        return;
+                        Console.WriteLine();
+                        Console.WriteLine("Input your password:");
+                        password = Console.ReadLine()!;
+                    }
+                    else if (answer == 2)
+                    {
+                        bool y = true;
+                        while (y)
+                        {
+                            Console.WriteLine();
+                            Console.WriteLine("Enter your email to reset your password:");
+                            email = Console.ReadLine()!;
+
+                            if (ResetPassword(email) == true)
+                            {
+                                CheckLoginOrRegister();
+                                return;
+                            }
+                        }
+                    }
+                    else if (answer == 3)
+                    {
+                        // terug naar het hoofdmenu [nog aanroepen]
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid input!");
                     }
                 }
+                Console.WriteLine("You logged in succesfully!");
+                Console.Clear();
+                ChangeLoggingStatus(email);
+                Login.LoggedInMessage();
             }
-            else if (answer == 3)
+            else if (userInput == 2)
             {
-                // terug naar het menu (nog aanroepen)
-                break;
+                CheckLoginOrRegister();
             }
             else
             {
                 Console.WriteLine("Invalid input!");
             }
         }
-        Console.WriteLine("You logged in succesfully!");
-        Console.Clear();
-        ChangeLoggingStatus(email);
+        catch(FormatException)
+        {
+            Console.WriteLine("Invalid format!");
+        }
+
     }
 
     public void ChangeLoggingStatus(string email) // veranderd login status van bestaande accounts naar true
