@@ -152,7 +152,7 @@
                 else
                 {
                     Console.WriteLine("Please type yes or no");
-                    booked = Console.ReadLine();
+                    booked = Console.ReadLine().ToUpper();
                 }
             }
         }

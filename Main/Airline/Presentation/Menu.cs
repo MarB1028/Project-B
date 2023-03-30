@@ -31,6 +31,7 @@ class Menu
                 case "2":
                     OverviewFlights overviewFlights = new OverviewFlights();
                     overviewFlights.ShowAvailableFlights();
+                    x = false;
                     break;
                 case "3":
                     break;
