@@ -23,7 +23,10 @@
         // 3. Je maakt tickets aan voor het vlucht, het wordt automatisch gedaan.
         //MakeTicketsForFlight flightgermany = new MakeTicketsForFlight(frankfortairport);
 
-
+        //4. Je voert de persoonlijke gegevens in per ticket
+        PassengerForm passengerForm = new PassengerForm();
+        passengerForm.Form();
+        
         //flightgermany.MakeTickets();
         
         CheckSeatAvailability availability = new CheckSeatAvailability (frankfortairport);
