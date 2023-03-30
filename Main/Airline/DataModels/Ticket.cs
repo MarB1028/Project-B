@@ -14,11 +14,4 @@
         Seat = seat;
         Gate = gate;
     }
-
-    // Print de ticket van de klant, met het doorgegeven voornaam en achternaam (Concept).
-    // Kan ook iets anders doorgegeven en de ticket uitprinten.
-    public void PrintTicket(string firstname, string lastname)
-    {
-        // Hier moet ik nog aan werken
-    }
 }
