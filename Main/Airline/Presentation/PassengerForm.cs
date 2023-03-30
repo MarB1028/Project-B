@@ -76,14 +76,14 @@ public class PassengerForm
     public bool Overview(Passenger passenger)
     {
         Console.WriteLine("De gegevens: ");
-        Console.WriteLine("/n");
+        Console.WriteLine("\n");
         Console.WriteLine($"\nVoornaam: {passenger.Surname}");
         Console.WriteLine($"Achternaam: {passenger.Lastname}");
         Console.WriteLine($"Geslacht: {passenger.Sex}");
         Console.WriteLine($"Geboortedatum: {passenger.BirthDate.ToString("dd-MM-yyyy")}");
         Console.WriteLine($"Adres: {passenger.Adress}");
         Console.WriteLine($"Telefoonnummer: {passenger.PhoneNumber}");
-        Console.WriteLine("/n");
+        Console.WriteLine("\n");
 
         string input;
             Console.WriteLine("Kloppen deze gegevens? (J/N)");
