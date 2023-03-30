@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Xml.Linq;
 
 class Menu
 {
@@ -20,25 +21,32 @@ class Menu
         Console.Clear();
 
         // Switch cases
-        switch (choice)
+        bool x = true;
+        while (x == true)
         {
-            case "1":
+            switch (choice)
+            {
+                case "1":
+                    break;
+                case "2":
+                    OverviewFlights overviewFlights = new OverviewFlights();
+                    overviewFlights.ShowAvailableFlights();
+                    break;
+                case "3":
+                    break;
 
-                break;
-            case "2":
-                OverviewFlights overview = new OverviewFlights();
-                overview.ShowAvailableFlights();
-                break;
-            case "3":
-                break;
-
-            case "4":
-                // Exit 
-                Environment.Exit(0);
-                break;
-            default:
-                Console.WriteLine("Invalid choice. Please try again.");
-                break;
+                case "4":
+                    // Exit 
+                    Environment.Exit(0);
+                    break;
+                default:
+                    Console.WriteLine("Invalid choice.\nPlease enter a valid choice (1 to 4)");
+                    Thread.Sleep(2000);
+                    Console.Clear();
+                    StartScreen();
+                    choice = Console.ReadLine();
+                    break;
+            }
         }
     }
 }
