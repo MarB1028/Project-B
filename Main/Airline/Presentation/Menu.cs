@@ -27,6 +27,8 @@ class Menu
             switch (choice)
             {
                 case "1":
+                    Login.LoginpageMessage();
+                    x = false;
                     break;
                 case "2":
                     OverviewFlights overviewFlights = new OverviewFlights();

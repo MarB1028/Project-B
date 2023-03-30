@@ -22,7 +22,8 @@
             else if (loginOrRegister == 3) // terug naar het hoofdmenu
             {
                 Console.Clear();
-                // menu [moet nog aangeroepen worden]
+                Menu startscreen = new Menu();
+                startscreen.StartScreen();
             }
             else
             {
