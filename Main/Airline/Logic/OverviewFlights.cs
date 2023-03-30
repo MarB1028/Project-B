@@ -17,18 +17,18 @@
             new Destination("Morocco", "Tanger", "(TNG)", 1970, 3),
         };
 
-            // Get current minute to generate random flights
+            // Zelfde random krijgen
             int displayed = DateTime.Now.Minute;
             Random random = new Random(displayed);
 
             // Generate 6 random flights
             for (int i = 0; i < 6; i++)
             {
-                // Select random destinations
+                // random destinations selecten
                 Destination destination1 = destinations[random.Next(destinations.Length)];
                 Destination destination2 = destinations[random.Next(destinations.Length)];
 
-                // Generate random boarding dates between now and 3 months from now
+                // Generate random boarding dates between now en 3 months from now
                 DateTime startDate = DateTime.Now;
                 DateTime endDate = startDate.AddMonths(3);
                 TimeSpan timeSpan = endDate - startDate;
@@ -47,15 +47,15 @@
                 // Generate random boarding time between 6-11am or 4-11pm
                 int hour = random.Next(6, 12);
                     if (hour == 11 && random.Next(2) == 0)
-                        hour = 10; // Ensure that the last departure is at 10am
+                        hour = 10; // Ensure that the last departure is at 10am!
                     boardingTime1 = new DateTime(boardingDate.Year, boardingDate.Month, boardingDate.Day, hour, random.Next(0, 60), 0);
 
                     hour = random.Next(16, 23);
                     if (hour == 23 && random.Next(2) == 0)
-                        hour = 22; // Ensure that the last departure is at 10pm
+                        hour = 22; // Ensure that the last departure is at 10pm!
                     boardingTime2 = new DateTime(boardingDate2.Year, boardingDate2.Month, boardingDate2.Day, hour, random.Next(0, 60), 0);
 
-                    // If both boarding times are within the allowed hours, break out of the loop
+                    // If both boarding times are within the allowed hours, break out of the loop...
                     if (boardingTime1.Hour >= 6 && boardingTime1.Hour <= 11 &&
                         boardingTime2.Hour >= 16 && boardingTime2.Hour <= 23)
                     {
@@ -67,11 +67,11 @@
                 Airplane airplane = new Airplane("Boeing 747", "B0747", 1, 20, 50, 150, 10);
                 Airplane airplane2 = new Airplane("Boeing 878", "B0878", 1, 20, 50, 150, 10);
 
-                // Create flights with the generated data
+                // Create flights 
                 Flight flight1 = new Flight($"Flight {random.Next(5000)}", airplane, boardingTime1, boardingTime1.AddHours(destination1.FlightDuration), destination1);
                 Flight flight2 = new Flight($"Flight {random.Next(5000)}", airplane2, boardingTime2, boardingTime2.AddHours(destination2.FlightDuration), destination2);
 
-                // Add flights to the list
+                // Add flights to the list! yay
                 flights.Add(flight1);
                 flights.Add(flight2);
             }
