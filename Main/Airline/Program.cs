@@ -23,22 +23,18 @@
         Flight flightmannenheim = new Flight("GER2", boeing747, DateTime.Now, DateTime.Now, mannenheim);
 
 
-        MakeOverviewFlightJson overview = new MakeOverviewFlightJson(flightfrankfort);
-        overview.MakeOverviewJson();
-        MakeOverviewFlightJson overview1 = new MakeOverviewFlightJson(flightmannenheim);
-        overview1.MakeOverviewJson();
-
-
+        MakeOverviewFlightJson overview = new MakeOverviewFlightJson();
+        overview.MakeOverviewJson(flightfrankfort);
+        MakeOverviewFlightJson overview1 = new MakeOverviewFlightJson();
+        overview1.MakeOverviewJson(flightmannenheim);
 
         // 3. Je maakt tickets aan voor het vlucht, het wordt automatisch gedaan.
-        MakeTicketsForFlightJson flightgermany = new MakeTicketsForFlightJson(flightfrankfort);
-        flightgermany.MakeTickets();
-        MakeTicketsForFlightJson flightgermany1 = new MakeTicketsForFlightJson(flightmannenheim);
-        flightgermany1.MakeTickets();
+        MakeTicketsForFlightJson flightgermany = new MakeTicketsForFlightJson();
+        flightgermany.MakeTickets(flightfrankfort);
+        MakeTicketsForFlightJson flightgermany1 = new MakeTicketsForFlightJson();
+        flightgermany1.MakeTickets(flightmannenheim);
 
-        BookTicket test = new BookTicket(new Ticket("Jiajun", "Li", flightmannenheim, new Seat("BO-1", "First-Class", 100), "Empty"));
-        DataTickets tickets = new DataTickets();
-        tickets.WriteTicketToJson(flightfrankfort, test);
-
+        BookTicket test = new BookTicket(new Ticket("Jiajun", "Li", flightmannenheim, new FindObjectSeat().FindSeatObject(flightmannenheim, "BO-1"), "G18"));
+        new DataTickets().WriteTicketToJson(flightmannenheim, test);
     }
 }

@@ -11,8 +11,8 @@
       "RegularSeat": 0,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-03-27T16:08:22.9461797+02:00",
-    "EstimatedArrival": "2023-03-27T16:08:22.9718005+02:00",
+    "BoardingDate": "2023-03-29T14:36:52.3481888+02:00",
+    "EstimatedArrival": "2023-03-29T14:36:52.3512686+02:00",
     "Destination": {
       "Country": "GER",
       "City": "FRA",
@@ -33,8 +33,8 @@
       "RegularSeat": 0,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-03-27T16:08:22.9718694+02:00",
-    "EstimatedArrival": "2023-03-27T16:08:22.9718701+02:00",
+    "BoardingDate": "2023-03-29T14:36:52.3513273+02:00",
+    "EstimatedArrival": "2023-03-29T14:36:52.3513278+02:00",
     "Destination": {
       "Country": "GER",
       "City": "MAN",

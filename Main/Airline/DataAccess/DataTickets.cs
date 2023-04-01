@@ -1,6 +1,4 @@
 ﻿using Newtonsoft.Json;
-using System.Xml.Serialization;
-
 class DataTickets
 {
     public List<BookTicket> ReadTicketsFromJson(Flight flight)

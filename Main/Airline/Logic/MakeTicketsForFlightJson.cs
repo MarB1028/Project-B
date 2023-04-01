@@ -2,14 +2,7 @@
 
 class MakeTicketsForFlightJson
 {
-    public Flight Flight;
-
-    public MakeTicketsForFlightJson(Flight flight)
-    {
-        Flight = flight;
-    }
-
-    public void MakeTickets()
+    public void MakeTickets(Flight flight)
     {
         List<BookTicket> bookticketlist = new List<BookTicket>() { };
         
@@ -26,10 +19,10 @@ class MakeTicketsForFlightJson
         // Een lijst met hoeveel stoelen er zijn voor elk type.
         List<int> AllSeats = new List<int>()
         {
-            Flight.Airplane.FirstClassSeat * 6,
-            Flight.Airplane.PremiumSeat * 6,
-            Flight.Airplane.EconomySeat * 6,
-            Flight.Airplane.ExtraSpace * 6,
+            flight.Airplane.FirstClassSeat * 6,
+            flight.Airplane.PremiumSeat * 6,
+            flight.Airplane.EconomySeat * 6,
+            flight.Airplane.ExtraSpace * 6,
         };
 
         // Dit stukje maakt het json file aan.
@@ -47,22 +40,22 @@ class MakeTicketsForFlightJson
                     case "First-Class":
                         seatnumber++;
                         ticketid++;
-                        bookticketlist.Add(new BookTicket(new Ticket("Empty", "Empty", null, new Seat($"{Flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], new CalculateSeatPrice(Flight).CalculateSeat(0)), "Empty")));
+                        bookticketlist.Add(new BookTicket(new Ticket("Empty", "Empty", null, new Seat($"{flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], new CalculateSeatPrice().CalculateSeat(flight, 0)), "Empty")));
                         break;
                     case "Premium":
                         seatnumber++;
                         ticketid++;
-                        bookticketlist.Add(new BookTicket(new Ticket("Empty", "Empty", null, new Seat($"{Flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], new CalculateSeatPrice(Flight).CalculateSeat(0)), "Empty")));
+                        bookticketlist.Add(new BookTicket(new Ticket("Empty", "Empty", null, new Seat($"{flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], new CalculateSeatPrice().CalculateSeat(flight, 0)), "Empty")));
                         break;              
                     case "Economy":
                         seatnumber++;
                         ticketid++;
-                        bookticketlist.Add(new BookTicket(new Ticket("Empty", "Empty", null, new Seat($"{Flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], new CalculateSeatPrice(Flight).CalculateSeat(0)), "Empty")));
+                        bookticketlist.Add(new BookTicket(new Ticket("Empty", "Empty", null, new Seat($"{flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], new CalculateSeatPrice().CalculateSeat(flight, 0)), "Empty")));
                         break;
                     case "ExtraSpace":
                         seatnumber++;
                         ticketid++;
-                        bookticketlist.Add(new BookTicket(new Ticket("Empty", "Empty", null, new Seat($"{Flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], new CalculateSeatPrice(Flight).CalculateSeat(0)), "Empty")));
+                        bookticketlist.Add(new BookTicket(new Ticket("Empty", "Empty", null, new Seat($"{flight.Airplane.Carrierid}-{seatnumber}", Seatype[i], new CalculateSeatPrice().CalculateSeat(flight, 0)), "Empty")));
                         break;
                 }
             }                      
@@ -70,10 +63,12 @@ class MakeTicketsForFlightJson
         
         // Maakt het json file aan als er geen eentje bestaat
         string json = JsonConvert.SerializeObject(bookticketlist, Formatting.Indented);
-        string pathfile = $"C:\\Users\\{Environment.UserName}\\Documents\\GitHub\\Project-B\\Main\\Airline\\DataSources\\{Flight.Airplane.Name};{Flight.Destination.Country};{Flight.Destination.City}.json";
+        string pathfile = $"C:\\Users\\{Environment.UserName}\\Documents\\GitHub\\Project-B\\Main\\Airline\\DataSources\\{flight.Airplane.Name};{flight.Destination.Country};{flight.Destination.City}.json";
         if (!File.Exists(pathfile))
         {
             File.WriteAllText(pathfile, json);
+            BookTicket reset = new BookTicket(null);
+            reset.ResetCounter();
         }
     }
 }

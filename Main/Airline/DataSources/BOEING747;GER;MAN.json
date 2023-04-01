@@ -1,22 +1,43 @@
 [
   {
-    "Booked": false,
-    "TicketID": 103,
+    "Booked": true,
+    "TicketID": 1,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
-      "Flight": null,
+      "FirstName": "Jiajun",
+      "LastName": "Li",
+      "Flight": {
+        "FlightId": "GER2",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "RegularSeat": 0,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-03-29T15:03:17.0187911+02:00",
+        "EstimatedArrival": "2023-03-29T15:03:17.0187919+02:00",
+        "Destination": {
+          "Country": "GER",
+          "City": "MAN",
+          "Airport": "MANNENHEIMAIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 2
+        }
+      },
       "Seat": {
         "SeatNumber": "BO-1",
         "SeatType": "First-Class",
         "Price": 0.0
       },
-      "Gate": "Empty"
+      "Gate": "G18"
     }
   },
   {
     "Booked": false,
-    "TicketID": 104,
+    "TicketID": 2,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -31,7 +52,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 105,
+    "TicketID": 3,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -46,7 +67,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 106,
+    "TicketID": 4,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -61,7 +82,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 107,
+    "TicketID": 5,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -76,7 +97,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 108,
+    "TicketID": 6,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -91,7 +112,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 109,
+    "TicketID": 7,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -106,7 +127,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 110,
+    "TicketID": 8,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -121,7 +142,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 111,
+    "TicketID": 9,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -136,7 +157,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 112,
+    "TicketID": 10,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -151,7 +172,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 113,
+    "TicketID": 11,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -166,7 +187,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 114,
+    "TicketID": 12,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -181,7 +202,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 115,
+    "TicketID": 13,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -196,7 +217,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 116,
+    "TicketID": 14,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -211,7 +232,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 117,
+    "TicketID": 15,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -226,7 +247,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 118,
+    "TicketID": 16,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -241,7 +262,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 119,
+    "TicketID": 17,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -256,7 +277,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 120,
+    "TicketID": 18,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -271,7 +292,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 121,
+    "TicketID": 19,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -286,7 +307,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 122,
+    "TicketID": 20,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -301,7 +322,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 123,
+    "TicketID": 21,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -316,7 +337,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 124,
+    "TicketID": 22,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -331,7 +352,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 125,
+    "TicketID": 23,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -346,7 +367,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 126,
+    "TicketID": 24,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -361,7 +382,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 127,
+    "TicketID": 25,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -376,7 +397,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 128,
+    "TicketID": 26,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -391,7 +412,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 129,
+    "TicketID": 27,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -406,7 +427,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 130,
+    "TicketID": 28,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -421,7 +442,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 131,
+    "TicketID": 29,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -436,7 +457,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 132,
+    "TicketID": 30,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -451,7 +472,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 133,
+    "TicketID": 31,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -466,7 +487,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 134,
+    "TicketID": 32,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -481,7 +502,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 135,
+    "TicketID": 33,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -496,7 +517,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 136,
+    "TicketID": 34,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -511,7 +532,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 137,
+    "TicketID": 35,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -526,7 +547,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 138,
+    "TicketID": 36,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -541,7 +562,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 139,
+    "TicketID": 37,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -556,7 +577,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 140,
+    "TicketID": 38,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -571,7 +592,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 141,
+    "TicketID": 39,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -586,7 +607,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 142,
+    "TicketID": 40,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -601,7 +622,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 143,
+    "TicketID": 41,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -616,7 +637,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 144,
+    "TicketID": 42,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -631,7 +652,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 145,
+    "TicketID": 43,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -646,7 +667,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 146,
+    "TicketID": 44,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -661,7 +682,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 147,
+    "TicketID": 45,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -676,7 +697,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 148,
+    "TicketID": 46,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -691,7 +712,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 149,
+    "TicketID": 47,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -706,7 +727,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 150,
+    "TicketID": 48,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -721,7 +742,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 151,
+    "TicketID": 49,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -736,7 +757,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 152,
+    "TicketID": 50,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -751,7 +772,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 153,
+    "TicketID": 51,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -766,7 +787,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 154,
+    "TicketID": 52,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -781,7 +802,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 155,
+    "TicketID": 53,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -796,7 +817,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 156,
+    "TicketID": 54,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -811,7 +832,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 157,
+    "TicketID": 55,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -826,7 +847,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 158,
+    "TicketID": 56,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -841,7 +862,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 159,
+    "TicketID": 57,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -856,7 +877,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 160,
+    "TicketID": 58,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -871,7 +892,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 161,
+    "TicketID": 59,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -886,7 +907,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 162,
+    "TicketID": 60,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -901,7 +922,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 163,
+    "TicketID": 61,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -916,7 +937,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 164,
+    "TicketID": 62,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -931,7 +952,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 165,
+    "TicketID": 63,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -946,7 +967,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 166,
+    "TicketID": 64,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -961,7 +982,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 167,
+    "TicketID": 65,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -976,7 +997,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 168,
+    "TicketID": 66,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -991,7 +1012,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 169,
+    "TicketID": 67,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1006,7 +1027,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 170,
+    "TicketID": 68,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1021,7 +1042,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 171,
+    "TicketID": 69,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1036,7 +1057,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 172,
+    "TicketID": 70,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1051,7 +1072,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 173,
+    "TicketID": 71,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1066,7 +1087,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 174,
+    "TicketID": 72,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1081,7 +1102,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 175,
+    "TicketID": 73,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1096,7 +1117,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 176,
+    "TicketID": 74,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1111,7 +1132,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 177,
+    "TicketID": 75,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1126,7 +1147,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 178,
+    "TicketID": 76,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1141,7 +1162,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 179,
+    "TicketID": 77,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1156,7 +1177,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 180,
+    "TicketID": 78,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1171,7 +1192,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 181,
+    "TicketID": 79,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1186,7 +1207,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 182,
+    "TicketID": 80,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1201,7 +1222,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 183,
+    "TicketID": 81,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1216,7 +1237,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 184,
+    "TicketID": 82,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1231,7 +1252,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 185,
+    "TicketID": 83,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1246,7 +1267,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 186,
+    "TicketID": 84,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1261,7 +1282,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 187,
+    "TicketID": 85,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1276,7 +1297,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 188,
+    "TicketID": 86,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1291,7 +1312,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 189,
+    "TicketID": 87,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1306,7 +1327,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 190,
+    "TicketID": 88,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1321,7 +1342,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 191,
+    "TicketID": 89,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1336,7 +1357,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 192,
+    "TicketID": 90,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1351,7 +1372,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 193,
+    "TicketID": 91,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1366,7 +1387,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 194,
+    "TicketID": 92,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1381,7 +1402,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 195,
+    "TicketID": 93,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1396,7 +1417,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 196,
+    "TicketID": 94,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1411,7 +1432,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 197,
+    "TicketID": 95,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1426,7 +1447,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 198,
+    "TicketID": 96,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1441,7 +1462,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 199,
+    "TicketID": 97,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1456,7 +1477,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 200,
+    "TicketID": 98,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1471,7 +1492,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 201,
+    "TicketID": 99,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1486,7 +1507,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 202,
+    "TicketID": 100,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1501,7 +1522,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 203,
+    "TicketID": 101,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",
@@ -1516,7 +1537,7 @@
   },
   {
     "Booked": false,
-    "TicketID": 204,
+    "TicketID": 102,
     "Ticket": {
       "FirstName": "Empty",
       "LastName": "Empty",

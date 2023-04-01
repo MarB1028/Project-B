@@ -1,36 +1,15 @@
 [
   {
-    "Booked": true,
+    "Booked": false,
     "TicketID": 1,
     "Ticket": {
-      "FirstName": "Jiajun",
-      "LastName": "Li",
-      "Flight": {
-        "FlightId": "GER2",
-        "Airplane": {
-          "Name": "BOEING747",
-          "Carrierid": "BO",
-          "AirplaneId": 1,
-          "FirstClassSeat": 4,
-          "PremiumSeat": 5,
-          "EconomySeat": 6,
-          "RegularSeat": 0,
-          "ExtraSpace": 2
-        },
-        "BoardingDate": "2023-03-27T16:09:02.8112032+02:00",
-        "EstimatedArrival": "2023-03-27T16:09:02.8112039+02:00",
-        "Destination": {
-          "Country": "GER",
-          "City": "MAN",
-          "Airport": "MANNENHEIMAIRPORT",
-          "Distancekm": 100,
-          "FlightDuration": 2
-        }
-      },
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
       "Seat": {
         "SeatNumber": "BO-1",
         "SeatType": "First-Class",
-        "Price": 100.0
+        "Price": 0.0
       },
       "Gate": "Empty"
     }

@@ -1,18 +1,20 @@
 ﻿class BookTicket
 {
-    // Account doorgeven nog om aan de ticket te koppelen.
-    private static int _ticketid;
-
+    private static int ticketCounter = 0;
     public bool Booked;
     public int TicketID;
     public Ticket Ticket;
-    // public Account account;
-
+    // public Passenger passenger;
+    
     public BookTicket(Ticket ticket)
     {
-        _ticketid++;
         Booked = false;
-        TicketID = _ticketid;
+        TicketID = ++ticketCounter;
         Ticket = ticket;
+    }
+
+    public void ResetCounter()
+    {
+        ticketCounter = 0;
     }
 }
