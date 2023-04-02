@@ -22,8 +22,7 @@
             else if (loginOrRegister == 3) // terug naar het hoofdmenu
             {
                 Console.Clear();
-                Menu startscreen = new Menu();
-                startscreen.StartScreen();
+                // menu [moet nog aangeroepen worden]
             }
             else
             {
@@ -67,12 +66,13 @@
         accounts.Add(account);
         setGetAccounts.WriteAccountToJSON(accounts);
 
-        Login.LoggedInMessage();
+        Login login = new Login();
+        login.LoggedInMessage();
     }
 
     public bool CheckNewValidEmail(string email) // checkt of de email aan de criteria voldoet
     {
-        List<string> emailEndings = new List<string>() {".nl",".be", ".com", ".org", ".net", ".edu", ".gov", ".co", ".io", ".info", ".mail"};
+        List<string> emailEndings = new List<string>() { ".nl", ".be", ".com", ".org", ".net", ".edu", ".gov", ".co", ".io", ".info", ".mail" };
 
         if (email.Contains("@"))
         {
@@ -181,7 +181,8 @@
                 Console.WriteLine("You logged in succesfully!");
                 Console.Clear();
                 ChangeLoggingStatus(email);
-                Login.LoggedInMessage();
+                Login login = new Login();
+                login.LoggedInMessage();
             }
             else if (userInput == 2)
             {
@@ -192,7 +193,7 @@
                 Console.WriteLine("Invalid input!");
             }
         }
-        catch(FormatException)
+        catch (FormatException)
         {
             Console.WriteLine("Invalid format!");
         }

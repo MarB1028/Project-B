@@ -1,4 +1,4 @@
-public class Passenger
+﻿public class Passenger
 {
     public static int PreviousID = 0;
     public int ID;

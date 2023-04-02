@@ -1,8 +1,8 @@
 ﻿using Newtonsoft.Json;
 
 class SetGetAccounts
-{
-    string pathfile = $"C:\\Users\\{Environment.UserName}\\Development_Y1\\projectB\\_project_B Airline\\Project-B\\Main\\Airline\\DataSources\\accounts.json";
+{ 
+    string pathfile = $"C:\\Users\\{Environment.UserName}\\Documents\\GitHub\\Project-B\\Main\\Airline\\DataSources\\ACCOUNTS.json";
     public List<Account> ReadAccountsFromJSON()
     {
         if (!File.Exists(pathfile))
@@ -17,7 +17,7 @@ class SetGetAccounts
 
     public void WriteAccountToJSON(List<Account> accounts)
     {
-        string json = JsonConvert.SerializeObject(accounts);
+        string json = JsonConvert.SerializeObject(accounts, Formatting.Indented);
 
         using (StreamWriter streamWriter = File.CreateText(pathfile))
         {

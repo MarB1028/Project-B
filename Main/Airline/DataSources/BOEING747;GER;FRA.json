@@ -1,0 +1,1532 @@
+[
+  {
+    "Booked": false,
+    "TicketID": 1,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-1",
+        "SeatType": "First-Class",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-2",
+        "SeatType": "First-Class",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 3,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-3",
+        "SeatType": "First-Class",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 4,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-4",
+        "SeatType": "First-Class",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 5,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-5",
+        "SeatType": "First-Class",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-6",
+        "SeatType": "First-Class",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 7,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-7",
+        "SeatType": "First-Class",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 8,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-8",
+        "SeatType": "First-Class",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 9,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-9",
+        "SeatType": "First-Class",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 10,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-10",
+        "SeatType": "First-Class",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 11,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-11",
+        "SeatType": "First-Class",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 12,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-12",
+        "SeatType": "First-Class",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 13,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-13",
+        "SeatType": "First-Class",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 14,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-14",
+        "SeatType": "First-Class",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 15,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-15",
+        "SeatType": "First-Class",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 16,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-16",
+        "SeatType": "First-Class",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 17,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-17",
+        "SeatType": "First-Class",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 18,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-18",
+        "SeatType": "First-Class",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 19,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-19",
+        "SeatType": "First-Class",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 20,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-20",
+        "SeatType": "First-Class",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 21,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-21",
+        "SeatType": "First-Class",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 22,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-22",
+        "SeatType": "First-Class",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 23,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-23",
+        "SeatType": "First-Class",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 24,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-24",
+        "SeatType": "First-Class",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 25,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-25",
+        "SeatType": "Premium",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 26,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-26",
+        "SeatType": "Premium",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 27,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-27",
+        "SeatType": "Premium",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 28,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-28",
+        "SeatType": "Premium",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 29,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-29",
+        "SeatType": "Premium",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 30,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-30",
+        "SeatType": "Premium",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 31,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-31",
+        "SeatType": "Premium",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 32,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-32",
+        "SeatType": "Premium",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 33,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-33",
+        "SeatType": "Premium",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 34,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-34",
+        "SeatType": "Premium",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 35,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-35",
+        "SeatType": "Premium",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 36,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-36",
+        "SeatType": "Premium",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 37,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-37",
+        "SeatType": "Premium",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 38,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-38",
+        "SeatType": "Premium",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 39,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-39",
+        "SeatType": "Premium",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 40,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-40",
+        "SeatType": "Premium",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 41,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-41",
+        "SeatType": "Premium",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 42,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-42",
+        "SeatType": "Premium",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 43,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-43",
+        "SeatType": "Premium",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 44,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-44",
+        "SeatType": "Premium",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 45,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-45",
+        "SeatType": "Premium",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 46,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-46",
+        "SeatType": "Premium",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 47,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-47",
+        "SeatType": "Premium",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 48,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-48",
+        "SeatType": "Premium",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 49,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-49",
+        "SeatType": "Premium",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 50,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-50",
+        "SeatType": "Premium",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 51,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-51",
+        "SeatType": "Premium",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 52,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-52",
+        "SeatType": "Premium",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 53,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-53",
+        "SeatType": "Premium",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 54,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-54",
+        "SeatType": "Premium",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 55,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-55",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 56,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-56",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 57,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-57",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 58,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-58",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 59,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-59",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 60,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-60",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 61,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-61",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 62,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-62",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 63,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-63",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 64,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-64",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 65,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-65",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 66,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-66",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 67,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-67",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 68,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-68",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 69,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-69",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 70,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-70",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 71,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-71",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 72,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-72",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 73,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-73",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 74,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-74",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 75,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-75",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 76,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-76",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 77,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-77",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 78,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-78",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 79,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-79",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 80,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-80",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 81,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-81",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 82,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-82",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 83,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-83",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 84,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-84",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 85,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-85",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 86,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-86",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 87,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-87",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 88,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-88",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 89,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-89",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 90,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-90",
+        "SeatType": "Economy",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 91,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-91",
+        "SeatType": "ExtraSpace",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 92,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-92",
+        "SeatType": "ExtraSpace",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 93,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-93",
+        "SeatType": "ExtraSpace",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 94,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-94",
+        "SeatType": "ExtraSpace",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 95,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-95",
+        "SeatType": "ExtraSpace",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 96,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-96",
+        "SeatType": "ExtraSpace",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 97,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-97",
+        "SeatType": "ExtraSpace",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 98,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-98",
+        "SeatType": "ExtraSpace",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 99,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-99",
+        "SeatType": "ExtraSpace",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 100,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-100",
+        "SeatType": "ExtraSpace",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 101,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-101",
+        "SeatType": "ExtraSpace",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 102,
+    "Ticket": {
+      "FirstName": "Empty",
+      "LastName": "Empty",
+      "Flight": null,
+      "Seat": {
+        "SeatNumber": "BO-102",
+        "SeatType": "ExtraSpace",
+        "Price": 0.0
+      },
+      "Gate": "Empty"
+    }
+  }
+]

@@ -1,13 +1,8 @@
-using System.Globalization;
+﻿using System.Globalization;
 public static class ValidateInput
 {
     //Elke method returnt een bool (true=valid of flase=invalid)
-
-
-
-
     //De volgende vijf methods controleren input op algemene criteria
-
     //Controleert of de input uitsluitend uit letters bestaat 
     public static bool IsAlpha(string input, string exception = null) // Je kan uitzonderingen meegeven (exception = "-" maakt marie-claire valid)
     {
@@ -52,7 +47,7 @@ public static class ValidateInput
         return false;
     }
 
-     //Controleert of de lengte van een string gelijk is aan een getal
+    //Controleert of de lengte van een string gelijk is aan een getal
     public static bool IsLength(string input, int length)
     {
         string inputNoSpace = input.Replace(" ", ""); //Spaties worden genegeerd
@@ -70,7 +65,7 @@ public static class ValidateInput
 
     //Controleert of een datum de juiste format heeft (dd-mm-jjjj) en of het in het verleden is (01 en 1 zijn beide valid dagen/maanden)
     public static bool ValidateDate(string input)
-    {   
+    {
         string dateString = input;
         DateTime date;
         bool checkDate = true;
@@ -137,7 +132,7 @@ public static class ValidateInput
     public static double GetAgeRate(DateTime birthDate)
     {
         int age = DateTime.Today.Year - birthDate.Year;
-        switch(age)
+        switch (age)
         {
             case >= 0 and <= 3:
                 return 0;

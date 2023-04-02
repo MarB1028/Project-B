@@ -1,6 +1,3 @@
-using System.Collections.Generic;
-using System.Xml.Linq;
-
 class Menu
 {
     public void StartScreen()
@@ -22,12 +19,13 @@ class Menu
 
         // Switch cases
         bool x = true;
+        Login login = new Login();
         while (x == true)
         {
             switch (choice)
             {
                 case "1":
-                    Login.LoginpageMessage();
+                    login.LoginpageMessage();
                     x = false;
                     break;
                 case "2":
