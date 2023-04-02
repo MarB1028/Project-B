@@ -14,11 +14,10 @@
           "FirstClassSeat": 4,
           "PremiumSeat": 5,
           "EconomySeat": 6,
-          "RegularSeat": 0,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-03-29T15:03:17.0187911+02:00",
-        "EstimatedArrival": "2023-03-29T15:03:17.0187919+02:00",
+        "BoardingDate": "2023-04-02T17:59:41.7969357+02:00",
+        "EstimatedArrival": "2023-04-02T17:59:41.7969364+02:00",
         "Destination": {
           "Country": "GER",
           "City": "MAN",

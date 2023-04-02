@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
-class DataTickets
+static class DataTickets
 {
-    public List<BookTicket> ReadTicketsFromJson(Flight flight)
+    public static List<BookTicket> ReadTicketsFromJson(Flight flight)
     {
         string pathfile = $"C:\\Users\\{Environment.UserName}\\Documents\\GitHub\\Project-B\\Main\\Airline\\DataSources\\{flight.Airplane.Name};{flight.Destination.Country};{flight.Destination.City}.json";
         if (!File.Exists(pathfile))
@@ -14,7 +14,7 @@ class DataTickets
         return DataFlightTickets ?? new List<BookTicket>();
     }
 
-    public void WriteTicketToJson(Flight flight, BookTicket ticket)
+    public static void WriteTicketToJson(Flight flight, BookTicket ticket)
     {
         List<BookTicket> DataFlightTickets = ReadTicketsFromJson(flight);
 

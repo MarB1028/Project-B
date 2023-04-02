@@ -1,8 +1,8 @@
 ﻿using Newtonsoft.Json;
 
-class MakeTicketsForFlightJson
+static class MakeTicketsForFlightJson
 {
-    public void MakeTickets(Flight flight)
+    public static void MakeTickets(Flight flight)
     {
         List<BookTicket> bookticketlist = new List<BookTicket>() { };
         

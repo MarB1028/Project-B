@@ -13,7 +13,7 @@ class CheckSeatAvailability
     public BookTicket GetBookTicket(string SeatNumber)
     {
         //Haalt de lijst met info uit de jsonfile
-        List<BookTicket> ticketsJson = new DataTickets().ReadTicketsFromJson(Flight);
+        List<BookTicket> ticketsJson = DataTickets.ReadTicketsFromJson(Flight);
 
         //loopt door de lijst en checkt naar dezelfde seatnumber
         foreach (BookTicket bt in ticketsJson)
@@ -29,7 +29,7 @@ class CheckSeatAvailability
     public bool IsSeatTaken(string SeatNumber)
     {
         //Haalt de lijst met info uit de jsonfile
-        List<BookTicket> ticketsJson = new DataTickets().ReadTicketsFromJson(Flight);
+        List<BookTicket> ticketsJson = DataTickets.ReadTicketsFromJson(Flight);
 
         //loopt door de lijst en checkt naar dezelfde seatnumber
         foreach (BookTicket bt in ticketsJson)

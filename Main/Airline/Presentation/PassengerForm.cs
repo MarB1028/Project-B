@@ -1,7 +1,7 @@
-﻿public class PassengerForm
+﻿static class PassengerForm
 {
     // Dit controleert of de validatie true of false is en herhaalt de vraag als het false is
-    public string Loop(string field, Func<string, bool> validation, string error) // Func<string, bool> validation is de method uit de validation class dat wordt meegegeven
+    public static string Loop(string field, Func<string, bool> validation, string error) // Func<string, bool> validation is de method uit de validation class dat wordt meegegeven
     {
         Console.WriteLine($"{field}: ");
         string input = Console.ReadLine();
@@ -18,7 +18,7 @@
     }
 
     //Hier wordt het formulier gegenereerd
-    public void Form()
+    public static void Form()
     {
         List<Passenger> passengers = new List<Passenger>();
         // Dit bepaalt hoeveel formulieren er moeten worden gegenereerd
@@ -73,7 +73,7 @@
     }
 
     // Print een overview van het formulier en vraagt de gebruiker of het klopt of dat hij/zij het opnieuw wil invullen
-    public bool Overview(Passenger passenger)
+    public static bool Overview(Passenger passenger)
     {
         Console.WriteLine("De gegevens: ");
         Console.WriteLine("\n");

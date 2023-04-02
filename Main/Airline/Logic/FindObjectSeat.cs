@@ -1,8 +1,8 @@
-﻿class FindObjectSeat
+﻿static class FindObjectSeat
 {
-    public Seat FindSeatObject(Flight flight, string seatnumber)
+    public static Seat FindSeatObject(Flight flight, string seatnumber)
     {
-        List<BookTicket> data = new DataTickets().ReadTicketsFromJson(flight);
+        List<BookTicket> data = DataTickets.ReadTicketsFromJson(flight);
 
         foreach (BookTicket i in data)
         {

@@ -8,11 +8,10 @@
       "FirstClassSeat": 4,
       "PremiumSeat": 5,
       "EconomySeat": 6,
-      "RegularSeat": 0,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-03-29T14:36:52.3481888+02:00",
-    "EstimatedArrival": "2023-03-29T14:36:52.3512686+02:00",
+    "BoardingDate": "2023-04-02T17:55:06.2961612+02:00",
+    "EstimatedArrival": "2023-04-02T17:55:06.3023204+02:00",
     "Destination": {
       "Country": "GER",
       "City": "FRA",
@@ -30,11 +29,10 @@
       "FirstClassSeat": 4,
       "PremiumSeat": 5,
       "EconomySeat": 6,
-      "RegularSeat": 0,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-03-29T14:36:52.3513273+02:00",
-    "EstimatedArrival": "2023-03-29T14:36:52.3513278+02:00",
+    "BoardingDate": "2023-04-02T17:55:06.3024711+02:00",
+    "EstimatedArrival": "2023-04-02T17:55:06.3024718+02:00",
     "Destination": {
       "Country": "GER",
       "City": "MAN",

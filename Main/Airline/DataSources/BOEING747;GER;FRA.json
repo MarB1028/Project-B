@@ -1,6 +1,6 @@
 [
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 1,
     "Ticket": {
       "FirstName": "Empty",

@@ -13,22 +13,17 @@
         Flight flightfrankfort = new Flight("GER1", boeing747, DateTime.Now, DateTime.Now, frankfort);
         Flight flightmannenheim = new Flight("GER2", boeing747, DateTime.Now, DateTime.Now, mannenheim);
 
-        MakeOverviewFlightJson overview = new MakeOverviewFlightJson();
-        overview.MakeOverviewJson(flightfrankfort);
-        MakeOverviewFlightJson overview1 = new MakeOverviewFlightJson();
-        overview1.MakeOverviewJson(flightmannenheim);
+        MakeOverviewFlightJson.MakeOverviewJson(flightfrankfort);
+        MakeOverviewFlightJson.MakeOverviewJson(flightmannenheim);
 
-        MakeTicketsForFlightJson flightgermany = new MakeTicketsForFlightJson();
-        flightgermany.MakeTickets(flightfrankfort);
-        MakeTicketsForFlightJson flightgermany1 = new MakeTicketsForFlightJson();
-        flightgermany1.MakeTickets(flightmannenheim);
-
-        BookTicket test = new BookTicket(new Ticket("Jiajun", "Li", flightmannenheim, new FindObjectSeat().FindSeatObject(flightmannenheim, "BO-1"), "G18"));
-        new DataTickets().WriteTicketToJson(flightmannenheim, test);*/
+        MakeTicketsForFlightJson.MakeTickets(flightfrankfort);
+        MakeTicketsForFlightJson.MakeTickets(flightmannenheim);
+        
+        BookTicket test = new BookTicket(new Ticket("Jiajun", "Li", flightmannenheim, FindObjectSeat.FindSeatObject(flightmannenheim, "BO-1"), "G18"));
+        DataTickets.WriteTicketToJson(flightmannenheim, test);*/
 
         // CODE TEST [Soufiane]
-        /*PassengerForm form = new PassengerForm();
-        form.Form();*/
+        /*PassengerForm.Form();*/
 
         // CODE TEST [Marissa]
         /*Login.LoginpageMessage();*/

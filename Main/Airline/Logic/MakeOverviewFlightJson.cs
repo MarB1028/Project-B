@@ -1,8 +1,8 @@
 ﻿using Newtonsoft.Json;
 
-class MakeOverviewFlightJson
+static class MakeOverviewFlightJson
 {
-    public void MakeOverviewJson(Flight flight)
+    public static void MakeOverviewJson(Flight flight)
     {
         List<Flight> flights = new List<Flight>();
         string pathfile = $"C:\\Users\\{Environment.UserName}\\Documents\\GitHub\\Project-B\\Main\\Airline\\DataSources\\ALLFLIGHTS;EUROPE.json";
