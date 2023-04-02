@@ -1,72 +1,9 @@
 [
   {
     "ID": 1,
-    "LoggedIn": false,
-    "Email": "hallo@there.nl",
-    "Password": "hello123!",
-    "BoughtTickets": []
-  },
-  {
-    "ID": 2,
-    "LoggedIn": false,
-    "Email": "joedoe@hotmail.com",
-    "Password": "password1!",
-    "BoughtTickets": []
-  },
-  {
-    "ID": 3,
-    "LoggedIn": false,
-    "Email": "janedoe@hotmail.com",
-    "Password": "password2!",
-    "BoughtTickets": []
-  },
-  {
-    "ID": 4,
-    "LoggedIn": false,
-    "Email": "nancy@there.com",
-    "Password": "nancy99.",
-    "BoughtTickets": []
-  },
-  {
-    "ID": 5,
-    "LoggedIn": false,
-    "Email": "jack@hello.com",
-    "Password": "password3!",
-    "BoughtTickets": []
-  },
-  {
-    "ID": 6,
-    "LoggedIn": false,
-    "Email": "linsey@hello.com",
-    "Password": "password4!",
-    "BoughtTickets": []
-  },
-  {
-    "ID": 7,
-    "LoggedIn": false,
-    "Email": "mike@hello.com",
-    "Password": "password5!",
-    "BoughtTickets": []
-  },
-  {
-    "ID": 8,
-    "LoggedIn": false,
-    "Email": "janet@there.nl",
-    "Password": "password6!",
-    "BoughtTickets": []
-  },
-  {
-    "ID": 9,
-    "LoggedIn": false,
-    "Email": "austin@gmail.com",
-    "Password": "password7!",
-    "BoughtTickets": []
-  },
-  {
-    "ID": 10,
-    "LoggedIn": false,
-    "Email": "louise@gmail.com",
-    "Password": "password8!",
+    "LoggedIn": true,
+    "Email": "jiajun.doodoo@gmail.com",
+    "Password": "bozo!1234",
     "BoughtTickets": []
   }
 ]
