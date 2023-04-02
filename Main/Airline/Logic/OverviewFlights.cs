@@ -145,8 +145,7 @@
             else if (booked == "NO" || booked == "N")
             {
                 Console.Clear();
-                Menu startscreen = new Menu();
-                startscreen.StartScreen();
+                Menu.StartScreen();
                 x = false;
             }
             else

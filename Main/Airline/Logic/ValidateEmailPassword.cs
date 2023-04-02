@@ -66,8 +66,7 @@
         accounts.Add(account);
         setGetAccounts.WriteAccountToJSON(accounts);
 
-        Login login = new Login();
-        login.LoggedInMessage();
+        Login.LoggedInMessage();
     }
 
     public bool CheckNewValidEmail(string email) // checkt of de email aan de criteria voldoet
@@ -181,8 +180,7 @@
                 Console.WriteLine("You logged in succesfully!");
                 Console.Clear();
                 ChangeLoggingStatus(email);
-                Login login = new Login();
-                login.LoggedInMessage();
+                Login.LoggedInMessage();
             }
             else if (userInput == 2)
             {

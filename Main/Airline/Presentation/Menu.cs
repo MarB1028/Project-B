@@ -1,6 +1,6 @@
-class Menu
+static class Menu
 {
-    public void StartScreen()
+    public static void StartScreen()
     {
         // start screen
         Console.WriteLine("Welcome to Rotterdam Airlines Reservation System!");
@@ -19,13 +19,12 @@ class Menu
 
         // Switch cases
         bool x = true;
-        Login login = new Login();
         while (x == true)
         {
             switch (choice)
             {
                 case "1":
-                    login.LoginpageMessage();
+                    Login.LoginpageMessage();
                     x = false;
                     break;
                 case "2":

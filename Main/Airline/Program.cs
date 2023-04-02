@@ -4,7 +4,7 @@
     {
         // OM JE EIGEN CODE TE TESTEN, (SHIFT + CONTROL + /) OM DE COMMENTS WEG TE HALEN
 
-        
+
         // CODE TEST [Jiajun]
         /*Airplane boeing747 = new Airplane("BOEING747", "BO", 1, 4, 5, 6, 2);
 
@@ -25,14 +25,13 @@
 
         BookTicket test = new BookTicket(new Ticket("Jiajun", "Li", flightmannenheim, new FindObjectSeat().FindSeatObject(flightmannenheim, "BO-1"), "G18"));
         new DataTickets().WriteTicketToJson(flightmannenheim, test);*/
-       
+
         // CODE TEST [Soufiane]
         /*PassengerForm form = new PassengerForm();
         form.Form();*/
 
         // CODE TEST [Marissa]
-        /*Login login = new Login();
-        login.LoginpageMessage();*/
+        /*Login.LoginpageMessage();*/
 
         // CODE TEST [Marie-Claire]
         /*Airplane boeing747 = new Airplane("BOEING747", "BO", 1, 4, 5, 6, 2);
@@ -42,7 +41,6 @@
         checkSeatAvailability.AvailableSeats();*/
 
         // CODE TEST [Maria]
-        /*Menu menu = new Menu();
-        menu.StartScreen();*/
+        /*Menu.StartScreen();*/
     }
 }
