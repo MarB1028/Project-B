@@ -37,5 +37,6 @@
 
         // CODE TEST [Maria]
         /*Menu.StartScreen();*/
+        PassengerForm.Form();
     }
 }

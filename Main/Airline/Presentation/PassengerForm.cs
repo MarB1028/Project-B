@@ -40,6 +40,10 @@
             {
                 // Intro zin
                 Console.WriteLine($"Ticket {i + 1}: ");
+                if (i == 0)
+                {
+                    Console.WriteLine("(Hoofdboeker)");
+                }
                 Console.WriteLine("Voer de persoonlijke gegevens in:");
 
                 // Naam
@@ -62,7 +66,14 @@
                 adress = $"{street} {housenumber} {addition} {zipcode} {city}";
 
                 //Telefoonnummer
-                phoneNumber = Loop("Telefoonnummer", x => ValidateInput.IsNumber(x), "Ongeldige Telefoonnummer. Voer een geldige telefoonnummer in.");
+                if (i == 0)
+                {
+                phoneNumber = Loop("Telefoonnummer", x => ValidateInput.ValidatePhoneNumber(x), "Ongeldige Telefoonnummer. Voer een geldige telefoonnummer in.");
+                }
+                else
+                {
+                    phoneNumber = "Empty";
+                }
                 passenger0 = new Passenger(surName, lastName, sex, birthDate, adress, phoneNumber);
 
 
@@ -82,7 +93,10 @@
         Console.WriteLine($"Geslacht: {passenger.Sex}");
         Console.WriteLine($"Geboortedatum: {passenger.BirthDate.ToString("dd-MM-yyyy")}");
         Console.WriteLine($"Adres: {passenger.Adress}");
-        Console.WriteLine($"Telefoonnummer: {passenger.PhoneNumber}");
+        if (passenger.PhoneNumber != "Empty")
+        {
+            Console.WriteLine($"Telefoonnummer: {passenger.PhoneNumber}");
+        }
         Console.WriteLine("\n");
 
         string input;
