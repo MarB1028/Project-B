@@ -3,8 +3,7 @@
     "Booked": true,
     "TicketID": 1,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-1",
@@ -15,11 +14,10 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 2,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-2",
@@ -30,11 +28,10 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 3,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-3",
@@ -45,11 +42,10 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 4,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-4",
@@ -63,8 +59,7 @@
     "Booked": false,
     "TicketID": 5,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-5",
@@ -78,8 +73,7 @@
     "Booked": false,
     "TicketID": 6,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-6",
@@ -90,11 +84,10 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 7,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-7",
@@ -105,11 +98,10 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 8,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-8",
@@ -123,8 +115,7 @@
     "Booked": false,
     "TicketID": 9,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-9",
@@ -138,8 +129,7 @@
     "Booked": false,
     "TicketID": 10,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-10",
@@ -153,8 +143,7 @@
     "Booked": false,
     "TicketID": 11,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-11",
@@ -168,8 +157,7 @@
     "Booked": false,
     "TicketID": 12,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-12",
@@ -183,8 +171,7 @@
     "Booked": false,
     "TicketID": 13,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-13",
@@ -198,8 +185,7 @@
     "Booked": false,
     "TicketID": 14,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-14",
@@ -210,11 +196,10 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 15,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-15",
@@ -228,8 +213,7 @@
     "Booked": false,
     "TicketID": 16,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-16",
@@ -243,8 +227,7 @@
     "Booked": false,
     "TicketID": 17,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-17",
@@ -258,8 +241,7 @@
     "Booked": false,
     "TicketID": 18,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-18",
@@ -273,8 +255,7 @@
     "Booked": false,
     "TicketID": 19,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-19",
@@ -288,8 +269,7 @@
     "Booked": false,
     "TicketID": 20,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-20",
@@ -303,8 +283,7 @@
     "Booked": false,
     "TicketID": 21,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-21",
@@ -318,8 +297,7 @@
     "Booked": false,
     "TicketID": 22,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-22",
@@ -333,8 +311,7 @@
     "Booked": false,
     "TicketID": 23,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-23",
@@ -348,8 +325,7 @@
     "Booked": false,
     "TicketID": 24,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-24",
@@ -360,11 +336,10 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 25,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-25",
@@ -375,11 +350,10 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 26,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-26",
@@ -393,8 +367,7 @@
     "Booked": false,
     "TicketID": 27,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-27",
@@ -408,8 +381,7 @@
     "Booked": false,
     "TicketID": 28,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-28",
@@ -423,8 +395,7 @@
     "Booked": false,
     "TicketID": 29,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-29",
@@ -438,8 +409,7 @@
     "Booked": false,
     "TicketID": 30,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-30",
@@ -453,8 +423,7 @@
     "Booked": false,
     "TicketID": 31,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-31",
@@ -468,8 +437,7 @@
     "Booked": false,
     "TicketID": 32,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-32",
@@ -483,8 +451,7 @@
     "Booked": false,
     "TicketID": 33,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-33",
@@ -495,11 +462,18 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 34,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": {
+        "ID": 415,
+        "Surname": "Mila",
+        "Lastname": "de Groot",
+        "Sex": "v",
+        "BirthDate": "2000-12-09T00:00:00",
+        "Adress": "wanvoorde 14  3204em spijk",
+        "PhoneNumber": "0612345678"
+      },
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-34",
@@ -510,11 +484,18 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 35,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": {
+        "ID": 418,
+        "Surname": "marie",
+        "Lastname": "de groot",
+        "Sex": "v",
+        "BirthDate": "2005-10-13T00:00:00",
+        "Adress": "wan 14  3243em spijk",
+        "PhoneNumber": "Empty"
+      },
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-35",
@@ -525,11 +506,18 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 36,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": {
+        "ID": 422,
+        "Surname": "win",
+        "Lastname": "de groot",
+        "Sex": "m",
+        "BirthDate": "2010-05-10T00:00:00",
+        "Adress": "wan 14  3234em spijk",
+        "PhoneNumber": "Empty"
+      },
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-36",
@@ -543,8 +531,7 @@
     "Booked": false,
     "TicketID": 37,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-37",
@@ -558,8 +545,7 @@
     "Booked": false,
     "TicketID": 38,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-38",
@@ -573,8 +559,7 @@
     "Booked": false,
     "TicketID": 39,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-39",
@@ -588,8 +573,7 @@
     "Booked": false,
     "TicketID": 40,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-40",
@@ -603,8 +587,7 @@
     "Booked": false,
     "TicketID": 41,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-41",
@@ -618,8 +601,7 @@
     "Booked": false,
     "TicketID": 42,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-42",
@@ -633,8 +615,7 @@
     "Booked": false,
     "TicketID": 43,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-43",
@@ -648,8 +629,7 @@
     "Booked": false,
     "TicketID": 44,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-44",
@@ -663,8 +643,7 @@
     "Booked": false,
     "TicketID": 45,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-45",
@@ -678,8 +657,7 @@
     "Booked": false,
     "TicketID": 46,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-46",
@@ -693,8 +671,7 @@
     "Booked": false,
     "TicketID": 47,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-47",
@@ -708,8 +685,7 @@
     "Booked": false,
     "TicketID": 48,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-48",
@@ -723,8 +699,7 @@
     "Booked": false,
     "TicketID": 49,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-49",
@@ -738,8 +713,7 @@
     "Booked": false,
     "TicketID": 50,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-50",
@@ -753,8 +727,7 @@
     "Booked": false,
     "TicketID": 51,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-51",
@@ -768,8 +741,7 @@
     "Booked": false,
     "TicketID": 52,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-52",
@@ -783,8 +755,7 @@
     "Booked": false,
     "TicketID": 53,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-53",
@@ -798,8 +769,7 @@
     "Booked": false,
     "TicketID": 54,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-54",
@@ -810,11 +780,10 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 55,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-55",
@@ -825,11 +794,10 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 56,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-56",
@@ -843,8 +811,7 @@
     "Booked": false,
     "TicketID": 57,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-57",
@@ -855,11 +822,10 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 58,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-58",
@@ -873,8 +839,7 @@
     "Booked": false,
     "TicketID": 59,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-59",
@@ -888,8 +853,7 @@
     "Booked": false,
     "TicketID": 60,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-60",
@@ -903,8 +867,7 @@
     "Booked": false,
     "TicketID": 61,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-61",
@@ -918,8 +881,7 @@
     "Booked": false,
     "TicketID": 62,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-62",
@@ -933,8 +895,7 @@
     "Booked": false,
     "TicketID": 63,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-63",
@@ -945,11 +906,10 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 64,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-64",
@@ -963,8 +923,7 @@
     "Booked": false,
     "TicketID": 65,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-65",
@@ -978,8 +937,7 @@
     "Booked": false,
     "TicketID": 66,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-66",
@@ -990,11 +948,10 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 67,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-67",
@@ -1005,11 +962,10 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 68,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-68",
@@ -1023,8 +979,7 @@
     "Booked": false,
     "TicketID": 69,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-69",
@@ -1038,8 +993,7 @@
     "Booked": false,
     "TicketID": 70,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-70",
@@ -1053,8 +1007,7 @@
     "Booked": false,
     "TicketID": 71,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-71",
@@ -1068,8 +1021,7 @@
     "Booked": false,
     "TicketID": 72,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-72",
@@ -1080,11 +1032,18 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 73,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": {
+        "ID": 1,
+        "Surname": "Marie",
+        "Lastname": "de Groot",
+        "Sex": "v",
+        "BirthDate": "2005-10-13T00:00:00",
+        "Adress": "wanvoorde 14  3204em spijk",
+        "PhoneNumber": "0628897920"
+      },
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-73",
@@ -1095,11 +1054,18 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 74,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": {
+        "ID": 2,
+        "Surname": "winston",
+        "Lastname": "de groot",
+        "Sex": "m",
+        "BirthDate": "2010-09-05T00:00:00",
+        "Adress": "wanvoorde 14  3204em spijk",
+        "PhoneNumber": "Empty"
+      },
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-74",
@@ -1113,8 +1079,7 @@
     "Booked": false,
     "TicketID": 75,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-75",
@@ -1128,8 +1093,7 @@
     "Booked": false,
     "TicketID": 76,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-76",
@@ -1143,8 +1107,7 @@
     "Booked": false,
     "TicketID": 77,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-77",
@@ -1158,8 +1121,7 @@
     "Booked": false,
     "TicketID": 78,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-78",
@@ -1173,8 +1135,7 @@
     "Booked": false,
     "TicketID": 79,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-79",
@@ -1188,8 +1149,7 @@
     "Booked": false,
     "TicketID": 80,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-80",
@@ -1203,8 +1163,7 @@
     "Booked": false,
     "TicketID": 81,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-81",
@@ -1218,8 +1177,7 @@
     "Booked": false,
     "TicketID": 82,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-82",
@@ -1233,8 +1191,7 @@
     "Booked": false,
     "TicketID": 83,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-83",
@@ -1248,8 +1205,7 @@
     "Booked": false,
     "TicketID": 84,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-84",
@@ -1263,8 +1219,7 @@
     "Booked": false,
     "TicketID": 85,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-85",
@@ -1278,8 +1233,7 @@
     "Booked": false,
     "TicketID": 86,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-86",
@@ -1293,8 +1247,7 @@
     "Booked": false,
     "TicketID": 87,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-87",
@@ -1305,11 +1258,10 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 88,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-88",
@@ -1323,8 +1275,7 @@
     "Booked": false,
     "TicketID": 89,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-89",
@@ -1338,8 +1289,7 @@
     "Booked": false,
     "TicketID": 90,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-90",
@@ -1350,11 +1300,10 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 91,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-91",
@@ -1365,11 +1314,10 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 92,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-92",
@@ -1383,8 +1331,7 @@
     "Booked": false,
     "TicketID": 93,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-93",
@@ -1398,8 +1345,7 @@
     "Booked": false,
     "TicketID": 94,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-94",
@@ -1413,8 +1359,7 @@
     "Booked": false,
     "TicketID": 95,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-95",
@@ -1428,8 +1373,7 @@
     "Booked": false,
     "TicketID": 96,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-96",
@@ -1443,8 +1387,7 @@
     "Booked": false,
     "TicketID": 97,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-97",
@@ -1458,8 +1401,7 @@
     "Booked": false,
     "TicketID": 98,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-98",
@@ -1473,8 +1415,7 @@
     "Booked": false,
     "TicketID": 99,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-99",
@@ -1488,8 +1429,7 @@
     "Booked": false,
     "TicketID": 100,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-100",
@@ -1503,8 +1443,7 @@
     "Booked": false,
     "TicketID": 101,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-101",
@@ -1518,8 +1457,7 @@
     "Booked": false,
     "TicketID": 102,
     "Ticket": {
-      "FirstName": "Empty",
-      "LastName": "Empty",
+      "Passenger": null,
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-102",
