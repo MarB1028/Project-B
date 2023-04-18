@@ -5,6 +5,7 @@
     public DateTime BoardingDate;
     public DateTime EstimatedArrival;
     public Destination Destination;
+    public int MinPrice;
 
     public Flight(string flightid, Airplane airplane, DateTime boardingdate, DateTime estimatedarrival, Destination destination)
     {

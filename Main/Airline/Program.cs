@@ -36,7 +36,7 @@
         checkSeatAvailability.AvailableSeats();*/
 
         // CODE TEST [Maria]
-        /*Menu.StartScreen();*/
+        Menu.StartScreen();
         PassengerForm.Form();
     }
 }

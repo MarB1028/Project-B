@@ -1,4 +1,5 @@
-﻿class OverviewFlights
+﻿using System.Globalization;
+class OverviewFlights
 {
     public void ShowAvailableFlights()
     {
@@ -107,7 +108,7 @@
             }
             Console.WriteLine($" {nummer++,-6}  |    {flight.FlightId,-12}    |    {flight.Airplane.Name,-12}   |     {flight.BoardingDate.ToString("yyyy-MM-dd HH:mm"),-10}   |   {flight.Destination.City,-10} {flight.Destination.Airport,-4}    |   {flight.EstimatedArrival.ToString("yyyy-MM-dd HH:mm"),-9}  |   {status,-10}   ");
         }
-
+        PrintSortedInformation(flights);
         Console.WriteLine("");
         Console.WriteLine("Would you like to book a flight? (Yes/No)");
         string booked = Console.ReadLine().ToUpper();
@@ -154,5 +155,113 @@
                 booked = Console.ReadLine().ToUpper();
             }
         }
+    }
+
+    public void PrintSortedInformation(List<Flight> flights)
+    {
+            Console.WriteLine("\nWould you like to sort? Enter yes/no");
+            string sortyesno = Console.ReadLine().ToUpper();
+            while (sortyesno != "YES" && sortyesno != "NO")
+            {
+                Console.WriteLine("Please enter yes or no");
+                sortyesno = Console.ReadLine().ToUpper();
+            }
+            if (sortyesno == "YES")
+            {
+                Console.WriteLine("Sort by:\n1. Price\n2. Date\n3. Availability");
+                string sortchoice = Console.ReadLine();
+                while (sortchoice != "1" && sortchoice != "2" && sortchoice != "3")
+                {
+                    Console.WriteLine("Please enter a valid choice");
+                    sortchoice = Console.ReadLine();
+                }
+
+                if (sortchoice == "1")
+                {
+                    Console.WriteLine("How would you like to sort?\n1. Ascending\n2. Descending");
+                    string sortorder = Console.ReadLine();
+                    while (sortorder != "1" && sortorder != "2")
+                    {
+                        Console.WriteLine("Please enter a valid choice");
+                        sortorder = Console.ReadLine();
+                    }
+
+                    if (sortorder == "1")
+                    {
+                        flights = flights.OrderBy(f => f.MinPrice).ToList();
+                    }
+                    else if (sortorder == "2")
+                    {
+                        flights = flights.OrderByDescending(f => f.MinPrice).ToList();
+                    }
+                }
+                else if (sortchoice == "2")
+                {
+                    Console.WriteLine("Enter a valid date");
+                    string datesortstring = Console.ReadLine();
+                    DateTime datesort;
+                    while (DateTime.TryParseExact(datesortstring, "dd-MM-yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out datesort) == false)
+                    {
+                        Console.WriteLine("Invalid date. Try again");
+                        datesortstring = Console.ReadLine();
+                    }
+                    List<Flight> sortedlist = new List<Flight> ();
+                    foreach (Flight flight in flights)
+                    {
+                        if (flight.BoardingDate > datesort)
+                        {
+                            sortedlist.Add(flight);
+                        }
+                    }
+                    if (sortedlist.Count == 0)
+                    {
+                        Console.WriteLine("No flights available\n");
+                    }
+                    else
+                    {
+                        flights = sortedlist;
+                    }
+                }
+                else if (sortchoice == "3")
+                {
+                    Console.WriteLine("How would you like to sort?\n1. Ascending\n2. Descending");
+                    string sortorder = Console.ReadLine();
+                    while (sortorder != "1" && sortorder != "2")
+                    {
+                        Console.WriteLine("Please enter a valid choice");
+                        sortorder = Console.ReadLine();
+                    }
+
+                    if (sortorder == "1")
+                    {
+                        flights = flights.OrderBy(f => (f.Airplane.EconomySeat + f.Airplane.ExtraSpace + f.Airplane.FirstClassSeat + f.Airplane.PremiumSeat)).ToList();
+                    }
+                    else if (sortorder == "2")
+                    {
+                        flights = flights.OrderByDescending(f => (f.Airplane.EconomySeat + f.Airplane.ExtraSpace + f.Airplane.FirstClassSeat + f.Airplane.PremiumSeat)).ToList();
+                    }
+                }
+            }
+            Console.Clear();
+            Console.WriteLine($"                Flight No          operated by            Departure              Destination               Arrival              Status ");
+            int nummer = 1;
+
+            bool isfull = false;
+            bool departured = false;
+            string status = "On schedule";
+            foreach (Flight flight in flights)
+            {
+                if (flight.BoardingDate < DateTime.Now)
+                {
+                    status = "Departured";
+                    departured = true;
+                }
+                else if (flight.Airplane.FirstClassSeat == 0 && flight.Airplane.PremiumSeat == 0 && flight.Airplane.EconomySeat == 0 && flight.Airplane.ExtraSpace == 0)
+                {
+                    status = "Full";
+                    isfull = true;
+                }
+                Console.WriteLine($" {nummer++,-6}  |    {flight.FlightId,-12}    |    {flight.Airplane.Name,-12}   |     {flight.BoardingDate.ToString("yyyy-MM-dd HH:mm"),-10}   |   {flight.Destination.City,-10} {flight.Destination.Airport,-4}    |   {flight.EstimatedArrival.ToString("yyyy-MM-dd HH:mm"),-9}  |   {status,-10}   ");
+            }
     }
 }
