@@ -2,8 +2,8 @@
 {
     public static void Main()
     {
-        Airplane boeing747 = new Airplane("BOEING747", "BO", 1, 4, 5, 6, 2);
-
+        // Functionaliteit 1:
+        /*Airplane boeing747 = new Airplane("BOEING747", "BO", 1, 4, 5, 6, 2);
         Destination frankfort = new Destination("GER", "FRA", "FRANKFORTAIRPORT", 100, 2);
         Destination mannenheim = new Destination("GER", "MAN", "MANNENHEIMAIRPORT", 100, 2);
         Flight flightfrankfort = new Flight("GER1", boeing747, DateTime.Now, DateTime.Now, frankfort);
@@ -13,10 +13,29 @@
         MakeOverviewFlightJson.MakeOverviewJson(flightmannenheim);
 
         MakeTicketsForFlightJson.MakeTickets(flightfrankfort);
-        MakeTicketsForFlightJson.MakeTickets(flightmannenheim);
+        MakeTicketsForFlightJson.MakeTickets(flightmannenheim);*/
 
-        Passenger passenger = new Passenger("Jiajun", "Li", "M", DateTime.Now, "Hamburg", "123456789");
-        BookTicket test = new BookTicket(passenger, new Ticket("Jiajun", "Li", flightmannenheim, FindObjectSeat.FindSeatObject(flightmannenheim, "BO-1"), "G18"));
-        DataTickets.WriteTicketToJson(flightmannenheim, test);
+        // Functionaliteit 2:
+        /*BookTicket test = new BookTicket(new Ticket(null, flightmannenheim, FindObjectSeat.FindSeatObject(flightmannenheim, "BO-1"), "G18"));
+        DataTickets.WriteTicketToJson(flightmannenheim, test);*/
+
+        // Functionaliteit 3:
+        /*AddFoodForm.FoodForm();*/
+
+        // STAP 1, 2
+        /*Menu.StartScreen();*/
+
+        // STAP 3, 4
+        /*Airplane boeing747 = new Airplane("BOEING747", "BO", 1, 4, 5, 6, 2);
+        Destination frankfort = new Destination("GER", "FRA", "FRANKFORTAIRPORT", 100, 91);
+        Flight flightfrankfort = new Flight("GER1", boeing747, DateTime.Now, DateTime.Now, frankfort);
+        CheckSeatAvailability checkSeatAvailability = new CheckSeatAvailability(flightfrankfort);
+        checkSeatAvailability.AvailableSeats();*/
+
+        // STAP 5
+        /*Airplane boeing747 = new Airplane("BOEING747", "BO", 1, 4, 5, 6, 2);
+        Destination frankfort = new Destination("GER", "FRA", "FRANKFORTAIRPORT", 100, 91);
+        Flight flightfrankfort = new Flight("GER1", boeing747, DateTime.Now, DateTime.Now, frankfort);
+        CatteringForm.CatteringMenu(flightfrankfort);*/
     }
 }

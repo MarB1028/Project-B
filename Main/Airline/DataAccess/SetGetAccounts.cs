@@ -1,9 +1,9 @@
 ﻿using Newtonsoft.Json;
 
-class SetGetAccounts
+static class SetGetAccounts
 { 
-    string pathfile = $"C:\\Users\\{Environment.UserName}\\Documents\\GitHub\\Project-B\\Main\\Airline\\DataSources\\ACCOUNTS.json";
-    public List<Account> ReadAccountsFromJSON()
+    static string pathfile = $"C:\\Users\\{Environment.UserName}\\Documents\\GitHub\\Project-B\\Main\\Airline\\DataSources\\ACCOUNTS.json";
+    public static List<Account> ReadAccountsFromJSON()
     {
         if (!File.Exists(pathfile))
         {
@@ -15,7 +15,7 @@ class SetGetAccounts
         return accounts ?? new List<Account>();
     }
 
-    public void WriteAccountToJSON(List<Account> accounts)
+    public static void WriteAccountToJSON(List<Account> accounts)
     {
         string json = JsonConvert.SerializeObject(accounts, Formatting.Indented);
 

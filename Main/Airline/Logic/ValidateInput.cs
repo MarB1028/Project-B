@@ -121,7 +121,7 @@ public static class ValidateInput
         {
             return false;
         }
-        return (IsNumber(phoneNumber) && (IsLength(phoneNumber, 8)));
+        return (IsNumber(phoneNumber) && (IsLength(phoneNumber, 10)));
     }
 
     // Dit checkt de leeftijd van een persoon en berekent het percentage dat de persoon moet betalen op basis van leeftijd 
