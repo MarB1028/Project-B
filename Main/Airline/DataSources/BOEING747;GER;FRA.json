@@ -612,10 +612,18 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 43,
     "Ticket": {
-      "Passenger": null,
+      "Passenger": {
+        "ID": 1031,
+        "Surname": "marieclaire",
+        "Lastname": "de groot",
+        "Sex": "v",
+        "BirthDate": "2005-10-13T00:00:00",
+        "Adress": "wanvoorde 14  3204em spijk",
+        "PhoneNumber": "0628897920"
+      },
       "Flight": null,
       "Seat": {
         "SeatNumber": "BO-43",
@@ -626,7 +634,7 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 44,
     "Ticket": {
       "Passenger": null,
@@ -864,7 +872,7 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 61,
     "Ticket": {
       "Passenger": null,

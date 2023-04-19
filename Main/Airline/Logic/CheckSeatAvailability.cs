@@ -228,11 +228,8 @@ class CheckSeatAvailability
                     BookTicket bookticket = Seats[SeatNumber];
                     Console.WriteLine($"You have booked seatnumber {SeatNumber} ({bookticket.Ticket.Seat.SeatNumber}) in the {bookticket.Ticket.Seat.SeatType}.");
                     //TODO: De bookedticket moet nu naar true gezet worden met alle informatie van de passenger
-                    bookticket.Booked = true;
                     DataTickets.WriteTicketToJson(Flight, bookticket);
                     tickets.Add(bookticket);
-
-                    List<Account> accounts = SetGetAccounts.ReadAccountsFromJSON();
                     
                     y = false;
                 }
