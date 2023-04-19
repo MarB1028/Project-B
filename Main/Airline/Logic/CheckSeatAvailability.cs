@@ -193,8 +193,9 @@ class CheckSeatAvailability
     {
         //Hier vult de user in hoeveel stoelen, maar in de toekomst moet dit nog veranderen. 
         //De user geeft namelijk al veel eerder aan hoeveel tickets hij/zij wilt boeken.
-        Console.WriteLine("How many seats?\n->");
+        Console.WriteLine("How many seats do you want to book??\n->");
         int amount = Convert.ToInt32(Console.ReadLine());
+        List<BookTicket> tickets = new List<BookTicket>();
         while (amount < 0)
         {
             Console.WriteLine("Give a positive number.");
@@ -209,7 +210,7 @@ class CheckSeatAvailability
             bool y = true;
             while (y)
             {
-                Console.WriteLine($"Ticket {x + 1}:\nVoer stoelnummer in (Bijvoorbeeld 01C/11B):\n->");
+                Console.WriteLine($"Ticket {x + 1}:\nEnter seat number (For example 01C/11B):\n->");
                 string SeatNumber = Console.ReadLine().ToUpper();
                 //Checkt of de stoel uberhaupt bestaat
                 if (Seats.ContainsKey(SeatNumber) == false)
@@ -225,16 +226,18 @@ class CheckSeatAvailability
                 else
                 {
                     BookTicket bookticket = Seats[SeatNumber];
-                    Console.WriteLine($"You have booked seatnumber {SeatNumber} ({bookticket.Ticket.Seat.SeatNumber}) in the {bookticket.Ticket.Seat.SeatType} klas.");
+                    Console.WriteLine($"You have booked seatnumber {SeatNumber} ({bookticket.Ticket.Seat.SeatNumber}) in the {bookticket.Ticket.Seat.SeatType}.");
                     //TODO: De bookedticket moet nu naar true gezet worden met alle informatie van de passenger
-                    bookticket.Booked = true;
+                    DataTickets.WriteTicketToJson(Flight, bookticket);
+                    tickets.Add(bookticket);
+                    
                     y = false;
                 }
             }
         }
         //eventueel:
-        Console.WriteLine("Continue to payment.");
-
+        Console.WriteLine("Continue to information forms ->\n");
+        PassengerForm.Form(Flight, tickets);
     }
 
 }
