@@ -1,7 +1,7 @@
 using Newtonsoft.Json;
 class DataFlights
 {
-    string pathfile = $"C:\\Users\\{Environment.UserName}\\Source\\repos\\GitHub\\Project-B\\Main\\Airline\\DataSources\\ALLFLIGHTS;EUROPE.json";
+    string pathfile = $"C:\\Users\\{Environment.UserName}\\source\\repos\\GitHub\\Project-B\\Main\\Airline\\DataSources\\ALLFLIGHTS;EUROPE.json";
     public List<Flight> ReadFlightsFromJson()
     {   
         if (!File.Exists(pathfile))
