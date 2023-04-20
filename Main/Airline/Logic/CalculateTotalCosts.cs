@@ -1,5 +1,6 @@
 ﻿static class CalculateTotalCosts
 {
+    public static List<BookTicket> tickets;
     public static int amountOfLuggage;
     public static int amountOfHandLuggage;
 
@@ -8,9 +9,22 @@
         CheckInHandLuggage();
         CheckInLuggage();
 
-        double totalCost = amountOfHandLuggage * 25.0 + amountOfLuggage * 55.0;
-        double price1 = amountOfHandLuggage * 25.0;
+        double price1;
+        double totalCost;
         double price2 = amountOfLuggage * 55.0;
+        int amountOfTickets = tickets.Count();
+
+        if (amountOfHandLuggage <= amountOfTickets)
+        {
+            price1 = 0.0;
+            totalCost = amountOfLuggage * 55.0;
+        }
+        else
+        {
+            price1 = (amountOfHandLuggage - amountOfTickets) * 25.0;
+            totalCost = (amountOfHandLuggage - amountOfTickets) * 25.0 + amountOfLuggage * 55.0;
+        }
+
 
         Console.WriteLine();
         Console.WriteLine(" ---------------------------");
@@ -18,7 +32,7 @@
         Console.WriteLine($"{amountOfLuggage}x  | Luggage      |  € {price2},-");
         Console.WriteLine("----------------------------");
 
-        Console.WriteLine($"Total\t\t      € {totalCost},-");
+        Console.WriteLine($"\t       Total  € {totalCost},-");
 
         bool y = true;
         while (y)
@@ -47,13 +61,13 @@
     public static void CheckInHandLuggage()
     {
         bool x = true;
-        int handLuggage; ;
+        int handLuggage;
 
         while (x)
         {
             Console.WriteLine();
-            Console.WriteLine("\x1B[4mCheck-in extra hand luggage\x1B[0m\nInsert the amount you want to check-in as {0}extra{1} hand luggage*", "\u001b[1m", "\u001b[0m");
-            Console.WriteLine("* Note: Insert '1' if you are taking more than one hand luggage with you.\n  Else insert '0'.");
+            Console.WriteLine("\x1B[4mCheck-in hand luggage\x1B[0m\nInsert the total amount of hand luggage you want to check-in", "\u001b[1m", "\u001b[0m");
+            int amountOfTickets = tickets.Count();
 
 
             if (int.TryParse(Console.ReadLine(), out handLuggage))
@@ -62,10 +76,14 @@
                 {
                     x = false;
                 }
-                else if (handLuggage == 1)
+                else if (handLuggage <= (amountOfTickets * 2))
                 {
-                    amountOfHandLuggage++;
+                    amountOfHandLuggage += handLuggage;
                     x = false;
+                }
+                else if (handLuggage > (amountOfTickets * 2))
+                {
+                    Console.WriteLine("You exceeded the maximim amount of hand luggage allowed per person");
                 }
                 else
                 {
@@ -87,7 +105,8 @@
         while (x)
         {
             Console.WriteLine();
-            Console.WriteLine("\x1B[4mCheck-in luggage\x1B[0m\nInsert the amount of luggage you want to check-in");
+            Console.WriteLine("\x1B[4mCheck-in luggage\x1B[0m\nInsert the total amount of luggage you want to check-in");
+            int amountOfTickets = tickets.Count();
 
             if (int.TryParse(Console.ReadLine(), out luggage))
             {
@@ -95,15 +114,14 @@
                 {
                     x = false;
                 }
-                else if (luggage == 1)
+                else if (luggage <= (amountOfTickets * 2))
                 {
-                    amountOfLuggage++;
+                    amountOfLuggage += luggage;
                     x = false;
                 }
-                else if (luggage == 2)
+                else if (luggage > (amountOfTickets * 2))
                 {
-                    amountOfLuggage += 2;
-                    x = false;
+                    Console.WriteLine("You exceeded the maximim amount of luggage allowed per person");
                 }
                 else
                 {
