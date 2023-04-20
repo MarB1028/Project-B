@@ -1,5 +1,6 @@
 ﻿class Flight
 {
+    public int FlightNo;
     public string FlightId;
     public string DayOrNight;
     public Airplane Airplane;
@@ -8,8 +9,9 @@
     public Destination Destination;
 
 
-    public Flight(string flightid, string dayOrNight, Airplane airplane, DateTime boardingdate, DateTime estimatedarrival, Destination destination)
+    public Flight(int flightNo, string flightid, string dayOrNight, Airplane airplane, DateTime boardingdate, DateTime estimatedarrival, Destination destination)
     {
+        FlightNo = flightNo; 
         FlightId = flightid;
         DayOrNight = dayOrNight;
         Airplane = airplane;
@@ -17,7 +19,5 @@
         EstimatedArrival = estimatedarrival;
         Destination = destination;
     }
-
-     
 
 }

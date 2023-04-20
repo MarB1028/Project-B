@@ -22,4 +22,5 @@ class DataFlights
             streamWriter.Write(json);
         }
     }
+
 }

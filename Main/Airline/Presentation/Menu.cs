@@ -29,8 +29,7 @@ static class Menu
                     // als user is ingelogd -> melding al ingelogd (volgende sprint oppakken)
                     break;
                 case "2":
-                    OverviewFlights overviewFlights = new OverviewFlights();
-                    overviewFlights.FlightHeader();
+                    FlightHeader.Header();
                     x = false;
                     break;
                 case "3":

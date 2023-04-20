@@ -1,5 +1,6 @@
 [
   {
+    "FlightNo": 0,
     "FlightId": "GER1",
     "DayOrNight": "Day",
     "Airplane": {
@@ -24,6 +25,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GER2",
     "DayOrNight": "Day",
     "Airplane": {
@@ -48,6 +50,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GER3",
     "DayOrNight": "Day",
     "Airplane": {
@@ -72,6 +75,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GER4",
     "DayOrNight": "Day",
     "Airplane": {
@@ -96,6 +100,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GER5",
     "DayOrNight": "Day",
     "Airplane": {
@@ -120,6 +125,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GER6",
     "DayOrNight": "Night",
     "Airplane": {
@@ -144,6 +150,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GER7",
     "DayOrNight": "Night",
     "Airplane": {
@@ -168,6 +175,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GER8",
     "DayOrNight": "Night",
     "Airplane": {
@@ -192,6 +200,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GER9",
     "DayOrNight": "Night",
     "Airplane": {
@@ -216,6 +225,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GER10",
     "DayOrNight": "Night",
     "Airplane": {
@@ -240,6 +250,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GER11",
     "DayOrNight": "Day",
     "Airplane": {
@@ -264,6 +275,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GER12",
     "DayOrNight": "Day",
     "Airplane": {
@@ -288,6 +300,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GER13",
     "DayOrNight": "Day",
     "Airplane": {
@@ -312,6 +325,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GER14",
     "DayOrNight": "Day",
     "Airplane": {
@@ -336,6 +350,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GER15",
     "DayOrNight": "Day",
     "Airplane": {
@@ -360,6 +375,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GER16",
     "DayOrNight": "Night",
     "Airplane": {
@@ -384,6 +400,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GER17",
     "DayOrNight": "Night",
     "Airplane": {
@@ -408,6 +425,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GER18",
     "DayOrNight": "Night",
     "Airplane": {
@@ -432,6 +450,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GER19",
     "DayOrNight": "Night",
     "Airplane": {
@@ -456,6 +475,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GER20",
     "DayOrNight": "Night",
     "Airplane": {
@@ -480,6 +500,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "SPN1",
     "DayOrNight": "Day",
     "Airplane": {
@@ -504,6 +525,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "SPN2",
     "DayOrNight": "Day",
     "Airplane": {
@@ -528,6 +550,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "SPN3",
     "DayOrNight": "Day",
     "Airplane": {
@@ -552,6 +575,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "SPN4",
     "DayOrNight": "Day",
     "Airplane": {
@@ -576,6 +600,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "SPN5",
     "DayOrNight": "Day",
     "Airplane": {
@@ -600,6 +625,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "SPN6",
     "DayOrNight": "Night",
     "Airplane": {
@@ -624,6 +650,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "SPN7",
     "DayOrNight": "Night",
     "Airplane": {
@@ -648,6 +675,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "SPN8",
     "DayOrNight": "Night",
     "Airplane": {
@@ -672,6 +700,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "SPN9",
     "DayOrNight": "Night",
     "Airplane": {
@@ -696,6 +725,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "SPN9",
     "DayOrNight": "Night",
     "Airplane": {
@@ -720,6 +750,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "SPN10",
     "DayOrNight": "Night",
     "Airplane": {
@@ -744,6 +775,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "SPN11",
     "DayOrNight": "Day",
     "Airplane": {
@@ -768,6 +800,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "SPN12",
     "DayOrNight": "Day",
     "Airplane": {
@@ -792,6 +825,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "SPN13",
     "DayOrNight": "Day",
     "Airplane": {
@@ -816,6 +850,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "SPN14",
     "DayOrNight": "Day",
     "Airplane": {
@@ -840,6 +875,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "SPN15",
     "DayOrNight": "Day",
     "Airplane": {
@@ -864,6 +900,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "SPN16",
     "DayOrNight": "Night",
     "Airplane": {
@@ -888,6 +925,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "SPN17",
     "DayOrNight": "Night",
     "Airplane": {
@@ -912,6 +950,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "SPN18",
     "DayOrNight": "Night",
     "Airplane": {
@@ -936,6 +975,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "SPN19",
     "DayOrNight": "Night",
     "Airplane": {
@@ -960,6 +1000,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "SPN20",
     "DayOrNight": "Night",
     "Airplane": {
@@ -984,6 +1025,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GRC1",
     "DayOrNight": "Day",
     "Airplane": {
@@ -1008,6 +1050,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GRC2",
     "DayOrNight": "Day",
     "Airplane": {
@@ -1032,6 +1075,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GRC3",
     "DayOrNight": "Day",
     "Airplane": {
@@ -1056,6 +1100,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GRC4",
     "DayOrNight": "Day",
     "Airplane": {
@@ -1080,6 +1125,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GRC5",
     "DayOrNight": "Day",
     "Airplane": {
@@ -1104,6 +1150,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GRC6",
     "DayOrNight": "Night",
     "Airplane": {
@@ -1128,6 +1175,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GRC7",
     "DayOrNight": "Night",
     "Airplane": {
@@ -1152,6 +1200,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GRC8",
     "DayOrNight": "Night",
     "Airplane": {
@@ -1176,6 +1225,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GRC9",
     "DayOrNight": "Night",
     "Airplane": {
@@ -1200,6 +1250,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GRC10",
     "DayOrNight": "Night",
     "Airplane": {
@@ -1224,6 +1275,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GRC11",
     "DayOrNight": "Day",
     "Airplane": {
@@ -1248,6 +1300,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GRC12",
     "DayOrNight": "Day",
     "Airplane": {
@@ -1272,6 +1325,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GRC13",
     "DayOrNight": "Day",
     "Airplane": {
@@ -1296,6 +1350,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GRC14",
     "DayOrNight": "Day",
     "Airplane": {
@@ -1320,6 +1375,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GRC15",
     "DayOrNight": "Day",
     "Airplane": {
@@ -1344,6 +1400,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GRC16",
     "DayOrNight": "Night",
     "Airplane": {
@@ -1368,6 +1425,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GRC17",
     "DayOrNight": "Night",
     "Airplane": {
@@ -1392,6 +1450,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GRC18",
     "DayOrNight": "Night",
     "Airplane": {
@@ -1416,6 +1475,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GRC19",
     "DayOrNight": "Night",
     "Airplane": {
@@ -1440,6 +1500,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "GRC20",
     "DayOrNight": "Night",
     "Airplane": {
@@ -1464,6 +1525,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "UK1",
     "DayOrNight": "Day",
     "Airplane": {
@@ -1488,6 +1550,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "UK2",
     "DayOrNight": "Day",
     "Airplane": {
@@ -1512,6 +1575,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "UK3",
     "DayOrNight": "Day",
     "Airplane": {
@@ -1536,6 +1600,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "UK4",
     "DayOrNight": "Day",
     "Airplane": {
@@ -1560,6 +1625,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "UK5",
     "DayOrNight": "Day",
     "Airplane": {
@@ -1584,6 +1650,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "UK6",
     "DayOrNight": "Night",
     "Airplane": {
@@ -1608,6 +1675,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "UK7",
     "DayOrNight": "Night",
     "Airplane": {
@@ -1632,6 +1700,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "UK8",
     "DayOrNight": "Night",
     "Airplane": {
@@ -1652,10 +1721,11 @@
       "Airport": "LONDON CITY AIRPORT",
       "Distancekm": 100,
       "FlightDuration": 1,
-      "Status": "On schedule"
+      "Status": "Departed"
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "UK9",
     "DayOrNight": "Night",
     "Airplane": {
@@ -1680,6 +1750,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "UK10",
     "DayOrNight": "Night",
     "Airplane": {
@@ -1704,6 +1775,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "UK11",
     "DayOrNight": "Day",
     "Airplane": {
@@ -1728,6 +1800,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "UK12",
     "DayOrNight": "Day",
     "Airplane": {
@@ -1752,6 +1825,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "UK13",
     "DayOrNight": "Day",
     "Airplane": {
@@ -1776,6 +1850,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "UK14",
     "DayOrNight": "Day",
     "Airplane": {
@@ -1800,6 +1875,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "UK15",
     "DayOrNight": "Day",
     "Airplane": {
@@ -1824,6 +1900,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "UK16",
     "DayOrNight": "Night",
     "Airplane": {
@@ -1844,10 +1921,11 @@
       "Airport": "MANCHESTER AIRPORT",
       "Distancekm": 100,
       "FlightDuration": 6,
-      "Status": "On schedule"
+      "Status": "Departed"
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "UK17",
     "DayOrNight": "Night",
     "Airplane": {
@@ -1872,6 +1950,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "UK18",
     "DayOrNight": "Night",
     "Airplane": {
@@ -1896,6 +1975,7 @@
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "UK19",
     "DayOrNight": "Night",
     "Airplane": {
@@ -1916,10 +1996,11 @@
       "Airport": "MANCHESTER AIRPORT",
       "Distancekm": 100,
       "FlightDuration": 6,
-      "Status": "On schedule"
+      "Status": "Departed"
     }
   },
   {
+    "FlightNo": 0,
     "FlightId": "UK20",
     "DayOrNight": "Night",
     "Airplane": {
