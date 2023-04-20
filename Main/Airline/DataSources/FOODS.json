@@ -1,9 +1,30 @@
 [
   {
     "ID": 1,
-    "Name": "Hotdog",
-    "Price": 5.65,
-    "Description": "A Glizzy",
+    "Name": "Hamburger",
+    "Price": 5.8,
+    "Description": "A juicy beef patty on a sesame seed bun.",
+    "Type": "Long"
+  },
+  {
+    "ID": 1,
+    "Name": "Chicken Sandwich",
+    "Price": 4.5,
+    "Description": "Grilled chicken, with lettuce, tomato and mayo",
+    "Type": "Long"
+  },
+  {
+    "ID": 1,
+    "Name": "Ramen",
+    "Price": 6.0,
+    "Description": "Noodles with roasted beef, chicken and spices",
+    "Type": "Long"
+  },
+  {
+    "ID": 1,
+    "Name": "Crossiant",
+    "Price": 2.5,
+    "Description": "Crispy french Crossiant",
     "Type": "Short"
   }
 ]

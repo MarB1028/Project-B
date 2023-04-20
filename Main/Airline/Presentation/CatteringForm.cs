@@ -1,24 +1,22 @@
-﻿static class CatteringForm
+﻿using ConsoleTables;
+static class CatteringForm
 {
-    public static void CatteringMenu(Flight flight)
+    public static void Cattering(Flight flight)
     {
-        Console.WriteLine($"Your destination to: {flight.Destination.Airport} is ESTM {flight.Destination.FlightDuration}m");
-        
-        Console.WriteLine("\nFlight Info: ");
-        Console.WriteLine("===============================================");
-        Console.WriteLine($"Country: {flight.Destination.Country}");
-        Console.WriteLine($"City: {flight.Destination.City}");
-        Console.WriteLine($"Destination: {flight.Destination.Airport}");
-        Console.WriteLine($"Boarding Date: {flight.BoardingDate}");
-        Console.WriteLine($"Arrival Date: {flight.EstimatedArrival}");
+        var infomenu = new ConsoleTable("Country", "City", "Destination", "Boarding Date", "Arrival Date");
 
-        Console.WriteLine("\nWould you like to order some food allong with your travels? (Y/N)");
+        Console.WriteLine(" [GENERAL FLIGHT INFORMATION]");
+        infomenu.AddRow(flight.Destination.Country, flight.Destination.City, flight.Destination.Airport, flight.BoardingDate, flight.EstimatedArrival);
+        Console.WriteLine(infomenu);
+
+
+        Console.WriteLine($"\nYour flight to ({flight.Destination.Airport}-{flight.Destination.Country}-{flight.Destination.City})\nIs estimated to be: {flight.Destination.FlightDuration}m long\nWould you like to buy some food along the trip? (Y/N)");
 
         Console.Write(": ");
         string input = Console.ReadLine();
-        if ( input == "Y" || input ==  "y" )
+        if (input == "Y" || input == "y")
         {
-            CatteringLogic.CatteringShowMenu(flight);
+            CatteringLogic.StartCattering(flight);
         }
 
         else if (input == "N" || input == "n")
@@ -29,7 +27,7 @@
         else
         {
             Console.WriteLine("Invalid input");
-            CatteringMenu(flight);
+            Cattering(flight);
         }
     }
 }

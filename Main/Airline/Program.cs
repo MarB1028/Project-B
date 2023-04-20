@@ -33,9 +33,9 @@
         checkSeatAvailability.AvailableSeats();*/
 
         // STAP 5
-        /*Airplane boeing747 = new Airplane("BOEING747", "BO", 1, 4, 5, 6, 2);
+        Airplane boeing747 = new Airplane("BOEING747", "BO", 1, 4, 5, 6, 2);
         Destination frankfort = new Destination("GER", "FRA", "FRANKFORTAIRPORT", 100, 91);
         Flight flightfrankfort = new Flight("GER1", boeing747, DateTime.Now, DateTime.Now, frankfort);
-        CatteringForm.CatteringMenu(flightfrankfort);*/
+        CatteringForm.Cattering(flightfrankfort);
     }
 }

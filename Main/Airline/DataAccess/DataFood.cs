@@ -13,14 +13,43 @@ static class DataFood
         }
     }
 
-    public static List<Food> ReadFoodFromJson()
+    public static List<Food> ReadFoodFromJson(string type)
     {
         string pathfile = $"C:\\Users\\{Environment.UserName}\\Documents\\GitHub\\Project-B\\Main\\Airline\\DataSources\\FOODS.json";
         CheckExistingFile(pathfile);
 
-        string json = File.ReadAllText(pathfile);
-        List<Food> DataFood = JsonConvert.DeserializeObject<List<Food>>(json);
-        return DataFood ?? new List<Food>();
+        if (type == "Long")
+        {
+            string json = File.ReadAllText(pathfile);
+            List<Food> DataFood = JsonConvert.DeserializeObject<List<Food>>(json);
+            List<Food> LongDataFood = new List<Food>();
+
+            foreach (Food food in DataFood)
+            {
+                if (food.Type == type)
+                {
+                    LongDataFood.Add(food);
+                }
+            }
+            return LongDataFood ?? new List<Food>();
+        }
+
+        else if (type == "Short")
+        {
+            string json = File.ReadAllText(pathfile);
+            List<Food> DataFood = JsonConvert.DeserializeObject<List<Food>>(json);
+            List<Food> ShortDataFood = new List<Food>();
+
+            foreach (Food food in DataFood)
+            {
+                if (food.Type == type)
+                {
+                    ShortDataFood.Add(food);
+                }
+            }
+            return ShortDataFood ?? new List<Food>();
+        }
+        return null;
     }
 
     public static bool WriteFoodToJson(Food food)
