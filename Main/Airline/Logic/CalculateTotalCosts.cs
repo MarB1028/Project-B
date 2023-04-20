@@ -14,11 +14,11 @@
 
         Console.WriteLine();
         Console.WriteLine(" ---------------------------");
-        Console.WriteLine($"{amountOfHandLuggage}x | Hand Luggage | € {price1},-");
-        Console.WriteLine($"{amountOfLuggage}x | Luggage      | € {price2},-");
+        Console.WriteLine($"{amountOfHandLuggage}x  | Hand Luggage |  € {price1},-");
+        Console.WriteLine($"{amountOfLuggage}x  | Luggage      |  € {price2},-");
         Console.WriteLine("----------------------------");
 
-        Console.WriteLine($"€ {totalCost},- Total (Excl. BTW/VAT)");
+        Console.WriteLine($"Total\t\t      € {totalCost},-");
 
         bool y = true;
         while (y)
