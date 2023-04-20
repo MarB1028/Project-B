@@ -129,21 +129,5 @@ public static class ValidateInput
     // van 4 t/m 12 jaar => 0.35
     // van 13 t/m 17 jaar => 0.65
     // 18+ => 1
-    public static double GetAgeRate(DateTime birthDate)
-    {
-        int age = DateTime.Today.Year - birthDate.Year;
-        switch (age)
-        {
-            case >= 0 and <= 3:
-                return 0;
-            case >= 4 and <= 12:
-                return 0.35;
-            case >= 13 and <= 17:
-                return 0.65;
-            case >= 18:
-                return 1;
-            default:
-                return 0;
-        }
-    }
+    
 }
