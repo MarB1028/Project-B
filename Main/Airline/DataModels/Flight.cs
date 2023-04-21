@@ -7,10 +7,10 @@
     public DateTime BoardingDate;
     public DateTime EstimatedArrival;
     public Destination Destination;
-    public int MinPrice;
+    public double MinPrice;
 
 
-    public Flight(int flightNo, string flightid, string dayOrNight, Airplane airplane, DateTime boardingdate, DateTime estimatedarrival, Destination destination, int minPrice)
+    public Flight(int flightNo, string flightid, string dayOrNight, Airplane airplane, DateTime boardingdate, DateTime estimatedarrival, Destination destination, double minPrice)
     {
         FlightNo = flightNo; 
         FlightId = flightid;

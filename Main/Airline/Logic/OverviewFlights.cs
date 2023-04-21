@@ -54,6 +54,7 @@ class OverviewFlights
 
     public void PrintFlightInformation(List<Flight> flights)
     {
+        Console.OutputEncoding = System.Text.Encoding.UTF8; // weergave euro tekens
         // vlucht bestemming geven
         Console.WriteLine("Please enter your flight destination below");
         string endDestination = Console.ReadLine().ToUpper();
@@ -82,7 +83,7 @@ class OverviewFlights
             {
                 int total_seats = (fl.Airplane.PremiumSeat * 6) + (fl.Airplane.FirstClassSeat * 6) + (fl.Airplane.EconomySeat * 6) + (fl.Airplane.ExtraSpace * 6); //de seats zijn * 6 want in het json is het de vlucht rijen
                 fl.FlightNo = nummer++; //FlightNo updaten 
-                Console.WriteLine($"{fl.FlightNo,-12} {fl.Airplane.Name,-15} {fl.BoardingDate.ToString("yyyy-MM-dd HH:mm"),-20} {fl.Destination.City} {fl.Destination.Abbreviation,-8} {fl.EstimatedArrival.ToString("yyyy-MM-dd HH:mm"),-19} {fl.Destination.Status,-15} {total_seats,-6} {fl.MinPrice}");
+                Console.WriteLine($"{fl.FlightNo,-12} {fl.Airplane.Name,-15} {fl.BoardingDate.ToString("yyyy-MM-dd HH:mm"),-20} {fl.Destination.City} {fl.Destination.Abbreviation,-8} {fl.EstimatedArrival.ToString("yyyy-MM-dd HH:mm"),-19} {fl.Destination.Status,-15} {total_seats,-6}  €{fl.MinPrice},-");
             }
             dataFlights.WriteDateToJson(flights);
         }
@@ -187,7 +188,7 @@ class OverviewFlights
                 {
                     int total_seats = (fl.Airplane.PremiumSeat * 6) + (fl.Airplane.FirstClassSeat * 6) + (fl.Airplane.EconomySeat * 6) + (fl.Airplane.ExtraSpace * 6); 
                     fl.FlightNo = nummer++; //FlightNo updaten 
-                    Console.WriteLine($"{fl.FlightNo,-12} {fl.Airplane.Name,-15} {fl.BoardingDate.ToString("yyyy-MM-dd HH:mm"),-20} {fl.Destination.City} {fl.Destination.Abbreviation,-8} {fl.EstimatedArrival.ToString("yyyy-MM-dd HH:mm"),-19} {fl.Destination.Status,-15} {total_seats,-6} {fl.MinPrice}");
+                    Console.WriteLine($"{fl.FlightNo,-12} {fl.Airplane.Name,-15} {fl.BoardingDate.ToString("yyyy-MM-dd HH:mm"),-20} {fl.Destination.City} {fl.Destination.Abbreviation,-8} {fl.EstimatedArrival.ToString("yyyy-MM-dd HH:mm"),-19} {fl.Destination.Status,-15} {total_seats,-6}  €{fl.MinPrice},-");
                 }
             }
             ChooseFlight(flights, Destination);
