@@ -93,7 +93,65 @@ static class CatteringLogic
 
         else if (input == "2")
         {
+            Console.WriteLine("Please enter the food you wish to remove");
+            Console.Write(": ");
+            string food = Console.ReadLine();
 
+            if (FindFood(food, flight) == null)
+            {
+                do
+                {
+                    Console.WriteLine($"{food} not found in menu please choose again");
+                    Console.WriteLine("Please select again.");
+                    Console.Write(": ");
+                    food = Console.ReadLine();
+
+                    if (FindFood(food, flight) != null)
+                    {
+                        break;
+                    }
+                }
+                while (true);
+            }
+         
+            Console.WriteLine($"{food} succesfully removed from basket");
+            Thread.Sleep(3000);
+            StartCattering(flight);
+        }
+    }
+
+    public static void Finalize(Flight flight)
+    {
+        Console.Clear();
+        Console.WriteLine(" [CHECKOUT] ");
+        var basket = new ConsoleTable("Name", "Amount", "Price");
+
+        foreach (var item in basketItems)
+        {
+            basket.AddRow(item.FoodItem.Name, $"x {item.Quantity}", item.FoodItem.Price.ToString("C"));
+        }
+        Console.WriteLine(basket);
+
+        double totalprice = 0;
+        foreach (var item in basketItems)
+        {
+            double price = item.FoodItem.Price * item.Quantity;
+            totalprice += price;
+        }
+
+        Console.WriteLine($"\n[TOTAL PRICE: ${totalprice}]");
+        Console.WriteLine($"\n1: [CONTINUE PAYMENT]");
+        Console.WriteLine($"2: [GO BACK]");
+        string input = Console.ReadLine();
+
+        if (input == "1")
+        {
+            Console.WriteLine("N/A");
+        }
+
+        else if (input == "2")
+        {
+            StartCattering(flight);
         }
     }
     
@@ -134,7 +192,7 @@ static class CatteringLogic
 
         else if (input == "3")
         {
-
+            Finalize(flight);
         }
     }
 }   
