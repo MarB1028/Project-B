@@ -54,6 +54,7 @@ class OverviewFlights
 
     public void PrintFlightInformation(List<Flight> flights)
     {
+
         Console.OutputEncoding = System.Text.Encoding.UTF8; // weergave euro tekens
         // vlucht bestemming geven
         Console.WriteLine("Please enter your flight destination below");
@@ -200,6 +201,7 @@ class OverviewFlights
 
         public void ChooseFlight(List<Flight> flights, string destination)
         {
+            
             Console.WriteLine("Would you like to book a flight?\n1.Yes\n2.No"); // vraag of de user een vlucht wilt selectreren?
             int booked = Convert.ToInt32(Console.ReadLine());
             bool x = true;
@@ -209,6 +211,32 @@ class OverviewFlights
                 var flToDestination = flights.Where(f => f.Destination.City == destination).OrderBy(f => f.BoardingDate); //Original json lijst
             if (booked == 1) // ja?
                 {
+                    while (CheckLogin() == false)
+                    {
+                        Console.WriteLine();
+                        Console.WriteLine($"You are not logged in.\nPlease register or login to book a flight");
+                        Console.WriteLine("Press 0 to go back");
+                        int FalseLogin = Convert.ToInt32(Console.ReadLine());
+                        if (FalseLogin == 0)
+                        {
+                            foreach (var fl in flToDestination)
+                            {
+                                fl.FlightNo = 0;
+
+                            }
+                            dataFlights.WriteDateToJson(flights);
+                            Console.WriteLine("You are now being redirected to the main page");
+                            Thread.Sleep(2500);
+                            Console.Clear();
+                            Menu.StartScreen();
+                            x = false;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Please press 0");
+                        }
+                    x = false;
+                    }
                     Console.WriteLine("Please enter the number of flight you would like to book."); // welke vlucht?
                     int selectedFlightNo = Convert.ToInt32(Console.ReadLine());
 
@@ -292,6 +320,21 @@ class OverviewFlights
         foreach (Flight flight in flights)
         {
             if (flight.Destination.City == EndDestination)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public bool CheckLogin() // checkt of login is true in het json bestand.
+    {
+        SetGetAccounts setGetAccounts = new();
+        List<Account> accounts = setGetAccounts.ReadAccountsFromJSON();
+
+        foreach (Account account in accounts)
+        {
+            if (account.LoggedIn == true)
             {
                 return true;
             }
