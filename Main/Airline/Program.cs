@@ -3,7 +3,7 @@
     public static void Main()
     {
         // OM JE EIGEN CODE TE TESTEN, (SHIFT + CONTROL + /) OM DE COMMENTS WEG TE HALEN
-        Luggage.LuggageInfo();
+
 
         // CODE TEST [Jiajun]
         /*Airplane boeing747 = new Airplane("BOEING747", "BO", 1, 4, 5, 6, 2);
@@ -36,7 +36,7 @@
         checkSeatAvailability.AvailableSeats();*/
 
         // CODE TEST [Maria]
-        /*Menu.StartScreen();*/
+        Menu.StartScreen();
         //PassengerForm.Form();
     }
 }

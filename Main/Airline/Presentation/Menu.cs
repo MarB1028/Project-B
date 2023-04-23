@@ -26,10 +26,10 @@ static class Menu
                 case "1":
                     Login.LoginpageMessage();
                     x = false;
+                    // als user is ingelogd -> melding al ingelogd (volgende sprint oppakken)
                     break;
                 case "2":
-                    OverviewFlights overviewFlights = new OverviewFlights();
-                    overviewFlights.ShowAvailableFlights();
+                    FlightHeader.Header();
                     x = false;
                     break;
                 case "3":
