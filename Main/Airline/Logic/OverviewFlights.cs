@@ -11,8 +11,7 @@ class OverviewFlights
 {
     public void ShowAvailableFlights()
     {
-        DataFlights dataFlights = new DataFlights();
-        List<Flight> flights = dataFlights.ReadFlightsFromJson();
+        List<Flight> flights = DataFlights.ReadFlightsFromJson();
 
         // vandaag datum
         DateTime startDate = DateTime.Now;
@@ -46,7 +45,7 @@ class OverviewFlights
 
         }
         //naar de json schrijven 
-        dataFlights.WriteDateToJson(flights);
+        DataFlights.WriteDateToJson(flights);
 
         // Print flight information
         PrintFlightInformation(flights);
@@ -73,7 +72,6 @@ class OverviewFlights
         Console.WriteLine("");
         Console.WriteLine($"{"Flight No",-12} {"Operated by",-16} {"Departure",-20} {"Destination",-19} {"Arrival",-20} {"Status",-10} {"Seats",-8}{"Price"}");
 
-        DataFlights dataFlights = new DataFlights();
         var flightsToDestination = flights.Where(f => f.Destination.City == endDestination).OrderBy(f => f.BoardingDate);
 
         int nummer = 1;
@@ -85,7 +83,7 @@ class OverviewFlights
                 fl.FlightNo = nummer++; //FlightNo updaten 
                 Console.WriteLine($"{fl.FlightNo,-12} {fl.Airplane.Name,-15} {fl.BoardingDate.ToString("yyyy-MM-dd HH:mm"),-20} {fl.Destination.City} {fl.Destination.Abbreviation,-8} {fl.EstimatedArrival.ToString("yyyy-MM-dd HH:mm"),-19} {fl.Destination.Status,-15} {total_seats,-6}  €{fl.MinPrice},-");
             }
-            dataFlights.WriteDateToJson(flights);
+            DataFlights.WriteDateToJson(flights);
         }
         PrintSortedInformation(flights, endDestination);
     }
@@ -129,7 +127,7 @@ class OverviewFlights
                     flights = flights.OrderByDescending(f => f.MinPrice).ToList();
                 }
             }
-            else if (sortchoice == "2") 
+            else if (sortchoice == "2")
             {
                 Console.WriteLine("Enter a valid date");
                 string datesortstring = Console.ReadLine();
@@ -179,115 +177,112 @@ class OverviewFlights
                 }
             }
             // Display na het sorteren 
-            Console.WriteLine($"{"Flight No",-12} {"Operated by",-16} {"Departure",-20} {"Destination",-19} {"Arrival",-20} {"Status",-10} {"Seats",-8}{"Price"}");
-            DataFlights dataFlights = new DataFlights();
+            Console.WriteLine($"{"Flight No",-12} {"Operated by",-16} {"Departure",-20} {"Destination",-19} {"Arrival",-20} {"Status",-10} {"Seats",-8}{"Price"}");           
             int nummer = 1;
             foreach (var fl in flights)
             {
                 if (fl.Destination.City == Destination)
                 {
-                    int total_seats = (fl.Airplane.PremiumSeat * 6) + (fl.Airplane.FirstClassSeat * 6) + (fl.Airplane.EconomySeat * 6) + (fl.Airplane.ExtraSpace * 6); 
+                    int total_seats = (fl.Airplane.PremiumSeat * 6) + (fl.Airplane.FirstClassSeat * 6) + (fl.Airplane.EconomySeat * 6) + (fl.Airplane.ExtraSpace * 6);
                     fl.FlightNo = nummer++; //FlightNo updaten 
                     Console.WriteLine($"{fl.FlightNo,-12} {fl.Airplane.Name,-15} {fl.BoardingDate.ToString("yyyy-MM-dd HH:mm"),-20} {fl.Destination.City} {fl.Destination.Abbreviation,-8} {fl.EstimatedArrival.ToString("yyyy-MM-dd HH:mm"),-19} {fl.Destination.Status,-15} {total_seats,-6}  €{fl.MinPrice},-");
                 }
             }
             ChooseFlight(flights, Destination);
-            
+
         }
         ChooseFlight(flights, Destination);
     }
-        
 
-        public void ChooseFlight(List<Flight> flights, string destination)
+
+    public void ChooseFlight(List<Flight> flights, string destination)
+    {
+        Console.WriteLine("Would you like to book a flight?\n1.Yes\n2.No"); // vraag of de user een vlucht wilt selectreren?
+        int booked = Convert.ToInt32(Console.ReadLine());
+        bool x = true;
+        while (x)
         {
-            Console.WriteLine("Would you like to book a flight?\n1.Yes\n2.No"); // vraag of de user een vlucht wilt selectreren?
-            int booked = Convert.ToInt32(Console.ReadLine());
-            bool x = true;
-            while (x)
-            {
-                DataFlights dataFlights = new DataFlights();
-                var flToDestination = flights.Where(f => f.Destination.City == destination).OrderBy(f => f.BoardingDate); //Original json lijst
+            var flToDestination = flights.Where(f => f.Destination.City == destination).OrderBy(f => f.BoardingDate); //Original json lijst
             if (booked == 1) // ja?
+            {
+                Console.WriteLine("Please enter the number of flight you would like to book."); // welke vlucht?
+                int selectedFlightNo = Convert.ToInt32(Console.ReadLine());
+
+                Flight selectedFlight = flights.FirstOrDefault(fl => fl.FlightNo == selectedFlightNo); // zoekt naar de geselecteerde vlucht
+
+                if (selectedFlightNo == 0) // als user 0 enter, dan word je naar de main page gestuurd
                 {
-                    Console.WriteLine("Please enter the number of flight you would like to book."); // welke vlucht?
-                    int selectedFlightNo = Convert.ToInt32(Console.ReadLine());
-
-                    Flight selectedFlight = flights.FirstOrDefault(fl => fl.FlightNo == selectedFlightNo); // zoekt naar de geselecteerde vlucht
-
-                    if (selectedFlightNo == 0) // als user 0 enter, dan word je naar de main page gestuurd
+                    // FlightNo resetten naar 0
+                    foreach (var fl in flToDestination)
                     {
-                        // FlightNo resetten naar 0
-                        foreach (var fl in flToDestination)
-                        {
 
-                            fl.FlightNo = 0;
-
-                        }
-                        dataFlights.WriteDateToJson(flights);
-                        Console.Clear();
-                        Menu.StartScreen();
-                        x = false;
+                        fl.FlightNo = 0;
 
                     }
-                    else if (selectedFlight != null)
-                    {
-                        // hier checkt het naar de flight status. if departed or full -> proper message
-                        if (selectedFlight.Destination.Status == "Departed")
-                        {
-                            Console.WriteLine("Selected flight has already departed.");
-                            Console.WriteLine("Please choose another flight or enter 0 to go back.");
-                        }
-                        else if (selectedFlight.Destination.Status == "Full")
-                        {
-                            Console.WriteLine("Selected flight is full.");
-                            Console.WriteLine("Please choose another flight or enter 0 to go back.");
-                        }
-                        else
-                        {
-                            Console.WriteLine("You are now being redirected to the booking page");
-                        // FlightNo resetten naar 0
-                        foreach (var fl in flToDestination)
-                        {
-                                fl.FlightNo = 0;
+                    DataFlights.WriteDateToJson(flights);
+                    Console.Clear();
+                    Menu.StartScreen();
+                    x = false;
 
-                            }
-                            dataFlights.WriteDateToJson(flights);
-                            //hier de volgende stap aanroepen
-                            x = false;
-                        }
+                }
+                else if (selectedFlight != null)
+                {
+                    // hier checkt het naar de flight status. if departed or full -> proper message
+                    if (selectedFlight.Destination.Status == "Departed")
+                    {
+                        Console.WriteLine("Selected flight has already departed.");
+                        Console.WriteLine("Please choose another flight or enter 0 to go back.");
+                    }
+                    else if (selectedFlight.Destination.Status == "Full")
+                    {
+                        Console.WriteLine("Selected flight is full.");
+                        Console.WriteLine("Please choose another flight or enter 0 to go back.");
                     }
                     else
                     {
-                        Console.WriteLine("Invalid flight number. Please try again or enter 0 to go back.");
-                    }
+                        Console.WriteLine("You are now being redirected to the booking page");
+                        // FlightNo resetten naar 0
+                        foreach (var fl in flToDestination)
+                        {
+                            fl.FlightNo = 0;
 
+                        }
+                        DataFlights.WriteDateToJson(flights);
+                        //hier de volgende stap aanroepen
+                        x = false;
+                    }
                 }
-                else if (booked == 2) // user wilt niet flight booken
+                else
                 {
+                    Console.WriteLine("Invalid flight number. Please try again or enter 0 to go back.");
+                }
+
+            }
+            else if (booked == 2) // user wilt niet flight booken
+            {
 
                 // FlightNo resetten naar 0
                 foreach (var fl in flToDestination)
                 {
-                        fl.FlightNo = 0;
+                    fl.FlightNo = 0;
 
-                 }
-                    dataFlights.WriteDateToJson(flights);
-                    Console.Clear();
-                    Menu.StartScreen();
-                    x = false;
                 }
-                else // als user een ander getal toets
-                {
-                    Console.WriteLine("Please enter 1 or 2");
-                    booked = Convert.ToInt32(Console.ReadLine());
-                }
+                DataFlights.WriteDateToJson(flights);
+                Console.Clear();
+                Menu.StartScreen();
+                x = false;
+            }
+            else // als user een ander getal toets
+            {
+                Console.WriteLine("Please enter 1 or 2");
+                booked = Convert.ToInt32(Console.ReadLine());
             }
         }
+    }
 
     public bool CheckExistingDestination(string EndDestination) // checkt of ingevulde destination overeenkomt met een city in het json bestand
     {
-        DataFlights dataFlights = new();
-        List<Flight> flights = dataFlights.ReadFlightsFromJson();
+        List<Flight> flights = DataFlights.ReadFlightsFromJson();
 
         foreach (Flight flight in flights)
         {
