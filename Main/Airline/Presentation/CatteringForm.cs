@@ -3,6 +3,12 @@ static class CatteringForm
 {
     public static void Cattering(Flight flight)
     {
+        Console.ForegroundColor = ConsoleColor.DarkYellow;
+        Console.WriteLine("STEP 4/5: Option to select Cattering (Y/N)");
+        Console.WriteLine("======================================================");
+        Console.ResetColor();
+        Console.WriteLine();
+
         var infomenu = new ConsoleTable("Country", "City", "Destination", "Boarding Date", "Arrival Date");
 
         Console.WriteLine(" [GENERAL FLIGHT INFORMATION]");
@@ -10,7 +16,7 @@ static class CatteringForm
         Console.WriteLine(infomenu);
 
 
-        Console.WriteLine($"\nYour flight to ({flight.Destination.Airport}-{flight.Destination.Country}-{flight.Destination.City})\nIs estimated to be: {flight.Destination.FlightDuration}m long\nWould you like to buy some food along the trip? (Y/N)");
+        Console.WriteLine($"\nYour flight to ({flight.Destination.Country}-{flight.Destination.City}-{flight.Destination.Airport})\nIs estimated to be: {flight.Destination.FlightDuration * 60}m long\nWould you like to buy some food along the trip? (Y/N)");
 
         Console.Write(": ");
         string input = Console.ReadLine();
@@ -27,6 +33,8 @@ static class CatteringForm
         else
         {
             Console.WriteLine("Invalid input");
+            Thread.Sleep(1000);
+            Console.Clear();
             Cattering(flight);
         }
     }

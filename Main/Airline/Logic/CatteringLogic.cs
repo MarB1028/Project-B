@@ -1,11 +1,13 @@
 ﻿using ConsoleTables;
+using System;
+
 static class CatteringLogic
 {
     public static List<BasketItem> basketItems = new List<BasketItem>();
     
     public static string CheckFlightDur(Flight flight)
     {
-        if (flight.Destination.FlightDuration > 90) return "Long";
+        if ((flight.Destination.FlightDuration * 60) > 90) return "Long";
         else return "Short";
     }
 
@@ -113,7 +115,10 @@ static class CatteringLogic
                 }
                 while (true);
             }
-         
+
+            BasketItem item = basketItems.FirstOrDefault(p => p.FoodItem.Name == food);
+            basketItems.Remove(item);
+
             Console.WriteLine($"{food} succesfully removed from basket");
             Thread.Sleep(3000);
             StartCattering(flight);

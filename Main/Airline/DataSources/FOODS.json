@@ -1,30 +1,23 @@
 [
   {
     "ID": 1,
-    "Name": "Hamburger",
-    "Price": 5.8,
-    "Description": "A juicy beef patty on a sesame seed bun.",
-    "Type": "Long"
-  },
-  {
-    "ID": 1,
-    "Name": "Chicken Sandwich",
-    "Price": 4.5,
-    "Description": "Grilled chicken, with lettuce, tomato and mayo",
-    "Type": "Long"
-  },
-  {
-    "ID": 1,
     "Name": "Ramen",
-    "Price": 6.0,
-    "Description": "Noodles with roasted beef, chicken and spices",
+    "Price": 3.65,
+    "Description": "Fresh noodles with veggies, meat and spices",
     "Type": "Long"
   },
   {
-    "ID": 1,
-    "Name": "Crossiant",
+    "ID": 2,
+    "Name": "Hamburger",
+    "Price": 2.9,
+    "Description": "A grilled beef with two hamburger buns with toppings",
+    "Type": "Long"
+  },
+  {
+    "ID": 4,
+    "Name": "Sandwich",
     "Price": 2.5,
-    "Description": "Crispy french Crossiant",
-    "Type": "Short"
+    "Description": "White bread with ham and cheese + veggies",
+    "Type": "Long"
   }
 ]
