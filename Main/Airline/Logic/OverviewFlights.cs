@@ -205,6 +205,31 @@ class OverviewFlights
             var flToDestination = flights.Where(f => f.Destination.City == destination).OrderBy(f => f.BoardingDate); //Original json lijst
             if (booked == 1) // ja?
             {
+                while (CheckLogin() == false)
+                {
+                    Console.WriteLine();
+                    Console.WriteLine($"You are not logged in.\nPlease register or login to book a flight");
+                    Console.WriteLine("Press 0 to go back");
+                    int FalseLogin = Convert.ToInt32(Console.ReadLine());
+                    if (FalseLogin == 0)
+                    {
+                        foreach (var fl in flToDestination)
+                        {
+                            fl.FlightNo = 0;
+
+                        }
+                        DataFlights.WriteDateToJson(flights);
+                        Console.WriteLine("You are now being redirected to the main page");
+                        Thread.Sleep(2500);
+                        Console.Clear();
+                        Menu.StartScreen();
+                        x = false;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Please press 0");
+                    }
+                }
                 Console.WriteLine("Please enter the number of flight you would like to book."); // welke vlucht?
                 int selectedFlightNo = Convert.ToInt32(Console.ReadLine());
 
@@ -256,7 +281,6 @@ class OverviewFlights
                 {
                     Console.WriteLine("Invalid flight number. Please try again or enter 0 to go back.");
                 }
-
             }
             else if (booked == 2) // user wilt niet flight booken
             {
@@ -287,6 +311,20 @@ class OverviewFlights
         foreach (Flight flight in flights)
         {
             if (flight.Destination.City == EndDestination)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public bool CheckLogin()
+    {
+        List<Account> accounts = SetGetAccounts.ReadAccountsFromJSON();
+
+        foreach (Account account in accounts)
+        {
+            if (account.LoggedIn == true)
             {
                 return true;
             }

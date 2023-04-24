@@ -1,6 +1,6 @@
 [
   {
-    "FlightNo": 2,
+    "FlightNo": 0,
     "FlightId": "GER1",
     "DayOrNight": "Day",
     "Airplane": {
@@ -26,7 +26,7 @@
     "MinPrice": 100.0
   },
   {
-    "FlightNo": 4,
+    "FlightNo": 0,
     "FlightId": "GER2",
     "DayOrNight": "Day",
     "Airplane": {
@@ -52,7 +52,7 @@
     "MinPrice": 100.0
   },
   {
-    "FlightNo": 10,
+    "FlightNo": 0,
     "FlightId": "GER3",
     "DayOrNight": "Day",
     "Airplane": {
@@ -78,7 +78,7 @@
     "MinPrice": 100.0
   },
   {
-    "FlightNo": 9,
+    "FlightNo": 0,
     "FlightId": "GER4",
     "DayOrNight": "Day",
     "Airplane": {
@@ -104,7 +104,7 @@
     "MinPrice": 100.0
   },
   {
-    "FlightNo": 1,
+    "FlightNo": 0,
     "FlightId": "GER5",
     "DayOrNight": "Day",
     "Airplane": {
@@ -130,7 +130,7 @@
     "MinPrice": 100.0
   },
   {
-    "FlightNo": 6,
+    "FlightNo": 0,
     "FlightId": "GER6",
     "DayOrNight": "Night",
     "Airplane": {
@@ -156,7 +156,7 @@
     "MinPrice": 100.0
   },
   {
-    "FlightNo": 3,
+    "FlightNo": 0,
     "FlightId": "GER7",
     "DayOrNight": "Night",
     "Airplane": {
@@ -182,7 +182,7 @@
     "MinPrice": 100.0
   },
   {
-    "FlightNo": 5,
+    "FlightNo": 0,
     "FlightId": "GER8",
     "DayOrNight": "Night",
     "Airplane": {
@@ -208,7 +208,7 @@
     "MinPrice": 100.0
   },
   {
-    "FlightNo": 7,
+    "FlightNo": 0,
     "FlightId": "GER9",
     "DayOrNight": "Night",
     "Airplane": {
@@ -234,7 +234,7 @@
     "MinPrice": 100.0
   },
   {
-    "FlightNo": 8,
+    "FlightNo": 0,
     "FlightId": "GER10",
     "DayOrNight": "Night",
     "Airplane": {
@@ -260,7 +260,7 @@
     "MinPrice": 100.0
   },
   {
-    "FlightNo": 1,
+    "FlightNo": 0,
     "FlightId": "GER11",
     "DayOrNight": "Day",
     "Airplane": {
@@ -286,7 +286,7 @@
     "MinPrice": 100.0
   },
   {
-    "FlightNo": 3,
+    "FlightNo": 0,
     "FlightId": "GER12",
     "DayOrNight": "Day",
     "Airplane": {
@@ -312,7 +312,7 @@
     "MinPrice": 100.0
   },
   {
-    "FlightNo": 7,
+    "FlightNo": 0,
     "FlightId": "GER13",
     "DayOrNight": "Day",
     "Airplane": {
@@ -338,7 +338,7 @@
     "MinPrice": 100.0
   },
   {
-    "FlightNo": 6,
+    "FlightNo": 0,
     "FlightId": "GER14",
     "DayOrNight": "Day",
     "Airplane": {
@@ -364,7 +364,7 @@
     "MinPrice": 100.0
   },
   {
-    "FlightNo": 4,
+    "FlightNo": 0,
     "FlightId": "GER15",
     "DayOrNight": "Day",
     "Airplane": {
@@ -390,7 +390,7 @@
     "MinPrice": 100.0
   },
   {
-    "FlightNo": 9,
+    "FlightNo": 0,
     "FlightId": "GER16",
     "DayOrNight": "Night",
     "Airplane": {
@@ -416,7 +416,7 @@
     "MinPrice": 100.0
   },
   {
-    "FlightNo": 2,
+    "FlightNo": 0,
     "FlightId": "GER17",
     "DayOrNight": "Night",
     "Airplane": {
@@ -442,7 +442,7 @@
     "MinPrice": 100.0
   },
   {
-    "FlightNo": 8,
+    "FlightNo": 0,
     "FlightId": "GER18",
     "DayOrNight": "Night",
     "Airplane": {
@@ -468,7 +468,7 @@
     "MinPrice": 100.0
   },
   {
-    "FlightNo": 10,
+    "FlightNo": 0,
     "FlightId": "GER19",
     "DayOrNight": "Night",
     "Airplane": {
@@ -494,7 +494,7 @@
     "MinPrice": 100.0
   },
   {
-    "FlightNo": 5,
+    "FlightNo": 0,
     "FlightId": "GER20",
     "DayOrNight": "Night",
     "Airplane": {
@@ -532,8 +532,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-24T06:29:00+02:00",
-    "EstimatedArrival": "2023-04-24T10:29:00+02:00",
+    "BoardingDate": "2023-04-25T06:29:00+02:00",
+    "EstimatedArrival": "2023-04-25T10:29:00+02:00",
     "Destination": {
       "Country": "SPAIN",
       "City": "BARCELONA",
@@ -974,8 +974,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-23T21:39:00+02:00",
-    "EstimatedArrival": "2023-04-24T00:39:00+02:00",
+    "BoardingDate": "2023-04-24T21:39:00+02:00",
+    "EstimatedArrival": "2023-04-25T00:39:00+02:00",
     "Destination": {
       "Country": "SPAIN",
       "City": "MALAGA",
@@ -1780,8 +1780,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-23T21:21:00+02:00",
-    "EstimatedArrival": "2023-04-23T22:21:00+02:00",
+    "BoardingDate": "2023-04-24T21:21:00+02:00",
+    "EstimatedArrival": "2023-04-24T22:21:00+02:00",
     "Destination": {
       "Country": "UNITED KINGDOM",
       "City": "LONDON",
@@ -1988,8 +1988,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-23T22:44:00+02:00",
-    "EstimatedArrival": "2023-04-24T04:44:00+02:00",
+    "BoardingDate": "2023-04-24T22:44:00+02:00",
+    "EstimatedArrival": "2023-04-25T04:44:00+02:00",
     "Destination": {
       "Country": "UNITED KINGDOM",
       "City": "MANCHESTER",
