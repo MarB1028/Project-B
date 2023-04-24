@@ -1,4 +1,4 @@
-﻿static class CalculateTotalCosts
+static class CalculateTotalCosts
 {
 
 }
