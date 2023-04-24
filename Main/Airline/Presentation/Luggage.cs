@@ -1,6 +1,6 @@
 ﻿static class Luggage
 {
-    public static void LuggageInfo()
+    public static void LuggageInfo(List<BookTicket> tickets)
     {
         Console.Clear();
         Console.ForegroundColor = ConsoleColor.DarkYellow;
@@ -16,6 +16,7 @@
         Console.OutputEncoding = System.Text.Encoding.UTF8; // weergave euro tekens
         Console.WriteLine($"Extra hand luggage: \u20AC 25,- (Excl. BTW/VAT)\nCheck-in luggage: \u20AC 55,- per luggage (Excl. BTW/VAT)");
 
+        CalculateTotalCosts.tickets = tickets;
         CalculateTotalCosts.CostsAllLuggage();
     }
 }

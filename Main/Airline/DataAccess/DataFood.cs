@@ -15,7 +15,7 @@ static class DataFood
 
     public static List<Food> ReadFoodFromJson(string type)
     {
-        string pathfile = $"C:\\Users\\{Environment.UserName}\\Documents\\GitHub\\Project-B\\Main\\Airline\\DataSources\\FOODS.json";
+        string pathfile = $"C:\\Users\\{Environment.UserName}\\source\\repos\\GitHub\\Project-B\\Main\\Airline\\DataSources\\FOODS.json";
         CheckExistingFile(pathfile);
 
         if (type == "Long")
@@ -55,7 +55,7 @@ static class DataFood
     public static bool WriteFoodToJson(Food food)
     {
         List<Food> foodlist = new List<Food>();
-        string pathfile = $"C:\\Users\\{Environment.UserName}\\Documents\\GitHub\\Project-B\\Main\\Airline\\DataSources\\FOODS.json";
+        string pathfile = $"C:\\Users\\{Environment.UserName}\\source\\repos\\GitHub\\Project-B\\Main\\Airline\\DataSources\\FOODS.json";
 
         if (File.Exists(pathfile))
         {

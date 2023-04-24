@@ -85,6 +85,12 @@
                 Console.WriteLine("Invalid input");
             }
         }
+        Flight flight = null;
+        foreach (BookTicket ticket in tickets)
+        {
+            flight = ticket.Ticket.Flight;
+        }
+        CatteringForm.Cattering(flight);
         // Y --> ga naar volgende stap (roep class/method aan)
     }
     public static void CheckInHandLuggage()

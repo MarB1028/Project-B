@@ -85,6 +85,7 @@ class OverviewFlights
             }
             DataFlights.WriteDateToJson(flights);
         }
+
         PrintSortedInformation(flights, endDestination);
     }
 
@@ -274,6 +275,8 @@ class OverviewFlights
                         }
                         DataFlights.WriteDateToJson(flights);
                         //hier de volgende stap aanroepen
+                        CheckSeatAvailability checkSeatAvailability = new CheckSeatAvailability(selectedFlight);
+                        checkSeatAvailability.AvailableSeats(); 
                         x = false;
                     }
                 }
@@ -312,6 +315,7 @@ class OverviewFlights
         {
             if (flight.Destination.City == EndDestination)
             {
+                MakeTicketsForFlightJson.MakeTickets(flight);
                 return true;
             }
         }
