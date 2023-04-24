@@ -1,9 +1,23 @@
 [
   {
     "ID": 1,
-    "Name": "Hotdog",
-    "Price": 5.65,
-    "Description": "A Glizzy",
-    "Type": "Short"
+    "Name": "Ramen",
+    "Price": 3.65,
+    "Description": "Fresh noodles with veggies, meat and spices",
+    "Type": "Long"
+  },
+  {
+    "ID": 2,
+    "Name": "Hamburger",
+    "Price": 2.9,
+    "Description": "A grilled beef with two hamburger buns with toppings",
+    "Type": "Long"
+  },
+  {
+    "ID": 4,
+    "Name": "Sandwich",
+    "Price": 2.5,
+    "Description": "White bread with ham and cheese + veggies",
+    "Type": "Long"
   }
 ]

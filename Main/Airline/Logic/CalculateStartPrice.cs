@@ -1,7 +1,29 @@
 ﻿static class CalculateStartPrice
 {
-    public static double CalculateSeat(Flight flight, double startprice)
+    public static double totalprice;
+    public static double BasePrice = 100;
+
+    public static double CalculateSeat(string seattype)
     {
-        return 0;
+        //in de toekomst wordt met flight gecheckt hoeveel tijd nog tot de vlucht en wordt de prijsophoging/deals toegepast. 
+        //De prijsophoging/deals passen de basisprijs aan
+        if (seattype == "First-Class")
+        {
+            totalprice = BasePrice * 6;
+        }
+        else if (seattype == "Premium-Class")
+        {
+            totalprice = BasePrice * 3;
+        }
+        else if (seattype == "ExtraSpace-Class")
+        {
+            totalprice = BasePrice + 75;
+        }
+        else if (seattype == "Economy-Class")
+        {
+            totalprice = BasePrice;
+        }
+
+        return totalprice;
     }
 }

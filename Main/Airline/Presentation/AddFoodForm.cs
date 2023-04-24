@@ -2,6 +2,7 @@
 {
     public static void FoodForm()
     {
+        Console.Clear();
         Console.WriteLine("Please enter the specific product");
         Console.WriteLine("======================================");
         
