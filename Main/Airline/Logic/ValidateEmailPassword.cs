@@ -22,6 +22,7 @@
             else if (loginOrRegister == 3) // terug naar het hoofdmenu
             {
                 Console.Clear();
+                Menu.StartScreen();
                 // menu [moet nog aangeroepen worden]
             }
             else
@@ -37,8 +38,7 @@
 
     public void SetNewAccount() // nieuwe account aanmaken
     {
-        SetGetAccounts setGetAccounts = new();
-        List<Account> accounts = setGetAccounts.ReadAccountsFromJSON();
+        List<Account> accounts = SetGetAccounts.ReadAccountsFromJSON();
 
         Console.WriteLine("Input a valid email adress:");
         string email = Console.ReadLine()!;
@@ -64,7 +64,7 @@
         account.LoggedIn = true; // Zodra je een account heb aangemaakt ben je gelijk ingelogt!
 
         accounts.Add(account);
-        setGetAccounts.WriteAccountToJSON(accounts);
+        SetGetAccounts.WriteAccountToJSON(accounts);
 
         Login.LoggedInMessage();
     }
@@ -200,23 +200,21 @@
 
     public void ChangeLoggingStatus(string email) // veranderd login status van bestaande accounts naar true
     {
-        SetGetAccounts setGetAccounts = new();
-        List<Account> accounts = setGetAccounts.ReadAccountsFromJSON();
+        List<Account> accounts = SetGetAccounts.ReadAccountsFromJSON();
 
         foreach (Account account in accounts)
         {
             if (account.Email == email)
             {
                 account.LoggedIn = true;
-                setGetAccounts.WriteAccountToJSON(accounts);
+                SetGetAccounts.WriteAccountToJSON(accounts);
             }
         }
     }
 
     public bool CheckExistingEmail(string email) // checkt of ingevulde email overeenkomt met een email in het json bestand
     {
-        SetGetAccounts setGetAccounts = new();
-        List<Account> accounts = setGetAccounts.ReadAccountsFromJSON();
+        List<Account> accounts = SetGetAccounts.ReadAccountsFromJSON();
 
         foreach (Account account in accounts)
         {
@@ -230,8 +228,7 @@
 
     public bool CheckExistingPassword(string email, string password) // checkt of ingevulde wachtwoord overeenkomt met het wachtwoord in het json bestand.
     {
-        SetGetAccounts setGetAccounts = new();
-        List<Account> accounts = setGetAccounts.ReadAccountsFromJSON();
+        List<Account> accounts = SetGetAccounts.ReadAccountsFromJSON();
 
         foreach (Account account in accounts)
         {
@@ -245,8 +242,7 @@
 
     public bool ResetPassword(string email) // reset het wachtwoord in het json bestand
     {
-        SetGetAccounts setGetAccounts = new SetGetAccounts();
-        List<Account> accounts = setGetAccounts.ReadAccountsFromJSON();
+        List<Account> accounts = SetGetAccounts.ReadAccountsFromJSON();
 
         foreach (Account account in accounts)
         {
@@ -265,7 +261,7 @@
 
                 account.Password = newPassword;
                 Console.WriteLine("Password changed successfully!");
-                setGetAccounts.WriteAccountToJSON(accounts);
+                SetGetAccounts.WriteAccountToJSON(accounts);
                 return true;
             }
         }

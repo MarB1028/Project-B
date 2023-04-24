@@ -18,14 +18,15 @@
     }
 
     //Hier wordt het formulier gegenereerd
-    public static void Form()
+    public static void Form(Flight flight, List<BookTicket> tickets)
     {
         List<Passenger> passengers = new List<Passenger>();
         // Dit bepaalt hoeveel formulieren er moeten worden gegenereerd
         // In de volgende sprint wordt dit in een andere fase van het boekingsproces gezet.
-        int amount = Convert.ToInt32(Loop("Kies het aantal tickets", x => ValidateInput.IsNumber(x), "Voer een geldig getal in."));
 
-        for (int i = 0; i < amount; i++)
+        // Account acc = null;
+
+        for (int i = 0; i < tickets.Count(); i++)
         {
             //Hier worden alle variabelen gedeclareerd die vervolgens velden worden voor het object
             Passenger passenger0;
@@ -68,7 +69,7 @@
                 //Telefoonnummer
                 if (i == 0)
                 {
-                phoneNumber = Loop("Telefoonnummer", x => ValidateInput.ValidatePhoneNumber(x), "Ongeldige Telefoonnummer. Voer een geldige telefoonnummer in.");
+                    phoneNumber = Loop("Telefoonnummer", x => ValidateInput.ValidatePhoneNumber(x), "Ongeldige Telefoonnummer. Voer een geldige telefoonnummer in.");
                 }
                 else
                 {
@@ -79,6 +80,10 @@
 
             }
             while (Overview(passenger0) == false);
+            //Hier voeg je de informatie van de passenger toe aan de bookticket
+            tickets[i].Ticket.Passenger = passenger0;
+            //Hier wordt de bookticket opnieuw naar de json file geschreven
+            DataTickets.WriteTicketToJson(flight, tickets[i]);
             passengers.Add(passenger0);
         }
     }
@@ -110,6 +115,8 @@
         if (input.ToUpper() == "J")
         {
             Console.Clear();
+
+            //DataTickets.WriteTicketToJson()
             return true;
         }
         else
