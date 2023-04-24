@@ -1,6 +1,8 @@
 [
   {
+    "FlightNo": 0,
     "FlightId": "GER1",
+    "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
       "Carrierid": "BO",
@@ -10,18 +12,23 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-02T17:55:06.2961612+02:00",
-    "EstimatedArrival": "2023-04-02T17:55:06.3023204+02:00",
+    "BoardingDate": "2023-04-29T06:20:00+02:00",
+    "EstimatedArrival": "2023-04-29T09:20:00+02:00",
     "Destination": {
-      "Country": "GER",
-      "City": "FRA",
-      "Airport": "FRANKFORTAIRPORT",
+      "Country": "GERMANY",
+      "City": "FRANKFURT",
+      "Abbreviation": "(GER)",
+      "Airport": "FRANKFURT AIRPORT",
       "Distancekm": 100,
-      "FlightDuration": 2
-    }
+      "FlightDuration": 3,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
   },
   {
+    "FlightNo": 0,
     "FlightId": "GER2",
+    "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
       "Carrierid": "BO",
@@ -31,14 +38,2071 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-02T17:55:06.3024711+02:00",
-    "EstimatedArrival": "2023-04-02T17:55:06.3024718+02:00",
+    "BoardingDate": "2023-05-24T07:17:00+02:00",
+    "EstimatedArrival": "2023-05-24T10:17:00+02:00",
     "Destination": {
-      "Country": "GER",
-      "City": "MAN",
-      "Airport": "MANNENHEIMAIRPORT",
+      "Country": "GERMANY",
+      "City": "FRANKFURT",
+      "Abbreviation": "(GER)",
+      "Airport": "FRANKFURT AIRPORT",
       "Distancekm": 100,
-      "FlightDuration": 2
-    }
+      "FlightDuration": 3,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GER3",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-07-15T08:12:00+02:00",
+    "EstimatedArrival": "2023-07-15T11:12:00+02:00",
+    "Destination": {
+      "Country": "GERMANY",
+      "City": "FRANKFURT",
+      "Abbreviation": "(GER)",
+      "Airport": "FRANKFURT AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 3,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GER4",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-07-09T09:31:00+02:00",
+    "EstimatedArrival": "2023-07-09T12:31:00+02:00",
+    "Destination": {
+      "Country": "GERMANY",
+      "City": "FRANKFURT",
+      "Abbreviation": "(GER)",
+      "Airport": "FRANKFURT AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 3,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GER5",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-04-24T11:16:00+02:00",
+    "EstimatedArrival": "2023-04-24T14:16:00+02:00",
+    "Destination": {
+      "Country": "GERMANY",
+      "City": "FRANKFURT",
+      "Abbreviation": "(GER)",
+      "Airport": "FRANKFURT AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 3,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GER6",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-05-27T17:12:00+02:00",
+    "EstimatedArrival": "2023-05-27T20:12:00+02:00",
+    "Destination": {
+      "Country": "GERMANY",
+      "City": "FRANKFURT",
+      "Abbreviation": "(GER)",
+      "Airport": "FRANKFURT AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 3,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GER7",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-05-12T19:06:00+02:00",
+    "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+    "Destination": {
+      "Country": "GERMANY",
+      "City": "FRANKFURT",
+      "Abbreviation": "(GER)",
+      "Airport": "FRANKFURT AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 3,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GER8",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-05-25T21:11:00+02:00",
+    "EstimatedArrival": "2023-05-26T00:11:00+02:00",
+    "Destination": {
+      "Country": "GERMANY",
+      "City": "FRANKFURT",
+      "Abbreviation": "(GER)",
+      "Airport": "FRANKFURT AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 3,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GER9",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-06-05T19:56:00+02:00",
+    "EstimatedArrival": "2023-06-05T22:56:00+02:00",
+    "Destination": {
+      "Country": "GERMANY",
+      "City": "FRANKFURT",
+      "Abbreviation": "(GER)",
+      "Airport": "FRANKFURT AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 3,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GER10",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-06-15T18:43:00+02:00",
+    "EstimatedArrival": "2023-06-15T21:43:00+02:00",
+    "Destination": {
+      "Country": "GERMANY",
+      "City": "FRANKFURT",
+      "Abbreviation": "(GER)",
+      "Airport": "FRANKFURT AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 3,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GER11",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-05-26T07:23:00+02:00",
+    "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+    "Destination": {
+      "Country": "GERMANY",
+      "City": "MUNCHEN",
+      "Abbreviation": "(MUC)",
+      "Airport": "MUNICH INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 4,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GER12",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-06-15T08:44:00+02:00",
+    "EstimatedArrival": "2023-06-15T12:44:00+02:00",
+    "Destination": {
+      "Country": "GERMANY",
+      "City": "MUNCHEN",
+      "Abbreviation": "(MUC)",
+      "Airport": "MUNICH INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 4,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GER13",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-07-09T09:30:00+02:00",
+    "EstimatedArrival": "2023-07-09T13:30:00+02:00",
+    "Destination": {
+      "Country": "GERMANY",
+      "City": "MUNCHEN",
+      "Abbreviation": "(MUC)",
+      "Airport": "MUNICH INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 4,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GER14",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-07-02T10:09:00+02:00",
+    "EstimatedArrival": "2023-07-02T14:09:00+02:00",
+    "Destination": {
+      "Country": "GERMANY",
+      "City": "MUNCHEN",
+      "Abbreviation": "(MUC)",
+      "Airport": "MUNICH INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 4,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GER15",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-06-29T10:01:00+02:00",
+    "EstimatedArrival": "2023-06-29T14:01:00+02:00",
+    "Destination": {
+      "Country": "GERMANY",
+      "City": "MUNCHEN",
+      "Abbreviation": "(MUC)",
+      "Airport": "MUNICH INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 4,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GER16",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-07-12T16:57:00+02:00",
+    "EstimatedArrival": "2023-07-12T20:57:00+02:00",
+    "Destination": {
+      "Country": "GERMANY",
+      "City": "MUNCHEN",
+      "Abbreviation": "(MUC)",
+      "Airport": "MUNICH INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 4,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GER17",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-06-14T22:34:00+02:00",
+    "EstimatedArrival": "2023-06-15T02:34:00+02:00",
+    "Destination": {
+      "Country": "GERMANY",
+      "City": "MUNCHEN",
+      "Abbreviation": "(MUC)",
+      "Airport": "MUNICH INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 4,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GER18",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-07-09T21:43:00+02:00",
+    "EstimatedArrival": "2023-07-10T01:43:00+02:00",
+    "Destination": {
+      "Country": "GERMANY",
+      "City": "MUNCHEN",
+      "Abbreviation": "(MUC)",
+      "Airport": "MUNICH INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 4,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GER19",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-07-16T21:55:00+02:00",
+    "EstimatedArrival": "2023-07-17T01:55:00+02:00",
+    "Destination": {
+      "Country": "GERMANY",
+      "City": "MUNCHEN",
+      "Abbreviation": "(MUC)",
+      "Airport": "MUNICH INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 4,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GER20",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-07-01T22:55:00+02:00",
+    "EstimatedArrival": "2023-07-02T02:55:00+02:00",
+    "Destination": {
+      "Country": "GERMANY",
+      "City": "MUNCHEN",
+      "Abbreviation": "(MUC)",
+      "Airport": "MUNICH INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 4,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "SPN1",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-04-25T06:29:00+02:00",
+    "EstimatedArrival": "2023-04-25T10:29:00+02:00",
+    "Destination": {
+      "Country": "SPAIN",
+      "City": "BARCELONA",
+      "Abbreviation": "(BCN)",
+      "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 4,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "SPN2",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-05-22T09:03:00+02:00",
+    "EstimatedArrival": "2023-05-22T11:03:00+02:00",
+    "Destination": {
+      "Country": "SPAIN",
+      "City": "BARCELONA",
+      "Abbreviation": "(BCN)",
+      "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 2,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "SPN3",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-05-31T11:11:00+02:00",
+    "EstimatedArrival": "2023-05-31T13:11:00+02:00",
+    "Destination": {
+      "Country": "SPAIN",
+      "City": "BARCELONA",
+      "Abbreviation": "(BCN)",
+      "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 2,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "SPN4",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-05-15T07:45:00+02:00",
+    "EstimatedArrival": "2023-05-15T09:45:00+02:00",
+    "Destination": {
+      "Country": "SPAIN",
+      "City": "BARCELONA",
+      "Abbreviation": "(BCN)",
+      "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 2,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "SPN5",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-06-28T07:02:00+02:00",
+    "EstimatedArrival": "2023-06-28T09:02:00+02:00",
+    "Destination": {
+      "Country": "SPAIN",
+      "City": "BARCELONA",
+      "Abbreviation": "(BCN)",
+      "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 2,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "SPN6",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-06-17T17:43:00+02:00",
+    "EstimatedArrival": "2023-06-17T19:43:00+02:00",
+    "Destination": {
+      "Country": "SPAIN",
+      "City": "BARCELONA",
+      "Abbreviation": "(BCN)",
+      "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 2,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "SPN7",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-04-27T18:01:00+02:00",
+    "EstimatedArrival": "2023-04-27T20:01:00+02:00",
+    "Destination": {
+      "Country": "SPAIN",
+      "City": "BARCELONA",
+      "Abbreviation": "(BCN)",
+      "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 2,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "SPN8",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-05-19T20:12:00+02:00",
+    "EstimatedArrival": "2023-05-19T22:12:00+02:00",
+    "Destination": {
+      "Country": "SPAIN",
+      "City": "BARCELONA",
+      "Abbreviation": "(BCN)",
+      "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 2,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "SPN9",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-05-05T16:51:00+02:00",
+    "EstimatedArrival": "2023-05-05T18:51:00+02:00",
+    "Destination": {
+      "Country": "SPAIN",
+      "City": "BARCELONA",
+      "Abbreviation": "(BCN)",
+      "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 2,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "SPN9",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-06-12T18:04:00+02:00",
+    "EstimatedArrival": "2023-06-12T20:04:00+02:00",
+    "Destination": {
+      "Country": "SPAIN",
+      "City": "BARCELONA",
+      "Abbreviation": "(BCN)",
+      "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 2,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "SPN10",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-06-05T21:03:00+02:00",
+    "EstimatedArrival": "2023-06-05T23:03:00+02:00",
+    "Destination": {
+      "Country": "SPAIN",
+      "City": "BARCELONA",
+      "Abbreviation": "(BCN)",
+      "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 2,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "SPN11",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-06-01T10:44:00+02:00",
+    "EstimatedArrival": "2023-06-01T13:44:00+02:00",
+    "Destination": {
+      "Country": "SPAIN",
+      "City": "MALAGA",
+      "Abbreviation": "(AGP)",
+      "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 3,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "SPN12",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-07-03T06:38:00+02:00",
+    "EstimatedArrival": "2023-07-03T09:38:00+02:00",
+    "Destination": {
+      "Country": "SPAIN",
+      "City": "MALAGA",
+      "Abbreviation": "(AGP)",
+      "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 3,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "SPN13",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-05-20T11:11:00+02:00",
+    "EstimatedArrival": "2023-05-20T14:11:00+02:00",
+    "Destination": {
+      "Country": "SPAIN",
+      "City": "MALAGA",
+      "Abbreviation": "(AGP)",
+      "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 3,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "SPN14",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-05-18T06:08:00+02:00",
+    "EstimatedArrival": "2023-05-18T09:08:00+02:00",
+    "Destination": {
+      "Country": "SPAIN",
+      "City": "MALAGA",
+      "Abbreviation": "(AGP)",
+      "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 3,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "SPN15",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-06-30T09:36:00+02:00",
+    "EstimatedArrival": "2023-06-30T12:36:00+02:00",
+    "Destination": {
+      "Country": "SPAIN",
+      "City": "MALAGA",
+      "Abbreviation": "(AGP)",
+      "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 3,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "SPN16",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-04-26T17:10:00+02:00",
+    "EstimatedArrival": "2023-04-26T20:10:00+02:00",
+    "Destination": {
+      "Country": "SPAIN",
+      "City": "MALAGA",
+      "Abbreviation": "(AGP)",
+      "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 3,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "SPN17",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-04-24T21:39:00+02:00",
+    "EstimatedArrival": "2023-04-25T00:39:00+02:00",
+    "Destination": {
+      "Country": "SPAIN",
+      "City": "MALAGA",
+      "Abbreviation": "(AGP)",
+      "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 3,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "SPN18",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-06-08T20:57:00+02:00",
+    "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+    "Destination": {
+      "Country": "SPAIN",
+      "City": "MALAGA",
+      "Abbreviation": "(AGP)",
+      "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 3,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "SPN19",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-07-04T21:22:00+02:00",
+    "EstimatedArrival": "2023-07-05T00:22:00+02:00",
+    "Destination": {
+      "Country": "SPAIN",
+      "City": "MALAGA",
+      "Abbreviation": "(AGP)",
+      "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 3,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "SPN20",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-04-29T17:05:00+02:00",
+    "EstimatedArrival": "2023-04-29T20:05:00+02:00",
+    "Destination": {
+      "Country": "SPAIN",
+      "City": "MALAGA",
+      "Abbreviation": "(AGP)",
+      "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 3,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GRC1",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-05-26T09:48:00+02:00",
+    "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+    "Destination": {
+      "Country": "GREECE",
+      "City": "ATHENS",
+      "Abbreviation": "(ATH)",
+      "Airport": "ATHENS INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 7,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GRC2",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-05-26T09:28:00+02:00",
+    "EstimatedArrival": "2023-05-26T16:28:00+02:00",
+    "Destination": {
+      "Country": "GREECE",
+      "City": "ATHENS",
+      "Abbreviation": "(ATH)",
+      "Airport": "ATHENS INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 7,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GRC3",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-07-11T09:46:00+02:00",
+    "EstimatedArrival": "2023-07-11T16:46:00+02:00",
+    "Destination": {
+      "Country": "GREECE",
+      "City": "ATHENS",
+      "Abbreviation": "(ATH)",
+      "Airport": "ATHENS INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 7,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GRC4",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-04-24T10:20:00+02:00",
+    "EstimatedArrival": "2023-04-24T17:20:00+02:00",
+    "Destination": {
+      "Country": "GREECE",
+      "City": "ATHENS",
+      "Abbreviation": "(ATH)",
+      "Airport": "ATHENS INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 7,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GRC5",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-06-21T06:46:00+02:00",
+    "EstimatedArrival": "2023-06-21T13:46:00+02:00",
+    "Destination": {
+      "Country": "GREECE",
+      "City": "ATHENS",
+      "Abbreviation": "(ATH)",
+      "Airport": "ATHENS INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 7,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GRC6",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-07-04T20:19:00+02:00",
+    "EstimatedArrival": "2023-07-05T03:19:00+02:00",
+    "Destination": {
+      "Country": "GREECE",
+      "City": "ATHENS",
+      "Abbreviation": "(ATH)",
+      "Airport": "ATHENS INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 7,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GRC7",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-06-25T16:17:00+02:00",
+    "EstimatedArrival": "2023-06-25T23:17:00+02:00",
+    "Destination": {
+      "Country": "GREECE",
+      "City": "ATHENS",
+      "Abbreviation": "(ATH)",
+      "Airport": "ATHENS INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 7,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GRC8",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-06-10T21:52:00+02:00",
+    "EstimatedArrival": "2023-06-11T04:52:00+02:00",
+    "Destination": {
+      "Country": "GREECE",
+      "City": "ATHENS",
+      "Abbreviation": "(ATH)",
+      "Airport": "ATHENS INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 7,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GRC9",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-05-19T16:38:00+02:00",
+    "EstimatedArrival": "2023-05-19T23:38:00+02:00",
+    "Destination": {
+      "Country": "GREECE",
+      "City": "ATHENS",
+      "Abbreviation": "(ATH)",
+      "Airport": "ATHENS INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 7,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GRC10",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-05-22T17:10:00+02:00",
+    "EstimatedArrival": "2023-05-23T00:10:00+02:00",
+    "Destination": {
+      "Country": "GREECE",
+      "City": "ATHENS",
+      "Abbreviation": "(ATH)",
+      "Airport": "ATHENS INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 7,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GRC11",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-06-15T08:39:00+02:00",
+    "EstimatedArrival": "2023-06-15T22:39:00+02:00",
+    "Destination": {
+      "Country": "GREECE",
+      "City": "MYKONOS",
+      "Abbreviation": "(JMK)",
+      "Airport": "MYKONOS INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 14,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GRC12",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-06-09T06:30:00+02:00",
+    "EstimatedArrival": "2023-06-09T20:30:00+02:00",
+    "Destination": {
+      "Country": "GREECE",
+      "City": "MYKONOS",
+      "Abbreviation": "(JMK)",
+      "Airport": "MYKONOS INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 14,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GRC13",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-06-03T10:31:00+02:00",
+    "EstimatedArrival": "2023-06-04T00:31:00+02:00",
+    "Destination": {
+      "Country": "GREECE",
+      "City": "MYKONOS",
+      "Abbreviation": "(JMK)",
+      "Airport": "MYKONOS INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 14,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GRC14",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-05-21T09:29:00+02:00",
+    "EstimatedArrival": "2023-05-21T23:29:00+02:00",
+    "Destination": {
+      "Country": "GREECE",
+      "City": "MYKONOS",
+      "Abbreviation": "(JMK)",
+      "Airport": "MYKONOS INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 14,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GRC15",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-07-04T08:39:00+02:00",
+    "EstimatedArrival": "2023-07-04T22:39:00+02:00",
+    "Destination": {
+      "Country": "GREECE",
+      "City": "MYKONOS",
+      "Abbreviation": "(JMK)",
+      "Airport": "MYKONOS INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 14,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GRC16",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-07-03T16:50:00+02:00",
+    "EstimatedArrival": "2023-07-04T06:50:00+02:00",
+    "Destination": {
+      "Country": "GREECE",
+      "City": "MYKONOS",
+      "Abbreviation": "(JMK)",
+      "Airport": "MYKONOS INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 14,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GRC17",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-05-01T21:21:00+02:00",
+    "EstimatedArrival": "2023-05-02T11:21:00+02:00",
+    "Destination": {
+      "Country": "GREECE",
+      "City": "MYKONOS",
+      "Abbreviation": "(JMK)",
+      "Airport": "MYKONOS INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 14,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GRC18",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-06-13T20:52:00+02:00",
+    "EstimatedArrival": "2023-06-14T10:52:00+02:00",
+    "Destination": {
+      "Country": "GREECE",
+      "City": "MYKONOS",
+      "Abbreviation": "(JMK)",
+      "Airport": "MYKONOS INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 14,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GRC19",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-06-08T18:06:00+02:00",
+    "EstimatedArrival": "2023-06-09T08:06:00+02:00",
+    "Destination": {
+      "Country": "GREECE",
+      "City": "MYKONOS",
+      "Abbreviation": "(JMK)",
+      "Airport": "MYKONOS INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 14,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GRC20",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-05-04T21:42:00+02:00",
+    "EstimatedArrival": "2023-05-05T11:42:00+02:00",
+    "Destination": {
+      "Country": "GREECE",
+      "City": "MYKONOS",
+      "Abbreviation": "(JMK)",
+      "Airport": "MYKONOS INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 14,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "UK1",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-05-05T09:45:00+02:00",
+    "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+    "Destination": {
+      "Country": "UNITED KINGDOM",
+      "City": "LONDON",
+      "Abbreviation": "(LCY)",
+      "Airport": "LONDON CITY AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 1,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "UK2",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-06-07T06:45:00+02:00",
+    "EstimatedArrival": "2023-06-07T07:45:00+02:00",
+    "Destination": {
+      "Country": "UNITED KINGDOM",
+      "City": "LONDON",
+      "Abbreviation": "(LCY)",
+      "Airport": "LONDON CITY AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 1,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "UK3",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-07-16T09:27:00+02:00",
+    "EstimatedArrival": "2023-07-16T10:27:00+02:00",
+    "Destination": {
+      "Country": "UNITED KINGDOM",
+      "City": "LONDON",
+      "Abbreviation": "(LCY)",
+      "Airport": "LONDON CITY AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 1,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "UK4",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-06-24T07:19:00+02:00",
+    "EstimatedArrival": "2023-06-24T08:19:00+02:00",
+    "Destination": {
+      "Country": "UNITED KINGDOM",
+      "City": "LONDON",
+      "Abbreviation": "(LCY)",
+      "Airport": "LONDON CITY AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 1,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "UK5",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-06-01T09:45:00+02:00",
+    "EstimatedArrival": "2023-06-01T10:45:00+02:00",
+    "Destination": {
+      "Country": "UNITED KINGDOM",
+      "City": "LONDON",
+      "Abbreviation": "(LCY)",
+      "Airport": "LONDON CITY AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 1,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "UK6",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-07-10T22:24:00+02:00",
+    "EstimatedArrival": "2023-07-10T23:24:00+02:00",
+    "Destination": {
+      "Country": "UNITED KINGDOM",
+      "City": "LONDON",
+      "Abbreviation": "(LCY)",
+      "Airport": "LONDON CITY AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 1,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "UK7",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-06-16T22:09:00+02:00",
+    "EstimatedArrival": "2023-06-16T23:09:00+02:00",
+    "Destination": {
+      "Country": "UNITED KINGDOM",
+      "City": "LONDON",
+      "Abbreviation": "(LCY)",
+      "Airport": "LONDON CITY AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 1,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "UK8",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-04-24T21:21:00+02:00",
+    "EstimatedArrival": "2023-04-24T22:21:00+02:00",
+    "Destination": {
+      "Country": "UNITED KINGDOM",
+      "City": "LONDON",
+      "Abbreviation": "(LCY)",
+      "Airport": "LONDON CITY AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 1,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "UK9",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-07-13T20:23:00+02:00",
+    "EstimatedArrival": "2023-07-13T21:23:00+02:00",
+    "Destination": {
+      "Country": "UNITED KINGDOM",
+      "City": "LONDON",
+      "Abbreviation": "(LCY)",
+      "Airport": "LONDON CITY AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 1,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "UK10",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-07-09T22:28:00+02:00",
+    "EstimatedArrival": "2023-07-09T23:28:00+02:00",
+    "Destination": {
+      "Country": "UNITED KINGDOM",
+      "City": "LONDON",
+      "Abbreviation": "(LCY)",
+      "Airport": "LONDON CITY AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 1,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "UK11",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-07-05T07:07:00+02:00",
+    "EstimatedArrival": "2023-07-05T13:07:00+02:00",
+    "Destination": {
+      "Country": "UNITED KINGDOM",
+      "City": "MANCHESTER",
+      "Abbreviation": "(MAN)",
+      "Airport": "MANCHESTER AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 6,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "UK12",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-05-20T07:11:00+02:00",
+    "EstimatedArrival": "2023-05-20T13:11:00+02:00",
+    "Destination": {
+      "Country": "UNITED KINGDOM",
+      "City": "MANCHESTER",
+      "Abbreviation": "(MAN)",
+      "Airport": "MANCHESTER AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 6,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "UK13",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-06-27T08:15:00+02:00",
+    "EstimatedArrival": "2023-06-27T14:15:00+02:00",
+    "Destination": {
+      "Country": "UNITED KINGDOM",
+      "City": "MANCHESTER",
+      "Abbreviation": "(MAN)",
+      "Airport": "MANCHESTER AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 6,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "UK14",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-06-07T09:11:00+02:00",
+    "EstimatedArrival": "2023-06-07T15:11:00+02:00",
+    "Destination": {
+      "Country": "UNITED KINGDOM",
+      "City": "MANCHESTER",
+      "Abbreviation": "(MAN)",
+      "Airport": "MANCHESTER AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 6,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "UK15",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-05-21T06:20:00+02:00",
+    "EstimatedArrival": "2023-05-21T12:20:00+02:00",
+    "Destination": {
+      "Country": "UNITED KINGDOM",
+      "City": "MANCHESTER",
+      "Abbreviation": "(MAN)",
+      "Airport": "MANCHESTER AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 6,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "UK16",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-04-24T22:44:00+02:00",
+    "EstimatedArrival": "2023-04-25T04:44:00+02:00",
+    "Destination": {
+      "Country": "UNITED KINGDOM",
+      "City": "MANCHESTER",
+      "Abbreviation": "(MAN)",
+      "Airport": "MANCHESTER AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 6,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "UK17",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-05-26T17:15:00+02:00",
+    "EstimatedArrival": "2023-05-26T23:15:00+02:00",
+    "Destination": {
+      "Country": "UNITED KINGDOM",
+      "City": "MANCHESTER",
+      "Abbreviation": "(MAN)",
+      "Airport": "MANCHESTER AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 6,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "UK18",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-04-24T17:54:00+02:00",
+    "EstimatedArrival": "2023-04-24T23:54:00+02:00",
+    "Destination": {
+      "Country": "UNITED KINGDOM",
+      "City": "MANCHESTER",
+      "Abbreviation": "(MAN)",
+      "Airport": "MANCHESTER AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 6,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "UK19",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-04-24T18:40:00+02:00",
+    "EstimatedArrival": "2023-04-25T00:40:00+02:00",
+    "Destination": {
+      "Country": "UNITED KINGDOM",
+      "City": "MANCHESTER",
+      "Abbreviation": "(MAN)",
+      "Airport": "MANCHESTER AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 6,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "UK20",
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-06-26T18:14:00+02:00",
+    "EstimatedArrival": "2023-06-27T00:14:00+02:00",
+    "Destination": {
+      "Country": "UNITED KINGDOM",
+      "City": "MANCHESTER",
+      "Abbreviation": "(MAN)",
+      "Airport": "MANCHESTER AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 6,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
   }
 ]

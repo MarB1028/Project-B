@@ -4,7 +4,6 @@
     public bool Booked;
     public int TicketID;
     public Ticket Ticket;
-    // public Passenger passenger;
     
     public BookTicket(Ticket ticket)
     {
@@ -13,7 +12,7 @@
         Ticket = ticket;
     }
 
-    public void ResetCounter()
+    public static void ResetCounter()
     {
         ticketCounter = 0;
     }

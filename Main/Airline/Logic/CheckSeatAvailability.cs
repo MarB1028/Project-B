@@ -61,6 +61,12 @@ class CheckSeatAvailability
         int seatint = 1;
         string realseatnum = "";
 
+        Console.ForegroundColor = ConsoleColor.DarkYellow;
+        Console.WriteLine("STEP 2/5: Bookings process for a flight");
+        Console.WriteLine("===============================================");
+        Console.ResetColor();
+        Console.WriteLine();
+        
         //Loop door het aantal rijen
         for (int row = 0; row < TotalRows; row++)
         {
@@ -230,7 +236,6 @@ class CheckSeatAvailability
                     //TODO: De bookedticket moet nu naar true gezet worden met alle informatie van de passenger
                     DataTickets.WriteTicketToJson(Flight, bookticket);
                     tickets.Add(bookticket);
-                    
                     y = false;
                 }
             }

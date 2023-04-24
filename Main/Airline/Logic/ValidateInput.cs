@@ -130,4 +130,5 @@ public static class ValidateInput
     // van 13 t/m 17 jaar => 0.65
     // 18+ => 1
     
+
 }
