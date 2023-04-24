@@ -69,7 +69,7 @@
                 //Telefoonnummer
                 if (i == 0)
                 {
-                phoneNumber = Loop("Telefoonnummer", x => ValidateInput.ValidatePhoneNumber(x), "Ongeldige Telefoonnummer. Voer een geldige telefoonnummer in.");
+                    phoneNumber = Loop("Telefoonnummer", x => ValidateInput.ValidatePhoneNumber(x), "Ongeldige Telefoonnummer. Voer een geldige telefoonnummer in.");
                 }
                 else
                 {
@@ -86,6 +86,7 @@
             DataTickets.WriteTicketToJson(flight, tickets[i]);
             passengers.Add(passenger0);
         }
+         Luggage.LuggageInfo(tickets);
     }
 
     // Print een overview van het formulier en vraagt de gebruiker of het klopt of dat hij/zij het opnieuw wil invullen
@@ -116,6 +117,7 @@
         {
             Console.Clear();
             
+
             //DataTickets.WriteTicketToJson()
             return true;
         }
