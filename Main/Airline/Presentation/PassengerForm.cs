@@ -86,6 +86,7 @@
             DataTickets.WriteTicketToJson(flight, tickets[i]);
             passengers.Add(passenger0);
         }
+         Luggage.LuggageInfo(tickets);
     }
 
     // Print een overview van het formulier en vraagt de gebruiker of het klopt of dat hij/zij het opnieuw wil invullen
