@@ -47,10 +47,18 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 2,
     "Ticket": {
-      "Passenger": null,
+      "Passenger": {
+        "ID": 206,
+        "Surname": "ada",
+        "Lastname": "ada",
+        "Sex": "m",
+        "BirthDate": "2000-08-07T00:00:00",
+        "Adress": "poep 10  3115GF Poep",
+        "PhoneNumber": "0684338338"
+      },
       "Flight": {
         "FlightNo": 1,
         "FlightId": "GER1",
