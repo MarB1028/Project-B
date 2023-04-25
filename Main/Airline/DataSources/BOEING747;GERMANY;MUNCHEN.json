@@ -1,9 +1,17 @@
 [
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 1,
     "Ticket": {
-      "Passenger": null,
+      "Passenger": {
+        "ID": 1,
+        "Surname": "test",
+        "Lastname": "tesdt",
+        "Sex": "m",
+        "BirthDate": "2000-08-07T00:00:00",
+        "Adress": "test 10  3115DD test",
+        "PhoneNumber": "0683757668"
+      },
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER11",
@@ -28,8 +36,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-1",
@@ -68,8 +75,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-2",
@@ -108,8 +114,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-3",
@@ -148,8 +153,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-4",
@@ -188,8 +192,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-5",
@@ -228,8 +231,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-6",
@@ -268,8 +270,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-7",
@@ -308,8 +309,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-8",
@@ -348,8 +348,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-9",
@@ -388,8 +387,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-10",
@@ -428,8 +426,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-11",
@@ -468,8 +465,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-12",
@@ -508,8 +504,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-13",
@@ -548,8 +543,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-14",
@@ -588,8 +582,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-15",
@@ -628,8 +621,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-16",
@@ -668,8 +660,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-17",
@@ -708,8 +699,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-18",
@@ -748,8 +738,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-19",
@@ -788,8 +777,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-20",
@@ -828,8 +816,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-21",
@@ -868,8 +855,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-22",
@@ -908,8 +894,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-23",
@@ -948,8 +933,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-24",
@@ -988,8 +972,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-25",
@@ -1028,8 +1011,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-26",
@@ -1068,8 +1050,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-27",
@@ -1108,8 +1089,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-28",
@@ -1148,8 +1128,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-29",
@@ -1188,8 +1167,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-30",
@@ -1228,8 +1206,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-31",
@@ -1268,8 +1245,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-32",
@@ -1308,8 +1284,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-33",
@@ -1348,8 +1323,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-34",
@@ -1388,8 +1362,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-35",
@@ -1428,8 +1401,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-36",
@@ -1468,8 +1440,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-37",
@@ -1508,8 +1479,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-38",
@@ -1548,8 +1518,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-39",
@@ -1588,8 +1557,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-40",
@@ -1628,8 +1596,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-41",
@@ -1668,8 +1635,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-42",
@@ -1708,8 +1674,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-43",
@@ -1748,8 +1713,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-44",
@@ -1788,8 +1752,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-45",
@@ -1828,8 +1791,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-46",
@@ -1868,8 +1830,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-47",
@@ -1908,8 +1869,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-48",
@@ -1948,8 +1908,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-49",
@@ -1988,8 +1947,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-50",
@@ -2028,8 +1986,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-51",
@@ -2068,8 +2025,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-52",
@@ -2108,8 +2064,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-53",
@@ -2148,8 +2103,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-54",
@@ -2188,8 +2142,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-55",
@@ -2228,8 +2181,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-56",
@@ -2268,8 +2220,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-57",
@@ -2308,8 +2259,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-58",
@@ -2348,8 +2298,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-59",
@@ -2388,8 +2337,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-60",
@@ -2428,8 +2376,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-61",
@@ -2468,8 +2415,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-62",
@@ -2508,8 +2454,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-63",
@@ -2548,8 +2493,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-64",
@@ -2588,8 +2532,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-65",
@@ -2628,8 +2571,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-66",
@@ -2668,8 +2610,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-67",
@@ -2708,8 +2649,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-68",
@@ -2748,8 +2688,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-69",
@@ -2788,8 +2727,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-70",
@@ -2828,8 +2766,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-71",
@@ -2868,8 +2805,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-72",
@@ -2908,8 +2844,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-73",
@@ -2948,8 +2883,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-74",
@@ -2988,8 +2922,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-75",
@@ -3028,8 +2961,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-76",
@@ -3068,8 +3000,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-77",
@@ -3108,8 +3039,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-78",
@@ -3148,8 +3078,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-79",
@@ -3188,8 +3117,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-80",
@@ -3228,8 +3156,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-81",
@@ -3268,8 +3195,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-82",
@@ -3308,8 +3234,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-83",
@@ -3348,8 +3273,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-84",
@@ -3388,8 +3312,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-85",
@@ -3428,8 +3351,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-86",
@@ -3468,8 +3390,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-87",
@@ -3508,8 +3429,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-88",
@@ -3548,8 +3468,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-89",
@@ -3588,8 +3507,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-90",
@@ -3628,8 +3546,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-91",
@@ -3668,8 +3585,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-92",
@@ -3708,8 +3624,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-93",
@@ -3748,8 +3663,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-94",
@@ -3788,8 +3702,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-95",
@@ -3828,8 +3741,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-96",
@@ -3868,8 +3780,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-97",
@@ -3908,8 +3819,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-98",
@@ -3948,8 +3858,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-99",
@@ -3988,8 +3897,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-100",
@@ -4028,8 +3936,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-101",
@@ -4068,8 +3975,7 @@
           "FlightDuration": 4,
           "Status": "On schedule"
         },
-        "MinPrice": 100.0,
-        "IsDeal": false
+        "MinPrice": 100.0
       },
       "Seat": {
         "SeatNumber": "BO-102",
