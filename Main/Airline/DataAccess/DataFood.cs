@@ -1,12 +1,12 @@
 ﻿using Newtonsoft.Json;
 
 static class DataFood
-{
-    public static void CheckExistingFile(string path)
+{   
+    private static string pathfile = $"{GetPathFile.ReturnPathFile()}\\FOODS.json";
+    public static void CheckExistingFile()
     {
         List<Food> list = new List<Food>();
         string json = JsonConvert.SerializeObject(list, Formatting.Indented);
-        string pathfile = path;
         if (!File.Exists(pathfile))
         {
             File.WriteAllText(pathfile, json);
@@ -15,8 +15,7 @@ static class DataFood
 
     public static List<Food> ReadFoodFromJson(string type)
     {
-        string pathfile = $"C:\\Users\\{Environment.UserName}\\source\\repos\\GitHub\\Project-B\\Main\\Airline\\DataSources\\FOODS.json";
-        CheckExistingFile(pathfile);
+        CheckExistingFile();
 
         if (type == "Long")
         {
@@ -55,7 +54,6 @@ static class DataFood
     public static bool WriteFoodToJson(Food food)
     {
         List<Food> foodlist = new List<Food>();
-        string pathfile = $"C:\\Users\\{Environment.UserName}\\source\\repos\\GitHub\\Project-B\\Main\\Airline\\DataSources\\FOODS.json";
 
         if (File.Exists(pathfile))
         {

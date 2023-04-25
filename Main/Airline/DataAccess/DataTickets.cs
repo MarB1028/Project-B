@@ -1,11 +1,10 @@
 ﻿using Newtonsoft.Json;
 static class DataTickets
-{
+{   
     public static List<BookTicket> ReadTicketsFromJson(Flight flight)
     {
-        string pathfile = $"C:\\Users\\{Environment.UserName}\\source\\repos\\GitHub\\Project-B\\Main\\Airline\\DataSources\\{flight.Airplane.Name};{flight.Destination.Country};{flight.Destination.City}.json";
+        string pathfile = $"{GetPathFile.ReturnPathFile()}\\{flight.Airplane.Name};{flight.Destination.Country};{flight.Destination.City}.json";
 
-        //string pathfile = $"C:\\Users\\{Environment.UserName}\\Documents\\GitHub\\Project-B\\Main\\Airline\\DataSources\\{flight.Airplane.Name};{flight.Destination.Country};{flight.Destination.City}.json";
         if (!File.Exists(pathfile))
         {
             return new List<BookTicket>();
@@ -29,7 +28,7 @@ static class DataTickets
             }
         }
         string UpdateJSON = JsonConvert.SerializeObject(DataFlightTickets, Formatting.Indented);
-        string pathfile = $"C:\\Users\\{Environment.UserName}\\OneDrive - Hogeschool Rotterdam\\Semester 2\\Project B\\Project-B\\Main\\Airline\\DataSources\\{flight.Airplane.Name};{flight.Destination.Country};{flight.Destination.City}.json";
+        string pathfile = $"{GetPathFile.ReturnPathFile()}\\{flight.Airplane.Name};{flight.Destination.Country};{flight.Destination.City}.json";
         File.WriteAllText(pathfile, UpdateJSON);
     }
 }
