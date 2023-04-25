@@ -90,7 +90,7 @@
         {
             flight = ticket.Ticket.Flight;
         }
-        CatteringForm.Cattering(flight);
+        CateringForm.Catering(flight);
         // Y --> ga naar volgende stap (roep class/method aan)
     }
     public static void CheckInHandLuggage()
