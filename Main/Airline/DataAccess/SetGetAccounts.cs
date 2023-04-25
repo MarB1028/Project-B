@@ -5,7 +5,6 @@ static class SetGetAccounts
     private static string pathfile = $"{GetPathFile.ReturnPathFile()}\\ACCOUNTS.json";   
     public static List<Account> ReadAccountsFromJSON()
     {
-        string pathfile = $"C:\\Users\\{Environment.UserName}\\OneDrive - Hogeschool Rotterdam\\Semester 2\\Project B\\Project-B\\Main\\Airline\\DataSources\\accounts.json";
         if (!File.Exists(pathfile))
         {
             return new List<Account>();
@@ -18,7 +17,6 @@ static class SetGetAccounts
 
     public static void WriteAccountToJSON(List<Account> accounts)
     {
-        string pathfile = $"C:\\Users\\{Environment.UserName}\\OneDrive - Hogeschool Rotterdam\\Semester 2\\Project B\\Project-B\\Main\\Airline\\DataSources\\accounts.json";
         string json = JsonConvert.SerializeObject(accounts, Formatting.Indented);
 
         using (StreamWriter streamWriter = File.CreateText(pathfile))

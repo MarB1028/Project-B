@@ -4,7 +4,7 @@ using System;
 static class CatteringLogic
 {
     public static List<BasketItem> basketItems = new List<BasketItem>();
-    public static double TotalPrice;
+    public static double TotalPrice = 0;
     
     public static string CheckFlightDur(Flight flight)
     {
