@@ -24,7 +24,7 @@ static class DataFlights
             flights = JsonConvert.DeserializeObject<List<Flight>>(json);
         }
 
-        if (!flights.Any(f => f.FlightNo == flight.FlightNo))
+        if (!flights.Any(f => f.FlightId == flight.FlightId))
         {
             flights.Add(flight);
             string newJson = JsonConvert.SerializeObject(flights, Formatting.Indented);
