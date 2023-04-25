@@ -1,4 +1,4 @@
-﻿class Food
+﻿public class Food
 {
     private static int ticketCounter = 1;
     public int ID;

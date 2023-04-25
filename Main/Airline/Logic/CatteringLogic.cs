@@ -4,6 +4,7 @@ using System;
 static class CatteringLogic
 {
     public static List<BasketItem> basketItems = new List<BasketItem>();
+    public static double TotalPrice;
     
     public static string CheckFlightDur(Flight flight)
     {
@@ -152,6 +153,8 @@ static class CatteringLogic
         if (input == "1")
         {
             Console.WriteLine("N/A");
+            TotalPrice = totalprice;
+            CalculateTotalCosts.GetTotalPrice();
         }
 
         else if (input == "2")

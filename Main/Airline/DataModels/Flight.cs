@@ -1,4 +1,4 @@
-﻿class Flight
+﻿public class Flight
 {
     public int FlightNo;
     public string FlightId;

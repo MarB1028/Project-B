@@ -1,4 +1,4 @@
-﻿class BookTicket
+﻿public class BookTicket
 {
     private static int ticketCounter = 0;
     public bool Booked;
