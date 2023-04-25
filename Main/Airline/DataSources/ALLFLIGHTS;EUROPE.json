@@ -116,8 +116,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-24T11:16:00+02:00",
-    "EstimatedArrival": "2023-04-24T14:16:00+02:00",
+    "BoardingDate": "2023-04-26T11:16:00+02:00",
+    "EstimatedArrival": "2023-04-26T14:16:00+02:00",
     "Destination": {
       "Country": "GERMANY",
       "City": "FRANKFURT",
@@ -532,8 +532,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-25T06:29:00+02:00",
-    "EstimatedArrival": "2023-04-25T10:29:00+02:00",
+    "BoardingDate": "2023-04-26T06:29:00+02:00",
+    "EstimatedArrival": "2023-04-26T10:29:00+02:00",
     "Destination": {
       "Country": "SPAIN",
       "City": "BARCELONA",
@@ -974,8 +974,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-24T21:39:00+02:00",
-    "EstimatedArrival": "2023-04-25T00:39:00+02:00",
+    "BoardingDate": "2023-04-25T21:39:00+02:00",
+    "EstimatedArrival": "2023-04-26T00:39:00+02:00",
     "Destination": {
       "Country": "SPAIN",
       "City": "MALAGA",
@@ -1156,8 +1156,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-24T10:20:00+02:00",
-    "EstimatedArrival": "2023-04-24T17:20:00+02:00",
+    "BoardingDate": "2023-04-26T10:20:00+02:00",
+    "EstimatedArrival": "2023-04-26T17:20:00+02:00",
     "Destination": {
       "Country": "GREECE",
       "City": "ATHENS",
@@ -1780,8 +1780,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-24T21:21:00+02:00",
-    "EstimatedArrival": "2023-04-24T22:21:00+02:00",
+    "BoardingDate": "2023-04-25T21:21:00+02:00",
+    "EstimatedArrival": "2023-04-25T22:21:00+02:00",
     "Destination": {
       "Country": "UNITED KINGDOM",
       "City": "LONDON",
@@ -1988,8 +1988,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-24T22:44:00+02:00",
-    "EstimatedArrival": "2023-04-25T04:44:00+02:00",
+    "BoardingDate": "2023-04-25T22:44:00+02:00",
+    "EstimatedArrival": "2023-04-26T04:44:00+02:00",
     "Destination": {
       "Country": "UNITED KINGDOM",
       "City": "MANCHESTER",
@@ -2040,8 +2040,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-24T17:54:00+02:00",
-    "EstimatedArrival": "2023-04-24T23:54:00+02:00",
+    "BoardingDate": "2023-04-25T17:54:00+02:00",
+    "EstimatedArrival": "2023-04-25T23:54:00+02:00",
     "Destination": {
       "Country": "UNITED KINGDOM",
       "City": "MANCHESTER",
@@ -2066,8 +2066,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-24T18:40:00+02:00",
-    "EstimatedArrival": "2023-04-25T00:40:00+02:00",
+    "BoardingDate": "2023-04-25T18:40:00+02:00",
+    "EstimatedArrival": "2023-04-26T00:40:00+02:00",
     "Destination": {
       "Country": "UNITED KINGDOM",
       "City": "MANCHESTER",
@@ -2101,6 +2101,32 @@
       "Airport": "MANCHESTER AIRPORT",
       "Distancekm": 100,
       "FlightDuration": 6,
+      "Status": "On schedule"
+    },
+    "MinPrice": 100.0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GER1",
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-04-26T13:54:18.9890858+02:00",
+    "EstimatedArrival": "2023-04-26T13:54:18.9955638+02:00",
+    "Destination": {
+      "Country": "GERMANY",
+      "City": "FRANKFURT",
+      "Abbreviation": "(GER)",
+      "Airport": "FRANKFORTAIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 3,
       "Status": "On schedule"
     },
     "MinPrice": 100.0

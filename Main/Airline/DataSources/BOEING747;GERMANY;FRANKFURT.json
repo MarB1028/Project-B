@@ -7,10 +7,10 @@
         "ID": 1,
         "Surname": "jiajun",
         "Lastname": "li",
-        "Sex": "M",
+        "Sex": "m",
         "BirthDate": "2000-08-07T00:00:00",
-        "Adress": "poep 10  3119AD Rotterdam",
-        "PhoneNumber": "0648273773"
+        "Adress": "poep 10  3113AD poep",
+        "PhoneNumber": "0648627343"
       },
       "Flight": {
         "FlightNo": 1,
@@ -25,15 +25,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -47,10 +47,18 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 2,
     "Ticket": {
-      "Passenger": null,
+      "Passenger": {
+        "ID": 206,
+        "Surname": "ada",
+        "Lastname": "ada",
+        "Sex": "m",
+        "BirthDate": "2000-08-07T00:00:00",
+        "Adress": "poep 10  3115GF Poep",
+        "PhoneNumber": "0684338338"
+      },
       "Flight": {
         "FlightNo": 1,
         "FlightId": "GER1",
@@ -64,15 +72,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -103,15 +111,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -142,15 +150,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -181,15 +189,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -220,15 +228,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -259,15 +267,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -298,15 +306,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -337,15 +345,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -376,15 +384,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -415,15 +423,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -454,15 +462,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -493,15 +501,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -532,15 +540,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -571,15 +579,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -610,15 +618,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -649,15 +657,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -688,15 +696,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -727,15 +735,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -766,15 +774,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -805,15 +813,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -844,15 +852,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -883,15 +891,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -922,15 +930,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -961,15 +969,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -1000,15 +1008,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -1039,15 +1047,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -1078,15 +1086,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -1117,15 +1125,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -1156,15 +1164,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -1195,15 +1203,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -1234,15 +1242,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -1273,15 +1281,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -1312,15 +1320,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -1351,15 +1359,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -1390,15 +1398,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -1429,15 +1437,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -1468,15 +1476,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -1507,15 +1515,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -1546,15 +1554,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -1585,15 +1593,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -1624,15 +1632,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -1663,15 +1671,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -1702,15 +1710,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -1741,15 +1749,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -1780,15 +1788,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -1819,15 +1827,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -1858,15 +1866,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -1897,15 +1905,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -1936,15 +1944,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -1975,15 +1983,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -2014,15 +2022,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -2053,15 +2061,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -2092,15 +2100,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -2131,15 +2139,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -2170,15 +2178,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -2209,15 +2217,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -2248,15 +2256,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -2287,15 +2295,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -2326,15 +2334,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -2365,15 +2373,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -2404,15 +2412,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -2443,15 +2451,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -2482,15 +2490,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -2521,15 +2529,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -2560,15 +2568,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -2599,15 +2607,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -2638,15 +2646,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -2677,15 +2685,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -2716,15 +2724,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -2755,15 +2763,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -2794,15 +2802,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -2833,15 +2841,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -2872,15 +2880,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -2911,15 +2919,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -2950,15 +2958,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -2989,15 +2997,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -3028,15 +3036,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -3067,15 +3075,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -3106,15 +3114,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -3145,15 +3153,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -3184,15 +3192,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -3223,15 +3231,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -3262,15 +3270,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -3301,15 +3309,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -3340,15 +3348,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -3379,15 +3387,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -3418,15 +3426,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -3457,15 +3465,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -3496,15 +3504,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -3535,15 +3543,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -3574,15 +3582,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -3613,15 +3621,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -3652,15 +3660,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -3691,15 +3699,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -3730,15 +3738,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -3769,15 +3777,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -3808,15 +3816,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -3847,15 +3855,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -3886,15 +3894,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -3925,15 +3933,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0
@@ -3964,15 +3972,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-04-23T14:38:07.6634135+02:00",
-        "EstimatedArrival": "2023-04-23T14:38:07.6695367+02:00",
+        "BoardingDate": "2023-04-25T13:54:18.9890858+02:00",
+        "EstimatedArrival": "2023-04-25T13:54:18.9955638+02:00",
         "Destination": {
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
           "Airport": "FRANKFORTAIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 2,
+          "FlightDuration": 3,
           "Status": "On Schedule"
         },
         "MinPrice": 100.0

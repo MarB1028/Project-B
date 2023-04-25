@@ -1,8 +1,7 @@
 using Newtonsoft.Json;
 static class DataFlights
 {
-    static string pathfile = $"C:\\Users\\{Environment.UserName}\\source\\repos\\GitHub\\Project-B\\Main\\Airline\\DataSources\\ALLFLIGHTS;EUROPE.json";
-    
+    private static string pathfile = $"{GetPathFile.ReturnPathFile()}\\ALLFLIGHTS;EUROPE.json";
     public static List<Flight> ReadFlightsFromJson()
     {
         string pathfile = $"C:\\Users\\{Environment.UserName}\\OneDrive - Hogeschool Rotterdam\\Semester 2\\Project B\\Project-B\\Main\\Airline\\DataSources\\ALLFLIGHTS;EUROPE.json";
@@ -27,7 +26,7 @@ static class DataFlights
             flights = JsonConvert.DeserializeObject<List<Flight>>(json);
         }
 
-        if (!flights.Any(f => f.FlightNo == flight.FlightNo))
+        if (!flights.Any(f => f.FlightId == flight.FlightId))
         {
             flights.Add(flight);
             string newJson = JsonConvert.SerializeObject(flights, Formatting.Indented);

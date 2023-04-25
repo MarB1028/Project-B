@@ -53,6 +53,6 @@
         Destination frankfort = new Destination("GERMANY", "FRANKFURT", "(GER)", "FRANKFORTAIRPORT", 100, 3, "On Schedule");
         Flight flightfrankfort = new Flight(1, "GER1", "Day", boeing747, DateTime.Now, DateTime.Now, frankfort, 100);
         CatteringForm.Cattering(flightfrankfort);*/
-        Menu.StartScreen();
+        /*Menu.StartScreen();*/
     }
 }
