@@ -1,7 +1,7 @@
 ﻿using ConsoleTables;
 using System;
 
-static class CatteringLogic
+static class CateringLogic
 {
     public static List<BasketItem> basketItems = new List<BasketItem>();
     
@@ -11,7 +11,7 @@ static class CatteringLogic
         else return "Short";
     }
 
-    public static void CatteringShowMenu(Flight flight)
+    public static void CateringShowMenu(Flight flight)
     {   
         Console.Clear();
 
@@ -29,7 +29,7 @@ static class CatteringLogic
     public static void FoodSelect(Flight flight)
     {
         Console.Clear();
-        CatteringShowMenu(flight);
+        CateringShowMenu(flight);
         Console.WriteLine("\nPlease type the food you want");
         Console.Write(": ");
         string input = Console.ReadLine();
@@ -61,7 +61,7 @@ static class CatteringLogic
                 i.Quantity += amount;
                 Console.WriteLine($"{amount} sucessfully added to {i.FoodItem.Name}");
                 Thread.Sleep(3000);
-                StartCattering(flight);
+                StartCatering(flight);
             }
 
         }
@@ -69,7 +69,7 @@ static class CatteringLogic
         Console.WriteLine("Food sucessfully added to basket...");
         basketItems.Add(new BasketItem(FindFood(input, flight), amount));
         Thread.Sleep(3000);
-        StartCattering(flight);
+        StartCatering(flight);
     }
 
     public static void ShowBasket(Flight flight)
@@ -90,7 +90,7 @@ static class CatteringLogic
 
         if (input == "1")
         {
-            StartCattering(flight);
+            StartCatering(flight);
         }
 
         else if (input == "2")
@@ -121,7 +121,7 @@ static class CatteringLogic
 
             Console.WriteLine($"{food} succesfully removed from basket");
             Thread.Sleep(3000);
-            StartCattering(flight);
+            StartCatering(flight);
         }
     }
 
@@ -156,7 +156,7 @@ static class CatteringLogic
 
         else if (input == "2")
         {
-            StartCattering(flight);
+            StartCatering(flight);
         }
     }
     
@@ -173,9 +173,9 @@ static class CatteringLogic
         return null;
     }
 
-    public static void StartCattering(Flight flight)
+    public static void StartCatering(Flight flight)
     {
-        CatteringShowMenu(flight);
+        CateringShowMenu(flight);
         Console.WriteLine("\n1: [SELECT FOOD]");
         Console.WriteLine("2: [VIEW BASKET]");
         Console.WriteLine("3: [FINALIZE]");
