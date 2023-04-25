@@ -1,23 +1,16 @@
 [
   {
     "ID": 1,
-    "Name": "Ramen",
-    "Price": 3.65,
-    "Description": "Fresh noodles with veggies, meat and spices",
-    "Type": "Long"
+    "Name": "Hotdog",
+    "Price": 4.75,
+    "Description": "A glizzy in a bun",
+    "Type": "Short"
   },
   {
-    "ID": 2,
+    "ID": 1,
     "Name": "Hamburger",
-    "Price": 2.9,
-    "Description": "A grilled beef with two hamburger buns with toppings",
-    "Type": "Long"
-  },
-  {
-    "ID": 4,
-    "Name": "Sandwich",
-    "Price": 2.5,
-    "Description": "White bread with ham and cheese + veggies",
+    "Price": 4.0,
+    "Description": "Meat in a bun",
     "Type": "Long"
   }
 ]

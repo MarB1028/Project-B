@@ -29,7 +29,5 @@
         Flight flightfrankfort = new Flight(1, "GER1", "Day", boeing747, DateTime.Now, DateTime.Now, frankfort, 100);
         CatteringForm.Cattering(flightfrankfort);*/
         /*Menu.StartScreen();*/
-
-        Console.WriteLine(GetPathFile.ReturnPathFile());
     }
 }

@@ -2,7 +2,7 @@
 
 static class SetGetAccounts
 { 
-    static string pathfile = $"C:\\Users\\{Environment.UserName}\\source\\repos\\GitHub\\Project-B\\Main\\Airline\\DataSources\\ACCOUNTS.json";
+    private static string pathfile = $"{GetPathFile.ReturnPathFile()}\\ACCOUNTS.json";   
     public static List<Account> ReadAccountsFromJSON()
     {
         if (!File.Exists(pathfile))
