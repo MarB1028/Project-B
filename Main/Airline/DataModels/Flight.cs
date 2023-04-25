@@ -8,6 +8,7 @@
     public DateTime EstimatedArrival;
     public Destination Destination;
     public double MinPrice;
+    public bool IsDeal;
 
 
     public Flight(int flightNo, string flightid, string dayOrNight, Airplane airplane, DateTime boardingdate, DateTime estimatedarrival, Destination destination, double minPrice)
