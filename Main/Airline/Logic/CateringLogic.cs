@@ -1,9 +1,9 @@
 ﻿using ConsoleTables;
-using System;
 
 static class CateringLogic
-{
+{   
     public static List<BasketItem> basketItems = new List<BasketItem>();
+    public static double TotalPrice = 0;
     
     public static string CheckFlightDur(Flight flight)
     {
@@ -12,16 +12,17 @@ static class CateringLogic
     }
 
     public static void CateringShowMenu(Flight flight)
-    {   
+    {
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
         Console.Clear();
 
         List<Food> Foods = DataFood.ReadFoodFromJson(CheckFlightDur(flight));
         Console.WriteLine(" [MENU] ");
-        var table = new ConsoleTable("Name", "Description", "Price");
+        var table = new ConsoleTable("Number", "Name", "Description", "Price");
 
         foreach (var item in Foods)
         {
-            table.AddRow(item.Name, item.Description, item.Price.ToString("C"));
+            table.AddRow(item.ID, item.Name, item.Description, $"€ {item.Price},-");
         }
         Console.WriteLine(table);
     }
@@ -30,20 +31,20 @@ static class CateringLogic
     {
         Console.Clear();
         CateringShowMenu(flight);
-        Console.WriteLine("\nPlease type the food you want");
+        Console.WriteLine("\nPlease type number of the food you want");
         Console.Write(": ");
-        string input = Console.ReadLine();
+        int foodid = Convert.ToInt32(Console.ReadLine());
                
-        if (FindFood(input, flight) == null)
+        if (FindFood(foodid, flight) == null)
         {
             do
             {
-                Console.WriteLine($"{input} not found in menu please choose again");
+                Console.WriteLine($"Item was not found in menu, please choose again");
                 Console.WriteLine("Please select a new type of food again");
                 Console.Write(": ");
-                input = Console.ReadLine();
-                
-                if (FindFood(input, flight) != null)
+                foodid = Convert.ToInt32(Console.ReadLine());
+
+                if (FindFood(foodid, flight) != null)
                 {
                     break;
                 }
@@ -56,7 +57,7 @@ static class CateringLogic
 
         foreach (BasketItem i in basketItems)
         {
-            if (i.FoodItem.Name == input)
+            if (i.FoodItem.ID == foodid)
             {
                 i.Quantity += amount;
                 Console.WriteLine($"{amount} sucessfully added to {i.FoodItem.Name}");
@@ -67,19 +68,20 @@ static class CateringLogic
         }
 
         Console.WriteLine("Food sucessfully added to basket...");
-        basketItems.Add(new BasketItem(FindFood(input, flight), amount));
+        basketItems.Add(new BasketItem(FindFood(foodid, flight), amount));
         Thread.Sleep(3000);
         StartCatering(flight);
     }
 
     public static void ShowBasket(Flight flight)
     {
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
         Console.WriteLine(" [BASKET] ");
-        var basket = new ConsoleTable("Name", "Amount", "Price");
+        var basket = new ConsoleTable("Number", "Name", "Amount", "Price");
 
         foreach (var item in basketItems)
         {
-            basket.AddRow(item.FoodItem.Name, $"x {item.Quantity}", item.FoodItem.Price.ToString("C"));
+            basket.AddRow(item.FoodItem.ID, item.FoodItem.Name, $"x {item.Quantity}", $"€ {item.FoodItem.Price},-");
         }
         Console.WriteLine(basket);
 
@@ -95,20 +97,20 @@ static class CateringLogic
 
         else if (input == "2")
         {
-            Console.WriteLine("Please enter the food you wish to remove");
+            Console.WriteLine("Please enter the number of the food you wish to remove");
             Console.Write(": ");
-            string food = Console.ReadLine();
+            int foodid = Convert.ToInt32(Console.ReadLine());
 
-            if (FindFood(food, flight) == null)
+            if (FindFood(foodid, flight) == null)
             {
                 do
                 {
-                    Console.WriteLine($"{food} not found in menu please choose again");
+                    Console.WriteLine($"Item was not found in menu, please choose again");
                     Console.WriteLine("Please select again.");
                     Console.Write(": ");
-                    food = Console.ReadLine();
+                    foodid = Convert.ToInt32(Console.ReadLine());
 
-                    if (FindFood(food, flight) != null)
+                    if (FindFood(foodid, flight) != null)
                     {
                         break;
                     }
@@ -116,10 +118,10 @@ static class CateringLogic
                 while (true);
             }
 
-            BasketItem item = basketItems.FirstOrDefault(p => p.FoodItem.Name == food);
+            BasketItem item = basketItems.FirstOrDefault(p => p.FoodItem.ID == foodid);
             basketItems.Remove(item);
 
-            Console.WriteLine($"{food} succesfully removed from basket");
+            Console.WriteLine($"Item succesfully removed from basket");
             Thread.Sleep(3000);
             StartCatering(flight);
         }
@@ -127,24 +129,24 @@ static class CateringLogic
 
     public static void Finalize(Flight flight)
     {
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
         Console.Clear();
         Console.WriteLine(" [CHECKOUT] ");
         var basket = new ConsoleTable("Name", "Amount", "Price");
 
         foreach (var item in basketItems)
         {
-            basket.AddRow(item.FoodItem.Name, $"x {item.Quantity}", item.FoodItem.Price.ToString("C"));
+            basket.AddRow(item.FoodItem.Name, $"x {item.Quantity}", $"€ {item.FoodItem.Price},-");
         }
         Console.WriteLine(basket);
 
-        double totalprice = 0;
         foreach (var item in basketItems)
         {
             double price = item.FoodItem.Price * item.Quantity;
-            totalprice += price;
+            TotalPrice += price;
         }
 
-        Console.WriteLine($"\n[TOTAL PRICE: ${totalprice}]");
+        Console.WriteLine($"\n[TOTAL PRICE: € {TotalPrice.ToString("F2")},-]");
         Console.WriteLine($"\n1: [CONTINUE PAYMENT]");
         Console.WriteLine($"2: [GO BACK]");
         string input = Console.ReadLine();
@@ -160,12 +162,12 @@ static class CateringLogic
         }
     }
     
-    public static Food FindFood(string foodname, Flight flight)
+    public static Food FindFood(int foodid, Flight flight)
     {
         List<Food> Foods = DataFood.ReadFoodFromJson(CheckFlightDur(flight));
         foreach (var item in Foods)
         {
-            if (item.Name == foodname)
+            if (item.ID == foodid)
             {
                 return item;
             }

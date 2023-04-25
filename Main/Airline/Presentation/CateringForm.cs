@@ -17,6 +17,7 @@ static class CateringForm
 
 
         Console.WriteLine($"\nYour flight to ({flight.Destination.Country}-{flight.Destination.City}-{flight.Destination.Airport})\nIs estimated to be: {flight.Destination.FlightDuration * 60}m long\nWould you like to buy some food along the trip? (Y/N)");
+        Console.WriteLine("BTW% are included in the price.");
 
         Console.Write(": ");
         string input = Console.ReadLine();

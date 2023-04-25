@@ -1,16 +1,16 @@
 [
   {
     "ID": 1,
-    "Name": "Hotdog",
-    "Price": 4.75,
-    "Description": "A glizzy in a bun",
-    "Type": "Short"
+    "Name": "Ramen",
+    "Price": 3.75,
+    "Description": "Fresh coocked noodles with meat, veggies and spices",
+    "Type": "Long"
   },
   {
-    "ID": 1,
-    "Name": "Hamburger",
-    "Price": 4.0,
-    "Description": "Meat in a bun",
+    "ID": 2,
+    "Name": "Hamburger & Fries",
+    "Price": 4.75,
+    "Description": "A fresh made hamburger with crispy french fries",
     "Type": "Long"
   }
 ]
