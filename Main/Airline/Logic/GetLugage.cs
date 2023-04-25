@@ -56,12 +56,13 @@ public static class GetLugage
                 Console.WriteLine("Invalid input");
             }
         }
+        TotalCost = totalCost;
         Flight flight = null;
         foreach (BookTicket ticket in tickets)
         {
             flight = ticket.Ticket.Flight;
         }
-        CatteringForm.Cattering(flight);
+        CatteringForm.Cattering(flight, tickets);
         // Y --> ga naar volgende stap (roep class/method aan)
     }
     public static void CheckInHandLuggage()

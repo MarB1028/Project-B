@@ -6,7 +6,7 @@
         /*Menu.StartScreen();*/
 
         // CODE TEST [Jiajun]
-        Airplane boeing747 = new Airplane("BOEING747", "BO", 1, 4, 5, 6, 2);
+        //Airplane boeing747 = new Airplane("BOEING747", "BO", 1, 4, 5, 6, 2);
         // [Marie-Claire] Het process van de ticket boeken
         /*Airplane boeing747 = new Airplane("BOEING747", "BO", 1, 4, 5, 6, 2);
 
@@ -53,6 +53,6 @@
         Destination frankfort = new Destination("GERMANY", "FRANKFURT", "(GER)", "FRANKFORTAIRPORT", 100, 3, "On Schedule");
         Flight flightfrankfort = new Flight(1, "GER1", "Day", boeing747, DateTime.Now, DateTime.Now, frankfort, 100);
         CatteringForm.Cattering(flightfrankfort);*/
-        /*Menu.StartScreen();*/
+        Menu.StartScreen();
     }
 }

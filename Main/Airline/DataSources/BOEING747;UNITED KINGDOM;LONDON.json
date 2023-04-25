@@ -1,0 +1,3980 @@
+[
+  {
+    "Booked": false,
+    "TicketID": 6223,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-1",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6224,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-2",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6225,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-3",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6226,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-4",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6227,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-5",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6228,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-6",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6229,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-7",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6230,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-8",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6231,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-9",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6232,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-10",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6233,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-11",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6234,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-12",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6235,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-13",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6236,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-14",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6237,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-15",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6238,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-16",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6239,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-17",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6240,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-18",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6241,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-19",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6242,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-20",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6243,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-21",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6244,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-22",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6245,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-23",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6246,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-24",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6247,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-25",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6248,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-26",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6249,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-27",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6250,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-28",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6251,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-29",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6252,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-30",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6253,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-31",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6254,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-32",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6255,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-33",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6256,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-34",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6257,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-35",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6258,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-36",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6259,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-37",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6260,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-38",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6261,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-39",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6262,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-40",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6263,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-41",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6264,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-42",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6265,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-43",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6266,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-44",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6267,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-45",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6268,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-46",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6269,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-47",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6270,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-48",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6271,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-49",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6272,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-50",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6273,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-51",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6274,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-52",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6275,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-53",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6276,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-54",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6277,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-55",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6278,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-56",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6279,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-57",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6280,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-58",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6281,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-59",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6282,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-60",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6283,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-61",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6284,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-62",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6285,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-63",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6286,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-64",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6287,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-65",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6288,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-66",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6289,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-67",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6290,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-68",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6291,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-69",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6292,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-70",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6293,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-71",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6294,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-72",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6295,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-73",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6296,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-74",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6297,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-75",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6298,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-76",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6299,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-77",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6300,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-78",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6301,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-79",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6302,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-80",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6303,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-81",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6304,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-82",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6305,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-83",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6306,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-84",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6307,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-85",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6308,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-86",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6309,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-87",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6310,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-88",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6311,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-89",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6312,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-90",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6313,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-91",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6314,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-92",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6315,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-93",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6316,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-94",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6317,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-95",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6318,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-96",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6319,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-97",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6320,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-98",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6321,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-99",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6322,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-100",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6323,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-101",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 6324,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-05T09:45:00+02:00",
+        "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+        "Destination": {
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 1,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-102",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  }
+]

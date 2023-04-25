@@ -3,9 +3,7 @@ static class DataFlights
 {
     private static string pathfile = $"{GetPathFile.ReturnPathFile()}\\ALLFLIGHTS;EUROPE.json";
     public static List<Flight> ReadFlightsFromJson()
-    {
-        string pathfile = $"C:\\Users\\{Environment.UserName}\\OneDrive - Hogeschool Rotterdam\\Semester 2\\Project B\\Project-B\\Main\\Airline\\DataSources\\ALLFLIGHTS;EUROPE.json";
-        
+    {        
         if (!File.Exists(pathfile))
         {
             return new List<Flight>();

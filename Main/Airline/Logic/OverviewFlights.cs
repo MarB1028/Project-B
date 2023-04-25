@@ -313,9 +313,9 @@ class OverviewFlights
 
         foreach (Flight flight in flights)
         {
+            MakeTicketsForFlightJson.MakeTickets(flight);
             if (flight.Destination.City == EndDestination)
-            {
-                MakeTicketsForFlightJson.MakeTickets(flight);
+            { 
                 return true;
             }
         }

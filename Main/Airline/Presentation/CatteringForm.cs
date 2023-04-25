@@ -1,7 +1,7 @@
 ﻿using ConsoleTables;
 static class CatteringForm
 {
-    public static void Cattering(Flight flight)
+    public static void Cattering(Flight flight, List<BookTicket> tickets)
     {
         Console.ForegroundColor = ConsoleColor.DarkYellow;
         Console.WriteLine("STEP 4/5: Option to select Cattering (Y/N)");
@@ -23,6 +23,11 @@ static class CatteringForm
         if (input == "Y" || input == "y")
         {
             CatteringLogic.StartCattering(flight);
+
+            CalculateTotalCosts.tickets = tickets;
+            //hier berekent hij de totale prijs voor de tickets
+            Console.WriteLine(CalculateTotalCosts.GetTotalPrice());
+            
         }
 
         else if (input == "N" || input == "n")
@@ -35,7 +40,7 @@ static class CatteringForm
             Console.WriteLine("Invalid input");
             Thread.Sleep(1000);
             Console.Clear();
-            Cattering(flight);
+            Cattering(flight, tickets);
         }
     }
 }

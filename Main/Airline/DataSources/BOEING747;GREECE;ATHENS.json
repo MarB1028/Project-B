@@ -1,0 +1,3980 @@
+[
+  {
+    "Booked": false,
+    "TicketID": 2041,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-1",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2042,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-2",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2043,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-3",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2044,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-4",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2045,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-5",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2046,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-6",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2047,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-7",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2048,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-8",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2049,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-9",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2050,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-10",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2051,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-11",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2052,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-12",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2053,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-13",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2054,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-14",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2055,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-15",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2056,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-16",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2057,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-17",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2058,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-18",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2059,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-19",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2060,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-20",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2061,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-21",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2062,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-22",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2063,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-23",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2064,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-24",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2065,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-25",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2066,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-26",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2067,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-27",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2068,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-28",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2069,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-29",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2070,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-30",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2071,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-31",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2072,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-32",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2073,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-33",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2074,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-34",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2075,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-35",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2076,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-36",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2077,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-37",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2078,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-38",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2079,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-39",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2080,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-40",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2081,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-41",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2082,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-42",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2083,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-43",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2084,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-44",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2085,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-45",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2086,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-46",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2087,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-47",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2088,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-48",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2089,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-49",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2090,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-50",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2091,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-51",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2092,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-52",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2093,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-53",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2094,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-54",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2095,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-55",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2096,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-56",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2097,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-57",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2098,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-58",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2099,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-59",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2100,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-60",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2101,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-61",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2102,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-62",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2103,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-63",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2104,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-64",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2105,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-65",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2106,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-66",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2107,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-67",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2108,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-68",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2109,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-69",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2110,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-70",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2111,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-71",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2112,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-72",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2113,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-73",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2114,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-74",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2115,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-75",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2116,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-76",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2117,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-77",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2118,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-78",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2119,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-79",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2120,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-80",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2121,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-81",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2122,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-82",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2123,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-83",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2124,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-84",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2125,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-85",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2126,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-86",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2127,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-87",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2128,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-88",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2129,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-89",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2130,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-90",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2131,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-91",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2132,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-92",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2133,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-93",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2134,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-94",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2135,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-95",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2136,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-96",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2137,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-97",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2138,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-98",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2139,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-99",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2140,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-100",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2141,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-101",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "TicketID": 2142,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GRC1",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
+        "Destination": {
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 7,
+          "Status": "On schedule"
+        },
+        "MinPrice": 100.0
+      },
+      "Seat": {
+        "SeatNumber": "BO-102",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  }
+]

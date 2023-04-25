@@ -154,7 +154,7 @@ static class CatteringLogic
         {
             Console.WriteLine("N/A");
             TotalPrice = totalprice;
-            CalculateTotalCosts.GetTotalPrice();
+            //TODO: hier moet je naar het betalingsysteem gestuurd worden
         }
 
         else if (input == "2")

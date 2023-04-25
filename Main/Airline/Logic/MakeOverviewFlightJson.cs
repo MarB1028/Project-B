@@ -5,7 +5,7 @@ static class MakeOverviewFlightJson
     public static void MakeOverviewJson(Flight flight)
     {
         List<Flight> flights = new List<Flight>();
-        string pathfile = $"C:\\Users\\{Environment.UserName}\\OneDrive - Hogeschool Rotterdam\\Semester 2\\Project B\\Project-B\\Main\\Airline\\DataSources\\ALLFLIGHTS;EUROPE.json";
+        string pathfile = $"{GetPathFile.ReturnPathFile()}\\ALLFLIGHTS;EUROPE.json";
 
         if (File.Exists(pathfile))
         {

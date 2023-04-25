@@ -6,12 +6,14 @@
     public static double TotalCost;
 
     public static double GetTotalPrice() {
+        double seatsprice = 0;
         foreach (BookTicket ticket in tickets) {
-            TotalCost += GetSeatPrice(ticket);
+            seatsprice += GetSeatPrice(ticket);
         }
+        TotalCost += seatsprice;
         TotalCost += GetLugage.TotalCost;
         TotalCost += CatteringLogic.TotalPrice;
-        Console.WriteLine($"{GetLugage.TotalCost} {CatteringLogic.TotalPrice}");
+        Console.WriteLine($"Seats price: {seatsprice}\nLugage price:{GetLugage.TotalCost} \nCatering price:{CatteringLogic.TotalPrice}");
         return TotalCost;
     }
 
