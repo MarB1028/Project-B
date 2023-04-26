@@ -1,6 +1,6 @@
 ﻿public class Food
 {
-    private static int ticketCounter = 1;
+    private static int FoodID = 1;
     public int ID;
     public string Name;
     public double Price;
@@ -9,7 +9,7 @@
 
     public Food(string name, double price, string description, string type)
     {
-        ID = ticketCounter++;
+        ID = FoodID++;
         Name = name;
         Price = price;
         Description = description;
