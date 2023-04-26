@@ -29,6 +29,6 @@
         Flight flightfrankfort = new Flight(1, "GER1", "Day", boeing747, DateTime.Now, DateTime.Now, frankfort, 100);
         CateringForm.Catering(flightfrankfort);*/
 
-        /*Menu.StartScreen();*/
+        Menu.StartScreen();
     }
 }
