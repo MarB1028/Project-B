@@ -12,8 +12,8 @@
         }
         TotalCost += seatsprice;
         TotalCost += GetLugage.TotalCost;
-        TotalCost += CatteringLogic.TotalPrice;
-        Console.WriteLine($"Seats price: {seatsprice}\nLugage price:{GetLugage.TotalCost} \nCatering price:{CatteringLogic.TotalPrice}");
+        TotalCost += CateringLogic.TotalPrice;
+        Console.WriteLine($"Seats price: {seatsprice}\nLugage price:{GetLugage.TotalCost} \nCatering price:{CateringLogic.TotalPrice}");
         return TotalCost;
     }
 
