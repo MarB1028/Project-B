@@ -55,7 +55,6 @@ class Program
         CatteringForm.Cattering(flightfrankfort);*/
         /*CateringForm.Catering(flightfrankfort);*/
 
-        /*Total  € 55,-*/
-        Menu.StartScreen();
+        /*Menu.StartScreen();*/
     }
 }
