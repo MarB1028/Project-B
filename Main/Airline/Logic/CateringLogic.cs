@@ -5,12 +5,14 @@ static class CateringLogic
     public static List<BasketItem> basketItems = new List<BasketItem>();
     public static double TotalPrice = 0;
     
+    // CHECKT DE DURATION VAN DE VLUCHT. LANGER DAN 90 = LONG, KORTER DAN 90 = SHORT
     public static string CheckFlightDur(Flight flight)
     {
         if ((flight.Destination.FlightDuration * 60) > 90) return "Long";
         else return "Short";
     }
 
+    // LAAT HET MENU ZIEN MET ALLE BESCHIKBARE ETEN, MET BEHULP VAN CONSOLETABLES
     public static void CateringShowMenu(Flight flight)
     {
         Console.OutputEncoding = System.Text.Encoding.UTF8;
@@ -27,6 +29,7 @@ static class CateringLogic
         Console.WriteLine(table);
     }
 
+    // DE FUNCTIE OM ETEN TE KIEZEN MET DE GEGEVEN ID
     public static void FoodSelect(Flight flight)
     {
         Console.Clear();
@@ -73,6 +76,7 @@ static class CateringLogic
         StartCatering(flight);
     }
 
+    // LAAT DE BASKET ZIEN MET ALLE ITEMS DIE ERIN ZITTEN
     public static void ShowBasket(Flight flight)
     {
         Console.OutputEncoding = System.Text.Encoding.UTF8;
@@ -127,6 +131,7 @@ static class CateringLogic
         }
     }
 
+    // DIT IS DE CHECKOUT FUNCTIE. HIJ PAKTE ALLE ITEMS EN LAAT DE TOTALPRIJS ZIEN
     public static void Finalize(Flight flight)
     {
         Console.OutputEncoding = System.Text.Encoding.UTF8;
@@ -162,6 +167,7 @@ static class CateringLogic
         }
     }
     
+    // OBJECT FOOD VINDEN, OM CHECKS TE DOEN
     public static Food FindFood(int foodid, Flight flight)
     {
         List<Food> Foods = DataFood.ReadFoodFromJson(CheckFlightDur(flight));
@@ -175,6 +181,7 @@ static class CateringLogic
         return null;
     }
 
+    // ENTRY POINT VAN CATERING
     public static void StartCatering(Flight flight)
     {
         CateringShowMenu(flight);
