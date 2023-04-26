@@ -17,7 +17,7 @@ class OverviewFlights
         DateTime Today = DateTime.Today;
 
         // voor elke vlucht een random boarding time generaten
-        int displayed = DateTime.Now.Day; //seed dat de display the same is voor vandaag
+        int displayed = DateTime.Now.Day;
         Random random = new Random(displayed);
         DateTime startDate = DateTime.Now;
         DateTime endDate = startDate.AddMonths(3);
