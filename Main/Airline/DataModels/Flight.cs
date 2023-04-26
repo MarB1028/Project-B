@@ -8,9 +8,9 @@
     public DateTime EstimatedArrival;
     public Destination Destination;
     public double MinPrice;
+    public int TotalSeats;
 
-
-    public Flight(int flightNo, string flightid, string dayOrNight, Airplane airplane, DateTime boardingdate, DateTime estimatedarrival, Destination destination, double minPrice)
+    public Flight(int flightNo, string flightid, string dayOrNight, Airplane airplane, DateTime boardingdate, DateTime estimatedarrival, Destination destination, double minPrice, int totalSeats)
     {
         FlightNo = flightNo;
         FlightId = flightid;
@@ -20,6 +20,7 @@
         EstimatedArrival = estimatedarrival;
         Destination = destination;
         MinPrice = minPrice;
+        TotalSeats = totalSeats;    
     }
 
 }

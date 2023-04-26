@@ -1,4 +1,4 @@
-﻿class Program
+class Program
 {
     public static void Main()
     {
@@ -30,5 +30,6 @@
         CateringForm.Catering(flightfrankfort);
 
         /*Total  € 55,-*/
+        Menu.StartScreen();
     }
 }
