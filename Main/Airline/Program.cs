@@ -2,7 +2,6 @@
 {
     public static void Main()
     {
-        Console.WriteLine($"{DataFlights.pathfile}");
         // [Maria] De entrypoint van het programma, vluchten laten zien en inloggen
         /*Menu.StartScreen();*/
 
@@ -25,6 +24,7 @@
         Luggage.LuggageInfo(CalculateTotalCosts.tickets);*/
 
         // [Jiajun] Het selecteren van de Catering en de prijzen uitrekenen
+        Menu.StartScreen();
         Airplane boeing747 = new Airplane("BOEING747", "BO", 1, 4, 5, 6, 2);
         Destination frankfort = new Destination("GERMANY", "FRANKFURT", "(GER)", "FRANKFORTAIRPORT", 100, 3, "On Schedule");
         Flight flightfrankfort = new Flight(1, "GER1", "Day", boeing747, DateTime.Now, DateTime.Now, frankfort, 100);

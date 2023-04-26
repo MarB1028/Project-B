@@ -6,6 +6,10 @@
         Console.WriteLine("STEP 1/5 of the booking process: Choose your flight");
         Console.WriteLine("======================================================");
         Console.ResetColor(); /* Vermelden waar we naar toe vliegen */
+
+        //Deals worden geprint
+        Deals.PrintDeals();
+
         Console.WriteLine("Start the search for your next journey here");
         Console.WriteLine("");
         Console.Write("Destinations\n");

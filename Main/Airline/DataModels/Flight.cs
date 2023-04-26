@@ -8,6 +8,7 @@
     public DateTime EstimatedArrival;
     public Destination Destination;
     public double MinPrice;
+    public double MinPriceNet;
     public bool IsDeal;
 
 
@@ -21,6 +22,7 @@
         EstimatedArrival = estimatedarrival;
         Destination = destination;
         MinPrice = minPrice;
+        MinPriceNet = MinPrice;
     }
 
 }
