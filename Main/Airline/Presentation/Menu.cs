@@ -43,6 +43,7 @@ static class Menu
                     break;
 
                 case "4":
+                    Console.WriteLine("Thank you for visiting our site.\nHopefully we see you again.");
                     // Exit 
                     Environment.Exit(0);
                     break;
