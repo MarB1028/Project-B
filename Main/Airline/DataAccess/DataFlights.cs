@@ -3,7 +3,7 @@ static class DataFlights
 {
     private static string pathfile = $"{GetPathFile.ReturnPathFile()}\\ALLFLIGHTS;EUROPE.json";
     public static List<Flight> ReadFlightsFromJson()
-    {            
+    {        
         if (!File.Exists(pathfile))
         {
             return new List<Flight>();

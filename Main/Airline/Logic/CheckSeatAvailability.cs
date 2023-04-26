@@ -236,7 +236,6 @@ class CheckSeatAvailability
                     //TODO: De bookedticket moet nu naar true gezet worden met alle informatie van de passenger
                     DataTickets.WriteTicketToJson(Flight, bookticket);
                     tickets.Add(bookticket);
-
                     y = false;
                 }
             }

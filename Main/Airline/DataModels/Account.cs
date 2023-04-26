@@ -1,5 +1,5 @@
 ﻿using Newtonsoft.Json;
-class Account
+public class Account
 {
     public int ID;
     private static int _counter = 0;

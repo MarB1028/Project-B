@@ -1,4 +1,4 @@
-﻿class Ticket
+﻿public class Ticket
 {
     public Passenger Passenger;
     public Flight Flight;

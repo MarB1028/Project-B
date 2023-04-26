@@ -1,4 +1,4 @@
-﻿class Seat
+﻿public class Seat
 {
     public string SeatNumber;
     public string SeatType;

@@ -1,20 +1,12 @@
 [
   {
-    "Booked": true,
+    "Booked": false,
     "TicketID": 1,
     "Ticket": {
-      "Passenger": {
-        "ID": 206,
-        "Surname": "MarieClaire",
-        "Lastname": "de Groot",
-        "Sex": "v",
-        "BirthDate": "2005-10-13T00:00:00",
-        "Adress": "doei 12  1234ab nederland",
-        "PhoneNumber": "0612345678"
-      },
+      "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -25,15 +17,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -47,13 +39,21 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 2,
     "Ticket": {
-      "Passenger": null,
+      "Passenger": {
+        "ID": 1,
+        "Surname": "marie",
+        "Lastname": "de groot",
+        "Sex": "v",
+        "BirthDate": "1000-10-10T00:00:00",
+        "Adress": "dmkjmfe 11  1234ab wkmkdwm",
+        "PhoneNumber": "0612345678"
+      },
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -64,15 +64,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -92,7 +92,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -103,15 +103,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -131,7 +131,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -142,15 +142,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -170,7 +170,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -181,15 +181,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -209,7 +209,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -220,15 +220,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -248,7 +248,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -259,15 +259,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -287,7 +287,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -298,15 +298,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -326,7 +326,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -337,15 +337,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -365,7 +365,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -376,15 +376,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -404,7 +404,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -415,15 +415,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -443,7 +443,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -454,15 +454,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -482,7 +482,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -493,15 +493,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -521,7 +521,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -532,15 +532,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -560,7 +560,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -571,15 +571,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -599,7 +599,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -610,15 +610,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -638,7 +638,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -649,15 +649,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -677,7 +677,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -688,15 +688,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -716,7 +716,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -727,15 +727,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -755,7 +755,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -766,15 +766,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -794,7 +794,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -805,15 +805,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -833,7 +833,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -844,15 +844,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -872,7 +872,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -883,15 +883,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -911,7 +911,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -922,15 +922,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -950,7 +950,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -961,15 +961,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -989,7 +989,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1000,15 +1000,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1028,7 +1028,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1039,15 +1039,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1067,7 +1067,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1078,15 +1078,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1106,7 +1106,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1117,15 +1117,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1145,7 +1145,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1156,15 +1156,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1184,7 +1184,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1195,15 +1195,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1223,7 +1223,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1234,15 +1234,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1262,7 +1262,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1273,15 +1273,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1301,7 +1301,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1312,15 +1312,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1340,7 +1340,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1351,15 +1351,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1379,7 +1379,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1390,15 +1390,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1418,7 +1418,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1429,15 +1429,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1457,7 +1457,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1468,15 +1468,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1496,7 +1496,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1507,15 +1507,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1535,7 +1535,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1546,15 +1546,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1574,7 +1574,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1585,15 +1585,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1613,7 +1613,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1624,15 +1624,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1652,7 +1652,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1663,15 +1663,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1691,7 +1691,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1702,15 +1702,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1730,7 +1730,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1741,15 +1741,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1769,7 +1769,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1780,15 +1780,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1808,7 +1808,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1819,15 +1819,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1847,7 +1847,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1858,15 +1858,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1886,7 +1886,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1897,15 +1897,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1925,7 +1925,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1936,15 +1936,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1964,7 +1964,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1975,15 +1975,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2003,7 +2003,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2014,15 +2014,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2042,7 +2042,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2053,15 +2053,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2081,7 +2081,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2092,15 +2092,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2114,21 +2114,13 @@
     }
   },
   {
-    "Booked": true,
+    "Booked": false,
     "TicketID": 55,
     "Ticket": {
-      "Passenger": {
-        "ID": 1,
-        "Surname": "marie",
-        "Lastname": "de groot",
-        "Sex": "v",
-        "BirthDate": "2005-10-13T00:00:00",
-        "Adress": "kdmkmkwm 544  1234ab msdkwmkdmw",
-        "PhoneNumber": "0612345678"
-      },
+      "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2139,15 +2131,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2167,7 +2159,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2178,15 +2170,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2206,7 +2198,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2217,15 +2209,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2245,7 +2237,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2256,15 +2248,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2284,7 +2276,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2295,15 +2287,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2323,7 +2315,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2334,15 +2326,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2362,7 +2354,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2373,15 +2365,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2401,7 +2393,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2412,15 +2404,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2440,7 +2432,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2451,15 +2443,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2479,7 +2471,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2490,15 +2482,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2518,7 +2510,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2529,15 +2521,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2557,7 +2549,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2568,15 +2560,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2596,7 +2588,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2607,15 +2599,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2635,7 +2627,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2646,15 +2638,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2674,7 +2666,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2685,15 +2677,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2713,7 +2705,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2724,15 +2716,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2752,7 +2744,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2763,15 +2755,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2791,7 +2783,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2802,15 +2794,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2830,7 +2822,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2841,15 +2833,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2869,7 +2861,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2880,15 +2872,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2908,7 +2900,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2919,15 +2911,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2947,7 +2939,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2958,15 +2950,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2986,7 +2978,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2997,15 +2989,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3025,7 +3017,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3036,15 +3028,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3064,7 +3056,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3075,15 +3067,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3103,7 +3095,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3114,15 +3106,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3142,7 +3134,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3153,15 +3145,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3181,7 +3173,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3192,15 +3184,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3220,7 +3212,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3231,15 +3223,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3259,7 +3251,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3270,15 +3262,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3298,7 +3290,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3309,15 +3301,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3337,7 +3329,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3348,15 +3340,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3376,7 +3368,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3387,15 +3379,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3415,7 +3407,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3426,15 +3418,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3454,7 +3446,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3465,15 +3457,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3493,7 +3485,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3504,15 +3496,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3532,7 +3524,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3543,15 +3535,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3571,7 +3563,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3582,15 +3574,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3610,7 +3602,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3621,15 +3613,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3649,7 +3641,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3660,15 +3652,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3688,7 +3680,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3699,15 +3691,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3727,7 +3719,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3738,15 +3730,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3766,7 +3758,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3777,15 +3769,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3805,7 +3797,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3816,15 +3808,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3844,7 +3836,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3855,15 +3847,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3883,7 +3875,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3894,15 +3886,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3922,7 +3914,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3933,15 +3925,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3961,7 +3953,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "SPN11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3972,15 +3964,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-01T10:44:00+02:00",
+        "EstimatedArrival": "2023-06-01T13:44:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 3,
           "Status": "On schedule"
         },
         "MinPrice": 100.0

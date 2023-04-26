@@ -1,4 +1,4 @@
-﻿class Destination
+﻿public class Destination
 {
     public string Country;
     public string City;

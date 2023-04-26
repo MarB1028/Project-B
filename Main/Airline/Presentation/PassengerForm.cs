@@ -116,6 +116,7 @@
         if (input.ToUpper() == "J")
         {
             Console.Clear();
+            
 
             //DataTickets.WriteTicketToJson()
             return true;

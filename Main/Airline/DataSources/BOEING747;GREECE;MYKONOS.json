@@ -1,20 +1,12 @@
 [
   {
-    "Booked": true,
+    "Booked": false,
     "TicketID": 1,
     "Ticket": {
-      "Passenger": {
-        "ID": 206,
-        "Surname": "MarieClaire",
-        "Lastname": "de Groot",
-        "Sex": "v",
-        "BirthDate": "2005-10-13T00:00:00",
-        "Adress": "doei 12  1234ab nederland",
-        "PhoneNumber": "0612345678"
-      },
+      "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -25,15 +17,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -53,7 +45,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -64,15 +56,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -92,7 +84,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -103,15 +95,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -131,7 +123,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -142,15 +134,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -170,7 +162,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -181,15 +173,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -209,7 +201,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -220,15 +212,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -248,7 +240,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -259,15 +251,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -287,7 +279,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -298,15 +290,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -326,7 +318,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -337,15 +329,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -365,7 +357,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -376,15 +368,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -404,7 +396,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -415,15 +407,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -443,7 +435,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -454,15 +446,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -476,13 +468,21 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 13,
     "Ticket": {
-      "Passenger": null,
+      "Passenger": {
+        "ID": 1,
+        "Surname": "hoi",
+        "Lastname": "kekmfd",
+        "Sex": "m",
+        "BirthDate": "2000-12-10T00:00:00",
+        "Adress": "ksdmkwmd 12  1234ab kwmdmw",
+        "PhoneNumber": "0612345678"
+      },
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -493,15 +493,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -515,13 +515,21 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 14,
     "Ticket": {
-      "Passenger": null,
+      "Passenger": {
+        "ID": 2,
+        "Surname": "nejnjfe",
+        "Lastname": "jnefjenfjefn",
+        "Sex": "v",
+        "BirthDate": "1000-10-10T00:00:00",
+        "Adress": "dfnkenjefn 34 km 1234ab kdmkem",
+        "PhoneNumber": "Empty"
+      },
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -532,15 +540,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -560,7 +568,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -571,15 +579,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -599,7 +607,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -610,15 +618,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -638,7 +646,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -649,15 +657,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -677,7 +685,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -688,15 +696,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -716,7 +724,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -727,15 +735,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -755,7 +763,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -766,15 +774,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -794,7 +802,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -805,15 +813,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -833,7 +841,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -844,15 +852,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -872,7 +880,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -883,15 +891,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -911,7 +919,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -922,15 +930,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -950,7 +958,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -961,15 +969,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -989,7 +997,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1000,15 +1008,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1028,7 +1036,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1039,15 +1047,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1067,7 +1075,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1078,15 +1086,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1106,7 +1114,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1117,15 +1125,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1145,7 +1153,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1156,15 +1164,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1184,7 +1192,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1195,15 +1203,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1223,7 +1231,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1234,15 +1242,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1262,7 +1270,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1273,15 +1281,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1301,7 +1309,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1312,15 +1320,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1340,7 +1348,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1351,15 +1359,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1379,7 +1387,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1390,15 +1398,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1418,7 +1426,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1429,15 +1437,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1457,7 +1465,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1468,15 +1476,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1496,7 +1504,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1507,15 +1515,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1535,7 +1543,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1546,15 +1554,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1574,7 +1582,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1585,15 +1593,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1613,7 +1621,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1624,15 +1632,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1652,7 +1660,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1663,15 +1671,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1691,7 +1699,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1702,15 +1710,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1730,7 +1738,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1741,15 +1749,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1769,7 +1777,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1780,15 +1788,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1808,7 +1816,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1819,15 +1827,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1847,7 +1855,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1858,15 +1866,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1886,7 +1894,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1897,15 +1905,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1925,7 +1933,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1936,15 +1944,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1964,7 +1972,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1975,15 +1983,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2003,7 +2011,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2014,15 +2022,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2042,7 +2050,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2053,15 +2061,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2081,7 +2089,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2092,15 +2100,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2114,21 +2122,13 @@
     }
   },
   {
-    "Booked": true,
+    "Booked": false,
     "TicketID": 55,
     "Ticket": {
-      "Passenger": {
-        "ID": 1,
-        "Surname": "marie",
-        "Lastname": "de groot",
-        "Sex": "v",
-        "BirthDate": "2005-10-13T00:00:00",
-        "Adress": "kdmkmkwm 544  1234ab msdkwmkdmw",
-        "PhoneNumber": "0612345678"
-      },
+      "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2139,15 +2139,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2167,7 +2167,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2178,15 +2178,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2206,7 +2206,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2217,15 +2217,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2245,7 +2245,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2256,15 +2256,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2284,7 +2284,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2295,15 +2295,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2323,7 +2323,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2334,15 +2334,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2362,7 +2362,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2373,15 +2373,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2401,7 +2401,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2412,15 +2412,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2440,7 +2440,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2451,15 +2451,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2479,7 +2479,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2490,15 +2490,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2518,7 +2518,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2529,15 +2529,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2557,7 +2557,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2568,15 +2568,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2596,7 +2596,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2607,15 +2607,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2635,7 +2635,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2646,15 +2646,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2674,7 +2674,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2685,15 +2685,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2713,7 +2713,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2724,15 +2724,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2752,7 +2752,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2763,15 +2763,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2791,7 +2791,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2802,15 +2802,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2830,7 +2830,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2841,15 +2841,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2869,7 +2869,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2880,15 +2880,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2908,7 +2908,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2919,15 +2919,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2947,7 +2947,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2958,15 +2958,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2986,7 +2986,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2997,15 +2997,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3025,7 +3025,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3036,15 +3036,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3064,7 +3064,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3075,15 +3075,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3103,7 +3103,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3114,15 +3114,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3142,7 +3142,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3153,15 +3153,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3181,7 +3181,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3192,15 +3192,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3220,7 +3220,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3231,15 +3231,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3259,7 +3259,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3270,15 +3270,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3298,7 +3298,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3309,15 +3309,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3337,7 +3337,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3348,15 +3348,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3376,7 +3376,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3387,15 +3387,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3415,7 +3415,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3426,15 +3426,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3454,7 +3454,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3465,15 +3465,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3493,7 +3493,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3504,15 +3504,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3532,7 +3532,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3543,15 +3543,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3571,7 +3571,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3582,15 +3582,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3610,7 +3610,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3621,15 +3621,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3649,7 +3649,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3660,15 +3660,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3688,7 +3688,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3699,15 +3699,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3727,7 +3727,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3738,15 +3738,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3766,7 +3766,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3777,15 +3777,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3805,7 +3805,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3816,15 +3816,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3844,7 +3844,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3855,15 +3855,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3883,7 +3883,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3894,15 +3894,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3922,7 +3922,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3933,15 +3933,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3961,7 +3961,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC11",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3972,15 +3972,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-06-15T08:39:00+02:00",
+        "EstimatedArrival": "2023-06-15T22:39:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "MYKONOS",
+          "Abbreviation": "(JMK)",
+          "Airport": "MYKONOS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 14,
           "Status": "On schedule"
         },
         "MinPrice": 100.0

@@ -1,20 +1,12 @@
 [
   {
-    "Booked": true,
-    "TicketID": 1,
+    "Booked": false,
+    "TicketID": 2041,
     "Ticket": {
-      "Passenger": {
-        "ID": 206,
-        "Surname": "MarieClaire",
-        "Lastname": "de Groot",
-        "Sex": "v",
-        "BirthDate": "2005-10-13T00:00:00",
-        "Adress": "doei 12  1234ab nederland",
-        "PhoneNumber": "0612345678"
-      },
+      "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -25,15 +17,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -48,12 +40,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 2,
+    "TicketID": 2042,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -64,15 +56,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -87,12 +79,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 3,
+    "TicketID": 2043,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -103,15 +95,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -126,12 +118,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 4,
+    "TicketID": 2044,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -142,15 +134,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -165,12 +157,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 5,
+    "TicketID": 2045,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -181,15 +173,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -204,12 +196,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 6,
+    "TicketID": 2046,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -220,15 +212,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -243,12 +235,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 7,
+    "TicketID": 2047,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -259,15 +251,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -282,12 +274,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 8,
+    "TicketID": 2048,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -298,15 +290,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -321,12 +313,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 9,
+    "TicketID": 2049,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -337,15 +329,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -360,12 +352,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 10,
+    "TicketID": 2050,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -376,15 +368,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -399,12 +391,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 11,
+    "TicketID": 2051,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -415,15 +407,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -438,12 +430,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 12,
+    "TicketID": 2052,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -454,15 +446,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -477,12 +469,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 13,
+    "TicketID": 2053,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -493,15 +485,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -516,12 +508,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 14,
+    "TicketID": 2054,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -532,15 +524,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -555,12 +547,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 15,
+    "TicketID": 2055,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -571,15 +563,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -594,12 +586,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 16,
+    "TicketID": 2056,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -610,15 +602,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -633,12 +625,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 17,
+    "TicketID": 2057,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -649,15 +641,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -672,12 +664,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 18,
+    "TicketID": 2058,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -688,15 +680,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -711,12 +703,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 19,
+    "TicketID": 2059,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -727,15 +719,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -750,12 +742,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 20,
+    "TicketID": 2060,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -766,15 +758,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -789,12 +781,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 21,
+    "TicketID": 2061,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -805,15 +797,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -828,12 +820,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 22,
+    "TicketID": 2062,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -844,15 +836,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -867,12 +859,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 23,
+    "TicketID": 2063,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -883,15 +875,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -906,12 +898,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 24,
+    "TicketID": 2064,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -922,15 +914,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -945,12 +937,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 25,
+    "TicketID": 2065,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -961,15 +953,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -984,12 +976,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 26,
+    "TicketID": 2066,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1000,15 +992,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1023,12 +1015,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 27,
+    "TicketID": 2067,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1039,15 +1031,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1062,12 +1054,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 28,
+    "TicketID": 2068,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1078,15 +1070,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1101,12 +1093,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 29,
+    "TicketID": 2069,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1117,15 +1109,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1140,12 +1132,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 30,
+    "TicketID": 2070,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1156,15 +1148,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1179,12 +1171,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 31,
+    "TicketID": 2071,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1195,15 +1187,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1218,12 +1210,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 32,
+    "TicketID": 2072,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1234,15 +1226,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1257,12 +1249,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 33,
+    "TicketID": 2073,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1273,15 +1265,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1296,12 +1288,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 34,
+    "TicketID": 2074,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1312,15 +1304,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1335,12 +1327,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 35,
+    "TicketID": 2075,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1351,15 +1343,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1374,12 +1366,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 36,
+    "TicketID": 2076,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1390,15 +1382,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1413,12 +1405,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 37,
+    "TicketID": 2077,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1429,15 +1421,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1452,12 +1444,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 38,
+    "TicketID": 2078,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1468,15 +1460,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1491,12 +1483,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 39,
+    "TicketID": 2079,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1507,15 +1499,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1530,12 +1522,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 40,
+    "TicketID": 2080,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1546,15 +1538,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1569,12 +1561,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 41,
+    "TicketID": 2081,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1585,15 +1577,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1608,12 +1600,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 42,
+    "TicketID": 2082,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1624,15 +1616,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1647,12 +1639,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 43,
+    "TicketID": 2083,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1663,15 +1655,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1686,12 +1678,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 44,
+    "TicketID": 2084,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1702,15 +1694,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1725,12 +1717,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 45,
+    "TicketID": 2085,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1741,15 +1733,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1764,12 +1756,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 46,
+    "TicketID": 2086,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1780,15 +1772,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1803,12 +1795,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 47,
+    "TicketID": 2087,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1819,15 +1811,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1842,12 +1834,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 48,
+    "TicketID": 2088,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1858,15 +1850,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1881,12 +1873,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 49,
+    "TicketID": 2089,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1897,15 +1889,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1920,12 +1912,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 50,
+    "TicketID": 2090,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1936,15 +1928,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1959,12 +1951,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 51,
+    "TicketID": 2091,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -1975,15 +1967,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -1998,12 +1990,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 52,
+    "TicketID": 2092,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2014,15 +2006,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2037,12 +2029,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 53,
+    "TicketID": 2093,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2053,15 +2045,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2076,12 +2068,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 54,
+    "TicketID": 2094,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2092,15 +2084,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2114,21 +2106,13 @@
     }
   },
   {
-    "Booked": true,
-    "TicketID": 55,
+    "Booked": false,
+    "TicketID": 2095,
     "Ticket": {
-      "Passenger": {
-        "ID": 1,
-        "Surname": "marie",
-        "Lastname": "de groot",
-        "Sex": "v",
-        "BirthDate": "2005-10-13T00:00:00",
-        "Adress": "kdmkmkwm 544  1234ab msdkwmkdmw",
-        "PhoneNumber": "0612345678"
-      },
+      "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2139,15 +2123,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2162,12 +2146,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 56,
+    "TicketID": 2096,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2178,15 +2162,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2201,12 +2185,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 57,
+    "TicketID": 2097,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2217,15 +2201,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2240,12 +2224,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 58,
+    "TicketID": 2098,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2256,15 +2240,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2279,12 +2263,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 59,
+    "TicketID": 2099,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2295,15 +2279,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2318,12 +2302,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 60,
+    "TicketID": 2100,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2334,15 +2318,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2357,12 +2341,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 61,
+    "TicketID": 2101,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2373,15 +2357,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2396,12 +2380,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 62,
+    "TicketID": 2102,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2412,15 +2396,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2435,12 +2419,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 63,
+    "TicketID": 2103,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2451,15 +2435,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2474,12 +2458,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 64,
+    "TicketID": 2104,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2490,15 +2474,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2513,12 +2497,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 65,
+    "TicketID": 2105,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2529,15 +2513,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2552,12 +2536,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 66,
+    "TicketID": 2106,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2568,15 +2552,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2591,12 +2575,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 67,
+    "TicketID": 2107,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2607,15 +2591,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2630,12 +2614,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 68,
+    "TicketID": 2108,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2646,15 +2630,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2669,12 +2653,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 69,
+    "TicketID": 2109,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2685,15 +2669,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2708,12 +2692,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 70,
+    "TicketID": 2110,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2724,15 +2708,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2747,12 +2731,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 71,
+    "TicketID": 2111,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2763,15 +2747,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2786,12 +2770,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 72,
+    "TicketID": 2112,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2802,15 +2786,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2825,12 +2809,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 73,
+    "TicketID": 2113,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2841,15 +2825,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2864,12 +2848,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 74,
+    "TicketID": 2114,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2880,15 +2864,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2903,12 +2887,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 75,
+    "TicketID": 2115,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2919,15 +2903,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2942,12 +2926,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 76,
+    "TicketID": 2116,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2958,15 +2942,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -2981,12 +2965,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 77,
+    "TicketID": 2117,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -2997,15 +2981,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3020,12 +3004,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 78,
+    "TicketID": 2118,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3036,15 +3020,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3059,12 +3043,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 79,
+    "TicketID": 2119,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3075,15 +3059,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3098,12 +3082,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 80,
+    "TicketID": 2120,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3114,15 +3098,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3137,12 +3121,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 81,
+    "TicketID": 2121,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3153,15 +3137,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3176,12 +3160,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 82,
+    "TicketID": 2122,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3192,15 +3176,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3215,12 +3199,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 83,
+    "TicketID": 2123,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3231,15 +3215,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3254,12 +3238,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 84,
+    "TicketID": 2124,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3270,15 +3254,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3293,12 +3277,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 85,
+    "TicketID": 2125,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3309,15 +3293,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3332,12 +3316,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 86,
+    "TicketID": 2126,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3348,15 +3332,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3371,12 +3355,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 87,
+    "TicketID": 2127,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3387,15 +3371,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3410,12 +3394,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 88,
+    "TicketID": 2128,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3426,15 +3410,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3449,12 +3433,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 89,
+    "TicketID": 2129,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3465,15 +3449,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3488,12 +3472,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 90,
+    "TicketID": 2130,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3504,15 +3488,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3527,12 +3511,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 91,
+    "TicketID": 2131,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3543,15 +3527,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3566,12 +3550,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 92,
+    "TicketID": 2132,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3582,15 +3566,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3605,12 +3589,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 93,
+    "TicketID": 2133,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3621,15 +3605,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3644,12 +3628,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 94,
+    "TicketID": 2134,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3660,15 +3644,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3683,12 +3667,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 95,
+    "TicketID": 2135,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3699,15 +3683,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3722,12 +3706,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 96,
+    "TicketID": 2136,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3738,15 +3722,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3761,12 +3745,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 97,
+    "TicketID": 2137,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3777,15 +3761,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3800,12 +3784,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 98,
+    "TicketID": 2138,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3816,15 +3800,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3839,12 +3823,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 99,
+    "TicketID": 2139,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3855,15 +3839,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3878,12 +3862,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 100,
+    "TicketID": 2140,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3894,15 +3878,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3917,12 +3901,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 101,
+    "TicketID": 2141,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3933,15 +3917,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0
@@ -3956,12 +3940,12 @@
   },
   {
     "Booked": false,
-    "TicketID": 102,
+    "TicketID": 2142,
     "Ticket": {
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER11",
+        "FlightId": "GRC1",
         "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
@@ -3972,15 +3956,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-26T07:23:00+02:00",
-        "EstimatedArrival": "2023-05-26T11:23:00+02:00",
+        "BoardingDate": "2023-05-26T09:48:00+02:00",
+        "EstimatedArrival": "2023-05-26T16:48:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "MUNCHEN",
-          "Abbreviation": "(MUC)",
-          "Airport": "MUNICH INTERNATIONAL AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 4,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0

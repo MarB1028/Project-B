@@ -1,4 +1,4 @@
-﻿class Airplane
+﻿public class Airplane
 {
     public string Name;
     public string Carrierid;
