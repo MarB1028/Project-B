@@ -14,7 +14,7 @@ class OverviewFlights
         List<Flight> flights = DataFlights.ReadFlightsFromJson();
 
         // Morgen datum
-        DateTime Today = DateTime.Now.AddDays(1);
+        DateTime Today = DateTime.Today;
 
         // voor elke vlucht een random boarding time generaten
         int displayed = DateTime.Now.Day; //seed dat de display the same is voor vandaag
@@ -27,44 +27,41 @@ class OverviewFlights
         // voor elke vlucht in de lijst flights
         foreach (var flight in flights)
         {
-            if (flight.BoardingDate < startDate)
+            // een ranodm dag wordt added aan de boarding en arrivaldate als de boardingdate expired is
+            if (Today > flight.BoardingDate)
             {
-                // een ranodm dag wordt added aan de boarding en arrivaldate als de boardingdate expired is
-                if (DateTime.Now > flight.BoardingDate)
+                // Set the status to "Departed"
+                flight.Destination.Status = "Departed";
+
+                //// een ranodm dag wordt added aan de boarding en arrivaldate als de boardingdate expired is (kan nmorgen tot 3 maanden)
+                DateTime newBoardingDate = DateTime.Now.AddDays(random.Next(1, 90));
+
+                // Gebased op day of night wordt er een tijd gemaakt
+                if (flight.DayOrNight == "Day")
                 {
-                    // Set the status to "Departed"
-                    flight.Destination.Status = "Departed";
-
-                    //// een ranodm dag wordt added aan de boarding en arrivaldate als de boardingdate expired is (kan nmorgen tot 3 maanden)
-                    DateTime newBoardingDate = DateTime.Now.AddDays(random.Next(1, 90));
-
-                    // Gebased op day of night wordt er een tijd gemaakt
-                    if (flight.DayOrNight == "Day")
-                    {
-                        int hour = random.Next(6, 12);
-                        if (hour == 11 && random.Next(2) == 0)
-                            hour = 10; // Laatste boarding time is niet later dan 10am
-                        TimeSpan boardingTime = new TimeSpan(hour, random.Next(0, 60), 0);
-                        newBoardingDate = newBoardingDate.Add(boardingTime);
-                    }
-                    else
-                    {
-                        int hour = random.Next(16, 23);
-                        if (hour == 23 && random.Next(2) == 0)
-                            hour = 22; // laatste boarding tijd is niet later dan 10pm
-                        TimeSpan boardingTime = new TimeSpan(hour, random.Next(0, 60), 0);
-                        newBoardingDate = newBoardingDate.Add(boardingTime);
-                    }
-
-                    // nieuwe boarding datum zetten
-                    flight.BoardingDate = newBoardingDate;
-
-                    // arrival date en tijd zetten
-                    int flightDurationHours = flight.Destination.FlightDuration;
-                    TimeSpan flightDuration = new TimeSpan(flightDurationHours, 0, 0);
-                    DateTime estimatedArrivalDateTime = flight.BoardingDate.Add(flightDuration);
-                    flight.EstimatedArrival = estimatedArrivalDateTime;
+                    int hour = random.Next(6, 12);
+                    if (hour == 11 && random.Next(2) == 0)
+                        hour = 10; // Laatste boarding time is niet later dan 10am
+                    TimeSpan boardingTime = new TimeSpan(hour, random.Next(0, 60), 0);
+                    newBoardingDate = newBoardingDate.Add(boardingTime);
                 }
+                else
+                {
+                    int hour = random.Next(16, 23);
+                    if (hour == 23 && random.Next(2) == 0)
+                        hour = 22; // laatste boarding tijd is niet later dan 10pm
+                    TimeSpan boardingTime = new TimeSpan(hour, random.Next(0, 60), 0);
+                    newBoardingDate = newBoardingDate.Add(boardingTime);
+                }
+
+                // nieuwe boarding datum zetten
+                flight.BoardingDate = newBoardingDate;
+
+                // arrival date en tijd zetten
+                int flightDurationHours = flight.Destination.FlightDuration;
+                TimeSpan flightDuration = new TimeSpan(flightDurationHours, 0, 0);
+                DateTime estimatedArrivalDateTime = flight.BoardingDate.Add(flightDuration);
+                flight.EstimatedArrival = estimatedArrivalDateTime;
             }
 
             if (flight.TotalSeats == 0)
