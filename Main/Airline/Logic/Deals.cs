@@ -24,6 +24,11 @@ static class Deals
                 flight.MinPriceNet = flight.MinPrice * 0.75; // 25% korting   
                 flight.IsDeal = true; 
             }
+            else
+            {
+                flight.IsDeal = false;
+                flight.MinPriceNet = flight.MinPrice;
+            }
         }
         DataFlights.WriteDateToJson(flights);
 
@@ -33,7 +38,7 @@ static class Deals
     {
         UpdateFlightPrice();
         List<Flight> flights = DataFlights.ReadFlightsFromJson();
-        Console.WriteLine("==================== Last Minute Deals ====================\n");
+        Console.WriteLine("\n============================= Last Minute Deals =============================\n");
         Console.WriteLine("Save up to 75% on flights departing in the next 6 hours! Limited seats available.\n");
         Console.WriteLine($"{"Flight No",-12} {"Destination",-18} {"Departure",-20} {"Price"}");
 
@@ -41,6 +46,7 @@ static class Deals
         {
             if (flight.IsDeal == true)
             {   
+                flight.FlightNo ++; //FlightNo updaten 
                 Flight fl = flight;
                 Console.OutputEncoding = System.Text.Encoding.UTF8; // weergave euro tekens
                 Console.Write($"{fl.FlightNo,-12} {fl.Destination.City, -18} {fl.BoardingDate.ToString("yyyy-MM-dd HH:mm"),-20} from ");

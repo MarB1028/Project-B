@@ -2,6 +2,7 @@
 {
     public static void Main()
     {
+        Console.Clear();
         // [Maria] De entrypoint van het programma, vluchten laten zien en inloggen
         /*Menu.StartScreen();*/
 

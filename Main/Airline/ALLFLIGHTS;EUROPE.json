@@ -1,6 +1,6 @@
 [
   {
-    "FlightNo": 3,
+    "FlightNo": 0,
     "FlightId": "GER1",
     "DayOrNight": "Day",
     "Airplane": {
@@ -24,11 +24,10 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
-    "FlightNo": 5,
+    "FlightNo": 0,
     "FlightId": "GER2",
     "DayOrNight": "Day",
     "Airplane": {
@@ -52,11 +51,10 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
-    "FlightNo": 11,
+    "FlightNo": 0,
     "FlightId": "GER3",
     "DayOrNight": "Day",
     "Airplane": {
@@ -80,11 +78,10 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
-    "FlightNo": 10,
+    "FlightNo": 0,
     "FlightId": "GER4",
     "DayOrNight": "Day",
     "Airplane": {
@@ -108,11 +105,10 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
-    "FlightNo": 2,
+    "FlightNo": 0,
     "FlightId": "GER5",
     "DayOrNight": "Day",
     "Airplane": {
@@ -124,8 +120,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-27T11:16:00+02:00",
-    "EstimatedArrival": "2023-04-27T14:16:00+02:00",
+    "BoardingDate": "2023-04-25T11:16:00+02:00",
+    "EstimatedArrival": "2023-04-25T14:16:00+02:00",
     "Destination": {
       "Country": "GERMANY",
       "City": "FRANKFURT",
@@ -136,11 +132,10 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
-    "FlightNo": 7,
+    "FlightNo": 0,
     "FlightId": "GER6",
     "DayOrNight": "Night",
     "Airplane": {
@@ -164,11 +159,10 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
-    "FlightNo": 4,
+    "FlightNo": 0,
     "FlightId": "GER7",
     "DayOrNight": "Night",
     "Airplane": {
@@ -192,11 +186,10 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
-    "FlightNo": 6,
+    "FlightNo": 0,
     "FlightId": "GER8",
     "DayOrNight": "Night",
     "Airplane": {
@@ -220,11 +213,10 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
-    "FlightNo": 8,
+    "FlightNo": 0,
     "FlightId": "GER9",
     "DayOrNight": "Night",
     "Airplane": {
@@ -248,11 +240,10 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
-    "FlightNo": 9,
+    "FlightNo": 0,
     "FlightId": "GER10",
     "DayOrNight": "Night",
     "Airplane": {
@@ -276,7 +267,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -304,7 +294,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -332,7 +321,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -360,7 +348,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -388,7 +375,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -416,7 +402,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -444,7 +429,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -472,7 +456,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -500,7 +483,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -528,7 +510,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -556,7 +537,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -572,8 +552,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-27T06:29:00+02:00",
-    "EstimatedArrival": "2023-04-27T10:29:00+02:00",
+    "BoardingDate": "2023-04-25T06:29:00+02:00",
+    "EstimatedArrival": "2023-04-25T10:29:00+02:00",
     "Destination": {
       "Country": "SPAIN",
       "City": "BARCELONA",
@@ -584,7 +564,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -612,7 +591,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -640,7 +618,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -668,7 +645,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -696,7 +672,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -724,7 +699,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -752,7 +726,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -780,7 +753,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -808,7 +780,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -836,7 +807,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -864,7 +834,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -892,7 +861,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -920,7 +888,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -948,7 +915,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -976,7 +942,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1004,7 +969,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1032,8 +996,7 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 50.0,
-    "IsDeal": true
+    "IsDeal": false
   },
   {
     "FlightNo": 0,
@@ -1048,8 +1011,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-26T21:39:00+02:00",
-    "EstimatedArrival": "2023-04-27T00:39:00+02:00",
+    "BoardingDate": "2023-04-24T21:39:00+02:00",
+    "EstimatedArrival": "2023-04-25T00:39:00+02:00",
     "Destination": {
       "Country": "SPAIN",
       "City": "MALAGA",
@@ -1060,7 +1023,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1088,7 +1050,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1116,7 +1077,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1144,7 +1104,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1172,7 +1131,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1200,7 +1158,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1228,7 +1185,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1244,8 +1200,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-27T10:20:00+02:00",
-    "EstimatedArrival": "2023-04-27T17:20:00+02:00",
+    "BoardingDate": "2023-04-25T10:20:00+02:00",
+    "EstimatedArrival": "2023-04-25T17:20:00+02:00",
     "Destination": {
       "Country": "GREECE",
       "City": "ATHENS",
@@ -1256,7 +1212,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1284,7 +1239,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1312,7 +1266,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1340,7 +1293,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1368,7 +1320,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1396,7 +1347,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1424,7 +1374,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1452,7 +1401,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1480,7 +1428,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1508,7 +1455,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1536,7 +1482,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1564,7 +1509,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1592,7 +1536,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1620,7 +1563,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1648,7 +1590,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1676,7 +1617,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1704,7 +1644,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1732,7 +1671,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1760,7 +1698,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1788,7 +1725,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1816,7 +1752,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1844,7 +1779,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1872,7 +1806,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1900,7 +1833,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1916,8 +1848,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-26T21:21:00+02:00",
-    "EstimatedArrival": "2023-04-26T22:21:00+02:00",
+    "BoardingDate": "2023-04-24T21:21:00+02:00",
+    "EstimatedArrival": "2023-04-24T22:21:00+02:00",
     "Destination": {
       "Country": "UNITED KINGDOM",
       "City": "LONDON",
@@ -1928,7 +1860,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1956,7 +1887,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -1984,7 +1914,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -2012,7 +1941,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -2040,7 +1968,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -2068,7 +1995,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -2096,7 +2022,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -2124,7 +2049,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -2140,8 +2064,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-26T22:44:00+02:00",
-    "EstimatedArrival": "2023-04-27T04:44:00+02:00",
+    "BoardingDate": "2023-04-24T22:44:00+02:00",
+    "EstimatedArrival": "2023-04-25T04:44:00+02:00",
     "Destination": {
       "Country": "UNITED KINGDOM",
       "City": "MANCHESTER",
@@ -2152,7 +2076,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -2180,7 +2103,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -2196,8 +2118,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-26T17:54:00+02:00",
-    "EstimatedArrival": "2023-04-26T23:54:00+02:00",
+    "BoardingDate": "2023-04-24T17:54:00+02:00",
+    "EstimatedArrival": "2023-04-24T23:54:00+02:00",
     "Destination": {
       "Country": "UNITED KINGDOM",
       "City": "MANCHESTER",
@@ -2208,8 +2130,7 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 75.0,
-    "IsDeal": true
+    "IsDeal": false
   },
   {
     "FlightNo": 0,
@@ -2224,8 +2145,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-26T18:40:00+02:00",
-    "EstimatedArrival": "2023-04-27T00:40:00+02:00",
+    "BoardingDate": "2023-04-24T18:40:00+02:00",
+    "EstimatedArrival": "2023-04-25T00:40:00+02:00",
     "Destination": {
       "Country": "UNITED KINGDOM",
       "City": "MANCHESTER",
@@ -2236,7 +2157,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
   },
   {
@@ -2264,35 +2184,6 @@
       "Status": "On schedule"
     },
     "MinPrice": 100.0,
-    "MinPriceNet": 100.0,
     "IsDeal": false
-  },
-  {
-    "FlightNo": 1,
-    "FlightId": "GER1",
-    "DayOrNight": "Day",
-    "Airplane": {
-      "Name": "BOEING747",
-      "Carrierid": "BO",
-      "AirplaneId": 1,
-      "FirstClassSeat": 4,
-      "PremiumSeat": 5,
-      "EconomySeat": 6,
-      "ExtraSpace": 2
-    },
-    "BoardingDate": "2023-04-26T13:54:18.9890858+02:00",
-    "EstimatedArrival": "2023-04-26T13:54:18.9955638+02:00",
-    "Destination": {
-      "Country": "GERMANY",
-      "City": "FRANKFURT",
-      "Abbreviation": "(GER)",
-      "Airport": "FRANKFORTAIRPORT",
-      "Distancekm": 100,
-      "FlightDuration": 3,
-      "Status": "On schedule"
-    },
-    "MinPrice": 100.0,
-    "MinPriceNet": 25.0,
-    "IsDeal": true
   }
 ]
