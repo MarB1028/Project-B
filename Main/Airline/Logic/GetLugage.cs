@@ -62,7 +62,7 @@ public static class GetLugage
         {
             flight = ticket.Ticket.Flight;
         }
-        CatteringForm.Cattering(flight, tickets);
+        CateringForm.Catering(flight, tickets);
         // Y --> ga naar volgende stap (roep class/method aan)
     }
     public static void CheckInHandLuggage()

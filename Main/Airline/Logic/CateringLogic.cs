@@ -39,7 +39,7 @@ static class CateringLogic
         int foodid = Convert.ToInt32(Console.ReadLine());
                
         if (FindFood(foodid, flight) == null)
-        {
+        {   
             do
             {
                 Console.WriteLine($"Item was not found in menu, please choose again");
@@ -159,7 +159,6 @@ static class CateringLogic
         if (input == "1")
         {
             Console.WriteLine("N/A");
-            TotalPrice = totalprice;
             //TODO: hier moet je naar het betalingsysteem gestuurd worden
         }
 
