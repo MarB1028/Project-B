@@ -56,5 +56,7 @@ class Program
         CateringForm.Catering(flightfrankfort, books);*/
 
         /*Menu.StartScreen();*/
+
+        AdminForm.StartForm();
     }
 }

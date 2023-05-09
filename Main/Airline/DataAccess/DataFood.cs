@@ -48,6 +48,13 @@ static class DataFood
             }
             return ShortDataFood ?? new List<Food>();
         }
+
+        else if (type == "All")
+        {
+            string json = File.ReadAllText(pathfile);
+            List<Food> DataFood = JsonConvert.DeserializeObject<List<Food>>(json);
+            return DataFood ?? new List<Food>();
+        }
         return null;
     }
 

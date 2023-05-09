@@ -12,5 +12,12 @@
     "Price": 4.75,
     "Description": "A fresh made hamburger with crispy french fries",
     "Type": "Long"
+  },
+  {
+    "ID": 1,
+    "Name": "A",
+    "Price": 1.0,
+    "Description": "A",
+    "Type": "Long"
   }
 ]
