@@ -23,7 +23,7 @@ static class DataTickets
         {
             if (book.Ticket.Seat.SeatNumber == ticket.Ticket.Seat.SeatNumber)
             {
-                book.Booked = true;
+                //book.Booked = true;
                 book.Ticket = ticket.Ticket;
             }
         }
