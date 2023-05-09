@@ -34,6 +34,7 @@ static class CateringForm
         else if (input == "N" || input == "n")
         {
             Console.WriteLine("");
+            ConfirmTicketInformation.PaymentScreen();
         }
 
         else

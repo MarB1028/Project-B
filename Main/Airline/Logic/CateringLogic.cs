@@ -159,7 +159,7 @@ static class CateringLogic
         if (input == "1")
         {
             Console.WriteLine("N/A");
-            //TODO: hier moet je naar het betalingsysteem gestuurd worden
+            ConfirmTicketInformation.PaymentScreen();
         }
 
         else if (input == "2")

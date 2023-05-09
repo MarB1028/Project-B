@@ -1,6 +1,6 @@
 [
   {
-    "FlightNo": 2,
+    "FlightNo": 0,
     "FlightId": "GER1",
     "DayOrNight": "Day",
     "Airplane": {
@@ -12,8 +12,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-26T06:20:00+02:00",
-    "EstimatedArrival": "2023-04-26T09:20:00+02:00",
+    "BoardingDate": "2023-06-17T19:00:50.2993206+02:00",
+    "EstimatedArrival": "2023-06-17T22:00:50.2993206+02:00",
     "Destination": {
       "Country": "GERMANY",
       "City": "FRANKFURT",
@@ -21,13 +21,13 @@
       "Airport": "FRANKFURT AIRPORT",
       "Distancekm": 100,
       "FlightDuration": 3,
-      "Status": "Departed"
+      "Status": "On schedule"
     },
     "MinPrice": 100.0,
     "TotalSeats": 102
   },
   {
-    "FlightNo": 4,
+    "FlightNo": 0,
     "FlightId": "GER2",
     "DayOrNight": "Day",
     "Airplane": {
@@ -54,7 +54,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 10,
+    "FlightNo": 0,
     "FlightId": "GER3",
     "DayOrNight": "Day",
     "Airplane": {
@@ -81,7 +81,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 9,
+    "FlightNo": 0,
     "FlightId": "GER4",
     "DayOrNight": "Day",
     "Airplane": {
@@ -108,7 +108,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 1,
+    "FlightNo": 0,
     "FlightId": "GER5",
     "DayOrNight": "Day",
     "Airplane": {
@@ -120,8 +120,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-27T11:16:00+02:00",
-    "EstimatedArrival": "2023-04-27T14:16:00+02:00",
+    "BoardingDate": "2023-06-21T18:22:50.2993297+02:00",
+    "EstimatedArrival": "2023-06-21T21:22:50.2993297+02:00",
     "Destination": {
       "Country": "GERMANY",
       "City": "FRANKFURT",
@@ -135,7 +135,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 6,
+    "FlightNo": 0,
     "FlightId": "GER6",
     "DayOrNight": "Night",
     "Airplane": {
@@ -162,7 +162,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 3,
+    "FlightNo": 0,
     "FlightId": "GER7",
     "DayOrNight": "Night",
     "Airplane": {
@@ -189,7 +189,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 5,
+    "FlightNo": 0,
     "FlightId": "GER8",
     "DayOrNight": "Night",
     "Airplane": {
@@ -216,7 +216,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 7,
+    "FlightNo": 0,
     "FlightId": "GER9",
     "DayOrNight": "Night",
     "Airplane": {
@@ -243,7 +243,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 8,
+    "FlightNo": 0,
     "FlightId": "GER10",
     "DayOrNight": "Night",
     "Airplane": {
@@ -270,7 +270,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 1,
+    "FlightNo": 0,
     "FlightId": "GER11",
     "DayOrNight": "Day",
     "Airplane": {
@@ -297,7 +297,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 3,
+    "FlightNo": 0,
     "FlightId": "GER12",
     "DayOrNight": "Day",
     "Airplane": {
@@ -324,7 +324,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 7,
+    "FlightNo": 0,
     "FlightId": "GER13",
     "DayOrNight": "Day",
     "Airplane": {
@@ -351,7 +351,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 6,
+    "FlightNo": 0,
     "FlightId": "GER14",
     "DayOrNight": "Day",
     "Airplane": {
@@ -378,7 +378,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 4,
+    "FlightNo": 0,
     "FlightId": "GER15",
     "DayOrNight": "Day",
     "Airplane": {
@@ -405,7 +405,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 9,
+    "FlightNo": 0,
     "FlightId": "GER16",
     "DayOrNight": "Night",
     "Airplane": {
@@ -432,7 +432,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 2,
+    "FlightNo": 0,
     "FlightId": "GER17",
     "DayOrNight": "Night",
     "Airplane": {
@@ -459,7 +459,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 8,
+    "FlightNo": 0,
     "FlightId": "GER18",
     "DayOrNight": "Night",
     "Airplane": {
@@ -486,7 +486,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 10,
+    "FlightNo": 0,
     "FlightId": "GER19",
     "DayOrNight": "Night",
     "Airplane": {
@@ -513,7 +513,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 5,
+    "FlightNo": 0,
     "FlightId": "GER20",
     "DayOrNight": "Night",
     "Airplane": {
@@ -714,8 +714,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-27T18:01:00+02:00",
-    "EstimatedArrival": "2023-04-27T20:01:00+02:00",
+    "BoardingDate": "2023-08-02T09:02:50.299336+02:00",
+    "EstimatedArrival": "2023-08-02T11:02:50.299336+02:00",
     "Destination": {
       "Country": "SPAIN",
       "City": "BARCELONA",
@@ -768,8 +768,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-05-05T16:51:00+02:00",
-    "EstimatedArrival": "2023-05-05T18:51:00+02:00",
+    "BoardingDate": "2023-07-02T09:26:50.299337+02:00",
+    "EstimatedArrival": "2023-07-02T11:26:50.299337+02:00",
     "Destination": {
       "Country": "SPAIN",
       "City": "BARCELONA",
@@ -984,8 +984,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-27T17:10:00+02:00",
-    "EstimatedArrival": "2023-04-27T20:10:00+02:00",
+    "BoardingDate": "2023-07-22T04:13:50.2993393+02:00",
+    "EstimatedArrival": "2023-07-22T07:13:50.2993393+02:00",
     "Destination": {
       "Country": "SPAIN",
       "City": "MALAGA",
@@ -1011,8 +1011,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-05-07T09:06:25.4978759+02:00",
-    "EstimatedArrival": "2023-05-07T12:06:25.4978759+02:00",
+    "BoardingDate": "2023-07-07T07:31:50.2993399+02:00",
+    "EstimatedArrival": "2023-07-07T10:31:50.2993399+02:00",
     "Destination": {
       "Country": "SPAIN",
       "City": "MALAGA",
@@ -1092,8 +1092,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-29T17:05:00+02:00",
-    "EstimatedArrival": "2023-04-29T20:05:00+02:00",
+    "BoardingDate": "2023-07-31T07:57:50.2993411+02:00",
+    "EstimatedArrival": "2023-07-31T10:57:50.2993411+02:00",
     "Destination": {
       "Country": "SPAIN",
       "City": "MALAGA",
@@ -1551,8 +1551,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-05-01T21:21:00+02:00",
-    "EstimatedArrival": "2023-05-02T11:21:00+02:00",
+    "BoardingDate": "2023-05-15T06:07:50.2993457+02:00",
+    "EstimatedArrival": "2023-05-15T20:07:50.2993457+02:00",
     "Destination": {
       "Country": "GREECE",
       "City": "MYKONOS",
@@ -1632,8 +1632,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-05-04T21:42:00+02:00",
-    "EstimatedArrival": "2023-05-05T11:42:00+02:00",
+    "BoardingDate": "2023-07-01T05:37:50.2993467+02:00",
+    "EstimatedArrival": "2023-07-01T19:37:50.2993467+02:00",
     "Destination": {
       "Country": "GREECE",
       "City": "MYKONOS",
@@ -1659,8 +1659,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-05-05T09:45:00+02:00",
-    "EstimatedArrival": "2023-05-05T10:45:00+02:00",
+    "BoardingDate": "2023-06-02T17:16:50.2993473+02:00",
+    "EstimatedArrival": "2023-06-02T18:16:50.2993473+02:00",
     "Destination": {
       "Country": "UNITED KINGDOM",
       "City": "LONDON",
@@ -1848,8 +1848,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-27T21:21:00+02:00",
-    "EstimatedArrival": "2023-04-27T22:21:00+02:00",
+    "BoardingDate": "2023-06-25T08:51:50.2993509+02:00",
+    "EstimatedArrival": "2023-06-25T09:51:50.2993509+02:00",
     "Destination": {
       "Country": "UNITED KINGDOM",
       "City": "LONDON",
@@ -1917,7 +1917,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 10,
+    "FlightNo": 0,
     "FlightId": "UK11",
     "DayOrNight": "Day",
     "Airplane": {
@@ -1944,7 +1944,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 4,
+    "FlightNo": 0,
     "FlightId": "UK12",
     "DayOrNight": "Day",
     "Airplane": {
@@ -1971,7 +1971,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 9,
+    "FlightNo": 0,
     "FlightId": "UK13",
     "DayOrNight": "Day",
     "Airplane": {
@@ -1998,7 +1998,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 7,
+    "FlightNo": 0,
     "FlightId": "UK14",
     "DayOrNight": "Day",
     "Airplane": {
@@ -2025,7 +2025,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 5,
+    "FlightNo": 0,
     "FlightId": "UK15",
     "DayOrNight": "Day",
     "Airplane": {
@@ -2052,7 +2052,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 3,
+    "FlightNo": 0,
     "FlightId": "UK16",
     "DayOrNight": "Night",
     "Airplane": {
@@ -2079,7 +2079,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 6,
+    "FlightNo": 0,
     "FlightId": "UK17",
     "DayOrNight": "Night",
     "Airplane": {
@@ -2106,7 +2106,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 1,
+    "FlightNo": 0,
     "FlightId": "UK18",
     "DayOrNight": "Night",
     "Airplane": {
@@ -2118,8 +2118,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-27T17:54:00+02:00",
-    "EstimatedArrival": "2023-04-27T23:54:00+02:00",
+    "BoardingDate": "2023-05-30T08:06:50.2993539+02:00",
+    "EstimatedArrival": "2023-05-30T14:06:50.2993539+02:00",
     "Destination": {
       "Country": "UNITED KINGDOM",
       "City": "MANCHESTER",
@@ -2133,7 +2133,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 2,
+    "FlightNo": 0,
     "FlightId": "UK19",
     "DayOrNight": "Night",
     "Airplane": {
@@ -2145,8 +2145,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-27T18:40:00+02:00",
-    "EstimatedArrival": "2023-04-28T00:40:00+02:00",
+    "BoardingDate": "2023-06-23T06:50:50.2993544+02:00",
+    "EstimatedArrival": "2023-06-23T12:50:50.2993544+02:00",
     "Destination": {
       "Country": "UNITED KINGDOM",
       "City": "MANCHESTER",
@@ -2160,7 +2160,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 8,
+    "FlightNo": 0,
     "FlightId": "UK20",
     "DayOrNight": "Night",
     "Airplane": {
@@ -2199,8 +2199,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-04-27T13:54:18.9890858+02:00",
-    "EstimatedArrival": "2023-04-27T13:54:18.9955638+02:00",
+    "BoardingDate": "2023-05-16T19:09:50.2993552+02:00",
+    "EstimatedArrival": "2023-05-16T22:09:50.2993552+02:00",
     "Destination": {
       "Country": "GERMANY",
       "City": "FRANKFURT",
