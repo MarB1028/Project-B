@@ -1,6 +1,6 @@
 static class CancelTickets
 {
-    public static Account Account;
+    public static Account Account = null;
     public static List<BookTicket> futuretickets = new List<BookTicket>();
     public static void Canceltickets() {
         if (CheckLogin() == false) {
@@ -71,9 +71,11 @@ static class CancelTickets
 
     public static void GetTickets() {
         
-        if (Account.BoughtTickets == null) {
+        if (Account.BoughtTickets.Count() == 0) {
             Console.WriteLine("You haven't bought any tickets yet to cancel.");
+            Menu.StartScreen();
         }
+        //Hier check je of de vlucht nog niet vertrokken is
         foreach (BookTicket ticket in Account.BoughtTickets) {
             if (ticket.Ticket.Flight.Destination.Status == "On schedule" || ticket.Ticket.Flight.Destination.Status == "Full") {
                 futuretickets.Add(ticket);

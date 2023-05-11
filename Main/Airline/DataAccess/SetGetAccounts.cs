@@ -24,4 +24,19 @@ static class SetGetAccounts
             streamWriter.Write(json);
         }
     }
+
+    public static void UpdateAccountToJSON(Account account) 
+    {
+        List<Account> DataAccounts = ReadAccountsFromJSON();
+
+        foreach (Account Account in DataAccounts)
+        {
+            if (Account.Email == account.Email)
+            {
+                Account.BoughtTickets = account.BoughtTickets;
+            }
+        }
+        string UpdateJSON = JsonConvert.SerializeObject(DataAccounts, Formatting.Indented);
+        File.WriteAllText(pathfile, UpdateJSON);
+    }
 }
