@@ -3,6 +3,7 @@
 static class CateringLogic
 {   
     public static List<BasketItem> basketItems = new List<BasketItem>();
+    public static List<BookTicket> tickets;
     public static double TotalPrice = 0;
     
     // CHECKT DE DURATION VAN DE VLUCHT. LANGER DAN 90 = LONG, KORTER DAN 90 = SHORT
@@ -159,7 +160,7 @@ static class CateringLogic
         if (input == "1")
         {
             Console.WriteLine("N/A");
-            ConfirmTicketInformation.PaymentScreen();
+            ConfirmTicketInformation.PaymentScreen(tickets);
         }
 
         else if (input == "2")

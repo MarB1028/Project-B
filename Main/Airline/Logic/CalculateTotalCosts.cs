@@ -4,16 +4,15 @@
     public static string BookingCode = "ABC123";
     public static List<BookTicket> tickets;
     public static double TotalCost;
+    public static double seatsprice = 0;
 
     public static double GetTotalPrice() {
-        double seatsprice = 0;
         foreach (BookTicket ticket in tickets) {
             seatsprice += GetSeatPrice(ticket);
         }
         TotalCost += seatsprice;
         TotalCost += GetLugage.TotalCost;
         TotalCost += CateringLogic.TotalPrice;
-        Console.WriteLine($"Seats price: {seatsprice}\nLugage price:{GetLugage.TotalCost} \nCatering price:{CateringLogic.TotalPrice}");
         return TotalCost;
     }
 
