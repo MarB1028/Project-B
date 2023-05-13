@@ -1,10 +1,8 @@
-﻿using System.Collections.Generic;
-using System.Net.Sockets;
-
-static class ConfirmTicketInformation
+﻿static class ConfirmTicketInformation
 {
     public static List<Passenger> AllPassengers = PassengerForm.passengers; //kopie maken van list in PassengerForm
     public static List<BookTicket> tickets;
+    public static double GetPrice;
 
     public static void PaymentScreen(List<BookTicket> tickets)
     {
@@ -45,7 +43,7 @@ static class ConfirmTicketInformation
 
     public static void DisplayOverviewTotalCosts(List<BookTicket> tickets)
     {
-        double getPrice = CalculateTotalCosts.GetTotalPrice();
+        GetPrice = CalculateTotalCosts.GetTotalPrice() + +2.95;
         double seatsprice = CalculateTotalCosts.seatsprice;
 
         Console.WriteLine("Total price including BTW/VAT");
@@ -57,7 +55,7 @@ static class ConfirmTicketInformation
         Console.WriteLine($"Standard Booking Costs   |  € 2,95,-"); // ?
         Console.WriteLine("---------------------------------");
 
-        Console.WriteLine($"\t       Total  € {getPrice + 2.95}, -");
+        Console.WriteLine($"\t       Total  € {GetPrice}, -");
 
         Console.WriteLine();
         Console.WriteLine("Confirm the price above (Y/N)");
@@ -65,11 +63,83 @@ static class ConfirmTicketInformation
 
         if (answer == "Y")
         {
-            // Ga naar class MakePayment om betaling af te ronden
+            MakePayment();
         }
         else
         {
-            // ga terug naar menu scherm?
+            // Verwijder persoonlijke gegevens uit json file en maak de ticket(s) weer beschikbaar!
+            Menu.StartScreen();
         }
+    }
+
+    public static double MakePayment()
+    {
+        Console.WriteLine();
+        Console.WriteLine("Would you like to pay the whole price upfront?\n\nY: I would like to pay the whole price upfront\nN: I would like to pay in 2 terms");
+        string answer = Console.ReadLine()!.ToUpper();
+
+        Console.WriteLine();
+        Console.WriteLine("Redirected to payment screen");
+        Thread.Sleep(1000);
+        Console.Clear();
+
+        try
+        {
+            if (answer == "Y")
+            {
+                try
+                {
+                    Console.WriteLine($"Price to pay: {GetPrice}");
+                    Console.WriteLine();
+                    Console.WriteLine("payment options: (1) Ideaal\n(2) PayPal\n(3) Master Card\n(4) Visa");
+                    int paymentType = Convert.ToInt32(Console.ReadLine()!);
+
+                    if (paymentType == 1)
+                    {
+                    }
+                    else if (paymentType == 2)
+                    {
+                    }
+                    else if (paymentType == 3)
+                    {
+
+                    }
+                    else if (paymentType == 4)
+                    {
+
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid input!");
+                    }
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("Invalid format!");
+                }
+            }
+            else if (answer == "N") // betaal in 2 termijnen
+            {
+                double pricePerTerm = GetPrice / 2.0;
+                Console.WriteLine($"Price to pay for term 1*: {pricePerTerm}");
+                Console.WriteLine($"*The next payment needs to be made no later than 12 hours before the flight.");
+                Console.WriteLine();
+                Console.WriteLine("payment options: (1) Ideaal\n(2) PayPal\n(3) Master Card\n(4) Visa");
+                int paymentType = Convert.ToInt32(Console.ReadLine()!);
+
+            }
+        }
+        catch
+        {
+            Console.WriteLine("Invalid input!");
+        }
+        return GetPrice;
+    }  
+
+    public static void MakePaymentLastTerm()
+    {
+        double remainingPrice = MakePayment() / 2.0;
+        Console.WriteLine(remainingPrice);
+
     }
 }
