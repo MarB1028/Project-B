@@ -7,7 +7,7 @@ public class Account
     public string Email;
 
     [JsonProperty(Order = 2)] // veranderd de volgorde binnen het json bestand waardoor de list met tickets altijd onderaan staat
-    public List<object> BoughtTickets;
+    public List<BookTicket> BoughtTickets;
 
     [JsonProperty(Order = 1)]
     public string Password { get; set; }
@@ -18,6 +18,6 @@ public class Account
         LoggedIn = false;
         Email = email;
         Password = password;
-        BoughtTickets = new List<object>();
+        BoughtTickets = new List<BookTicket>();
     }
 }

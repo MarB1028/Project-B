@@ -20,7 +20,7 @@ static class CancelTickets
             foreach (BookTicket bookticket in futuretickets) {
                 if (ans == bookticket.TicketID) {
                     ticket = bookticket;
-                    break;
+                    x = false;
                 }
                 else {
                     Console.WriteLine("That ID does not exist. try again");
@@ -50,14 +50,17 @@ static class CancelTickets
         Console.WriteLine("Are you sure that you want to cancel this ticket? Y/N");
         string ans = Console.ReadLine().ToUpper();
         if (ans == "Y") {
-            foreach (BookTicket bookticket in Account.BoughtTickets) {
+            foreach (BookTicket bookticket in Account.BoughtTickets.ToList()) {
                 if (bookticket == ticket) {
-                                Account.BoughtTickets.Remove(bookticket);
+                    Account.BoughtTickets.Remove(bookticket);
                 }
             }
+            SetGetAccounts.UpdateAccountToJSON(Account);
             ticket.Booked = false;
             ticket.Ticket.Passenger = null;
             DataTickets.WriteTicketToJson(ticket.Ticket.Flight, ticket);
+            Console.WriteLine("The ticket has been removed from your account.");
+            Menu.StartScreen();
         }
         else if (ans == "N") {
             Canceltickets();
