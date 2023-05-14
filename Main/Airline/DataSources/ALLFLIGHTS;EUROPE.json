@@ -2185,32 +2185,5 @@
     },
     "MinPrice": 100.0,
     "TotalSeats": 102
-  },
-  {
-    "FlightNo": 0,
-    "FlightId": "GER1",
-    "DayOrNight": "Day",
-    "Airplane": {
-      "Name": "BOEING747",
-      "Carrierid": "BO",
-      "AirplaneId": 1,
-      "FirstClassSeat": 4,
-      "PremiumSeat": 5,
-      "EconomySeat": 6,
-      "ExtraSpace": 2
-    },
-    "BoardingDate": "2023-04-27T13:54:18.9890858+02:00",
-    "EstimatedArrival": "2023-04-27T13:54:18.9955638+02:00",
-    "Destination": {
-      "Country": "GERMANY",
-      "City": "FRANKFURT",
-      "Abbreviation": "(GER)",
-      "Airport": "FRANKFORTAIRPORT",
-      "Distancekm": 100,
-      "FlightDuration": 3,
-      "Status": "On schedule"
-    },
-    "MinPrice": 100.0,
-    "TotalSeats": 102
   }
 ]

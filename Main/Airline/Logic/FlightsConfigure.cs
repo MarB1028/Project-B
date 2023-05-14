@@ -1,5 +1,292 @@
-﻿public static class FlightsConfigure
+﻿using ConsoleTables;
+using System.Diagnostics;
+using System.Xml.Linq;
+
+public static class FlightsConfigure
 {
+    public static void ShowAvailableFlights()
+    {
+        List<Flight> flights = DataFlights.ReadFlightsFromJson();
+
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
+
+        Console.WriteLine($"{"Flight No",-12} {"Departure",-20} {"Destination",-19} {"Arrival",-20} {"Status",-12} {"Seats",-8}{"Price",-10}{"Operated by"}");
+        Console.WriteLine(new string('-', 120)); // --- in between elke row ---
+        int nummer = 1;
+        foreach (var fl in flights)
+        {
+
+            fl.FlightNo = nummer++; //FlightNo updaten 
+            Console.WriteLine($"{fl.FlightNo,-12} {fl.BoardingDate.ToString("yyyy-MM-dd HH:mm"),-20} {fl.Destination.City} {fl.Destination.Abbreviation,-8} {fl.EstimatedArrival.ToString("yyyy-MM-dd HH:mm"),-19} {fl.Destination.Status,-15} {fl.TotalSeats,-6}  €{fl.MinPrice},-{fl.Airplane.Name,13}");
+            Console.WriteLine(new string('-', 120)); // --- in between elke row ---
+        }
+
+        Console.WriteLine("\n1: [ADD FLIGHT]");
+        Console.WriteLine("2: [REMOVE FLIGHT]");
+        Console.WriteLine("3: [GO BACK]");
+
+        string input;
+        do
+        {
+            Console.Write(": ");
+            input = Console.ReadLine();
+            if (input == "1" || input == "2" || input == "3")
+            {
+                break;
+            }
+        } while (true);
+
+        if (input == "1")
+        {
+            AddFlightForm();
+        }
+
+        else if (input == "2")
+        {
+            RemoveFlightForm();
+        }
+
+        else if (input == "3")
+        {
+            StartFlightConfigure();
+        }
+    }
+
+    public static void AddFlightForm()
+    {
+        Console.Clear();
+        Console.ForegroundColor = ConsoleColor.DarkYellow;
+        Console.WriteLine("[ADMIN: ADD FLIGHT TO SYSTEM]");
+        Console.WriteLine("======================================================");
+        Console.ResetColor();
+        Console.WriteLine();
+
+        int flightNo;
+        do
+        {
+            Console.Write("Flight number: ");
+            string input = Console.ReadLine();
+            if (int.TryParse(input, out flightNo))
+            {
+                break;
+            }
+            else Console.WriteLine("INVALID NUMBER");
+
+        } while (true);
+
+        string flightID;
+        do
+        {
+            Console.Write("Flight ID: ");
+            flightID = Console.ReadLine();
+            if (!string.IsNullOrEmpty(flightID))
+            {
+                flightID = flightID.ToUpper();
+                break;
+            }
+            else Console.WriteLine("INVALID FLIGHT ID");
+
+        } while (true);
+
+        string type;
+        do
+        {
+            Console.Write("Cycle type (Day / Night): ");
+            string input = Console.ReadLine();
+            if (input.ToUpper() == "DAY" || input.ToUpper() == "NIGHT")
+            {
+                type = input.ToUpper();
+                break;
+            }
+            else Console.WriteLine("INVALID DAY/NIGHT CYCLE");
+
+        } while (true);
+
+        Airplane airplane;
+        do
+        {
+            Console.Write("Airplane type (BOEING737 || BOEING787 || AIRBUS330): ");
+            string input = Console.ReadLine();
+            if (input.ToUpper() == "BOEING737" || input.ToUpper() == "BOEING787" || input.ToUpper() == "AIRBUS330" && !string.IsNullOrEmpty(input))
+            {
+                airplane = SelectAirplane(input);
+                break;
+            }
+            else Console.WriteLine("INVALID AIRPLANE");
+
+        } while (true);
+
+        DateTime boardingdate;
+        do
+        {
+            Console.Write("Boarding date (YYYY-MM-DD HH:MM:SS): ");
+            string input = Console.ReadLine();
+
+            string format = "yyyy-MM-dd HH:mm:ss";
+
+            bool isValidDateTime = DateTime.TryParseExact(input, format, null, System.Globalization.DateTimeStyles.None, out DateTime dateTime);
+
+            if (isValidDateTime)
+            {
+                boardingdate = DateTime.Parse(input);
+                break;
+            }
+            else Console.WriteLine("INVALID DATETIME");
+
+        } while (true);
+
+        DateTime arrivaldate;
+        do
+        {
+            Console.Write("Arrival date (YYYY-MM-DD HH:MM:SS): ");
+            string input = Console.ReadLine();
+
+            string format = "yyyy-MM-dd HH:mm:ss";
+
+            bool isValidDateTime = DateTime.TryParseExact(input, format, null, System.Globalization.DateTimeStyles.None, out DateTime dateTime);
+
+            if (isValidDateTime)
+            {
+                arrivaldate = DateTime.Parse(input);
+                break;
+            }
+            else Console.WriteLine("INVALID ARRIVALDATE");
+
+        } while (true);
+
+        Destination destination;
+        do
+        {
+            Console.WriteLine("Destination (COUNTRY-CITY-ABBREVIATION-AIRPORT-DISTIANCE(KM)-DURATION(HOURS)-STATUS)");
+            Console.Write(": ");
+            string input = Console.ReadLine();
+            string[] inputArray = input.Split('-');
+            if (!string.IsNullOrEmpty(input) && inputArray.Length == 7)
+            {
+                destination = new Destination(inputArray[0].ToUpper(), inputArray[1].ToUpper(), inputArray[2].ToUpper(), inputArray[3].ToUpper(), Convert.ToInt32(inputArray[4]), Convert.ToInt32(inputArray[5]), inputArray[6].ToUpper());
+                break;
+            }
+            else Console.WriteLine("INVALID DESTINATION");
+        } while (true);
+
+        int minprice;
+        do
+        {
+            Console.Write("Minimum price: ");
+            string input = Console.ReadLine();
+            if (int.TryParse(input, out minprice))
+            {
+                break;
+            }
+            else Console.WriteLine("INVALID PRICE");
+
+        } while (true);
+
+        int totalseats = (airplane.FirstClassSeat * 6) + (airplane.PremiumSeat * 6) + (airplane.EconomySeat * 6) + (airplane.ExtraSpace * 6);
+
+        Flight flight = new Flight(flightNo, flightID, type, airplane, boardingdate, arrivaldate, destination, minprice, totalseats);
+        Addflight(flight);
+        Thread.Sleep(3000);
+        StartFlightConfigure();
+    }
+    
+    public static void Addflight(Flight flight)
+    {
+        if (DataFlights.AddFlightToJson(flight))
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"\n{flight.FlightId} SUCCESSFULLY ADDED TO TERMINAL...");
+            Console.WriteLine("GOING BACK TO THE FLIGHT CONFIGURE...");
+            Console.ResetColor();
+        }
+
+        else if (!DataFlights.AddFlightToJson(flight))
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine($"\n{flight.FlightId} ALREADY IN TERMINAL");
+            Console.WriteLine("GOING BACK TO THE FLIGHT CONFIGURE...");
+            Console.ResetColor();
+        }
+    }
+
+    public static void RemoveFlightForm()
+    {
+        List<Flight> flights = DataFlights.ReadFlightsFromJson();
+        flights.Sort((a, b) => string.Compare(a.Destination.City, b.Destination.City));
+
+        Console.Clear();
+        Console.WriteLine(" [FLIGHTS] ");
+        var table = new ConsoleTable("FlightId", "Type", "Country", "City", "Airport");
+
+        foreach (var flight in flights)
+        {
+            table.AddRow(flight.FlightId, flight.DayOrNight, flight.Destination.Country, flight.Destination.City, flight.Destination.Airport);
+        }
+        Console.WriteLine(table);
+
+        string flightID;
+        do
+        {
+            Console.Write("\nFlight ID: ");
+            flightID = Console.ReadLine();
+            if (!string.IsNullOrEmpty(flightID))
+            {
+                flightID = flightID.ToUpper();
+                break;
+            }
+            else Console.WriteLine("INVALID FLIGHT ID");
+
+        } while (true);
+        
+        if (RemoveFlight(flights, flightID))
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"\n{flightID} SUCCESSFULLY REMOVED FROM TERMINAL...");
+            Console.WriteLine("GOING BACK TO THE FLIGHT CONFIGURE...");
+            Console.ResetColor();
+        }
+
+        else if (!RemoveFlight(flights, flightID))
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine($"\n{flightID} FAILED TO REMOVE FROM TERMINAL...");
+            Console.WriteLine("GOING BACK TO THE FLIGHT CONFIGURE...");
+            Console.ResetColor();
+        }
+
+        Thread.Sleep(3000);
+        StartFlightConfigure();
+    }
+
+    public static bool RemoveFlight(List<Flight> flights, string flightid)
+    {
+        if (!string.IsNullOrEmpty(flightid))
+        {
+            Flight flight = flights.FirstOrDefault(n => n.FlightId == flightid);
+            if (flight != null)
+            {
+                flights.Remove(flight);
+                DataFlights.WriteDateToJson(flights);
+                return true;
+            }
+            return false;
+        }
+
+        else return false;
+    }
+
+    public static Airplane SelectAirplane(string airplane)
+    {
+        List<Airplane> Airplane = new List<Airplane>()
+        {
+            new Airplane("BOEING737", "BO", 1, 8, 10, 12, 4),
+            new Airplane("BOEING787", "BO", 2, 10, 12, 14, 6),
+            new Airplane("AIRBUS330", "BO", 3, 10, 12, 12, 6),
+        };
+
+        return Airplane.Find(x => x.Name == airplane.ToUpper());
+    }
+    
     public static void StartFlightConfigure()
     {
         Console.Clear();
@@ -8,5 +295,30 @@
         Console.WriteLine("======================================================");
         Console.ResetColor();
         Console.WriteLine();
+
+        Console.WriteLine("1: [VIEW ALL FLIGHTS]");
+        Console.WriteLine("2: [GO BACK]");
+
+        string input;
+        do
+        {
+            Console.Write(": ");
+            input = Console.ReadLine();
+            if (input == "1" || input == "2")
+            {
+                break;
+            }
+        } while (true);
+
+        if (input == "1")
+        {
+            Console.Clear();
+            ShowAvailableFlights();
+        }
+
+        else if (input == "2")
+        {
+            AdminForm.StartForm();
+        }
     }
 }

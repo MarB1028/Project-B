@@ -1,23 +1,23 @@
 [
   {
     "ID": 1,
-    "Name": "Ramen",
-    "Price": 3.75,
-    "Description": "Fresh coocked noodles with meat, veggies and spices",
+    "Name": "a",
+    "Price": 1.0,
+    "Description": "a",
     "Type": "Long"
   },
   {
     "ID": 2,
-    "Name": "Hamburger & Fries",
-    "Price": 4.75,
-    "Description": "A fresh made hamburger with crispy french fries",
+    "Name": "c",
+    "Price": 1.0,
+    "Description": "c",
     "Type": "Long"
   },
   {
-    "ID": 1,
-    "Name": "A",
+    "ID": 3,
+    "Name": "d",
     "Price": 1.0,
-    "Description": "A",
+    "Description": "d",
     "Type": "Long"
   }
 ]

@@ -2,8 +2,9 @@
 {
     public static void StartForm()
     {
+        Console.Clear();
         Console.ForegroundColor = ConsoleColor.DarkYellow;
-        Console.WriteLine("[ADMIN PANNEL]");
+        Console.WriteLine("[ADMIN: CONTROL PANNEL]");
         Console.WriteLine("======================================================");
         Console.ResetColor();
         Console.WriteLine();

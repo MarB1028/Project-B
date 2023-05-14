@@ -14,7 +14,7 @@ static class DataFlights
         return flights ?? new List<Flight>();
     }
 
-    public static void AddFlightToJson(Flight flight)
+    public static bool AddFlightToJson(Flight flight)
     {
         List<Flight> flights = new List<Flight>();
 
@@ -27,9 +27,13 @@ static class DataFlights
         if (!flights.Any(f => f.FlightId == flight.FlightId))
         {
             flights.Add(flight);
+            
+            flights.Sort((a, b) => string.Compare(a.Destination.City, b.Destination.City));
             string newJson = JsonConvert.SerializeObject(flights, Formatting.Indented);
             File.WriteAllText(pathfile, newJson);
+            return true;
         }
+        return false;
     }
     
     public static void WriteDateToJson(List<Flight> flights)
