@@ -1,29 +1,36 @@
 ﻿static class CalculateStartPrice
 {
-    public static double totalprice;
-    public static double BasePrice = 100;
-
-    public static double CalculateSeat(string seattype)
+    public static void ApplyDeal()
     {
-        //in de toekomst wordt met flight gecheckt hoeveel tijd nog tot de vlucht en wordt de prijsophoging/deals toegepast. 
-        //De prijsophoging/deals passen de basisprijs aan
-        if (seattype == "First-Class")
-        {
-            totalprice = BasePrice * 6;
-        }
-        else if (seattype == "Premium-Class")
-        {
-            totalprice = BasePrice * 3;
-        }
-        else if (seattype == "ExtraSpace-Class")
-        {
-            totalprice = BasePrice + 75;
-        }
-        else if (seattype == "Economy-Class")
-        {
-            totalprice = BasePrice;
-        }
+        List<Flight> flights = DataFlights.ReadFlightsFromJson();
+        DateTime now = DateTime.Now;
 
-        return totalprice;
+        foreach (Flight flight in flights)
+        {
+            double hoursleft = (flight.BoardingDate - now).TotalHours;
+
+            if (hoursleft <= 3)
+            {
+                flight.MinPrice = flight.MinPrice * 0.25; // 75% korting
+                flight.IsDeal = true;
+            }
+            else if (hoursleft <= 4)
+            {
+                flight.MinPrice = flight.MinPrice * 0.50; // 50% korting
+                flight.IsDeal = true;
+            }
+            else if (hoursleft <= 5)
+            {
+                flight.MinPrice = flight.MinPrice * 0.75; // 25% korting   
+                flight.IsDeal = true; 
+            }
+            else
+            {
+                flight.IsDeal = false;
+            }
+        }
+        DataFlights.WriteDateToJson(flights);
     }
+
+    
 }
