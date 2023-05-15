@@ -11,6 +11,8 @@ class OverviewFlights
 {
     public void ShowAvailableFlights()
     {
+        CalculateStartPrice.ApplyDeals();
+        CalculateStartPrice.ApplyPriceRise();
         List<Flight> flights = DataFlights.ReadFlightsFromJson();
 
         // Morgen datum
@@ -120,7 +122,7 @@ class OverviewFlights
             if (fl.Destination.City == endDestination)
             {
                 fl.FlightNo = nummer++; //FlightNo updaten 
-                Console.WriteLine($"{fl.FlightNo,-12} {fl.BoardingDate.ToString("yyyy-MM-dd HH:mm"),-20} {fl.Destination.City} {fl.Destination.Abbreviation,-8} {fl.EstimatedArrival.ToString("yyyy-MM-dd HH:mm"),-19} {fl.Destination.Status,-15} {fl.TotalSeats,-6}  €{fl.MinPrice},-{fl.Airplane.Name,13}");
+                Console.WriteLine($"{fl.FlightNo,-12} {fl.BoardingDate.ToString("yyyy-MM-dd HH:mm"),-20} {fl.Destination.City} {fl.Destination.Abbreviation,-8} {fl.EstimatedArrival.ToString("yyyy-MM-dd HH:mm"),-19} {fl.Destination.Status,-15} {fl.TotalSeats,-6}  €{Math.Ceiling(fl.MinPrice)},-{fl.Airplane.Name,13}");
                 Console.WriteLine(new string('-', 120)); // --- in between elke row ---
             }
             DataFlights.WriteDateToJson(flights);
