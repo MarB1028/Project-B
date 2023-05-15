@@ -21,8 +21,8 @@
         BoardingDate = boardingdate;
         EstimatedArrival = estimatedarrival;
         Destination = destination;
-        BasePrice = basePrice;
-        MinPrice = basePrice;
+        BasePrice = 100;
+        MinPrice = BasePrice;
         TotalSeats = totalSeats;    
     }
 

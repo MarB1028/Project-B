@@ -54,7 +54,21 @@
         Flight flightfrankfort = new Flight(1, "GER1", "Day", boeing747, DateTime.Now, DateTime.Now, frankfort, 100, 100);
         List<BookTicket> books = new List<BookTicket>();
         CateringForm.Catering(flightfrankfort, books);*/
+        CalculateStartPrice.ApplyDeals();
+        CalculateStartPrice.ApplyPriceRise();
+        List<Flight> flights = DataFlights.ReadFlightsFromJson();
+        
+        foreach (Flight flight in flights)
+        {
+            TimeSpan timeToDeparture = flight.BoardingDate - DateTime.Now;
+            double daysToDeparture = timeToDeparture.TotalDays;
+            double hoursToDeparture = timeToDeparture.TotalHours;
 
+            if (daysToDeparture <= 14 && hoursToDeparture >= 24)
+            {
+                Console.WriteLine($"{flight.Destination.City}:   {flight.MinPrice}");
+            }
+        }
         Menu.StartScreen();
     }
 }

@@ -11,6 +11,8 @@ class OverviewFlights
 {
     public void ShowAvailableFlights()
     {
+        CalculateStartPrice.ApplyDeals();
+        CalculateStartPrice.ApplyPriceRise();
         List<Flight> flights = DataFlights.ReadFlightsFromJson();
 
         // Morgen datum
