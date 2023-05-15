@@ -1,6 +1,6 @@
 [
   {
-    "FlightNo": 1,
+    "FlightNo": 0,
     "FlightId": "GER1",
     "DayOrNight": "Day",
     "Airplane": {
@@ -21,15 +21,15 @@
       "Airport": "FRANKFURT AIRPORT",
       "Distancekm": 100,
       "FlightDuration": 3,
-      "Status": "On schedule"
+      "Status": "Departed"
     },
     "BasePrice": 100.0,
-    "MinPrice": 284.81,
+    "MinPrice": 94.94,
     "IsDeal": true,
     "TotalSeats": 102
   },
   {
-    "FlightNo": 2,
+    "FlightNo": 0,
     "FlightId": "GER2",
     "DayOrNight": "Day",
     "Airplane": {
@@ -53,12 +53,12 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 240.29,
+    "MinPrice": 230.53,
     "IsDeal": false,
     "TotalSeats": 102
   },
   {
-    "FlightNo": 8,
+    "FlightNo": 0,
     "FlightId": "GER3",
     "DayOrNight": "Day",
     "Airplane": {
@@ -87,7 +87,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 7,
+    "FlightNo": 0,
     "FlightId": "GER4",
     "DayOrNight": "Day",
     "Airplane": {
@@ -116,7 +116,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 9,
+    "FlightNo": 0,
     "FlightId": "GER5",
     "DayOrNight": "Day",
     "Airplane": {
@@ -145,7 +145,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 4,
+    "FlightNo": 0,
     "FlightId": "GER6",
     "DayOrNight": "Night",
     "Airplane": {
@@ -169,12 +169,12 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 332.67,
+    "MinPrice": 319.16,
     "IsDeal": false,
     "TotalSeats": 102
   },
   {
-    "FlightNo": 11,
+    "FlightNo": 0,
     "FlightId": "GER7",
     "DayOrNight": "Night",
     "Airplane": {
@@ -203,7 +203,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 3,
+    "FlightNo": 0,
     "FlightId": "GER8",
     "DayOrNight": "Night",
     "Airplane": {
@@ -227,12 +227,12 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 279.32,
+    "MinPrice": 267.97,
     "IsDeal": false,
     "TotalSeats": 102
   },
   {
-    "FlightNo": 5,
+    "FlightNo": 0,
     "FlightId": "GER9",
     "DayOrNight": "Night",
     "Airplane": {
@@ -261,7 +261,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 6,
+    "FlightNo": 0,
     "FlightId": "GER10",
     "DayOrNight": "Night",
     "Airplane": {
@@ -290,7 +290,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 0,
+    "FlightNo": 1,
     "FlightId": "GER11",
     "DayOrNight": "Day",
     "Airplane": {
@@ -314,12 +314,12 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 290.86,
+    "MinPrice": 279.05,
     "IsDeal": false,
     "TotalSeats": 102
   },
   {
-    "FlightNo": 0,
+    "FlightNo": 3,
     "FlightId": "GER12",
     "DayOrNight": "Day",
     "Airplane": {
@@ -348,7 +348,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 0,
+    "FlightNo": 7,
     "FlightId": "GER13",
     "DayOrNight": "Day",
     "Airplane": {
@@ -377,7 +377,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 0,
+    "FlightNo": 6,
     "FlightId": "GER14",
     "DayOrNight": "Day",
     "Airplane": {
@@ -406,7 +406,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 0,
+    "FlightNo": 4,
     "FlightId": "GER15",
     "DayOrNight": "Day",
     "Airplane": {
@@ -435,7 +435,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 0,
+    "FlightNo": 9,
     "FlightId": "GER16",
     "DayOrNight": "Night",
     "Airplane": {
@@ -464,7 +464,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 0,
+    "FlightNo": 2,
     "FlightId": "GER17",
     "DayOrNight": "Night",
     "Airplane": {
@@ -493,7 +493,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 0,
+    "FlightNo": 8,
     "FlightId": "GER18",
     "DayOrNight": "Night",
     "Airplane": {
@@ -522,7 +522,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 0,
+    "FlightNo": 10,
     "FlightId": "GER19",
     "DayOrNight": "Night",
     "Airplane": {
@@ -551,7 +551,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 0,
+    "FlightNo": 5,
     "FlightId": "GER20",
     "DayOrNight": "Night",
     "Airplane": {
@@ -604,7 +604,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 252.51,
+    "MinPrice": 242.25,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -633,7 +633,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 199.98,
+    "MinPrice": 191.86,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -688,11 +688,11 @@
       "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
       "Distancekm": 100,
       "FlightDuration": 2,
-      "Status": "On schedule"
+      "Status": "Departed"
     },
     "BasePrice": 100.0,
-    "MinPrice": 100.0,
-    "IsDeal": false,
+    "MinPrice": 94.94,
+    "IsDeal": true,
     "TotalSeats": 102
   },
   {
@@ -807,7 +807,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 157.05,
+    "MinPrice": 150.67,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -981,7 +981,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 166.68,
+    "MinPrice": 159.91,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1010,7 +1010,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 135.02,
+    "MinPrice": 129.54,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1097,7 +1097,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 309.95,
+    "MinPrice": 297.37,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1213,7 +1213,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 293.67,
+    "MinPrice": 281.74,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1242,7 +1242,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 293.28,
+    "MinPrice": 281.37,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1445,7 +1445,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 154.84,
+    "MinPrice": 148.56,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1474,7 +1474,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 206.53,
+    "MinPrice": 198.15,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1590,7 +1590,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 182.12,
+    "MinPrice": 174.72,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -2112,7 +2112,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 164.05,
+    "MinPrice": 157.39,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -2199,7 +2199,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 179.85,
+    "MinPrice": 172.55,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -2257,7 +2257,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 302.49,
+    "MinPrice": 290.2,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -2315,7 +2315,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 132.07,
+    "MinPrice": 126.71,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -2349,7 +2349,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 10,
+    "FlightNo": 0,
     "FlightId": "GER1",
     "DayOrNight": "Day",
     "Airplane": {
