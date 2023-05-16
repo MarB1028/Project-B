@@ -56,13 +56,27 @@ public static class GetLugage
                 Console.WriteLine("Invalid input");
             }
         }
+        // Account Account = null;
+        // List<Account> accounts = SetGetAccounts.ReadAccountsFromJSON();
+
+        // foreach (Account account in accounts)
+        // {
+        //     if (account.LoggedIn == true)
+        //     {
+        //         Account = account;
+        //     }
+        // }
+
         TotalCost = totalCost;
         Flight flight = null;
         foreach (BookTicket ticket in tickets)
         {
             flight = ticket.Ticket.Flight;
+            //Account.BoughtTickets.Add(ticket);
         }
+
         CateringForm.Catering(flight, tickets);
+
         // Y --> ga naar volgende stap (roep class/method aan)
     }
     public static void CheckInHandLuggage()

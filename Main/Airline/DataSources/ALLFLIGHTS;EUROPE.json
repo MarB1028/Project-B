@@ -12,8 +12,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-05-15T07:07:28.0958027+02:00",
-    "EstimatedArrival": "2023-07-05T12:07:28.0958027+02:00",
+    "BoardingDate": "2023-06-23T20:14:08.754498+02:00",
+    "EstimatedArrival": "2023-06-23T23:14:08.754498+02:00",
     "Destination": {
       "Country": "GERMANY",
       "City": "FRANKFURT",
@@ -21,7 +21,7 @@
       "Airport": "FRANKFURT AIRPORT",
       "Distancekm": 100,
       "FlightDuration": 3,
-      "Status": "Departed"
+      "Status": "On schedule"
     },
     "BasePrice": 100.0,
     "MinPrice": 94.94,
@@ -290,7 +290,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 1,
+    "FlightNo": 0,
     "FlightId": "GER11",
     "DayOrNight": "Day",
     "Airplane": {
@@ -319,7 +319,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 3,
+    "FlightNo": 0,
     "FlightId": "GER12",
     "DayOrNight": "Day",
     "Airplane": {
@@ -348,7 +348,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 7,
+    "FlightNo": 0,
     "FlightId": "GER13",
     "DayOrNight": "Day",
     "Airplane": {
@@ -377,7 +377,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 6,
+    "FlightNo": 0,
     "FlightId": "GER14",
     "DayOrNight": "Day",
     "Airplane": {
@@ -406,7 +406,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 4,
+    "FlightNo": 0,
     "FlightId": "GER15",
     "DayOrNight": "Day",
     "Airplane": {
@@ -435,7 +435,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 9,
+    "FlightNo": 0,
     "FlightId": "GER16",
     "DayOrNight": "Night",
     "Airplane": {
@@ -464,7 +464,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 2,
+    "FlightNo": 0,
     "FlightId": "GER17",
     "DayOrNight": "Night",
     "Airplane": {
@@ -493,7 +493,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 8,
+    "FlightNo": 0,
     "FlightId": "GER18",
     "DayOrNight": "Night",
     "Airplane": {
@@ -522,7 +522,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 10,
+    "FlightNo": 0,
     "FlightId": "GER19",
     "DayOrNight": "Night",
     "Airplane": {
@@ -551,7 +551,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 5,
+    "FlightNo": 0,
     "FlightId": "GER20",
     "DayOrNight": "Night",
     "Airplane": {

@@ -14,7 +14,8 @@ static class Menu
         Console.WriteLine("1. Log In / Register");
         Console.WriteLine("2. Search Flights");
         Console.WriteLine("3. View Reservation");
-        Console.WriteLine("4. Exit");
+        Console.WriteLine("4. Cancel Ticket(s)");
+        Console.WriteLine("5. Exit");
         Console.WriteLine("===============================================");
 
         // user input
@@ -41,14 +42,16 @@ static class Menu
                     Console.Clear();
                     StartScreen();
                     break;
-
                 case "4":
+                    CancelTickets.Canceltickets();
+                    break;
+                case "5":
                     Console.WriteLine("Thank you for visiting our site.\nHopefully we see you again.");
                     // Exit 
                     Environment.Exit(0);
                     break;
                 default:
-                    Console.WriteLine("Invalid choice.\nPlease enter a valid choice (1 to 4)");
+                    Console.WriteLine("Invalid choice.\nPlease enter a valid choice (1 to 5)");
                     Thread.Sleep(2000);
                     Console.Clear();
                     StartScreen();
