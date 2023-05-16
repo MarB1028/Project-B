@@ -163,11 +163,13 @@ class OverviewFlights
                 if (sortorder == "1")
                 {
                     flights = flights.OrderBy(f => f.MinPrice).ToList();
+                    Console.Clear();
                 }
 
                 else if (sortorder == "2")
                 {
                     flights = flights.OrderByDescending(f => f.MinPrice).ToList();
+                    Console.Clear();
                 }
             }
             else if (sortchoice == "2")
@@ -213,15 +215,17 @@ class OverviewFlights
                 if (sortorder == "1")
                 {
                     flights = flights.OrderBy(f => f.TotalSeats).ToList();
+                    Console.Clear();
                 }
                 else if (sortorder == "2")
                 {
                     flights = flights.OrderByDescending(f => f.TotalSeats).ToList();
+                    Console.Clear();
                 }
             }
             Console.Clear();
             // Display na het sorteren 
-            Console.WriteLine($"{"Flight No",-12} {"Departure",-20} {"Destination",-19} {"Arrival",-20} {"Status",-12} {"Seats",-8}{"Price",-10}{"Operated by"}");
+            Console.WriteLine($"\n\n{"Flight No",-12} {"Departure",-20} {"Destination",-19} {"Arrival",-20} {"Status",-12} {"Seats",-8}{"Price",-10}{"Operated by"}");
             Console.WriteLine(new string('-', 120)); // --- in between elke row ---
             int nummer = 1;
             foreach (var fl in flights)
@@ -229,7 +233,7 @@ class OverviewFlights
                 if (fl.Destination.City == Destination)
                 {
                     fl.FlightNo = nummer++; //FlightNo updaten 
-                    Console.WriteLine($"{fl.FlightNo,-12} {fl.BoardingDate.ToString("yyyy-MM-dd HH:mm"),-20} {fl.Destination.City} {fl.Destination.Abbreviation,-8} {fl.EstimatedArrival.ToString("yyyy-MM-dd HH:mm"),-19} {fl.Destination.Status,-15} {fl.TotalSeats,-6}  €{fl.MinPrice},-{fl.Airplane.Name,13}");
+                    Console.WriteLine($"{fl.FlightNo,-12} {fl.BoardingDate.ToString("yyyy-MM-dd HH:mm"),-20} {fl.Destination.City} {fl.Destination.Abbreviation,-8} {fl.EstimatedArrival.ToString("yyyy-MM-dd HH:mm"),-19} {fl.Destination.Status,-15} {fl.TotalSeats,-6}  €{Math.Ceiling(fl.MinPrice)},-{fl.Airplane.Name,13}");
                     Console.WriteLine(new string('-', 120)); // --- in between elke row ---
                 }
             }
