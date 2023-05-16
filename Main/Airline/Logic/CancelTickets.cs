@@ -15,6 +15,8 @@ static class CancelTickets
         BookTicket ticket = null;
         while (x) {
             Console.WriteLine("Enter the ticket ID of the ticket you want to cancel");
+            Console.WriteLine("!WARNING! You won't get your money back from canceling a ticket! \nInstead, you will receive a voucher.");
+            //TODO: Er moet nog een voucher gegenereerd worden bij het cancelen van een ticket
             int ans = Convert.ToInt32(Console.ReadLine());
 
             foreach (BookTicket bookticket in futuretickets) {
@@ -23,7 +25,7 @@ static class CancelTickets
                     x = false;
                 }
                 else {
-                    Console.WriteLine("That ID does not exist. try again");
+                    Console.WriteLine("That ID does not exist. Try again");
                 }
             }
         }
