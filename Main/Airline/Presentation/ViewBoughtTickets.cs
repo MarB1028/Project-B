@@ -37,6 +37,7 @@ static class ViewBoughtTickets
 
         Console.WriteLine($"Reservation of {loggedInAccount.Email}:");
         Console.WriteLine($"Number of bought tickets: {loggedInAccount.BoughtTickets.Count}");
+        Console.WriteLine("");
 
         if (loggedInAccount.BoughtTickets.Count == 0)
         {

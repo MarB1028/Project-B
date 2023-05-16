@@ -5,7 +5,7 @@ static class CateringForm
 {
     public static void Catering(Flight flight, List<BookTicket> tickets)
     {
-        /*TicketOverview.Ticket(flight,tickets, tickets[0]); // effe hier mijn code aangeroepen om te kijken of het werkt*/
+        TicketOverview.Ticket(flight,tickets, tickets[0]); // effe hier mijn code aangeroepen om te kijken of het werkt
         Console.ForegroundColor = ConsoleColor.DarkYellow;
         Console.WriteLine("STEP 4/5: Option to select Catering (Y/N)");
         Console.WriteLine("======================================================");
