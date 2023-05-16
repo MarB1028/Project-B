@@ -10,6 +10,12 @@
             flight.MinPrice = flight.BasePrice;
             double hoursleft = (flight.BoardingDate - now).TotalHours;
 
+            if (hoursleft <= 0)
+            {
+                flight.IsDeal = false;
+                return;
+            }
+
             if (hoursleft <= 3)
             {
                 flight.MinPrice = Math.Round((flight.MinPrice * Math.Pow(1.1, 14) * 0.25), 2); // 75% korting
