@@ -1,4 +1,4 @@
-class Program
+﻿class Program
 {
     public static void Main()
     {
@@ -55,7 +55,7 @@ class Program
         List<BookTicket> books = new List<BookTicket>();
         CateringForm.Catering(flightfrankfort, books);*/
 
-        /*Menu.StartScreen();*/
+        Menu.StartScreen();
         AdminForm.StartForm();
     }
 }

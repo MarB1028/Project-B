@@ -5,9 +5,7 @@ static class Deals
         CalculateStartPrice.ApplyDeals();
         List<Flight> flights = DataFlights.ReadFlightsFromJson();
         Console.WriteLine("\n============================= Last Minute Deals =============================\n");
-        Console.WriteLine("Save up to 75% on flights departing in the next 6 hours! Limited seats available.\n");
-        Console.WriteLine("\n");
-        Console.WriteLine("\n");
+        Console.WriteLine("Save up to 75% on flights departing in the next 6 hours! Limited seats available.");
 
         bool dealsAvailable = false;
         foreach (Flight flight in flights)
@@ -20,7 +18,7 @@ static class Deals
 
         if (dealsAvailable == false)
         {
-            Console.WriteLine("There are no last minute deals at the moment.");
+            Console.WriteLine("There are no last minute deals at the moment.\n");
         }
         else
         {
@@ -43,7 +41,6 @@ static class Deals
                     Console.ForegroundColor = ConsoleColor.White;
                 }
             }
-            Console.WriteLine("\n");
             Console.WriteLine("\n");
             Console.WriteLine("\n");
         }

@@ -150,7 +150,7 @@ class OverviewFlights
                 sortchoice = Console.ReadLine();
             }
 
-            if (sortchoice == "1") //prijs is nu overal 100
+            if (sortchoice == "1")
             {
                 Console.WriteLine("How would you like to sort?\n1. Ascending\n2. Descending");
                 string sortorder = Console.ReadLine();
