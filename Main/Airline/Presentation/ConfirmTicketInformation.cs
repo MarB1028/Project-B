@@ -101,7 +101,7 @@
                 {
                     Console.WriteLine($"Price to pay: {GetPrice}");
                     Console.WriteLine();
-                    Console.WriteLine("payment options:\n(1) Ideaal\n(2) PayPal\n(3) Master Card\n(4) Visa");
+                    Console.WriteLine("payment options:\n(1) iDeal\n(2) PayPal\n(3) Master Card\n(4) Visa");
                     int paymentType = Convert.ToInt32(Console.ReadLine()!);
 
                     if (paymentType == 1)
@@ -110,7 +110,7 @@
                         while (x)
                         {
                             Console.WriteLine();
-                            Console.WriteLine("Confirm payment by Ideaal (Y/N)");
+                            Console.WriteLine("Confirm payment by iDeal (Y/N)");
                             string confirmPayment = Console.ReadLine()!.ToUpper();
 
                             if (confirmPayment == "Y")
@@ -248,7 +248,7 @@
                     Console.WriteLine($"*The next payment needs to be made no later than 12 hours before the flight.");
 
                     Console.WriteLine();
-                    Console.WriteLine("payment options: (1) Ideaal\n(2) PayPal\n(3) Master Card\n(4) Visa");
+                    Console.WriteLine("payment options:\n(1) iDeal\n(2) PayPal\n(3) Master Card\n(4) Visa");
                     int paymentType = Convert.ToInt32(Console.ReadLine()!);
 
                     if (paymentType == 1)
@@ -257,7 +257,7 @@
                         while (x)
                         {
                             Console.WriteLine();
-                            Console.WriteLine("Confirm payment by Ideaal (Y/N)");
+                            Console.WriteLine("Confirm payment by iDeal (Y/N)");
                             string confirmPayment = Console.ReadLine()!.ToUpper();
 
                             if (confirmPayment == "Y")
@@ -414,7 +414,7 @@
                 {
                     Console.WriteLine($"Price to pay: {remainingPrice}");
                     Console.WriteLine();
-                    Console.WriteLine("payment options:\n(1) Ideaal\n(2) PayPal\n(3) Master Card\n(4) Visa");
+                    Console.WriteLine("payment options:\n(1) iDeal\n(2) PayPal\n(3) Master Card\n(4) Visa");
                     int paymentType = Convert.ToInt32(Console.ReadLine()!);
 
                     if (paymentType == 1)
@@ -423,7 +423,7 @@
                         while (x)
                         {
                             Console.WriteLine();
-                            Console.WriteLine("Confirm payment by Ideaal (Y/N)");
+                            Console.WriteLine("Confirm payment by iDeal (Y/N)");
                             string confirmPayment = Console.ReadLine()!.ToUpper();
 
                             if (confirmPayment == "Y")
