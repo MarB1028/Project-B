@@ -58,7 +58,7 @@
         // CalculateStartPrice.ApplyPriceRise();
         // List<Flight> flights = DataFlights.ReadFlightsFromJson();
         
-        
+
 
         // Menu.StartScreen();
     }

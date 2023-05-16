@@ -4,7 +4,7 @@ static class CateringForm
     public static void Catering(Flight flight, List<BookTicket> tickets)
     {
         Console.ForegroundColor = ConsoleColor.DarkYellow;
-        Console.WriteLine("STEP 4/5: Option to select Catering (Y/N)");
+        Console.WriteLine("STEP 4/5: Option to select catering (Y/N)");
         Console.WriteLine("======================================================");
         Console.ResetColor();
         Console.WriteLine();
@@ -16,7 +16,7 @@ static class CateringForm
         Console.WriteLine(infomenu);
 
 
-        Console.WriteLine($"\nYour flight to ({flight.Destination.Country}-{flight.Destination.City}-{flight.Destination.Airport})\nIs estimated to be: {flight.Destination.FlightDuration * 60}min long\nWould you like to buy some food along the trip? (Y/N)");
+        Console.WriteLine($"\nYour flight to ({flight.Destination.Country}-{flight.Destination.City}-{flight.Destination.Airport})\nIs estimated to be: {flight.Destination.FlightDuration * 60} min long.\nWould you like to buy some food along the trip? (Y/N)");
         Console.WriteLine("BTW% are included in the price.");
 
         Console.Write(": ");
