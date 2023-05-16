@@ -1,5 +1,7 @@
 ﻿static class PassengerForm
 {
+     public static List<Passenger> passengers = new List<Passenger>();
+
     // Dit controleert of de validatie true of false is en herhaalt de vraag als het false is
     public static string Loop(string field, Func<string, bool> validation, string error) // Func<string, bool> validation is de method uit de validation class dat wordt meegegeven
     {
@@ -20,7 +22,6 @@
     //Hier wordt het formulier gegenereerd
     public static void Form(Flight flight, List<BookTicket> tickets)
     {
-        List<Passenger> passengers = new List<Passenger>();
         // Dit bepaalt hoeveel formulieren er moeten worden gegenereerd
         // In de volgende sprint wordt dit in een andere fase van het boekingsproces gezet.
 

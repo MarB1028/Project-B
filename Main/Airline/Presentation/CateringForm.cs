@@ -28,12 +28,30 @@ static class CateringForm
             CalculateTotalCosts.tickets = tickets;
             //hier berekent hij de totale prijs voor de tickets
             Console.WriteLine(CalculateTotalCosts.GetTotalPrice());
+
+            Account Account = null;
+            List<Account> accounts = SetGetAccounts.ReadAccountsFromJSON();
+
+            foreach (Account account in accounts)
+            {
+                if (account.LoggedIn == true)
+                {
+                    Account = account;
+                }
+            }
+            foreach (BookTicket ticket in tickets)
+            {
+                Account.BoughtTickets.Add(ticket);
+            }
+            SetGetAccounts.UpdateAccountToJSON(Account);
+            Menu.StartScreen();
             
         }
 
         else if (input == "N" || input == "n")
         {
             Console.WriteLine("");
+            ConfirmTicketInformation.PaymentScreen(tickets);
         }
 
         else

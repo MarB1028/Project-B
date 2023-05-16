@@ -197,19 +197,18 @@ class CheckSeatAvailability
     // Een beschikbare stoel boeken.
     public void BookSeat()
     {
-        //Hier vult de user in hoeveel stoelen, maar in de toekomst moet dit nog veranderen. 
-        //De user geeft namelijk al veel eerder aan hoeveel tickets hij/zij wilt boeken.
-        Console.WriteLine("How many seats do you want to book??\n->");
+        //Hier vult de user in hoeveel stoelen hij/zij wilt boeken
+        Console.WriteLine("How many seats do you want to book?\n->");
         int amount = Convert.ToInt32(Console.ReadLine());
+        //Hier wordt een list aangemaakt waar de gekozen stoelen aan worden toegevoegd
         List<BookTicket> tickets = new List<BookTicket>();
+
         while (amount < 0)
         {
             Console.WriteLine("Give a positive number.");
             amount = Convert.ToInt32(Console.ReadLine());
         }
 
-
-        //TODO: de geboekte tickets moeten worden toegevoeg aan account.
         //In de geboekte ticket wordt nu de ticket met stoel ingevuld
         for (int x = 0; x < amount; x++)
         {
@@ -218,7 +217,7 @@ class CheckSeatAvailability
             {
                 Console.WriteLine($"Ticket {x + 1}:\nEnter seat number (For example 01C/11B):\n->");
                 string SeatNumber = Console.ReadLine().ToUpper();
-                //Checkt of de stoel uberhaupt bestaat
+                //Checkt of de stoel uberhaupt bestaat in dit vliegtuig
                 if (Seats.ContainsKey(SeatNumber) == false)
                 {
                     Console.WriteLine("Seat number does not exist! try again");
@@ -230,10 +229,11 @@ class CheckSeatAvailability
                 }
 
                 else
-                {
+                { 
                     BookTicket bookticket = Seats[SeatNumber];
                     Console.WriteLine($"You have booked seatnumber {SeatNumber} ({bookticket.Ticket.Seat.SeatNumber}) in the {bookticket.Ticket.Seat.SeatType}.");
-                    //TODO: De bookedticket moet nu naar true gezet worden met alle informatie van de passenger
+                    //De geboekte ticket wordt naar true gezet
+                    bookticket.Booked = true;
                     DataTickets.WriteTicketToJson(Flight, bookticket);
                     tickets.Add(bookticket);
                     y = false;
