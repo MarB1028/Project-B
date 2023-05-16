@@ -5,12 +5,5 @@
     "Email": "jiajun@gmail.com",
     "Password": "123456!z",
     "BoughtTickets": []
-  },
-  {
-    "ID": 2,
-    "LoggedIn": true,
-    "Email": "Marie@gmail.com",
-    "Password": "Marie123!",
-    "BoughtTickets": []
   }
 ]

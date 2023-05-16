@@ -13,6 +13,12 @@ static class DataFood
         }
     }
 
+    public static void OverWriteExistingFile(List<Food> list)
+    {
+        string json = JsonConvert.SerializeObject(list, Formatting.Indented);
+        File.WriteAllText(pathfile, json);
+    }
+
     public static List<Food> ReadFoodFromJson(string type)
     {
         CheckExistingFile();
@@ -47,6 +53,13 @@ static class DataFood
                 }
             }
             return ShortDataFood ?? new List<Food>();
+        }
+
+        else if (type == "All")
+        {
+            string json = File.ReadAllText(pathfile);
+            List<Food> DataFood = JsonConvert.DeserializeObject<List<Food>>(json);
+            return DataFood ?? new List<Food>();
         }
         return null;
     }
