@@ -212,15 +212,15 @@ public static class FlightsConfigure
     public static void RemoveFlightForm()
     {
         List<Flight> flights = DataFlights.ReadFlightsFromJson();
-        flights.Sort((a, b) => string.Compare(a.Destination.City, b.Destination.City));
+        flights.Sort((a, b) => string.Compare(a.Destination.Country, b.Destination.Country));
 
         Console.Clear();
         Console.WriteLine(" [FLIGHTS] ");
-        var table = new ConsoleTable("FlightId", "Type", "Country", "City", "Airport");
+        var table = new ConsoleTable("FlightId", "Type", "Status", "Country", "City", "Airport");
 
         foreach (var flight in flights)
         {
-            table.AddRow(flight.FlightId, flight.DayOrNight, flight.Destination.Country, flight.Destination.City, flight.Destination.Airport);
+            table.AddRow(flight.FlightId, flight.DayOrNight, flight.Destination.Status,flight.Destination.Country, flight.Destination.City, flight.Destination.Airport);
         }
         Console.WriteLine(table);
 
