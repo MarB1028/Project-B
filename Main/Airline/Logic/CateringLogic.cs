@@ -160,7 +160,8 @@ static class CateringLogic
         if (input == "1")
         {
             Console.WriteLine("N/A");
-            ConfirmTicketInformation.PaymentScreen(tickets);
+            ConfirmTicketInformation.Tickets = tickets;
+            ConfirmTicketInformation.PaymentScreen();
         }
 
         else if (input == "2")

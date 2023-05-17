@@ -24,8 +24,8 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 94.94,
-    "IsDeal": true,
+    "MinPrice": 100.0,
+    "IsDeal": false,
     "TotalSeats": 102
   },
   {
@@ -53,7 +53,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 230.53,
+    "MinPrice": 189.31,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -169,7 +169,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 319.16,
+    "MinPrice": 262.09,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -227,7 +227,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 267.97,
+    "MinPrice": 220.05,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -314,7 +314,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 279.05,
+    "MinPrice": 229.15,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -604,7 +604,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 242.25,
+    "MinPrice": 198.93,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -633,7 +633,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 191.86,
+    "MinPrice": 157.55,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -662,7 +662,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 100.0,
+    "MinPrice": 374.66,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -679,8 +679,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-05-15T07:45:00+02:00",
-    "EstimatedArrival": "2023-05-15T09:45:00+02:00",
+    "BoardingDate": "2023-07-12T00:15:58.3436156+02:00",
+    "EstimatedArrival": "2023-07-12T02:15:58.3436156+02:00",
     "Destination": {
       "Country": "SPAIN",
       "City": "BARCELONA",
@@ -688,11 +688,11 @@
       "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
       "Distancekm": 100,
       "FlightDuration": 2,
-      "Status": "Departed"
+      "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 94.94,
-    "IsDeal": true,
+    "MinPrice": 100.0,
+    "IsDeal": false,
     "TotalSeats": 102
   },
   {
@@ -807,7 +807,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 150.67,
+    "MinPrice": 123.73,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -981,7 +981,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 159.91,
+    "MinPrice": 131.32,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1010,7 +1010,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 129.54,
+    "MinPrice": 100.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1068,7 +1068,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 100.0,
+    "MinPrice": 352.66,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1097,7 +1097,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 297.37,
+    "MinPrice": 244.19,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1213,7 +1213,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 281.74,
+    "MinPrice": 231.36,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1242,7 +1242,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 281.37,
+    "MinPrice": 231.06,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1445,7 +1445,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 148.56,
+    "MinPrice": 121.99,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1474,7 +1474,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 198.15,
+    "MinPrice": 162.71,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1590,7 +1590,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 174.72,
+    "MinPrice": 143.48,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -2112,7 +2112,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 157.39,
+    "MinPrice": 129.25,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -2199,7 +2199,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 172.55,
+    "MinPrice": 141.69,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -2257,7 +2257,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 290.2,
+    "MinPrice": 238.31,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -2315,7 +2315,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 126.71,
+    "MinPrice": 100.0,
     "IsDeal": false,
     "TotalSeats": 102
   },

@@ -1,10 +1,10 @@
 ﻿static class ConfirmTicketInformation
 {
     public static List<Passenger> AllPassengers = PassengerForm.passengers; //kopie maken van list in PassengerForm
-    public static List<BookTicket> tickets;
+    public static List<BookTicket> Tickets;
     public static double GetPrice;
 
-    public static void PaymentScreen(List<BookTicket> tickets)
+    public static void PaymentScreen()
     {
         Console.Clear();
         Console.ForegroundColor = ConsoleColor.DarkYellow;
@@ -13,31 +13,28 @@
         Console.ResetColor();
         Console.WriteLine();
 
-        DisplayTicketInformation(AllPassengers);
+        DisplayTicketInformation();
 
-        CalculateTotalCosts.tickets = tickets;
+        CalculateTotalCosts.tickets = Tickets;
         DisplayOverviewTotalCosts();
 
     }
 
-    public static void DisplayTicketInformation(List<Passenger> passengers)
+    public static void DisplayTicketInformation()
     {
         /* Persoonlijke gegevens worden al eerder gecheckt. Deze check is alleen ter bevestiging 
          * van het aantal vliegtickets en de totale prijs*/
         Console.WriteLine("Check the following information and confirm the\ntotal price to continue to payment.");
         Console.WriteLine();
 
-        int passengersAmount = 1;
-
-        foreach (Passenger passenger in passengers)
+        foreach (BookTicket ticket in Tickets)
         {
-            Console.WriteLine($"Passenger {passengersAmount}.");
+            Console.WriteLine($"Passenger {Tickets.Count()}.");
             Console.WriteLine();
-            Console.WriteLine($"First name: {passenger.Surname}\nLast name: {passenger.Lastname}\nSex: {passenger.Sex}");
-            Console.WriteLine($"Birth date: {passenger.BirthDate}\nAddress: {passenger.Adress}\nPhone number: {passenger.PhoneNumber}");
+            Console.WriteLine($"First name: {ticket.Ticket.Passenger.Surname}\nLast name: {ticket.Ticket.Passenger.Lastname}\nSex: {ticket.Ticket.Passenger.Sex}");
+            Console.WriteLine($"Birth date: {ticket.Ticket.Passenger.BirthDate}\nAddress: {ticket.Ticket.Passenger.Adress}\nPhone number: {ticket.Ticket.Passenger.PhoneNumber}");
             Console.WriteLine();
 
-            passengersAmount++;
         }
     }
 
@@ -65,8 +62,27 @@
         {
             if (answer == "Y")
             {
-                MakePayment();
+                if (MakePayment() == true) {
+                    Account Account = null;
+                    List<Account> accounts = SetGetAccounts.ReadAccountsFromJSON();
+
+                    foreach (Account account in accounts)
+                    {
+                        if (account.LoggedIn == true)
+                        {
+                            Account = account;
+                        }
+                    }
+                    foreach (BookTicket ticket in Tickets)
+                    {
+                        Account.BoughtTickets.Add(ticket);
+                    }
+                    //Hier update je het account met de boughttickets lijst
+                    SetGetAccounts.UpdateAccountToJSON(Account);
+                    x = false;
+                }
                 x = false;
+                break;
             }
             else if (answer == "N")
             {
@@ -120,6 +136,7 @@
                                 Console.WriteLine("Check your reservation in your account.");
                                 x = false;
                                 return true;
+                                break;
 
                             }
                             else if (confirmPayment == "N")
