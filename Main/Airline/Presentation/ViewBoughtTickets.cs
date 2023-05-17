@@ -52,6 +52,7 @@ static class ViewBoughtTickets
                 var passenger = ticket["Passenger"] as JObject;
                 var flight = ticket["Flight"] as JObject;
                 var ticketID = ticketObj.TicketID;
+                var Payment = ticketObj.PaymentDone;
 
 
                 Console.WriteLine($"{ticket["Seat"]["SeatType"]}");
@@ -60,6 +61,8 @@ static class ViewBoughtTickets
                 Console.WriteLine($"Flight: {flight["Airplane"]["Name"]} - {flight["Destination"]["City"]}, {flight["Destination"]["Airport"]}");
                 Console.WriteLine($"Seat: {ticket["Seat"]["SeatNumber"]}   Boarding gate: {ticket["Gate"]}");
                 Console.WriteLine($"Booking Code: {CalculateTotalCosts.BookingCode}");
+                Console.WriteLine($"Booking Status:");
+                Console.WriteLine($"{TicketOverview.PaymentComplete(Payment)}");
                 Console.WriteLine("");
             }
             
