@@ -3,7 +3,7 @@ using ConsoleTables;
 
 static class TicketOverview
 {
-    public static void Ticket(Flight flight, List<BookTicket> tickets, BookTicket ticket)
+    public static void Ticket(List<BookTicket> tickets, BookTicket ticket)
     {
         Console.ForegroundColor = ConsoleColor.DarkYellow;
         Console.WriteLine("╔════════════════════════════════════════════════╗");
@@ -18,7 +18,7 @@ static class TicketOverview
             Console.WriteLine($"{ticket1.Ticket.Seat.SeatType}");
             Console.WriteLine($"Ticket ID: {ticket1.TicketID}");
             Console.WriteLine($"Passenger: {ticket1.Ticket.Passenger.Surname} {ticket1.Ticket.Passenger.Lastname}");
-            Console.WriteLine($"Flight:    {flight.Airplane.Name} {flight.BoardingDate} {flight.Destination.City} {flight.Destination.Airport}");
+            Console.WriteLine($"Flight:    {ticket1.Ticket.Flight.Airplane.Name} {ticket1.Ticket.Flight.BoardingDate} {ticket1.Ticket.Flight.Destination.City} {ticket1.Ticket.Flight.Destination.Airport}");
             Console.WriteLine($"Seat:      {ticket1.Ticket.Seat.SeatNumber}   Boarding gate: {ticket1.Ticket.Gate}");
             Console.WriteLine($"Booking Code: {CalculateTotalCosts.BookingCode}");
             Console.WriteLine("");
@@ -33,7 +33,7 @@ static class TicketOverview
         Console.WriteLine($"{PaymentComplete(ticket)}");
     }
 
-    public static void ViewTicket(Flight flight, List<BookTicket> tickets, BookTicket ticket)
+    public static void ViewTicket(List<BookTicket> tickets, BookTicket ticket)
     {
         while (CheckLogin() == false)
         {
@@ -54,7 +54,7 @@ static class TicketOverview
             Console.WriteLine($"{ticket2.Ticket.Seat.SeatType}");
             Console.WriteLine($"Ticket ID: {ticket2.TicketID}");
             Console.WriteLine($"Passenger: {ticket2.Ticket.Passenger.Surname} {ticket2.Ticket.Passenger.Lastname}");
-            Console.WriteLine($"Flight:    {flight.Airplane.Name} {flight.BoardingDate} {flight.Destination.City} {flight.Destination.Airport}");
+            Console.WriteLine($"Flight:    {ticket2.Ticket.Flight.Airplane.Name} {ticket2.Ticket.Flight.BoardingDate} {ticket2.Ticket.Flight.Destination.City} {ticket2.Ticket.Flight.Destination.Airport}");
             Console.WriteLine($"Seat:      {ticket2.Ticket.Seat.SeatNumber}   Boarding gate: {ticket2.Ticket.Gate}");
             Console.WriteLine($"Booking Code: {CalculateTotalCosts.BookingCode}");
             Console.WriteLine("");
