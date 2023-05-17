@@ -1,4 +1,4 @@
-class Program
+﻿class Program
 {
     public static void Main()
     {
@@ -54,7 +54,12 @@ class Program
         Flight flightfrankfort = new Flight(1, "GER1", "Day", boeing747, DateTime.Now, DateTime.Now, frankfort, 100, 100);
         List<BookTicket> books = new List<BookTicket>();
         CateringForm.Catering(flightfrankfort, books);*/
+        // CalculateStartPrice.ApplyDeals();
+        // CalculateStartPrice.ApplyPriceRise();
+        // List<Flight> flights = DataFlights.ReadFlightsFromJson();
+        
 
-        AdminForm.StartForm();
+
+        Menu.StartScreen();
     }
 }
