@@ -1,4 +1,4 @@
-﻿class Program
+class Program
 {
     public static void Main()
     {
@@ -56,6 +56,5 @@
         CateringForm.Catering(flightfrankfort, books);*/
 
         Menu.StartScreen();
-        AdminForm.StartForm();
     }
 }

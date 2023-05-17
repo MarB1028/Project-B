@@ -39,7 +39,9 @@ static class Menu
                     x = false;
                     break;
                 case "3":
+                    ViewBoughtTickets.ViewReservation();
                     Console.Clear();
+                    
                     StartScreen();
                     break;
                 case "4":
