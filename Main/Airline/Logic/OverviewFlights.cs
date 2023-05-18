@@ -1,25 +1,28 @@
-﻿using Newtonsoft.Json;
+﻿using ConsoleTables;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Data;
 using System.Globalization;
 using System.IO;
+using System.Runtime.Intrinsics.X86;
 using System.Security.Cryptography.X509Certificates;
 using System.Security.Principal;
+using System.Text.RegularExpressions;
+using System.Xml.Linq;
 
 class OverviewFlights
 {
     public void ShowAvailableFlights()
     {
-        CalculateStartPrice.ApplyDeals();
-        CalculateStartPrice.ApplyPriceRise();
         List<Flight> flights = DataFlights.ReadFlightsFromJson();
 
         // Morgen datum
         DateTime Today = DateTime.Today;
 
         // voor elke vlucht een random boarding time generaten
-        int displayed = DateTime.Now.Day; //seed dat de display the same is voor vandaag
+        int displayed = DateTime.Now.Day;
         Random random = new Random(displayed);
         DateTime startDate = DateTime.Now;
         DateTime endDate = startDate.AddMonths(3);
@@ -102,35 +105,47 @@ class OverviewFlights
         while (CheckExistingDestination(endDestination) == false)
         {
             Console.WriteLine();
-            Console.WriteLine($"We dont fly to {endDestination} yet\nPlease give another destination");
+            Console.WriteLine($"Unfortunately, we can't find a flight with '{endDestination}'.\nPlease try again.");
             endDestination = Console.ReadLine().ToUpper();
         }
         Console.Clear();
 
         // de vluchten naar:
-        Console.WriteLine($"Flights to destination: {endDestination}");
+        Console.WriteLine($"Flight Departures");
         Console.WriteLine("");
         Console.WriteLine($"{"Flight No",-12} {"Departure",-20} {"Destination",-19} {"Arrival",-20} {"Status",-12} {"Seats",-8}{"Price",-10}{"Operated by"}");
         Console.WriteLine(new string('-', 120)); //--- in between elke row ---
 
         //sorteren op basis van boardingdate
-        var flightsToDestination = flights.Where(f => f.Destination.City == endDestination).OrderBy(f => f.BoardingDate);
+        var flightsToDestination = flights.Where(f => f.Destination.DisplayNo == endDestination).OrderBy(f => f.BoardingDate);
 
         int nummer = 1;
         foreach (var fl in flightsToDestination)
         {
-            if (fl.Destination.City == endDestination)
+            if (fl.Destination.DisplayNo == endDestination)
             {
                 fl.FlightNo = nummer++; //FlightNo updaten 
-                Console.WriteLine($"{fl.FlightNo,-12} {fl.BoardingDate.ToString("yyyy-MM-dd HH:mm"),-20} {fl.Destination.City} {fl.Destination.Abbreviation,-8} {fl.EstimatedArrival.ToString("yyyy-MM-dd HH:mm"),-19} {fl.Destination.Status,-15} {fl.TotalSeats,-6}  €{Math.Ceiling(fl.MinPrice)},-{fl.Airplane.Name,13}");
-                Console.WriteLine(new string('-', 120)); // --- in between elke row ---
+                Console.Write($"{fl.FlightNo,-12} {fl.BoardingDate.ToString("yyyy-MM-dd HH:mm"),-20} {fl.Destination.City} {fl.Destination.Abbreviation,-8} {fl.EstimatedArrival.ToString("yyyy-MM-dd HH:mm"),-19} ");
+
+                // Print the status message in red if the flight is full or departed
+                if (fl.Destination.Status == "Full" || fl.Destination.Status == "Departed")
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.Write($"{fl.Destination.Status,-15}");
+                    Console.ResetColor();
+                }
+                else
+                {
+                    Console.Write($"{fl.Destination.Status,-15}");
+                }
+
+                Console.Write($" {fl.TotalSeats,-6}  €{fl.MinPrice},-{fl.Airplane.Name,13}");
             }
+            Console.WriteLine(new string('-', 120)); // --- in between elke row --- 
             DataFlights.WriteDateToJson(flights);
         }
-
         PrintSortedInformation(flights, endDestination);
     }
-
     public void PrintSortedInformation(List<Flight> flights, string Destination) //Soufiane's code 
     {
         Console.WriteLine("\nWould you like to sort?\n1.Yes\n2.No"); // ik heb hier alleen de string naar int veranderd (zo blijft het consistent)
@@ -149,8 +164,7 @@ class OverviewFlights
                 Console.WriteLine("Please enter a valid choice");
                 sortchoice = Console.ReadLine();
             }
-
-            if (sortchoice == "1")
+            if (sortchoice == "1") //prijs is nu overal 100
             {
                 Console.WriteLine("How would you like to sort?\n1. Ascending\n2. Descending");
                 string sortorder = Console.ReadLine();
@@ -159,17 +173,13 @@ class OverviewFlights
                     Console.WriteLine("Please enter a valid choice");
                     sortorder = Console.ReadLine();
                 }
-
                 if (sortorder == "1")
                 {
                     flights = flights.OrderBy(f => f.MinPrice).ToList();
-                    Console.Clear();
                 }
-
                 else if (sortorder == "2")
                 {
                     flights = flights.OrderByDescending(f => f.MinPrice).ToList();
-                    Console.Clear();
                 }
             }
             else if (sortchoice == "2")
@@ -215,26 +225,38 @@ class OverviewFlights
                 if (sortorder == "1")
                 {
                     flights = flights.OrderBy(f => f.TotalSeats).ToList();
-                    Console.Clear();
                 }
                 else if (sortorder == "2")
                 {
                     flights = flights.OrderByDescending(f => f.TotalSeats).ToList();
-                    Console.Clear();
                 }
             }
             Console.Clear();
             // Display na het sorteren 
-            Console.WriteLine($"\n\n{"Flight No",-12} {"Departure",-20} {"Destination",-19} {"Arrival",-20} {"Status",-12} {"Seats",-8}{"Price",-10}{"Operated by"}");
+            Console.WriteLine($"{"Flight No",-12} {"Departure",-20} {"Destination",-19} {"Arrival",-20} {"Status",-12} {"Seats",-8}{"Price",-10}{"Operated by"}");
             Console.WriteLine(new string('-', 120)); // --- in between elke row ---
             int nummer = 1;
             foreach (var fl in flights)
             {
-                if (fl.Destination.City == Destination)
+                if (fl.Destination.DisplayNo == Destination)
                 {
                     fl.FlightNo = nummer++; //FlightNo updaten 
-                    Console.WriteLine($"{fl.FlightNo,-12} {fl.BoardingDate.ToString("yyyy-MM-dd HH:mm"),-20} {fl.Destination.City} {fl.Destination.Abbreviation,-8} {fl.EstimatedArrival.ToString("yyyy-MM-dd HH:mm"),-19} {fl.Destination.Status,-15} {fl.TotalSeats,-6}  €{Math.Ceiling(fl.MinPrice)},-{fl.Airplane.Name,13}");
-                    Console.WriteLine(new string('-', 120)); // --- in between elke row ---
+                    Console.Write($"{fl.FlightNo,-12} {fl.BoardingDate.ToString("yyyy-MM-dd HH:mm"),-20} {fl.Destination.City} {fl.Destination.Abbreviation,-8} {fl.EstimatedArrival.ToString("yyyy-MM-dd HH:mm"),-19} ");
+
+                    // Print the status message in red if the flight is full or departed
+                    if (fl.Destination.Status == "Full" || fl.Destination.Status == "Departed")
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.Write($"{fl.Destination.Status,-15}");
+                        Console.ResetColor();
+                    }
+                    else
+                    {
+                        Console.Write($"{fl.Destination.Status,-15}");
+                    }
+
+                    Console.Write($" {fl.TotalSeats,-6}  €{fl.MinPrice},-{fl.Airplane.Name,13}");
+                Console.WriteLine(new string('-', 120)); // --- in between elke row --- 
                 }
             }
             ChooseFlight(flights, Destination);
@@ -251,7 +273,7 @@ class OverviewFlights
         bool x = true;
         while (x)
         {
-            var flToDestination = flights.Where(f => f.Destination.City == destination).OrderBy(f => f.BoardingDate); //Original json lijst
+            var flToDestination = flights.Where(f => f.Destination.DisplayNo == destination).OrderBy(f => f.BoardingDate); //Original json lijst
             if (booked == 1) // ja?
             {
                 //Wanneer user niet is ingelogd -> message en naar main page sturen
@@ -294,7 +316,7 @@ class OverviewFlights
                         fl.FlightNo = 0;
 
                     }
-                    DataFlights.WriteDateToJson(flights); 
+                    DataFlights.WriteDateToJson(flights);
                     Console.Clear();
                     Menu.StartScreen();
                     x = false;
@@ -364,9 +386,9 @@ class OverviewFlights
 
         foreach (Flight flight in flights)
         {
-            if (flight.Destination.City == EndDestination)
+            if (flight.Destination.DisplayNo == EndDestination)
             {
-                
+
                 return true;
             }
         }
