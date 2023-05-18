@@ -47,7 +47,6 @@ static class ViewBoughtTickets
         {
             foreach (var ticketObj in loggedInAccount.BoughtTickets)
             {
-                var ticket = ((JObject)ticketObj)["Ticket"].ToObject<JObject>(); // Ticket objects halen
                 var ticketJObject = JObject.FromObject(ticketObj);
                 var ticket = ticketJObject["Ticket"] as JObject;
                 var passenger = ticket["Passenger"] as JObject;
