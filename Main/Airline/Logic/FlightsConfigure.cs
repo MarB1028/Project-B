@@ -105,9 +105,9 @@ public static class FlightsConfigure
         Airplane airplane;
         do
         {
-            Console.Write("Airplane type (BOEING737 || BOEING787 || AIRBUS330): ");
+            Console.Write("Airplane type (1: BOEING737 || 2: BOEING787 || 3: AIRBUS330): ");
             string input = Console.ReadLine();
-            if (input.ToUpper() == "BOEING737" || input.ToUpper() == "BOEING787" || input.ToUpper() == "AIRBUS330" && !string.IsNullOrEmpty(input))
+            if (input.ToUpper() == "1" || input.ToUpper() == "2" || input.ToUpper() == "3" && !string.IsNullOrEmpty(input))
             {
                 airplane = SelectAirplane(input);
                 break;
@@ -119,10 +119,10 @@ public static class FlightsConfigure
         DateTime boardingdate;
         do
         {
-            Console.Write("Boarding date (YYYY-MM-DD HH:MM:SS): ");
+            Console.Write("Boarding date (YYYY-MM-DD HH:MM): ");
             string input = Console.ReadLine();
 
-            string format = "yyyy-MM-dd HH:mm:ss";
+            string format = "yyyy-MM-dd HH:mm";
 
             bool isValidDateTime = DateTime.TryParseExact(input, format, null, System.Globalization.DateTimeStyles.None, out DateTime dateTime);
 
@@ -138,10 +138,10 @@ public static class FlightsConfigure
         DateTime arrivaldate;
         do
         {
-            Console.Write("Arrival date (YYYY-MM-DD HH:MM:SS): ");
+            Console.Write("Arrival date (YYYY-MM-DD HH:MM): ");
             string input = Console.ReadLine();
 
-            string format = "yyyy-MM-dd HH:mm:ss";
+            string format = "yyyy-MM-dd HH:mm";
 
             bool isValidDateTime = DateTime.TryParseExact(input, format, null, System.Globalization.DateTimeStyles.None, out DateTime dateTime);
 
@@ -154,19 +154,108 @@ public static class FlightsConfigure
 
         } while (true);
 
-        Destination destination;
+        string displayNo;
         do
         {
-            Console.WriteLine("Destination (DISPLAYNO-COUNTRY-CITY-ABBREVIATION-AIRPORT-DISTIANCE(KM)-DURATION(HOURS)-STATUS)");
-            Console.Write(": ");
-            string input = Console.ReadLine();
-            string[] inputArray = input.Split('-');
-            if (!string.IsNullOrEmpty(input) && inputArray.Length == 7)
+            Console.Write("DisplayNo: ");
+            displayNo = Console.ReadLine();
+            if (!string.IsNullOrEmpty(displayNo))
             {
-                destination = new Destination(inputArray[0], inputArray[1].ToUpper(), inputArray[2].ToUpper(), inputArray[3].ToUpper(), inputArray[4].ToUpper(), Convert.ToInt32(inputArray[4]), Convert.ToInt32(inputArray[5]), inputArray[6].ToUpper());
                 break;
             }
-            else Console.WriteLine("INVALID DESTINATION");
+            else Console.WriteLine("INVALID DISPLAYNO");
+
+        } while (true);
+
+        string country;
+        do
+        {
+            Console.Write("Country: ");
+            country = Console.ReadLine().ToUpper();
+            if (!string.IsNullOrEmpty(country))
+            {
+                break;
+            }
+            else Console.WriteLine("INVALID COUNTRY");
+
+        } while (true);
+
+        string city;
+        do
+        {
+            Console.Write("City: ");
+            city = Console.ReadLine().ToUpper();
+            if (!string.IsNullOrEmpty(city))
+            {
+                break;
+            }
+            else Console.WriteLine("INVALID COUNTRY");
+
+        } while (true);
+
+        string abberation;
+        do
+        {
+            Console.Write("Abberation (XXX): ");
+            abberation = Console.ReadLine().ToUpper();
+            if (!string.IsNullOrEmpty(abberation))
+            {
+                break;
+            }
+            else Console.WriteLine("INVALID ABBERATION");
+
+        } while (true);
+
+        string airport;
+        do
+        {
+            Console.Write("Airport: ");
+            airport = Console.ReadLine().ToUpper();
+            if (!string.IsNullOrEmpty(airport))
+            {
+                break;
+            }
+            else Console.WriteLine("INVALID AIRPORT");
+
+        } while (true);
+
+        int distance;
+        do
+        {
+            Console.Write("Distance(KM): ");
+            string input = Console.ReadLine();
+            if (int.TryParse(input, out distance))
+            {
+                break;
+            }
+            else Console.WriteLine("INVALID DISTANCE");
+
+        } while (true);
+
+        int flightDuration;
+        do
+        {
+            Console.Write("Duration: ");
+            string input = Console.ReadLine();
+            if (int.TryParse(input, out flightDuration))
+            {
+                break;
+            }
+            else Console.WriteLine("INVALID DURATION");
+
+        } while (true);
+
+        string status;
+        do
+        {
+            Console.Write("Status: ");
+            status = Console.ReadLine().ToUpper();
+            if (!string.IsNullOrEmpty(status))
+            {
+                break;
+            }
+            else Console.WriteLine("INVALID STATUS");
+
         } while (true);
 
         int minprice;
@@ -184,7 +273,8 @@ public static class FlightsConfigure
 
         int totalseats = (airplane.FirstClassSeat * 6) + (airplane.PremiumSeat * 6) + (airplane.EconomySeat * 6) + (airplane.ExtraSpace * 6);
 
-        Flight flight = new Flight(flightNo, flightID, type, airplane, boardingdate, arrivaldate, destination, minprice, totalseats);
+        Destination newDestination = new Destination(displayNo, country, city, abberation, airport, distance, flightDuration, status);
+        Flight flight = new Flight(flightNo, flightID, type, airplane, boardingdate, arrivaldate, newDestination, minprice, totalseats);
         Addflight(flight);
         Thread.Sleep(3000);
         StartFlightConfigure();
@@ -277,14 +367,21 @@ public static class FlightsConfigure
 
     public static Airplane SelectAirplane(string airplane)
     {
-        List<Airplane> Airplane = new List<Airplane>()
+        if (airplane == "1")
         {
-            new Airplane("BOEING737", "BO", 1, 8, 10, 12, 4),
-            new Airplane("BOEING787", "BO", 2, 10, 12, 14, 6),
-            new Airplane("AIRBUS330", "BO", 3, 10, 12, 12, 6),
-        };
+            return new Airplane("BOEING737", "BO", 1, 8, 10, 12, 4);
+        }
 
-        return Airplane.Find(x => x.Name == airplane.ToUpper());
+        else if (airplane == "2")
+        {
+            return new Airplane("BOEING787", "BO", 2, 10, 12, 14, 6);
+        }
+
+        else if (airplane == "3")
+        {
+            return new Airplane("AIRBUS330", "BO", 3, 10, 12, 12, 6);
+        }
+        return null;
     }
     
     public static void StartFlightConfigure()

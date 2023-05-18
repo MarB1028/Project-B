@@ -25,5 +25,4 @@
         MinPrice = BasePrice;
         TotalSeats = totalSeats;    
     }
-
 }
