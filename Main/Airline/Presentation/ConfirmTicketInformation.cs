@@ -1,11 +1,10 @@
 ﻿static class ConfirmTicketInformation
 {
     public static List<Passenger> AllPassengers = PassengerForm.passengers; //kopie maken van list in PassengerForm
-    public static List<BookTicket> Tickets;
+    public static List<BookTicket> tickets;
     public static double GetPrice;
-    public static bool payment;
 
-    public static void PaymentScreen()
+    public static void PaymentScreen(List<BookTicket> tickets)
     {
         Console.Clear();
         Console.ForegroundColor = ConsoleColor.DarkYellow;
@@ -14,28 +13,31 @@
         Console.ResetColor();
         Console.WriteLine();
 
-        DisplayTicketInformation();
+        DisplayTicketInformation(AllPassengers);
 
-        CalculateTotalCosts.tickets = Tickets;
+        CalculateTotalCosts.tickets = tickets;
         DisplayOverviewTotalCosts();
 
     }
 
-    public static void DisplayTicketInformation()
+    public static void DisplayTicketInformation(List<Passenger> passengers)
     {
         /* Persoonlijke gegevens worden al eerder gecheckt. Deze check is alleen ter bevestiging 
          * van het aantal vliegtickets en de totale prijs*/
-        Console.WriteLine("Check the following information and confirm the\ntotal price to continue to payment.");
+        Console.WriteLine("Check the following information and confirm the\ntotal price to continue to payment");
         Console.WriteLine();
 
-        foreach (BookTicket ticket in Tickets)
+        int passengersAmount = 1;
+
+        foreach (Passenger passenger in passengers)
         {
-            Console.WriteLine($"Passenger {Tickets.Count()}.");
+            Console.WriteLine($"Passenger {passengersAmount}");
             Console.WriteLine();
-            Console.WriteLine($"First name: {ticket.Ticket.Passenger.Surname}\nLast name: {ticket.Ticket.Passenger.Lastname}\nSex: {ticket.Ticket.Passenger.Sex}");
-            Console.WriteLine($"Birth date: {ticket.Ticket.Passenger.BirthDate}\nAddress: {ticket.Ticket.Passenger.Adress}\nPhone number: {ticket.Ticket.Passenger.PhoneNumber}");
+            Console.WriteLine($"Surname: {passenger.Surname}\nLast Name: {passenger.Lastname}\nSex: {passenger.Sex}");
+            Console.WriteLine($"Birth Date: {passenger.BirthDate}\nAdress: {passenger.Adress}\nPhone Number: {passenger.PhoneNumber}");
             Console.WriteLine();
 
+            passengersAmount++;
         }
     }
 
@@ -49,13 +51,13 @@
         Console.WriteLine($"Total Tickets            |  € {seatsprice},-"); 
         Console.WriteLine($"Total Luggage            |  € {GetLugage.TotalCost},-");
         Console.WriteLine($"Total Catering           |  € {CateringLogic.TotalPrice},-");
-        Console.WriteLine($"Standard Booking costs   |  € 2,95,-"); 
+        Console.WriteLine($"Standard Booking Costs   |  € 2,95,-"); 
         Console.WriteLine("---------------------------------");
 
         Console.WriteLine($"\t       Total  € {GetPrice}, -");
 
         Console.WriteLine();
-        Console.WriteLine("Confirm the price above (Y/N).");
+        Console.WriteLine("Confirm the price above (Y/N)");
         string answer = Console.ReadLine()!.ToUpper();
 
         bool x = true;
@@ -63,29 +65,8 @@
         {
             if (answer == "Y")
             {
-                if (MakePayment() == true) {
-                    Account Account = null;
-                    List<Account> accounts = SetGetAccounts.ReadAccountsFromJSON();
-
-                    foreach (Account account in accounts)
-                    {
-                        if (account.LoggedIn == true)
-                        {
-                            Account = account;
-
-                        }
-                    }
-                    foreach (BookTicket ticket in Tickets)
-                    {
-                        Account.BoughtTickets.Add(ticket);
-                    }
-                    //Hier update je het account met de boughttickets lijst
-                    SetGetAccounts.UpdateAccountToJSON(Account);
-                    
-                    x = false;
-                }
+                MakePayment();
                 x = false;
-                break;
             }
             else if (answer == "N")
             {
@@ -98,20 +79,17 @@
                 Console.WriteLine("Invalid input!");
             }
         }
-        TicketOverview.tickets = Tickets;
-        TicketOverview.Ticket(Tickets, payment);
         // Ticket overview of terug naar het menu?
     }
 
     public static bool MakePayment()
     {
-        
         Console.WriteLine();
-        Console.WriteLine("Would you like to pay the whole price upfront?\nY: I would like to pay the whole price upfront.\nN: I would like to pay in two terms.");
+        Console.WriteLine("Would you like to pay the whole price upfront?\nY: I would like to pay the whole price upfront\nN: I would like to pay in 2 terms");
         string answer = Console.ReadLine()!.ToUpper();
 
         Console.WriteLine();
-        Console.WriteLine("Redirected to payment screen...");
+        Console.WriteLine("Redirected to payment screen");
         Thread.Sleep(1000);
         Console.Clear();
 
@@ -121,9 +99,9 @@
             {
                 try
                 {
-                    Console.WriteLine($"Price to pay: {GetPrice}.");
+                    Console.WriteLine($"Price to pay: {GetPrice}");
                     Console.WriteLine();
-                    Console.WriteLine("Payment options:\n(1) iDeal\n(2) PayPal\n(3) Master Card\n(4) Visa");
+                    Console.WriteLine("payment options:\n(1) iDeal\n(2) PayPal\n(3) Master Card\n(4) Visa");
                     int paymentType = Convert.ToInt32(Console.ReadLine()!);
 
                     if (paymentType == 1)
@@ -132,24 +110,22 @@
                         while (x)
                         {
                             Console.WriteLine();
-                            Console.WriteLine("Confirm payment by iDeal (Y/N).");
+                            Console.WriteLine("Confirm payment by iDeal (Y/N)");
                             string confirmPayment = Console.ReadLine()!.ToUpper();
 
                             if (confirmPayment == "Y")
                             {
                                 Console.WriteLine("Payment complete!");
-                                Console.WriteLine("Your ticket(s) will be added to your account shortly.");
-                                Console.WriteLine("Check your reservation in your account.");
-                                payment = true;
+                                Console.WriteLine("You ticket(s) will be added to your account shortly");
+                                Console.WriteLine("Check your reservation in your account");
                                 x = false;
                                 return true;
-
 
                             }
                             else if (confirmPayment == "N")
                             {
                                 Console.WriteLine("Payment cancelled!");
-                                Console.WriteLine("Try again...");
+                                Console.WriteLine("Try again");
                                 MakePayment();
                                 x = false;
                             }
@@ -165,15 +141,14 @@
                         while (x)
                         {
                             Console.WriteLine();
-                            Console.WriteLine("Confirm payment by PayPal (Y/N).");
+                            Console.WriteLine("Confirm payment by PayPal (Y/N)");
                             string confirmPayment = Console.ReadLine()!.ToUpper();
 
                             if (confirmPayment == "Y")
                             {
                                 Console.WriteLine("Payment complete!");
-                                Console.WriteLine("Your ticket(s) will be added to your account shortly.");
-                                Console.WriteLine("Check your reservation in your account.");
-                                payment = true;
+                                Console.WriteLine("You ticket(s) will be added to your account shortly");
+                                Console.WriteLine("Check your reservation in your account");
                                 x = false;
                                 return true;
 
@@ -181,7 +156,7 @@
                             else if (confirmPayment == "N")
                             {
                                 Console.WriteLine("Payment cancelled!");
-                                Console.WriteLine("Try again...");
+                                Console.WriteLine("Try again");
                                 MakePayment();
                                 x = false;
                             }
@@ -197,15 +172,14 @@
                         while (x)
                         {
                             Console.WriteLine();
-                            Console.WriteLine("Confirm payment by Master Card (Y/N).");
+                            Console.WriteLine("Confirm payment by Master Card (Y/N)");
                             string confirmPayment = Console.ReadLine()!.ToUpper();
 
                             if (confirmPayment == "Y")
                             {
                                 Console.WriteLine("Payment complete!");
-                                Console.WriteLine("Your ticket(s) will be added to your account shortly.");
-                                Console.WriteLine("Check your reservation in your account.");
-                                payment = true;
+                                Console.WriteLine("You ticket(s) will be added to your account shortly");
+                                Console.WriteLine("Check your reservation in your account");
                                 x = false;
                                 return true;
 
@@ -213,7 +187,7 @@
                             else if (confirmPayment == "N")
                             {
                                 Console.WriteLine("Payment cancelled!");
-                                Console.WriteLine("Try again...");
+                                Console.WriteLine("Try again");
                                 MakePayment();
                                 x = false;
                             }
@@ -229,15 +203,14 @@
                         while (x)
                         {
                             Console.WriteLine();
-                            Console.WriteLine("Confirm payment by Visa (Y/N).");
+                            Console.WriteLine("Confirm payment by Visa (Y/N)");
                             string confirmPayment = Console.ReadLine()!.ToUpper();
 
                             if (confirmPayment == "Y")
                             {
                                 Console.WriteLine("Payment complete!");
-                                Console.WriteLine("Your ticket(s) will be added to your account shortly.");
-                                Console.WriteLine("Check your reservation in your account.");
-                                payment = true;
+                                Console.WriteLine("You ticket(s) will be added to your account shortly");
+                                Console.WriteLine("Check your reservation in your account");
                                 x = false;
                                 return true;
 
@@ -245,7 +218,7 @@
                             else if (confirmPayment == "N")
                             {
                                 Console.WriteLine("Payment cancelled!");
-                                Console.WriteLine("Try again...");
+                                Console.WriteLine("Try again");
                                 MakePayment();
                                 x = false;
                             }
@@ -275,7 +248,7 @@
                     Console.WriteLine($"*The next payment needs to be made no later than 12 hours before the flight.");
 
                     Console.WriteLine();
-                    Console.WriteLine("Payment options:\n(1) iDeal\n(2) PayPal\n(3) Master Card\n(4) Visa");
+                    Console.WriteLine("payment options:\n(1) iDeal\n(2) PayPal\n(3) Master Card\n(4) Visa");
                     int paymentType = Convert.ToInt32(Console.ReadLine()!);
 
                     if (paymentType == 1)
@@ -284,14 +257,14 @@
                         while (x)
                         {
                             Console.WriteLine();
-                            Console.WriteLine("Confirm payment by iDeal (Y/N).");
+                            Console.WriteLine("Confirm payment by iDeal (Y/N)");
                             string confirmPayment = Console.ReadLine()!.ToUpper();
 
                             if (confirmPayment == "Y")
                             {
                                 Console.WriteLine("Payment 1/2 complete!");
-                                Console.WriteLine("Your ticket(s) will be added to your account after the second payment");
-                                Console.WriteLine("is completed. Pay remaining costs till 12 hours before your flight!");
+                                Console.WriteLine("You ticket(s) will be added to your account after the second payment");
+                                Console.WriteLine("is complete. Pay remaining costs to 12 hours before your flight!");
                                 x = false;
                                 return true;
 
@@ -299,7 +272,7 @@
                             else if (confirmPayment == "N")
                             {
                                 Console.WriteLine("Payment cancelled!");
-                                Console.WriteLine("Try again...");
+                                Console.WriteLine("Try again");
                                 MakePayment();
                                 x = false;
                             }
@@ -315,14 +288,14 @@
                         while (x)
                         {
                             Console.WriteLine();
-                            Console.WriteLine("Confirm payment by Paypal (Y/N).");
+                            Console.WriteLine("Confirm payment by Paypal (Y/N)");
                             string confirmPayment = Console.ReadLine()!.ToUpper();
 
                             if (confirmPayment == "Y")
                             {
                                 Console.WriteLine("Payment 1/2 complete!");
-                                Console.WriteLine("Your ticket(s) will be added to your account after the second payment");
-                                Console.WriteLine("is completed. Pay remaining costs till 12 hours before your flight!");
+                                Console.WriteLine("You ticket(s) will be added to your account after the second payment");
+                                Console.WriteLine("is complete. Pay remaining costs to 12 hours before your flight!");
                                 x = false;
                                 return true;
 
@@ -330,7 +303,7 @@
                             else if (confirmPayment == "N")
                             {
                                 Console.WriteLine("Payment cancelled!");
-                                Console.WriteLine("Try again...");
+                                Console.WriteLine("Try again");
                                 MakePayment();
                                 x = false;
                             }
@@ -346,14 +319,14 @@
                         while (x)
                         {
                             Console.WriteLine();
-                            Console.WriteLine("Confirm payment by Master Card (Y/N).");
+                            Console.WriteLine("Confirm payment by Master Card (Y/N)");
                             string confirmPayment = Console.ReadLine()!.ToUpper();
 
                             if (confirmPayment == "Y")
                             {
                                 Console.WriteLine("Payment 1/2 complete!");
-                                Console.WriteLine("Your ticket(s) will be added to your account after the second payment");
-                                Console.WriteLine("is completed. Pay remaining costs till 12 hours before your flight!");
+                                Console.WriteLine("You ticket(s) will be added to your account after the second payment");
+                                Console.WriteLine("is complete. Pay remaining costs to 12 hours before your flight!");
                                 x = false;
                                 return true;
 
@@ -361,7 +334,7 @@
                             else if (confirmPayment == "N")
                             {
                                 Console.WriteLine("Payment cancelled!");
-                                Console.WriteLine("Try again...");
+                                Console.WriteLine("Try again");
                                 MakePayment();
                                 x = false;
                             }
@@ -377,14 +350,14 @@
                         while (x)
                         {
                             Console.WriteLine();
-                            Console.WriteLine("Confirm payment by Visa (Y/N).");
+                            Console.WriteLine("Confirm payment by Visa (Y/N)");
                             string confirmPayment = Console.ReadLine()!.ToUpper();
 
                             if (confirmPayment == "Y")
                             {
                                 Console.WriteLine("Payment 1/2 complete!");
-                                Console.WriteLine("Your ticket(s) will be added to your account after the second payment");
-                                Console.WriteLine("is completed. Pay remaining costs till 12 hours before your flight!");
+                                Console.WriteLine("You ticket(s) will be added to your account after the second payment");
+                                Console.WriteLine("is complete. Pay remaining costs to 12 hours before your flight!");
                                 x = false;
                                 return true;
 
@@ -392,7 +365,7 @@
                             else if (confirmPayment == "N")
                             {
                                 Console.WriteLine("Payment cancelled!");
-                                Console.WriteLine("Try again...");
+                                Console.WriteLine("Try again");
                                 MakePayment();
                                 x = false;
                             }
@@ -425,11 +398,11 @@
         double remainingPrice = GetPrice / 2.0;
 
         Console.Clear();
-        Console.WriteLine("Would you like to pay term 2/2 to receive your ticket(s)? (Y/N)");
+        Console.WriteLine("Would you like to pay term 2/2 to receive your ticket(s)? Y/N");
         string answer = Console.ReadLine()!.ToUpper();
 
         Console.WriteLine();
-        Console.WriteLine("Redirected to payment screen...");
+        Console.WriteLine("Redirected to payment screen");
         Thread.Sleep(1000);
         Console.Clear();
 
@@ -441,7 +414,7 @@
                 {
                     Console.WriteLine($"Price to pay: {remainingPrice}");
                     Console.WriteLine();
-                    Console.WriteLine("Payment options:\n(1) iDeal\n(2) PayPal\n(3) Master Card\n(4) Visa");
+                    Console.WriteLine("payment options:\n(1) iDeal\n(2) PayPal\n(3) Master Card\n(4) Visa");
                     int paymentType = Convert.ToInt32(Console.ReadLine()!);
 
                     if (paymentType == 1)
@@ -450,14 +423,14 @@
                         while (x)
                         {
                             Console.WriteLine();
-                            Console.WriteLine("Confirm payment by iDeal (Y/N).");
+                            Console.WriteLine("Confirm payment by iDeal (Y/N)");
                             string confirmPayment = Console.ReadLine()!.ToUpper();
 
                             if (confirmPayment == "Y")
                             {
                                 Console.WriteLine("Payment complete!");
-                                Console.WriteLine("Your ticket(s) will be added to your account shortly.");
-                                Console.WriteLine("Check your reservation in your account.");
+                                Console.WriteLine("You ticket(s) will be added to your account shortly");
+                                Console.WriteLine("Check your reservation in your account");
                                 x = false;
                                 return true;
 
@@ -465,7 +438,7 @@
                             else if (confirmPayment == "N")
                             {
                                 Console.WriteLine("Payment cancelled!");
-                                Console.WriteLine("Try again...");
+                                Console.WriteLine("Try again");
                                 MakePayment();
                                 x = false;
                             }
@@ -481,14 +454,14 @@
                         while (x)
                         {
                             Console.WriteLine();
-                            Console.WriteLine("Confirm payment by PayPal (Y/N).");
+                            Console.WriteLine("Confirm payment by PayPal (Y/N)");
                             string confirmPayment = Console.ReadLine()!.ToUpper();
 
                             if (confirmPayment == "Y")
                             {
                                 Console.WriteLine("Payment complete!");
-                                Console.WriteLine("Your ticket(s) will be added to your account shortly.");
-                                Console.WriteLine("Check your reservation in your account.");
+                                Console.WriteLine("You ticket(s) will be added to your account shortly");
+                                Console.WriteLine("Check your reservation in your account");
                                 x = false;
                                 return true;
 
@@ -496,7 +469,7 @@
                             else if (confirmPayment == "N")
                             {
                                 Console.WriteLine("Payment cancelled!");
-                                Console.WriteLine("Try again...");
+                                Console.WriteLine("Try again");
                                 MakePayment();
                                 x = false;
                             }
@@ -512,14 +485,14 @@
                         while (x)
                         {
                             Console.WriteLine();
-                            Console.WriteLine("Confirm payment by Master Card (Y/N).");
+                            Console.WriteLine("Confirm payment by Master Card (Y/N)");
                             string confirmPayment = Console.ReadLine()!.ToUpper();
 
                             if (confirmPayment == "Y")
                             {
                                 Console.WriteLine("Payment complete!");
-                                Console.WriteLine("Your ticket(s) will be added to your account shortly.");
-                                Console.WriteLine("Check your reservation in your account.");
+                                Console.WriteLine("You ticket(s) will be added to your account shortly");
+                                Console.WriteLine("Check your reservation in your account");
                                 x = false;
                                 return true;
 
@@ -527,7 +500,7 @@
                             else if (confirmPayment == "N")
                             {
                                 Console.WriteLine("Payment cancelled!");
-                                Console.WriteLine("Try again...");
+                                Console.WriteLine("Try again");
                                 MakePayment();
                                 x = false;
                             }
@@ -549,8 +522,8 @@
                             if (confirmPayment == "Y")
                             {
                                 Console.WriteLine("Payment complete!");
-                                Console.WriteLine("Your ticket(s) will be added to your account shortly.");
-                                Console.WriteLine("Check your reservation in your account.");
+                                Console.WriteLine("You ticket(s) will be added to your account shortly");
+                                Console.WriteLine("Check your reservation in your account");
                                 x = false;
                                 return true;
 
@@ -558,7 +531,7 @@
                             else if (confirmPayment == "N")
                             {
                                 Console.WriteLine("Payment cancelled!");
-                                Console.WriteLine("Try again...");
+                                Console.WriteLine("Try again");
                                 MakePayment();
                                 x = false;
                             }
@@ -580,7 +553,7 @@
             }
             else if (answer == "N") 
             {
-                Console.WriteLine("Note: You have until 12 hours before your flight to pay the remaining term!");
+                Console.WriteLine("Note: You have until 12 hours before your flight to pay the remaining term");
                 Console.Clear();
                 Menu.StartScreen(); // terug naar het menu
             }
