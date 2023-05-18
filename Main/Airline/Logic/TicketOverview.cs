@@ -3,7 +3,11 @@ using ConsoleTables;
 
 static class TicketOverview
 {
+<<<<<<< HEAD
     public static void Ticket(Flight flight, List<BookTicket> tickets, BookTicket ticket)
+=======
+    public static void Ticket(List<BookTicket> tickets, BookTicket ticket)
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
     {
         Console.ForegroundColor = ConsoleColor.DarkYellow;
         Console.WriteLine("╔════════════════════════════════════════════════╗");
@@ -33,7 +37,11 @@ static class TicketOverview
         Console.WriteLine($"{PaymentComplete(ticket)}");
     }
 
+<<<<<<< HEAD
     public static void ViewTicket(Flight flight, List<BookTicket> tickets, BookTicket ticket)
+=======
+    public static void ViewTicket(List<BookTicket> tickets, BookTicket ticket)
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
     {
         while (CheckLogin() == false)
         {
@@ -54,7 +62,11 @@ static class TicketOverview
             Console.WriteLine($"{ticket2.Ticket.Seat.SeatType}");
             Console.WriteLine($"Ticket ID: {ticket2.TicketID}");
             Console.WriteLine($"Passenger: {ticket2.Ticket.Passenger.Surname} {ticket2.Ticket.Passenger.Lastname}");
+<<<<<<< HEAD
             Console.WriteLine($"Flight:    {flight.Airplane.Name} {flight.BoardingDate} {flight.Destination.City} {flight.Destination.Airport}");
+=======
+            Console.WriteLine($"Flight:    {ticket2.Ticket.Flight.Airplane.Name} {ticket2.Ticket.Flight.BoardingDate} {ticket2.Ticket.Flight.Destination.City} {ticket2.Ticket.Flight.Destination.Airport}");
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
             Console.WriteLine($"Seat:      {ticket2.Ticket.Seat.SeatNumber}   Boarding gate: {ticket2.Ticket.Gate}");
             Console.WriteLine($"Booking Code: {CalculateTotalCosts.BookingCode}");
             Console.WriteLine("");

@@ -47,10 +47,19 @@ static class ViewBoughtTickets
         {
             foreach (var ticketObj in loggedInAccount.BoughtTickets)
             {
+<<<<<<< HEAD
                 var ticket = ((JObject)ticketObj)["Ticket"].ToObject<JObject>(); // Ticket objects halen
                 var passenger = ticket["Passenger"].ToObject<JObject>(); // Passenger objects 
                 var flight = ticket["Flight"].ToObject<JObject>(); // Flight objects
                 var ticketID = (int)((JObject)ticketObj)["TicketID"]; // TicketID nummer halen uit de json
+=======
+                var ticketJObject = JObject.FromObject(ticketObj);
+                var ticket = ticketJObject["Ticket"] as JObject;
+                var passenger = ticket["Passenger"] as JObject;
+                var flight = ticket["Flight"] as JObject;
+                var ticketID = ticketObj.TicketID;
+
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
 
                 Console.WriteLine($"{ticket["Seat"]["SeatType"]}");
                 Console.WriteLine($"Ticket ID: {ticketID}");

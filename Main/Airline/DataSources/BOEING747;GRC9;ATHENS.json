@@ -1,16 +1,29 @@
 [
   {
+<<<<<<< HEAD
     "Booked": false,
+=======
+    "Booked": true,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
     "TicketID": 1,
     "Ticket": {
       "Passenger": {
         "ID": 206,
+<<<<<<< HEAD
         "Surname": "Marie",
         "Lastname": "de groot",
         "Sex": "v",
         "BirthDate": "2005-10-13T00:00:00",
         "Adress": "abdjn 233  1234ab wmdkm",
         "PhoneNumber": "0612345687"
+=======
+        "Surname": "marie",
+        "Lastname": "de groo",
+        "Sex": "v",
+        "BirthDate": "1000-10-10T00:00:00",
+        "Adress": "jnjn 1  1234ab dknkmkdw",
+        "PhoneNumber": "0612345678"
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
       },
       "Flight": {
         "FlightNo": 0,
@@ -36,7 +49,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -48,10 +67,25 @@
     }
   },
   {
+<<<<<<< HEAD
     "Booked": false,
     "TicketID": 2,
     "Ticket": {
       "Passenger": null,
+=======
+    "Booked": true,
+    "TicketID": 2,
+    "Ticket": {
+      "Passenger": {
+        "ID": 206,
+        "Surname": "marie",
+        "Lastname": "dwjdnw",
+        "Sex": "v",
+        "BirthDate": "2000-10-10T00:00:00",
+        "Adress": "jndjnjn 12  1234ab kcmkmw",
+        "PhoneNumber": "0612345678"
+      },
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GRC9",
@@ -76,7 +110,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -116,7 +156,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -156,7 +202,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -196,7 +248,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -236,7 +294,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -276,7 +340,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -316,7 +386,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -356,7 +432,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -396,7 +478,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -436,7 +524,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -476,7 +570,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -516,7 +616,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -556,7 +662,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -596,7 +708,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -636,7 +754,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -676,7 +800,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -716,7 +846,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -756,7 +892,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -796,7 +938,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -836,7 +984,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -876,7 +1030,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -916,7 +1076,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -956,7 +1122,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -996,7 +1168,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -1036,7 +1214,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -1076,7 +1260,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -1116,7 +1306,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -1156,7 +1352,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -1196,7 +1398,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -1236,7 +1444,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -1276,7 +1490,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -1316,7 +1536,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -1356,7 +1582,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -1396,7 +1628,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -1436,7 +1674,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -1476,7 +1720,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -1516,7 +1766,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -1556,7 +1812,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -1596,7 +1858,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -1636,7 +1904,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -1676,7 +1950,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -1716,7 +1996,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -1756,7 +2042,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -1796,7 +2088,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -1836,7 +2134,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -1876,7 +2180,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -1916,7 +2226,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -1956,7 +2272,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -1996,7 +2318,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -2036,7 +2364,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -2076,7 +2410,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -2116,7 +2456,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -2156,7 +2502,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -2196,7 +2548,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -2236,7 +2594,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -2276,7 +2640,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -2316,7 +2686,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -2356,7 +2732,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -2396,7 +2778,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -2436,7 +2824,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -2476,7 +2870,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -2516,7 +2916,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -2556,7 +2962,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -2596,7 +3008,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -2636,7 +3054,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -2676,7 +3100,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -2716,7 +3146,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -2756,7 +3192,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -2796,7 +3238,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -2836,7 +3284,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -2876,7 +3330,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -2916,7 +3376,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -2956,7 +3422,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -2996,7 +3468,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -3036,7 +3514,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -3076,7 +3560,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -3116,7 +3606,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -3156,7 +3652,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -3196,7 +3698,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -3236,7 +3744,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -3276,7 +3790,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -3316,7 +3836,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -3356,7 +3882,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -3396,7 +3928,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -3436,7 +3974,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -3476,7 +4020,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -3516,7 +4066,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -3556,7 +4112,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -3596,7 +4158,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -3636,7 +4204,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -3676,7 +4250,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -3716,7 +4296,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -3756,7 +4342,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -3796,7 +4388,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -3836,7 +4434,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -3876,7 +4480,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -3916,7 +4526,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -3956,7 +4572,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -3996,7 +4618,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -4036,7 +4664,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {
@@ -4076,7 +4710,13 @@
           "FlightDuration": 7,
           "Status": "On schedule"
         },
+<<<<<<< HEAD
         "MinPrice": 100.0,
+=======
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
         "TotalSeats": 102
       },
       "Seat": {

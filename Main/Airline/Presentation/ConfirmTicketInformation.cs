@@ -65,7 +65,29 @@
         {
             if (answer == "Y")
             {
+<<<<<<< HEAD:Main/Airline/Presentation/ConfirmTicketInformation.cs
                 MakePayment();
+=======
+                if (MakePayment() == true) {
+                    Account Account = null;
+                    List<Account> accounts = SetGetAccounts.ReadAccountsFromJSON();
+
+                    foreach (Account account in accounts)
+                    {
+                        if (account.LoggedIn == true)
+                        {
+                            Account = account;
+                        }
+                    }
+                    foreach (BookTicket ticket in Tickets)
+                    {
+                        Account.BoughtTickets.Add(ticket);
+                    }
+                    //Hier update je het account met de boughttickets lijst
+                    SetGetAccounts.UpdateAccountToJSON(Account);
+                    x = false;
+                }
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn):Main/Airline/Logic/ConfirmTicketInformation.cs
                 x = false;
             }
             else if (answer == "N")
@@ -116,10 +138,18 @@
                             if (confirmPayment == "Y")
                             {
                                 Console.WriteLine("Payment complete!");
+<<<<<<< HEAD:Main/Airline/Presentation/ConfirmTicketInformation.cs
                                 Console.WriteLine("You ticket(s) will be added to your account shortly");
                                 Console.WriteLine("Check your reservation in your account");
                                 x = false;
                                 return true;
+=======
+                                Console.WriteLine("Your ticket(s) will be added to your account shortly.");
+                                Console.WriteLine("Check your reservation in your account.");
+                                x = false;
+                                return true;
+                                break;
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn):Main/Airline/Logic/ConfirmTicketInformation.cs
 
                             }
                             else if (confirmPayment == "N")
@@ -147,8 +177,13 @@
                             if (confirmPayment == "Y")
                             {
                                 Console.WriteLine("Payment complete!");
+<<<<<<< HEAD:Main/Airline/Presentation/ConfirmTicketInformation.cs
                                 Console.WriteLine("You ticket(s) will be added to your account shortly");
                                 Console.WriteLine("Check your reservation in your account");
+=======
+                                Console.WriteLine("Your ticket(s) will be added to your account shortly.");
+                                Console.WriteLine("Check your reservation in your account.");
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn):Main/Airline/Logic/ConfirmTicketInformation.cs
                                 x = false;
                                 return true;
 
@@ -178,8 +213,13 @@
                             if (confirmPayment == "Y")
                             {
                                 Console.WriteLine("Payment complete!");
+<<<<<<< HEAD:Main/Airline/Presentation/ConfirmTicketInformation.cs
                                 Console.WriteLine("You ticket(s) will be added to your account shortly");
                                 Console.WriteLine("Check your reservation in your account");
+=======
+                                Console.WriteLine("Your ticket(s) will be added to your account shortly.");
+                                Console.WriteLine("Check your reservation in your account.");
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn):Main/Airline/Logic/ConfirmTicketInformation.cs
                                 x = false;
                                 return true;
 
@@ -209,8 +249,13 @@
                             if (confirmPayment == "Y")
                             {
                                 Console.WriteLine("Payment complete!");
+<<<<<<< HEAD:Main/Airline/Presentation/ConfirmTicketInformation.cs
                                 Console.WriteLine("You ticket(s) will be added to your account shortly");
                                 Console.WriteLine("Check your reservation in your account");
+=======
+                                Console.WriteLine("Your ticket(s) will be added to your account shortly.");
+                                Console.WriteLine("Check your reservation in your account.");
+>>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn):Main/Airline/Logic/ConfirmTicketInformation.cs
                                 x = false;
                                 return true;
 
