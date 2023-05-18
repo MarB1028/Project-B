@@ -5,9 +5,9 @@ static class CateringForm
 {
     public static void Catering(Flight flight, List<BookTicket> tickets)
     {
-        CateringLogic.tickets = tickets;
+        TicketOverview.Ticket(flight,tickets, tickets[0]); // effe hier mijn code aangeroepen om te kijken of het werkt
         Console.ForegroundColor = ConsoleColor.DarkYellow;
-        Console.WriteLine("STEP 4/5: Option to select catering (Y/N)");
+        Console.WriteLine("STEP 4/5: Option to select Catering (Y/N)");
         Console.WriteLine("======================================================");
         Console.ResetColor();
         Console.WriteLine();
@@ -19,7 +19,7 @@ static class CateringForm
         Console.WriteLine(infomenu);
 
 
-        Console.WriteLine($"\nYour flight to ({flight.Destination.Country}-{flight.Destination.City}-{flight.Destination.Airport})\nIs estimated to be: {flight.Destination.FlightDuration * 60} min long.\nWould you like to buy some food along the trip? (Y/N)");
+        Console.WriteLine($"\nYour flight to ({flight.Destination.Country}-{flight.Destination.City}-{flight.Destination.Airport})\nIs estimated to be: {flight.Destination.FlightDuration * 60}min long\nWould you like to buy some food along the trip? (Y/N)");
         Console.WriteLine("BTW% are included in the price.");
 
         Console.Write(": ");
@@ -32,6 +32,21 @@ static class CateringForm
             //hier berekent hij de totale prijs voor de tickets
             Console.WriteLine(CalculateTotalCosts.GetTotalPrice());
 
+            Account Account = null;
+            List<Account> accounts = SetGetAccounts.ReadAccountsFromJSON();
+
+            foreach (Account account in accounts)
+            {
+                if (account.LoggedIn == true)
+                {
+                    Account = account;
+                }
+            }
+            foreach (BookTicket ticket in tickets)
+            {
+                Account.BoughtTickets.Add(ticket);
+            }
+            SetGetAccounts.UpdateAccountToJSON(Account);
             Menu.StartScreen();
             
         }
@@ -39,8 +54,7 @@ static class CateringForm
         else if (input == "N" || input == "n")
         {
             Console.WriteLine("");
-            ConfirmTicketInformation.Tickets = tickets;
-            ConfirmTicketInformation.PaymentScreen();
+            ConfirmTicketInformation.PaymentScreen(tickets);
         }
 
         else

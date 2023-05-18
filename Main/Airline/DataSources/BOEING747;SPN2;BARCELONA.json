@@ -1,21 +1,13 @@
 [
   {
-    "Booked": true,
+    "Booked": false,
     "TicketID": 1,
     "Ticket": {
-      "Passenger": {
-        "ID": 1,
-        "Surname": "joe",
-        "Lastname": "doe",
-        "Sex": "M",
-        "BirthDate": "2000-01-01T00:00:00",
-        "Adress": "joedoe 1  0000AA joedoestraat",
-        "PhoneNumber": "0612345678"
-      },
+      "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -25,15 +17,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -48,22 +40,14 @@
     }
   },
   {
-    "Booked": true,
+    "Booked": false,
     "TicketID": 2,
     "Ticket": {
-      "Passenger": {
-        "ID": 2,
-        "Surname": "jane",
-        "Lastname": "doe",
-        "Sex": "V",
-        "BirthDate": "2000-01-01T00:00:00",
-        "Adress": "janedoestraat 1  0000BB jandoe",
-        "PhoneNumber": "Empty"
-      },
+      "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -73,15 +57,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -102,8 +86,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -113,15 +97,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -142,8 +126,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -153,15 +137,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -182,8 +166,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -193,15 +177,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -222,8 +206,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -233,15 +217,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -262,8 +246,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -273,15 +257,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -302,8 +286,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -313,15 +297,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -342,8 +326,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -353,15 +337,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -382,8 +366,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -393,15 +377,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -422,8 +406,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -433,15 +417,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -462,8 +446,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -473,15 +457,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -502,8 +486,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -513,15 +497,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -542,8 +526,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -553,15 +537,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -582,8 +566,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -593,15 +577,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -622,8 +606,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -633,15 +617,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -662,8 +646,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -673,15 +657,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -702,8 +686,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -713,15 +697,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -742,8 +726,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -753,15 +737,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -782,8 +766,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -793,15 +777,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -822,8 +806,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -833,15 +817,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -862,8 +846,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -873,15 +857,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -902,8 +886,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -913,15 +897,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -942,8 +926,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -953,15 +937,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -982,8 +966,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -993,15 +977,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1022,8 +1006,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1033,15 +1017,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1062,8 +1046,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1073,15 +1057,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1102,8 +1086,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1113,15 +1097,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1142,8 +1126,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1153,15 +1137,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1182,8 +1166,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1193,15 +1177,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1222,8 +1206,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1233,15 +1217,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1262,8 +1246,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1273,15 +1257,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1302,8 +1286,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1313,15 +1297,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1342,8 +1326,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1353,15 +1337,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1382,8 +1366,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1393,15 +1377,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1422,8 +1406,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1433,15 +1417,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1462,8 +1446,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1473,15 +1457,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1502,8 +1486,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1513,15 +1497,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1542,8 +1526,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1553,15 +1537,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1582,8 +1566,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1593,15 +1577,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1622,8 +1606,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1633,15 +1617,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1662,8 +1646,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1673,15 +1657,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1702,8 +1686,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1713,15 +1697,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1742,8 +1726,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1753,15 +1737,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1782,8 +1766,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1793,15 +1777,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1822,8 +1806,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1833,15 +1817,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1862,8 +1846,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1873,15 +1857,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1902,8 +1886,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1913,15 +1897,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1942,8 +1926,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1953,15 +1937,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1982,8 +1966,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1993,15 +1977,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2022,8 +2006,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2033,15 +2017,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2062,8 +2046,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2073,15 +2057,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2102,8 +2086,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2113,15 +2097,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2142,8 +2126,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2153,15 +2137,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2176,14 +2160,22 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 55,
     "Ticket": {
-      "Passenger": null,
+      "Passenger": {
+        "ID": 1,
+        "Surname": "Marissa",
+        "Lastname": "Braam",
+        "Sex": "V",
+        "BirthDate": "1998-10-28T00:00:00",
+        "Adress": "blablastraat 1  1234AB Rotterdam",
+        "PhoneNumber": "0612345678"
+      },
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2193,15 +2185,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2216,14 +2208,22 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "TicketID": 56,
     "Ticket": {
-      "Passenger": null,
+      "Passenger": {
+        "ID": 206,
+        "Surname": "Bob",
+        "Lastname": "de Bouwer",
+        "Sex": "M",
+        "BirthDate": "2000-01-01T00:00:00",
+        "Adress": "hallostraat 1  0000AA Urk",
+        "PhoneNumber": "0687654321"
+      },
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2233,15 +2233,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2262,8 +2262,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2273,15 +2273,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2302,8 +2302,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2313,15 +2313,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2342,8 +2342,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2353,15 +2353,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2382,8 +2382,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2393,15 +2393,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2422,8 +2422,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2433,15 +2433,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2462,8 +2462,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2473,15 +2473,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2502,8 +2502,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2513,15 +2513,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2542,8 +2542,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2553,15 +2553,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2582,8 +2582,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2593,15 +2593,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2622,8 +2622,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2633,15 +2633,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2662,8 +2662,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2673,15 +2673,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2702,8 +2702,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2713,15 +2713,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2742,8 +2742,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2753,15 +2753,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2782,8 +2782,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2793,15 +2793,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2822,8 +2822,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2833,15 +2833,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2862,8 +2862,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2873,15 +2873,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2902,8 +2902,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2913,15 +2913,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2942,8 +2942,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2953,15 +2953,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2982,8 +2982,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2993,15 +2993,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3022,8 +3022,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3033,15 +3033,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3062,8 +3062,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3073,15 +3073,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3102,8 +3102,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3113,15 +3113,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3142,8 +3142,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3153,15 +3153,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3182,8 +3182,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3193,15 +3193,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3222,8 +3222,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3233,15 +3233,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3262,8 +3262,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3273,15 +3273,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3302,8 +3302,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3313,15 +3313,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3342,8 +3342,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3353,15 +3353,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3382,8 +3382,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3393,15 +3393,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3422,8 +3422,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3433,15 +3433,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3462,8 +3462,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3473,15 +3473,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3502,8 +3502,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3513,15 +3513,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3542,8 +3542,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3553,15 +3553,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3582,8 +3582,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3593,15 +3593,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3622,8 +3622,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3633,15 +3633,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3662,8 +3662,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3673,15 +3673,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3702,8 +3702,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3713,15 +3713,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3742,8 +3742,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3753,15 +3753,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3782,8 +3782,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3793,15 +3793,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3822,8 +3822,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3833,15 +3833,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3862,8 +3862,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3873,15 +3873,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3902,8 +3902,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3913,15 +3913,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3942,8 +3942,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3953,15 +3953,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3982,8 +3982,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3993,15 +3993,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -4022,8 +4022,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -4033,15 +4033,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -4062,8 +4062,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "SPN2",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -4073,15 +4073,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-22T09:03:00+02:00",
+        "EstimatedArrival": "2023-05-22T11:03:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "SPAIN",
+          "City": "BARCELONA",
+          "Abbreviation": "(BCN)",
+          "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 2,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,

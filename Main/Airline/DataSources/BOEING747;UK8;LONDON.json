@@ -4,17 +4,17 @@
     "TicketID": 1,
     "Ticket": {
       "Passenger": {
-        "ID": 1,
-        "Surname": "joe",
-        "Lastname": "doe",
-        "Sex": "M",
-        "BirthDate": "2000-01-01T00:00:00",
-        "Adress": "joedoe 1  0000AA joedoestraat",
+        "ID": 206,
+        "Surname": "marie",
+        "Lastname": "de groot",
+        "Sex": "v",
+        "BirthDate": "2005-10-13T00:00:00",
+        "Adress": "kmk 1  1234ab spijk",
         "PhoneNumber": "0612345678"
       },
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -25,15 +25,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -52,17 +52,17 @@
     "TicketID": 2,
     "Ticket": {
       "Passenger": {
-        "ID": 2,
-        "Surname": "jane",
-        "Lastname": "doe",
-        "Sex": "V",
-        "BirthDate": "2000-01-01T00:00:00",
-        "Adress": "janedoestraat 1  0000BB jandoe",
-        "PhoneNumber": "Empty"
+        "ID": 1,
+        "Surname": "marie",
+        "Lastname": "de groot",
+        "Sex": "v",
+        "BirthDate": "1000-10-10T00:00:00",
+        "Adress": "kmckm 1  1234ba wkmdkm",
+        "PhoneNumber": "0612345678"
       },
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -73,15 +73,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -102,7 +102,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -113,15 +113,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -142,7 +142,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -153,15 +153,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -182,7 +182,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -193,15 +193,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -222,7 +222,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -233,15 +233,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -262,7 +262,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -273,15 +273,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -302,7 +302,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -313,15 +313,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -342,7 +342,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -353,15 +353,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -382,7 +382,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -393,15 +393,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -422,7 +422,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -433,15 +433,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -462,7 +462,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -473,15 +473,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -502,7 +502,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -513,15 +513,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -542,7 +542,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -553,15 +553,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -582,7 +582,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -593,15 +593,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -622,7 +622,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -633,15 +633,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -662,7 +662,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -673,15 +673,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -702,7 +702,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -713,15 +713,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -742,7 +742,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -753,15 +753,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -782,7 +782,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -793,15 +793,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -822,7 +822,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -833,15 +833,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -862,7 +862,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -873,15 +873,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -902,7 +902,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -913,15 +913,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -942,7 +942,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -953,15 +953,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -982,7 +982,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -993,15 +993,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1022,7 +1022,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1033,15 +1033,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1062,7 +1062,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1073,15 +1073,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1102,7 +1102,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1113,15 +1113,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1142,7 +1142,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1153,15 +1153,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1182,7 +1182,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1193,15 +1193,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1222,7 +1222,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1233,15 +1233,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1262,7 +1262,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1273,15 +1273,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1302,7 +1302,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1313,15 +1313,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1342,7 +1342,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1353,15 +1353,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1382,7 +1382,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1393,15 +1393,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1422,7 +1422,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1433,15 +1433,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1462,7 +1462,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1473,15 +1473,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1502,7 +1502,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1513,15 +1513,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1542,7 +1542,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1553,15 +1553,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1582,7 +1582,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1593,15 +1593,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1622,7 +1622,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1633,15 +1633,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1662,7 +1662,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1673,15 +1673,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1702,7 +1702,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1713,15 +1713,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1742,7 +1742,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1753,15 +1753,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1782,7 +1782,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1793,15 +1793,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1822,7 +1822,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1833,15 +1833,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1862,7 +1862,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1873,15 +1873,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1902,7 +1902,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1913,15 +1913,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1942,7 +1942,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1953,15 +1953,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1982,7 +1982,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1993,15 +1993,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2022,7 +2022,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2033,15 +2033,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2062,7 +2062,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2073,15 +2073,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2102,7 +2102,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2113,15 +2113,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2142,7 +2142,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2153,15 +2153,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2182,7 +2182,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2193,15 +2193,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2222,7 +2222,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2233,15 +2233,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2262,7 +2262,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2273,15 +2273,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2302,7 +2302,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2313,15 +2313,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2342,7 +2342,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2353,15 +2353,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2382,7 +2382,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2393,15 +2393,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2422,7 +2422,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2433,15 +2433,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2462,7 +2462,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2473,15 +2473,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2502,7 +2502,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2513,15 +2513,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2542,7 +2542,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2553,15 +2553,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2582,7 +2582,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2593,15 +2593,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2622,7 +2622,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2633,15 +2633,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2662,7 +2662,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2673,15 +2673,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2702,7 +2702,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2713,15 +2713,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2742,7 +2742,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2753,15 +2753,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2782,7 +2782,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2793,15 +2793,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2822,7 +2822,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2833,15 +2833,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2862,7 +2862,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2873,15 +2873,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2902,7 +2902,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2913,15 +2913,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2942,7 +2942,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2953,15 +2953,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2982,7 +2982,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2993,15 +2993,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3022,7 +3022,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3033,15 +3033,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3062,7 +3062,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3073,15 +3073,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3102,7 +3102,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3113,15 +3113,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3142,7 +3142,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3153,15 +3153,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3182,7 +3182,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3193,15 +3193,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3222,7 +3222,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3233,15 +3233,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3262,7 +3262,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3273,15 +3273,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3302,7 +3302,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3313,15 +3313,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3342,7 +3342,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3353,15 +3353,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3382,7 +3382,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3393,15 +3393,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3422,7 +3422,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3433,15 +3433,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3462,7 +3462,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3473,15 +3473,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3502,7 +3502,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3513,15 +3513,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3542,7 +3542,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3553,15 +3553,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3582,7 +3582,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3593,15 +3593,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3622,7 +3622,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3633,15 +3633,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3662,7 +3662,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3673,15 +3673,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3702,7 +3702,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3713,15 +3713,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3742,7 +3742,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3753,15 +3753,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3782,7 +3782,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3793,15 +3793,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3822,7 +3822,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3833,15 +3833,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3862,7 +3862,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3873,15 +3873,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3902,7 +3902,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3913,15 +3913,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3942,7 +3942,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3953,15 +3953,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3982,7 +3982,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3993,15 +3993,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -4022,7 +4022,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -4033,15 +4033,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -4062,7 +4062,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "UK8",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -4073,15 +4073,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-06-04T08:30:08.7545305+02:00",
+        "EstimatedArrival": "2023-06-04T09:30:08.7545305+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "UNITED KINGDOM",
+          "City": "LONDON",
+          "Abbreviation": "(LCY)",
+          "Airport": "LONDON CITY AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 1,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,

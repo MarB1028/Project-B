@@ -1,20 +1,20 @@
 [
   {
-    "Booked": true,
+    "Booked": false,
     "TicketID": 1,
     "Ticket": {
       "Passenger": {
-        "ID": 1,
-        "Surname": "joe",
-        "Lastname": "doe",
-        "Sex": "M",
-        "BirthDate": "2000-01-01T00:00:00",
-        "Adress": "joedoe 1  0000AA joedoestraat",
-        "PhoneNumber": "0612345678"
+        "ID": 206,
+        "Surname": "Marie",
+        "Lastname": "de groot",
+        "Sex": "v",
+        "BirthDate": "2005-10-13T00:00:00",
+        "Adress": "abdjn 233  1234ab wmdkm",
+        "PhoneNumber": "0612345687"
       },
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -25,15 +25,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -48,21 +48,13 @@
     }
   },
   {
-    "Booked": true,
+    "Booked": false,
     "TicketID": 2,
     "Ticket": {
-      "Passenger": {
-        "ID": 2,
-        "Surname": "jane",
-        "Lastname": "doe",
-        "Sex": "V",
-        "BirthDate": "2000-01-01T00:00:00",
-        "Adress": "janedoestraat 1  0000BB jandoe",
-        "PhoneNumber": "Empty"
-      },
+      "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -73,15 +65,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -102,7 +94,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -113,15 +105,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -142,7 +134,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -153,15 +145,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -182,7 +174,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -193,15 +185,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -222,7 +214,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -233,15 +225,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -262,7 +254,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -273,15 +265,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -302,7 +294,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -313,15 +305,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -342,7 +334,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -353,15 +345,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -382,7 +374,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -393,15 +385,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -422,7 +414,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -433,15 +425,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -462,7 +454,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -473,15 +465,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -502,7 +494,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -513,15 +505,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -542,7 +534,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -553,15 +545,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -582,7 +574,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -593,15 +585,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -622,7 +614,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -633,15 +625,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -662,7 +654,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -673,15 +665,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -702,7 +694,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -713,15 +705,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -742,7 +734,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -753,15 +745,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -782,7 +774,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -793,15 +785,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -822,7 +814,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -833,15 +825,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -862,7 +854,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -873,15 +865,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -902,7 +894,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -913,15 +905,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -942,7 +934,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -953,15 +945,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -982,7 +974,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -993,15 +985,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1022,7 +1014,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1033,15 +1025,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1062,7 +1054,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1073,15 +1065,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1102,7 +1094,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1113,15 +1105,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1142,7 +1134,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1153,15 +1145,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1182,7 +1174,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1193,15 +1185,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1222,7 +1214,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1233,15 +1225,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1262,7 +1254,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1273,15 +1265,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1302,7 +1294,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1313,15 +1305,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1342,7 +1334,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1353,15 +1345,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1382,7 +1374,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1393,15 +1385,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1422,7 +1414,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1433,15 +1425,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1462,7 +1454,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1473,15 +1465,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1502,7 +1494,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1513,15 +1505,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1542,7 +1534,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1553,15 +1545,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1582,7 +1574,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1593,15 +1585,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1622,7 +1614,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1633,15 +1625,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1662,7 +1654,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1673,15 +1665,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1702,7 +1694,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1713,15 +1705,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1742,7 +1734,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1753,15 +1745,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1782,7 +1774,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1793,15 +1785,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1822,7 +1814,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1833,15 +1825,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1862,7 +1854,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1873,15 +1865,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1902,7 +1894,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1913,15 +1905,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1942,7 +1934,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1953,15 +1945,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -1982,7 +1974,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1993,15 +1985,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2022,7 +2014,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2033,15 +2025,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2062,7 +2054,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2073,15 +2065,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2102,7 +2094,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2113,15 +2105,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2142,7 +2134,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2153,15 +2145,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2182,7 +2174,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2193,15 +2185,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2222,7 +2214,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2233,15 +2225,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2262,7 +2254,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2273,15 +2265,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2302,7 +2294,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2313,15 +2305,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2342,7 +2334,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2353,15 +2345,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2382,7 +2374,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2393,15 +2385,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2422,7 +2414,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2433,15 +2425,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2462,7 +2454,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2473,15 +2465,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2502,7 +2494,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2513,15 +2505,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2542,7 +2534,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2553,15 +2545,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2582,7 +2574,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2593,15 +2585,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2622,7 +2614,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2633,15 +2625,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2662,7 +2654,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2673,15 +2665,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2702,7 +2694,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2713,15 +2705,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2742,7 +2734,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2753,15 +2745,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2782,7 +2774,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2793,15 +2785,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2822,7 +2814,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2833,15 +2825,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2862,7 +2854,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2873,15 +2865,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2902,7 +2894,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2913,15 +2905,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2942,7 +2934,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2953,15 +2945,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -2982,7 +2974,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2993,15 +2985,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3022,7 +3014,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3033,15 +3025,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3062,7 +3054,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3073,15 +3065,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3102,7 +3094,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3113,15 +3105,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3142,7 +3134,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3153,15 +3145,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3182,7 +3174,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3193,15 +3185,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3222,7 +3214,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3233,15 +3225,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3262,7 +3254,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3273,15 +3265,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3302,7 +3294,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3313,15 +3305,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3342,7 +3334,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3353,15 +3345,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3382,7 +3374,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3393,15 +3385,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3422,7 +3414,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3433,15 +3425,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3462,7 +3454,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3473,15 +3465,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3502,7 +3494,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3513,15 +3505,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3542,7 +3534,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3553,15 +3545,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3582,7 +3574,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3593,15 +3585,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3622,7 +3614,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3633,15 +3625,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3662,7 +3654,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3673,15 +3665,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3702,7 +3694,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3713,15 +3705,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3742,7 +3734,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3753,15 +3745,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3782,7 +3774,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3793,15 +3785,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3822,7 +3814,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3833,15 +3825,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3862,7 +3854,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3873,15 +3865,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3902,7 +3894,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3913,15 +3905,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3942,7 +3934,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3953,15 +3945,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -3982,7 +3974,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3993,15 +3985,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -4022,7 +4014,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -4033,15 +4025,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
@@ -4062,7 +4054,7 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
+        "FlightId": "GRC9",
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -4073,15 +4065,15 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-19T16:38:00+02:00",
+        "EstimatedArrival": "2023-05-19T23:38:00+02:00",
         "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
+          "Country": "GREECE",
+          "City": "ATHENS",
+          "Abbreviation": "(ATH)",
+          "Airport": "ATHENS INTERNATIONAL AIRPORT",
           "Distancekm": 100,
-          "FlightDuration": 3,
+          "FlightDuration": 7,
           "Status": "On schedule"
         },
         "MinPrice": 100.0,
