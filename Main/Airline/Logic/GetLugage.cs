@@ -56,16 +56,7 @@ public static class GetLugage
                 Console.WriteLine("Invalid input");
             }
         }
-        // Account Account = null;
-        // List<Account> accounts = SetGetAccounts.ReadAccountsFromJSON();
 
-        // foreach (Account account in accounts)
-        // {
-        //     if (account.LoggedIn == true)
-        //     {
-        //         Account = account;
-        //     }
-        // }
 
         TotalCost = totalCost;
         Flight flight = null;

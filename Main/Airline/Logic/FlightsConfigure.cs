@@ -279,7 +279,7 @@ public static class FlightsConfigure
         Thread.Sleep(3000);
         StartFlightConfigure();
     }
-    
+
     public static void Addflight(Flight flight)
     {
         if (DataFlights.AddFlightToJson(flight))
@@ -310,7 +310,7 @@ public static class FlightsConfigure
 
         foreach (var flight in flights)
         {
-            table.AddRow(flight.FlightId, flight.DayOrNight, flight.Destination.Status,flight.Destination.Country, flight.Destination.City, flight.Destination.Airport);
+            table.AddRow(flight.FlightId, flight.DayOrNight, flight.Destination.Status, flight.Destination.Country, flight.Destination.City, flight.Destination.Airport);
         }
         Console.WriteLine(table);
 
@@ -327,7 +327,7 @@ public static class FlightsConfigure
             else Console.WriteLine("INVALID FLIGHT ID");
 
         } while (true);
-        
+
         if (RemoveFlight(flights, flightID))
         {
             Console.ForegroundColor = ConsoleColor.Green;
@@ -383,7 +383,7 @@ public static class FlightsConfigure
         }
         return null;
     }
-    
+
     public static void StartFlightConfigure()
     {
         Console.Clear();

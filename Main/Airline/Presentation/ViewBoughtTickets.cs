@@ -47,19 +47,14 @@ static class ViewBoughtTickets
         {
             foreach (var ticketObj in loggedInAccount.BoughtTickets)
             {
-<<<<<<< HEAD
                 var ticket = ((JObject)ticketObj)["Ticket"].ToObject<JObject>(); // Ticket objects halen
-                var passenger = ticket["Passenger"].ToObject<JObject>(); // Passenger objects 
-                var flight = ticket["Flight"].ToObject<JObject>(); // Flight objects
-                var ticketID = (int)((JObject)ticketObj)["TicketID"]; // TicketID nummer halen uit de json
-=======
                 var ticketJObject = JObject.FromObject(ticketObj);
                 var ticket = ticketJObject["Ticket"] as JObject;
                 var passenger = ticket["Passenger"] as JObject;
                 var flight = ticket["Flight"] as JObject;
                 var ticketID = ticketObj.TicketID;
+                var Payment = ticketObj.PaymentDone;
 
->>>>>>> parent of 01b267d (bugs gefixt, alles runt nu wel gwn)
 
                 Console.WriteLine($"{ticket["Seat"]["SeatType"]}");
                 Console.WriteLine($"Ticket ID: {ticketID}");
@@ -67,9 +62,11 @@ static class ViewBoughtTickets
                 Console.WriteLine($"Flight: {flight["Airplane"]["Name"]} - {flight["Destination"]["City"]}, {flight["Destination"]["Airport"]}");
                 Console.WriteLine($"Seat: {ticket["Seat"]["SeatNumber"]}   Boarding gate: {ticket["Gate"]}");
                 Console.WriteLine($"Booking Code: {CalculateTotalCosts.BookingCode}");
+                Console.WriteLine($"Booking Status:");
+                Console.WriteLine($"{TicketOverview.PaymentComplete(Payment)}");
                 Console.WriteLine("");
             }
-            
+
         }
         Console.WriteLine("\nPress any key to go back to main menu.");
         Console.ReadKey();
@@ -92,5 +89,5 @@ static class ViewBoughtTickets
         return false;
     }
 
- 
+
 }
