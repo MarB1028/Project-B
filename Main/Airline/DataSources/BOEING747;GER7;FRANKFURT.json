@@ -1,16 +1,17 @@
 [
   {
     "Booked": true,
-    "TicketID": 1,
+    "PaymentDone": false,
+    "TicketID": 2,
     "Ticket": {
       "Passenger": {
-        "ID": 1,
-        "Surname": "joe",
-        "Lastname": "doe",
-        "Sex": "M",
-        "BirthDate": "2000-01-01T00:00:00",
-        "Adress": "joedoe 1  0000AA joedoestraat",
-        "PhoneNumber": "0612345678"
+        "ID": 2,
+        "Surname": "a",
+        "Lastname": "a",
+        "Sex": "v",
+        "BirthDate": "2002-02-20T00:00:00",
+        "Adress": "s 1  1236ss s",
+        "PhoneNumber": "0654123654"
       },
       "Flight": {
         "FlightNo": 0,
@@ -25,9 +26,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -36,7 +38,9 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -48,55 +52,8 @@
     }
   },
   {
-    "Booked": true,
-    "TicketID": 2,
-    "Ticket": {
-      "Passenger": {
-        "ID": 2,
-        "Surname": "jane",
-        "Lastname": "doe",
-        "Sex": "V",
-        "BirthDate": "2000-01-01T00:00:00",
-        "Adress": "janedoestraat 1  0000BB jandoe",
-        "PhoneNumber": "Empty"
-      },
-      "Flight": {
-        "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
-        "Airplane": {
-          "Name": "BOEING747",
-          "Carrierid": "BO",
-          "AirplaneId": 1,
-          "FirstClassSeat": 4,
-          "PremiumSeat": 5,
-          "EconomySeat": 6,
-          "ExtraSpace": 2
-        },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
-        "Destination": {
-          "Country": "GERMANY",
-          "City": "FRANKFURT",
-          "Abbreviation": "(GER)",
-          "Airport": "FRANKFURT AIRPORT",
-          "Distancekm": 100,
-          "FlightDuration": 3,
-          "Status": "On schedule"
-        },
-        "MinPrice": 100.0,
-        "TotalSeats": 102
-      },
-      "Seat": {
-        "SeatNumber": "BO-2",
-        "SeatType": "First-Class",
-        "Price": 600.0
-      },
-      "Gate": "Empty"
-    }
-  },
-  {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 3,
     "Ticket": {
       "Passenger": null,
@@ -113,9 +70,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -124,11 +82,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-3",
+        "SeatNumber": "BO-2",
         "SeatType": "First-Class",
         "Price": 600.0
       },
@@ -137,6 +97,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 4,
     "Ticket": {
       "Passenger": null,
@@ -153,9 +114,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -164,11 +126,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-4",
+        "SeatNumber": "BO-3",
         "SeatType": "First-Class",
         "Price": 600.0
       },
@@ -177,6 +141,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 5,
     "Ticket": {
       "Passenger": null,
@@ -193,9 +158,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -204,11 +170,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-5",
+        "SeatNumber": "BO-4",
         "SeatType": "First-Class",
         "Price": 600.0
       },
@@ -217,6 +185,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 6,
     "Ticket": {
       "Passenger": null,
@@ -233,9 +202,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -244,11 +214,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-6",
+        "SeatNumber": "BO-5",
         "SeatType": "First-Class",
         "Price": 600.0
       },
@@ -257,6 +229,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 7,
     "Ticket": {
       "Passenger": null,
@@ -273,9 +246,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -284,11 +258,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-7",
+        "SeatNumber": "BO-6",
         "SeatType": "First-Class",
         "Price": 600.0
       },
@@ -297,6 +273,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 8,
     "Ticket": {
       "Passenger": null,
@@ -313,9 +290,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -324,11 +302,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-8",
+        "SeatNumber": "BO-7",
         "SeatType": "First-Class",
         "Price": 600.0
       },
@@ -337,6 +317,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 9,
     "Ticket": {
       "Passenger": null,
@@ -353,9 +334,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -364,11 +346,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-9",
+        "SeatNumber": "BO-8",
         "SeatType": "First-Class",
         "Price": 600.0
       },
@@ -377,6 +361,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 10,
     "Ticket": {
       "Passenger": null,
@@ -393,9 +378,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -404,11 +390,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-10",
+        "SeatNumber": "BO-9",
         "SeatType": "First-Class",
         "Price": 600.0
       },
@@ -417,6 +405,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 11,
     "Ticket": {
       "Passenger": null,
@@ -433,9 +422,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -444,11 +434,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-11",
+        "SeatNumber": "BO-10",
         "SeatType": "First-Class",
         "Price": 600.0
       },
@@ -457,6 +449,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 12,
     "Ticket": {
       "Passenger": null,
@@ -473,9 +466,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -484,11 +478,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-12",
+        "SeatNumber": "BO-11",
         "SeatType": "First-Class",
         "Price": 600.0
       },
@@ -497,6 +493,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 13,
     "Ticket": {
       "Passenger": null,
@@ -513,9 +510,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -524,11 +522,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-13",
+        "SeatNumber": "BO-12",
         "SeatType": "First-Class",
         "Price": 600.0
       },
@@ -537,6 +537,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 14,
     "Ticket": {
       "Passenger": null,
@@ -553,9 +554,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -564,11 +566,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-14",
+        "SeatNumber": "BO-13",
         "SeatType": "First-Class",
         "Price": 600.0
       },
@@ -577,6 +581,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 15,
     "Ticket": {
       "Passenger": null,
@@ -593,9 +598,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -604,11 +610,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-15",
+        "SeatNumber": "BO-14",
         "SeatType": "First-Class",
         "Price": 600.0
       },
@@ -617,6 +625,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 16,
     "Ticket": {
       "Passenger": null,
@@ -633,9 +642,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -644,11 +654,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-16",
+        "SeatNumber": "BO-15",
         "SeatType": "First-Class",
         "Price": 600.0
       },
@@ -657,6 +669,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 17,
     "Ticket": {
       "Passenger": null,
@@ -673,9 +686,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -684,11 +698,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-17",
+        "SeatNumber": "BO-16",
         "SeatType": "First-Class",
         "Price": 600.0
       },
@@ -697,6 +713,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 18,
     "Ticket": {
       "Passenger": null,
@@ -713,9 +730,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -724,11 +742,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-18",
+        "SeatNumber": "BO-17",
         "SeatType": "First-Class",
         "Price": 600.0
       },
@@ -737,6 +757,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 19,
     "Ticket": {
       "Passenger": null,
@@ -753,9 +774,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -764,11 +786,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-19",
+        "SeatNumber": "BO-18",
         "SeatType": "First-Class",
         "Price": 600.0
       },
@@ -777,6 +801,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 20,
     "Ticket": {
       "Passenger": null,
@@ -793,9 +818,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -804,11 +830,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-20",
+        "SeatNumber": "BO-19",
         "SeatType": "First-Class",
         "Price": 600.0
       },
@@ -817,6 +845,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 21,
     "Ticket": {
       "Passenger": null,
@@ -833,9 +862,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -844,11 +874,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-21",
+        "SeatNumber": "BO-20",
         "SeatType": "First-Class",
         "Price": 600.0
       },
@@ -857,6 +889,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 22,
     "Ticket": {
       "Passenger": null,
@@ -873,9 +906,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -884,11 +918,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-22",
+        "SeatNumber": "BO-21",
         "SeatType": "First-Class",
         "Price": 600.0
       },
@@ -897,6 +933,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 23,
     "Ticket": {
       "Passenger": null,
@@ -913,9 +950,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -924,11 +962,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-23",
+        "SeatNumber": "BO-22",
         "SeatType": "First-Class",
         "Price": 600.0
       },
@@ -937,6 +977,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 24,
     "Ticket": {
       "Passenger": null,
@@ -953,9 +994,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -964,11 +1006,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-24",
+        "SeatNumber": "BO-23",
         "SeatType": "First-Class",
         "Price": 600.0
       },
@@ -977,6 +1021,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 25,
     "Ticket": {
       "Passenger": null,
@@ -993,9 +1038,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -1004,19 +1050,22 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-25",
-        "SeatType": "Premium-Class",
-        "Price": 300.0
+        "SeatNumber": "BO-24",
+        "SeatType": "First-Class",
+        "Price": 600.0
       },
       "Gate": "Empty"
     }
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 26,
     "Ticket": {
       "Passenger": null,
@@ -1033,9 +1082,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -1044,11 +1094,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-26",
+        "SeatNumber": "BO-25",
         "SeatType": "Premium-Class",
         "Price": 300.0
       },
@@ -1057,6 +1109,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 27,
     "Ticket": {
       "Passenger": null,
@@ -1073,9 +1126,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -1084,11 +1138,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-27",
+        "SeatNumber": "BO-26",
         "SeatType": "Premium-Class",
         "Price": 300.0
       },
@@ -1097,6 +1153,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 28,
     "Ticket": {
       "Passenger": null,
@@ -1113,9 +1170,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -1124,11 +1182,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-28",
+        "SeatNumber": "BO-27",
         "SeatType": "Premium-Class",
         "Price": 300.0
       },
@@ -1137,6 +1197,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 29,
     "Ticket": {
       "Passenger": null,
@@ -1153,9 +1214,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -1164,11 +1226,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-29",
+        "SeatNumber": "BO-28",
         "SeatType": "Premium-Class",
         "Price": 300.0
       },
@@ -1177,6 +1241,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 30,
     "Ticket": {
       "Passenger": null,
@@ -1193,9 +1258,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -1204,11 +1270,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-30",
+        "SeatNumber": "BO-29",
         "SeatType": "Premium-Class",
         "Price": 300.0
       },
@@ -1217,6 +1285,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 31,
     "Ticket": {
       "Passenger": null,
@@ -1233,9 +1302,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -1244,11 +1314,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-31",
+        "SeatNumber": "BO-30",
         "SeatType": "Premium-Class",
         "Price": 300.0
       },
@@ -1257,6 +1329,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 32,
     "Ticket": {
       "Passenger": null,
@@ -1273,9 +1346,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -1284,11 +1358,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-32",
+        "SeatNumber": "BO-31",
         "SeatType": "Premium-Class",
         "Price": 300.0
       },
@@ -1297,6 +1373,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 33,
     "Ticket": {
       "Passenger": null,
@@ -1313,9 +1390,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -1324,11 +1402,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-33",
+        "SeatNumber": "BO-32",
         "SeatType": "Premium-Class",
         "Price": 300.0
       },
@@ -1337,6 +1417,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 34,
     "Ticket": {
       "Passenger": null,
@@ -1353,9 +1434,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -1364,11 +1446,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-34",
+        "SeatNumber": "BO-33",
         "SeatType": "Premium-Class",
         "Price": 300.0
       },
@@ -1377,6 +1461,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 35,
     "Ticket": {
       "Passenger": null,
@@ -1393,9 +1478,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -1404,11 +1490,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-35",
+        "SeatNumber": "BO-34",
         "SeatType": "Premium-Class",
         "Price": 300.0
       },
@@ -1417,6 +1505,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 36,
     "Ticket": {
       "Passenger": null,
@@ -1433,9 +1522,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -1444,11 +1534,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-36",
+        "SeatNumber": "BO-35",
         "SeatType": "Premium-Class",
         "Price": 300.0
       },
@@ -1457,6 +1549,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 37,
     "Ticket": {
       "Passenger": null,
@@ -1473,9 +1566,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -1484,11 +1578,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-37",
+        "SeatNumber": "BO-36",
         "SeatType": "Premium-Class",
         "Price": 300.0
       },
@@ -1497,6 +1593,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 38,
     "Ticket": {
       "Passenger": null,
@@ -1513,9 +1610,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -1524,11 +1622,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-38",
+        "SeatNumber": "BO-37",
         "SeatType": "Premium-Class",
         "Price": 300.0
       },
@@ -1537,6 +1637,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 39,
     "Ticket": {
       "Passenger": null,
@@ -1553,9 +1654,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -1564,11 +1666,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-39",
+        "SeatNumber": "BO-38",
         "SeatType": "Premium-Class",
         "Price": 300.0
       },
@@ -1577,6 +1681,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 40,
     "Ticket": {
       "Passenger": null,
@@ -1593,9 +1698,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -1604,11 +1710,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-40",
+        "SeatNumber": "BO-39",
         "SeatType": "Premium-Class",
         "Price": 300.0
       },
@@ -1617,6 +1725,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 41,
     "Ticket": {
       "Passenger": null,
@@ -1633,9 +1742,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -1644,11 +1754,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-41",
+        "SeatNumber": "BO-40",
         "SeatType": "Premium-Class",
         "Price": 300.0
       },
@@ -1657,6 +1769,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 42,
     "Ticket": {
       "Passenger": null,
@@ -1673,9 +1786,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -1684,11 +1798,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-42",
+        "SeatNumber": "BO-41",
         "SeatType": "Premium-Class",
         "Price": 300.0
       },
@@ -1697,6 +1813,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 43,
     "Ticket": {
       "Passenger": null,
@@ -1713,9 +1830,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -1724,11 +1842,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-43",
+        "SeatNumber": "BO-42",
         "SeatType": "Premium-Class",
         "Price": 300.0
       },
@@ -1737,6 +1857,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 44,
     "Ticket": {
       "Passenger": null,
@@ -1753,9 +1874,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -1764,11 +1886,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-44",
+        "SeatNumber": "BO-43",
         "SeatType": "Premium-Class",
         "Price": 300.0
       },
@@ -1777,6 +1901,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 45,
     "Ticket": {
       "Passenger": null,
@@ -1793,9 +1918,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -1804,11 +1930,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-45",
+        "SeatNumber": "BO-44",
         "SeatType": "Premium-Class",
         "Price": 300.0
       },
@@ -1817,6 +1945,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 46,
     "Ticket": {
       "Passenger": null,
@@ -1833,9 +1962,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -1844,11 +1974,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-46",
+        "SeatNumber": "BO-45",
         "SeatType": "Premium-Class",
         "Price": 300.0
       },
@@ -1857,6 +1989,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 47,
     "Ticket": {
       "Passenger": null,
@@ -1873,9 +2006,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -1884,11 +2018,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-47",
+        "SeatNumber": "BO-46",
         "SeatType": "Premium-Class",
         "Price": 300.0
       },
@@ -1897,6 +2033,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 48,
     "Ticket": {
       "Passenger": null,
@@ -1913,9 +2050,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -1924,11 +2062,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-48",
+        "SeatNumber": "BO-47",
         "SeatType": "Premium-Class",
         "Price": 300.0
       },
@@ -1937,6 +2077,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 49,
     "Ticket": {
       "Passenger": null,
@@ -1953,9 +2094,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -1964,11 +2106,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-49",
+        "SeatNumber": "BO-48",
         "SeatType": "Premium-Class",
         "Price": 300.0
       },
@@ -1977,6 +2121,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 50,
     "Ticket": {
       "Passenger": null,
@@ -1993,9 +2138,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -2004,11 +2150,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-50",
+        "SeatNumber": "BO-49",
         "SeatType": "Premium-Class",
         "Price": 300.0
       },
@@ -2017,6 +2165,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 51,
     "Ticket": {
       "Passenger": null,
@@ -2033,9 +2182,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -2044,11 +2194,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-51",
+        "SeatNumber": "BO-50",
         "SeatType": "Premium-Class",
         "Price": 300.0
       },
@@ -2057,6 +2209,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 52,
     "Ticket": {
       "Passenger": null,
@@ -2073,9 +2226,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -2084,11 +2238,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-52",
+        "SeatNumber": "BO-51",
         "SeatType": "Premium-Class",
         "Price": 300.0
       },
@@ -2097,6 +2253,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 53,
     "Ticket": {
       "Passenger": null,
@@ -2113,9 +2270,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -2124,11 +2282,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-53",
+        "SeatNumber": "BO-52",
         "SeatType": "Premium-Class",
         "Price": 300.0
       },
@@ -2137,6 +2297,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 54,
     "Ticket": {
       "Passenger": null,
@@ -2153,9 +2314,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -2164,11 +2326,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-54",
+        "SeatNumber": "BO-53",
         "SeatType": "Premium-Class",
         "Price": 300.0
       },
@@ -2177,6 +2341,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 55,
     "Ticket": {
       "Passenger": null,
@@ -2193,9 +2358,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -2204,19 +2370,22 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-55",
-        "SeatType": "Economy-Class",
-        "Price": 100.0
+        "SeatNumber": "BO-54",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
       },
       "Gate": "Empty"
     }
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 56,
     "Ticket": {
       "Passenger": null,
@@ -2233,9 +2402,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -2244,11 +2414,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-56",
+        "SeatNumber": "BO-55",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -2257,6 +2429,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 57,
     "Ticket": {
       "Passenger": null,
@@ -2273,9 +2446,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -2284,11 +2458,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-57",
+        "SeatNumber": "BO-56",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -2297,6 +2473,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 58,
     "Ticket": {
       "Passenger": null,
@@ -2313,9 +2490,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -2324,11 +2502,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-58",
+        "SeatNumber": "BO-57",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -2337,6 +2517,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 59,
     "Ticket": {
       "Passenger": null,
@@ -2353,9 +2534,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -2364,11 +2546,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-59",
+        "SeatNumber": "BO-58",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -2377,6 +2561,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 60,
     "Ticket": {
       "Passenger": null,
@@ -2393,9 +2578,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -2404,11 +2590,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-60",
+        "SeatNumber": "BO-59",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -2417,6 +2605,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 61,
     "Ticket": {
       "Passenger": null,
@@ -2433,9 +2622,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -2444,11 +2634,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-61",
+        "SeatNumber": "BO-60",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -2457,6 +2649,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 62,
     "Ticket": {
       "Passenger": null,
@@ -2473,9 +2666,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -2484,11 +2678,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-62",
+        "SeatNumber": "BO-61",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -2497,6 +2693,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 63,
     "Ticket": {
       "Passenger": null,
@@ -2513,9 +2710,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -2524,11 +2722,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-63",
+        "SeatNumber": "BO-62",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -2537,6 +2737,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 64,
     "Ticket": {
       "Passenger": null,
@@ -2553,9 +2754,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -2564,11 +2766,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-64",
+        "SeatNumber": "BO-63",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -2577,6 +2781,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 65,
     "Ticket": {
       "Passenger": null,
@@ -2593,9 +2798,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -2604,11 +2810,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-65",
+        "SeatNumber": "BO-64",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -2617,6 +2825,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 66,
     "Ticket": {
       "Passenger": null,
@@ -2633,9 +2842,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -2644,11 +2854,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-66",
+        "SeatNumber": "BO-65",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -2657,6 +2869,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 67,
     "Ticket": {
       "Passenger": null,
@@ -2673,9 +2886,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -2684,11 +2898,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-67",
+        "SeatNumber": "BO-66",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -2697,6 +2913,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 68,
     "Ticket": {
       "Passenger": null,
@@ -2713,9 +2930,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -2724,11 +2942,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-68",
+        "SeatNumber": "BO-67",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -2737,6 +2957,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 69,
     "Ticket": {
       "Passenger": null,
@@ -2753,9 +2974,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -2764,11 +2986,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-69",
+        "SeatNumber": "BO-68",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -2777,6 +3001,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 70,
     "Ticket": {
       "Passenger": null,
@@ -2793,9 +3018,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -2804,11 +3030,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-70",
+        "SeatNumber": "BO-69",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -2817,6 +3045,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 71,
     "Ticket": {
       "Passenger": null,
@@ -2833,9 +3062,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -2844,11 +3074,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-71",
+        "SeatNumber": "BO-70",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -2857,6 +3089,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 72,
     "Ticket": {
       "Passenger": null,
@@ -2873,9 +3106,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -2884,11 +3118,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-72",
+        "SeatNumber": "BO-71",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -2897,6 +3133,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 73,
     "Ticket": {
       "Passenger": null,
@@ -2913,9 +3150,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -2924,11 +3162,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-73",
+        "SeatNumber": "BO-72",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -2937,6 +3177,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 74,
     "Ticket": {
       "Passenger": null,
@@ -2953,9 +3194,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -2964,11 +3206,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-74",
+        "SeatNumber": "BO-73",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -2977,6 +3221,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 75,
     "Ticket": {
       "Passenger": null,
@@ -2993,9 +3238,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -3004,11 +3250,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-75",
+        "SeatNumber": "BO-74",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -3017,6 +3265,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 76,
     "Ticket": {
       "Passenger": null,
@@ -3033,9 +3282,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -3044,11 +3294,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-76",
+        "SeatNumber": "BO-75",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -3057,6 +3309,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 77,
     "Ticket": {
       "Passenger": null,
@@ -3073,9 +3326,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -3084,11 +3338,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-77",
+        "SeatNumber": "BO-76",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -3097,6 +3353,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 78,
     "Ticket": {
       "Passenger": null,
@@ -3113,9 +3370,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -3124,11 +3382,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-78",
+        "SeatNumber": "BO-77",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -3137,6 +3397,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 79,
     "Ticket": {
       "Passenger": null,
@@ -3153,9 +3414,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -3164,11 +3426,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-79",
+        "SeatNumber": "BO-78",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -3177,6 +3441,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 80,
     "Ticket": {
       "Passenger": null,
@@ -3193,9 +3458,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -3204,11 +3470,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-80",
+        "SeatNumber": "BO-79",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -3217,6 +3485,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 81,
     "Ticket": {
       "Passenger": null,
@@ -3233,9 +3502,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -3244,11 +3514,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-81",
+        "SeatNumber": "BO-80",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -3257,6 +3529,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 82,
     "Ticket": {
       "Passenger": null,
@@ -3273,9 +3546,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -3284,11 +3558,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-82",
+        "SeatNumber": "BO-81",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -3297,6 +3573,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 83,
     "Ticket": {
       "Passenger": null,
@@ -3313,9 +3590,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -3324,11 +3602,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-83",
+        "SeatNumber": "BO-82",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -3337,6 +3617,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 84,
     "Ticket": {
       "Passenger": null,
@@ -3353,9 +3634,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -3364,11 +3646,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-84",
+        "SeatNumber": "BO-83",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -3377,6 +3661,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 85,
     "Ticket": {
       "Passenger": null,
@@ -3393,9 +3678,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -3404,11 +3690,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-85",
+        "SeatNumber": "BO-84",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -3417,6 +3705,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 86,
     "Ticket": {
       "Passenger": null,
@@ -3433,9 +3722,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -3444,11 +3734,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-86",
+        "SeatNumber": "BO-85",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -3457,6 +3749,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 87,
     "Ticket": {
       "Passenger": null,
@@ -3473,9 +3766,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -3484,11 +3778,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-87",
+        "SeatNumber": "BO-86",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -3497,6 +3793,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 88,
     "Ticket": {
       "Passenger": null,
@@ -3513,9 +3810,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -3524,11 +3822,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-88",
+        "SeatNumber": "BO-87",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -3537,6 +3837,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 89,
     "Ticket": {
       "Passenger": null,
@@ -3553,9 +3854,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -3564,11 +3866,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-89",
+        "SeatNumber": "BO-88",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -3577,6 +3881,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 90,
     "Ticket": {
       "Passenger": null,
@@ -3593,9 +3898,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -3604,11 +3910,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-90",
+        "SeatNumber": "BO-89",
         "SeatType": "Economy-Class",
         "Price": 100.0
       },
@@ -3617,6 +3925,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 91,
     "Ticket": {
       "Passenger": null,
@@ -3633,9 +3942,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -3644,19 +3954,22 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-91",
-        "SeatType": "ExtraSpace-Class",
-        "Price": 175.0
+        "SeatNumber": "BO-90",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
       },
       "Gate": "Empty"
     }
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 92,
     "Ticket": {
       "Passenger": null,
@@ -3673,9 +3986,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -3684,11 +3998,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-92",
+        "SeatNumber": "BO-91",
         "SeatType": "ExtraSpace-Class",
         "Price": 175.0
       },
@@ -3697,6 +4013,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 93,
     "Ticket": {
       "Passenger": null,
@@ -3713,9 +4030,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -3724,11 +4042,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-93",
+        "SeatNumber": "BO-92",
         "SeatType": "ExtraSpace-Class",
         "Price": 175.0
       },
@@ -3737,6 +4057,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 94,
     "Ticket": {
       "Passenger": null,
@@ -3753,9 +4074,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -3764,11 +4086,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-94",
+        "SeatNumber": "BO-93",
         "SeatType": "ExtraSpace-Class",
         "Price": 175.0
       },
@@ -3777,6 +4101,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 95,
     "Ticket": {
       "Passenger": null,
@@ -3793,9 +4118,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -3804,11 +4130,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-95",
+        "SeatNumber": "BO-94",
         "SeatType": "ExtraSpace-Class",
         "Price": 175.0
       },
@@ -3817,6 +4145,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 96,
     "Ticket": {
       "Passenger": null,
@@ -3833,9 +4162,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -3844,11 +4174,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-96",
+        "SeatNumber": "BO-95",
         "SeatType": "ExtraSpace-Class",
         "Price": 175.0
       },
@@ -3857,6 +4189,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 97,
     "Ticket": {
       "Passenger": null,
@@ -3873,9 +4206,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -3884,11 +4218,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-97",
+        "SeatNumber": "BO-96",
         "SeatType": "ExtraSpace-Class",
         "Price": 175.0
       },
@@ -3897,6 +4233,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 98,
     "Ticket": {
       "Passenger": null,
@@ -3913,9 +4250,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -3924,11 +4262,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-98",
+        "SeatNumber": "BO-97",
         "SeatType": "ExtraSpace-Class",
         "Price": 175.0
       },
@@ -3937,6 +4277,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 99,
     "Ticket": {
       "Passenger": null,
@@ -3953,9 +4294,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -3964,11 +4306,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-99",
+        "SeatNumber": "BO-98",
         "SeatType": "ExtraSpace-Class",
         "Price": 175.0
       },
@@ -3977,6 +4321,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 100,
     "Ticket": {
       "Passenger": null,
@@ -3993,9 +4338,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -4004,11 +4350,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-100",
+        "SeatNumber": "BO-99",
         "SeatType": "ExtraSpace-Class",
         "Price": 175.0
       },
@@ -4017,6 +4365,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 101,
     "Ticket": {
       "Passenger": null,
@@ -4033,9 +4382,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -4044,11 +4394,13 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
-        "SeatNumber": "BO-101",
+        "SeatNumber": "BO-100",
         "SeatType": "ExtraSpace-Class",
         "Price": 175.0
       },
@@ -4057,6 +4409,7 @@
   },
   {
     "Booked": false,
+    "PaymentDone": false,
     "TicketID": 102,
     "Ticket": {
       "Passenger": null,
@@ -4073,9 +4426,10 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-12T19:06:00+02:00",
-        "EstimatedArrival": "2023-05-12T22:06:00+02:00",
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
         "Destination": {
+          "DisplayNo": "1.1",
           "Country": "GERMANY",
           "City": "FRANKFURT",
           "Abbreviation": "(GER)",
@@ -4084,7 +4438,53 @@
           "FlightDuration": 3,
           "Status": "On schedule"
         },
+        "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-101",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 103,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "GER7",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "Destination": {
+          "DisplayNo": "1.1",
+          "Country": "GERMANY",
+          "City": "FRANKFURT",
+          "Abbreviation": "(GER)",
+          "Airport": "FRANKFURT AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {

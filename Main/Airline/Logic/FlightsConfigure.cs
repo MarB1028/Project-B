@@ -157,13 +157,13 @@ public static class FlightsConfigure
         Destination destination;
         do
         {
-            Console.WriteLine("Destination (COUNTRY-CITY-ABBREVIATION-AIRPORT-DISTIANCE(KM)-DURATION(HOURS)-STATUS)");
+            Console.WriteLine("Destination (DISPLAYNO-COUNTRY-CITY-ABBREVIATION-AIRPORT-DISTIANCE(KM)-DURATION(HOURS)-STATUS)");
             Console.Write(": ");
             string input = Console.ReadLine();
             string[] inputArray = input.Split('-');
             if (!string.IsNullOrEmpty(input) && inputArray.Length == 7)
             {
-                destination = new Destination(inputArray[0].ToUpper(), inputArray[1].ToUpper(), inputArray[2].ToUpper(), inputArray[3].ToUpper(), Convert.ToInt32(inputArray[4]), Convert.ToInt32(inputArray[5]), inputArray[6].ToUpper());
+                destination = new Destination(inputArray[0], inputArray[1].ToUpper(), inputArray[2].ToUpper(), inputArray[3].ToUpper(), inputArray[4].ToUpper(), Convert.ToInt32(inputArray[4]), Convert.ToInt32(inputArray[5]), inputArray[6].ToUpper());
                 break;
             }
             else Console.WriteLine("INVALID DESTINATION");
