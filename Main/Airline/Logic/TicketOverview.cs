@@ -32,6 +32,11 @@ static class TicketOverview
         Console.WriteLine($"{ConfirmTicketInformation.GetPrice}");
         Console.WriteLine($"Booking Status:");
         Console.WriteLine($"{PaymentComplete(payment)}");
+        Console.WriteLine("");    
+        Console.WriteLine("\nPress any key to go back to main menu.");
+        Console.ReadKey();
+        Console.Clear();
+        Menu.StartScreen();
     }
 
 
@@ -48,18 +53,4 @@ static class TicketOverview
         }
     }
 
-
-    public static bool CheckLogin() //checkt of user is ingelogd of niet
-    {
-        List<Account> accounts = SetGetAccounts.ReadAccountsFromJSON();
-
-        foreach (Account account in accounts)
-        {
-            if (account.LoggedIn == true)
-            {
-                return true;
-            }
-        }
-        return false;
-    }
 }
