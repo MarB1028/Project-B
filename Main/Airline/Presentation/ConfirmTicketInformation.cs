@@ -32,7 +32,7 @@
         {
             Console.WriteLine($"Passenger {Tickets.Count()}.");
             Console.WriteLine();
-            Console.WriteLine($"First name: {ticket.Ticket.Passenger.Surname}\nLast name: {ticket.Ticket.Passenger.Lastname}\nSex: {ticket.Ticket.Passenger.Sex}");
+            Console.WriteLine($"First name: {ticket.Ticket.Passenger.SurName}\nSurname: {ticket.Ticket.Passenger.SurName}\nSex: {ticket.Ticket.Passenger.Gender}");
             Console.WriteLine($"Birth date: {ticket.Ticket.Passenger.BirthDate}\nAddress: {ticket.Ticket.Passenger.Adress}\nPhone number: {ticket.Ticket.Passenger.PhoneNumber}");
             Console.WriteLine();
 

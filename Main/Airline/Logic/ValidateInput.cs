@@ -6,12 +6,24 @@ public static class ValidateInput
     //Controleert of de input uitsluitend uit letters bestaat 
     public static bool IsAlpha(string input, string exception = null) // Je kan uitzonderingen meegeven (exception = "-" maakt marie-claire valid)
     {
+        bool isvalid = false;
         foreach (char character in input)
         {
-            if (char.IsLetter(character) == false && Convert.ToString(character) != exception)
+            foreach (char exc in exception)
             {
-                return false;
+                if (char.IsLetter(character) == true || character == exc)
+                {
+                    isvalid = true;
+                }
+                else
+                {
+                    isvalid = false;
+                }
             }
+        }
+        if (isvalid == false)
+        {
+            return false;
         }
         return true;
     }
@@ -19,6 +31,10 @@ public static class ValidateInput
     // Controleert of een string uitsluitend uit positieve nummers bestaat
     public static bool IsNumber(string input)
     {
+        if (input == "")
+        {
+            return false;
+        }
         foreach (char character in input)
         {
             int number = 0;

@@ -2,20 +2,20 @@
 {
     public static int PreviousID = 0;
     public int ID;
-    public string Surname;
-    public string Lastname;
-    public string Sex;
+    public string FirstName;
+    public string SurName;
+    public string Gender;
     public DateTime BirthDate;
     public string Adress;
     public string PhoneNumber;
 
-    public Passenger(string surname, string lastname, string sex, DateTime birthDate, string adress, string phoneNumber)
+    public Passenger(string firstname, string surname, string gender, DateTime birthDate, string adress, string phoneNumber)
     {
         ID = PreviousID + 1;
         PreviousID = ID;
-        Surname = surname;
-        Lastname = lastname;
-        Sex = sex;
+        FirstName = firstname;
+        SurName = surname;
+        Gender = gender;
         BirthDate = birthDate;
         Adress = adress;
         PhoneNumber = phoneNumber;

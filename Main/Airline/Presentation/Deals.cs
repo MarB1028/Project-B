@@ -26,7 +26,7 @@ static class Deals
 
             foreach (Flight flight in flights)
             {
-                if (flight.IsDeal == true)
+                if (flight.IsDeal == true && flight.BoardingDate > DateTime.Now)
                 {   
                     flight.FlightNo ++; //FlightNo updaten 
                     Flight fl = flight;

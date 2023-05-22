@@ -1,6 +1,6 @@
 [
   {
-    "FlightNo": 3,
+    "FlightNo": 0,
     "FlightId": "GER1",
     "DayOrNight": "Day",
     "Airplane": {
@@ -25,12 +25,12 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 222.75,
+    "MinPrice": 100.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
   {
-    "FlightNo": 1,
+    "FlightNo": 0,
     "FlightId": "GER2",
     "DayOrNight": "Day",
     "Airplane": {
@@ -55,12 +55,12 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 204.53,
+    "MinPrice": 100.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
   {
-    "FlightNo": 9,
+    "FlightNo": 0,
     "FlightId": "GER3",
     "DayOrNight": "Day",
     "Airplane": {
@@ -90,7 +90,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 8,
+    "FlightNo": 0,
     "FlightId": "GER4",
     "DayOrNight": "Day",
     "Airplane": {
@@ -120,7 +120,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 10,
+    "FlightNo": 0,
     "FlightId": "GER5",
     "DayOrNight": "Day",
     "Airplane": {
@@ -150,7 +150,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 5,
+    "FlightNo": 0,
     "FlightId": "GER6",
     "DayOrNight": "Night",
     "Airplane": {
@@ -175,12 +175,12 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 283.16,
+    "MinPrice": 100.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
   {
-    "FlightNo": 2,
+    "FlightNo": 0,
     "FlightId": "GER7",
     "DayOrNight": "Night",
     "Airplane": {
@@ -205,16 +205,15 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 210.71,
+    "MinPrice": 100.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
   {
-    "FlightNo": 4,
+    "FlightNo": 0,
     "FlightId": "GER8",
     "DayOrNight": "Night",
     "Airplane": {
-      "DisplayNo": "1.1",
       "Name": "BOEING747",
       "Carrierid": "BO",
       "AirplaneId": 1,
@@ -236,12 +235,12 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 237.75,
+    "MinPrice": 100.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
   {
-    "FlightNo": 6,
+    "FlightNo": 0,
     "FlightId": "GER9",
     "DayOrNight": "Night",
     "Airplane": {
@@ -271,7 +270,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 7,
+    "FlightNo": 0,
     "FlightId": "GER10",
     "DayOrNight": "Night",
     "Airplane": {
@@ -326,7 +325,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 247.57,
+    "MinPrice": 100.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -626,7 +625,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 214.93,
+    "MinPrice": 100.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -653,10 +652,10 @@
       "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
       "Distancekm": 100,
       "FlightDuration": 2,
-      "Status": "On schedule"
+      "Status": "Departed"
     },
     "BasePrice": 100.0,
-    "MinPrice": 170.22,
+    "MinPrice": 100.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -823,8 +822,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-05-19T20:12:00+02:00",
-    "EstimatedArrival": "2023-05-19T22:12:00+02:00",
+    "BoardingDate": "2023-06-12T01:57:41.8108414+02:00",
+    "EstimatedArrival": "2023-06-12T03:57:41.8108414+02:00",
     "Destination": {
       "DisplayNo": "2.1",
       "Country": "SPAIN",
@@ -836,7 +835,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 133.68,
+    "MinPrice": 100.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -853,8 +852,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-05-20T15:43:44.5069171+02:00",
-    "EstimatedArrival": "2023-05-20T17:43:44.5069171+02:00",
+    "BoardingDate": "2023-06-15T01:36:41.8108931+02:00",
+    "EstimatedArrival": "2023-06-15T03:36:41.8108931+02:00",
     "Destination": {
       "DisplayNo": "2.1",
       "Country": "SPAIN",
@@ -866,7 +865,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 144.46,
+    "MinPrice": 100.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1003,8 +1002,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-05-20T11:11:00+02:00",
-    "EstimatedArrival": "2023-05-20T14:11:00+02:00",
+    "BoardingDate": "2023-07-29T17:30:41.8108949+02:00",
+    "EstimatedArrival": "2023-07-29T20:30:41.8108949+02:00",
     "Destination": {
       "DisplayNo": "2.2",
       "Country": "SPAIN",
@@ -1016,7 +1015,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 141.87,
+    "MinPrice": 100.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1033,8 +1032,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-05-18T06:08:00+02:00",
-    "EstimatedArrival": "2023-05-18T09:08:00+02:00",
+    "BoardingDate": "2023-06-26T17:27:41.810896+02:00",
+    "EstimatedArrival": "2023-06-26T20:27:41.810896+02:00",
     "Destination": {
       "DisplayNo": "2.2",
       "Country": "SPAIN",
@@ -1046,7 +1045,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 114.92,
+    "MinPrice": 100.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1106,7 +1105,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 280.43,
+    "MinPrice": 100.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1256,7 +1255,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 249.96,
+    "MinPrice": 100.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1286,7 +1285,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 249.63,
+    "MinPrice": 100.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1483,8 +1482,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-05-19T16:38:00+02:00",
-    "EstimatedArrival": "2023-05-19T23:38:00+02:00",
+    "BoardingDate": "2023-07-30T07:11:41.810901+02:00",
+    "EstimatedArrival": "2023-07-30T14:11:41.810901+02:00",
     "Destination": {
       "DisplayNo": "3.1",
       "Country": "GREECE",
@@ -1496,7 +1495,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 131.8,
+    "MinPrice": 100.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1526,7 +1525,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 175.8,
+    "MinPrice": 100.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1633,8 +1632,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-05-21T09:29:00+02:00",
-    "EstimatedArrival": "2023-05-21T23:29:00+02:00",
+    "BoardingDate": "2023-07-30T15:27:41.8109031+02:00",
+    "EstimatedArrival": "2023-07-31T05:27:41.8109031+02:00",
     "Destination": {
       "DisplayNo": "3.2",
       "Country": "GREECE",
@@ -1646,7 +1645,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 155.01,
+    "MinPrice": 100.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1826,7 +1825,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 255.73,
+    "MinPrice": 100.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -2173,8 +2172,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-05-20T07:11:00+02:00",
-    "EstimatedArrival": "2023-05-20T13:11:00+02:00",
+    "BoardingDate": "2023-06-16T19:33:41.8109096+02:00",
+    "EstimatedArrival": "2023-06-17T01:33:41.8109096+02:00",
     "Destination": {
       "DisplayNo": "4.2",
       "Country": "UNITED KINGDOM",
@@ -2186,7 +2185,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 139.64,
+    "MinPrice": 100.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -2263,8 +2262,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-05-21T06:20:00+02:00",
-    "EstimatedArrival": "2023-05-21T12:20:00+02:00",
+    "BoardingDate": "2023-06-13T19:32:41.8109108+02:00",
+    "EstimatedArrival": "2023-06-14T01:32:41.8109108+02:00",
     "Destination": {
       "DisplayNo": "4.2",
       "Country": "UNITED KINGDOM",
@@ -2276,7 +2275,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 153.08,
+    "MinPrice": 100.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -2336,7 +2335,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 257.47,
+    "MinPrice": 100.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -2353,8 +2352,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-05-21T15:58:44.5069412+02:00",
-    "EstimatedArrival": "2023-05-21T21:58:44.5069412+02:00",
+    "BoardingDate": "2023-08-08T05:39:41.8109122+02:00",
+    "EstimatedArrival": "2023-08-08T11:39:41.8109122+02:00",
     "Destination": {
       "DisplayNo": "4.2",
       "Country": "UNITED KINGDOM",
@@ -2366,7 +2365,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 159.06,
+    "MinPrice": 100.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
