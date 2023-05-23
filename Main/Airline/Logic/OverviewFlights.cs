@@ -312,9 +312,7 @@ class OverviewFlights
                     // FlightNo resetten naar 0
                     foreach (var fl in flToDestination)
                     {
-
                         fl.FlightNo = 0;
-
                     }
                     DataFlights.WriteDateToJson(flights);
                     Console.Clear();
@@ -332,8 +330,57 @@ class OverviewFlights
                     }
                     else if (selectedFlight.Destination.Status == "Full")
                     {
-                        Console.WriteLine("Selected flight is full.");
-                        Console.WriteLine("Please choose another flight or enter 0 to go back.");
+                        Console.WriteLine("Selected flight is full.\n");
+                        //Console.WriteLine("Please choose another flight or enter 0 to go back.");
+                        
+                        //Hier print je de volgende flight uit
+                        
+                        if (selectedFlightNo < flToDestination.Count()) {
+                            Console.WriteLine("The next flight to this destination will be:");
+                            Console.WriteLine($"{"Flight No",-12} {"Departure",-20} {"Destination",-19} {"Arrival",-20} {"Status",-12} {"Seats",-8}{"Price",-10}{"Operated by"}");
+                            Console.WriteLine(new string('-', 120)); //--- in between elke row ---
+                            Flight nextFlight = flights.FirstOrDefault(fl => fl.FlightNo == selectedFlightNo+1);
+                            Console.Write($"{nextFlight.FlightNo,-12} {nextFlight.BoardingDate.ToString("yyyy-MM-dd HH:mm"),-20} {nextFlight.Destination.City} {nextFlight.Destination.Abbreviation,-8} {nextFlight.EstimatedArrival.ToString("yyyy-MM-dd HH:mm"),-19} ");
+
+                            // Print the status message in red if the flight is full or departed
+                            if (nextFlight.Destination.Status == "Full" || nextFlight.Destination.Status == "Departed")
+                            {
+                                Console.ForegroundColor = ConsoleColor.Red;
+                                Console.Write($"{nextFlight.Destination.Status,-15}");
+                                Console.ResetColor();
+                            }
+                            else
+                            {
+                                Console.Write($"{nextFlight.Destination.Status,-15}");
+                            }
+
+                            Console.Write($" {nextFlight.TotalSeats,-6}  €{nextFlight.MinPrice},-{nextFlight.Airplane.Name,13}\n");
+
+                            Console.WriteLine("Do you want to book this flight instead? (Y/N)");
+                            string ans = Console.ReadLine().ToUpper();
+                            if (ans == "Y") 
+                            {
+                                Console.WriteLine("You are now being redirected to the booking page");
+                                // FlightNo resetten naar 0
+                                foreach (var fl in flToDestination)
+                                {
+                                    fl.FlightNo = 0;
+
+                                }
+                                DataFlights.WriteDateToJson(flights);
+                                //hier de volgende stap aanroepen
+                                MakeTicketsForFlightJson.MakeTickets(nextFlight); // hier maakt het een "ticket" aan
+                                CheckSeatAvailability checkSeatAvailability = new CheckSeatAvailability(nextFlight); //volgende stap wordt aangeroepen
+                                checkSeatAvailability.AvailableSeats();
+
+                                x = false;
+                            }
+                            else
+                            {
+                                ChooseFlight(flights, destination);
+                            }
+                        }
+                            
                     }
                     else
                     {
@@ -360,7 +407,6 @@ class OverviewFlights
             }
             else if (booked == 2) // user wilt niet flight booken
             {
-
                 // FlightNo resetten naar 0
                 foreach (var fl in flToDestination)
                 {
@@ -379,6 +425,7 @@ class OverviewFlights
             }
         }
     }
+
 
     public bool CheckExistingDestination(string EndDestination) // checkt of ingevulde destination overeenkomt met een city in het json bestand
     {
