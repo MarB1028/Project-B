@@ -331,7 +331,6 @@ class OverviewFlights
                     else if (selectedFlight.Destination.Status == "Full")
                     {
                         Console.WriteLine("Selected flight is full.\n");
-                        //Console.WriteLine("Please choose another flight or enter 0 to go back.");
                         
                         //Hier print je de volgende flight uit
                         
@@ -356,6 +355,8 @@ class OverviewFlights
 
                             Console.Write($" {nextFlight.TotalSeats,-6}  €{nextFlight.MinPrice},-{nextFlight.Airplane.Name,13}\n");
 
+                            //hier wordt gevraagd of je de volgende vlucht wilt boeken, 
+                            //zo niet wordt je terug gestuurd naar het begin van vlucht boeken
                             Console.WriteLine("Do you want to book this flight instead? (Y/N)");
                             string ans = Console.ReadLine().ToUpper();
                             if (ans == "Y") 
@@ -380,7 +381,10 @@ class OverviewFlights
                                 ChooseFlight(flights, destination);
                             }
                         }
-                            
+                        else 
+                        {
+                            Console.WriteLine("Please choose another flight or enter 0 to go back.");
+                        }      
                     }
                     else
                     {
