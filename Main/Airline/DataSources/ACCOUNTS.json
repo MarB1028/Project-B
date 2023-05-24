@@ -4,6 +4,59 @@
     "LoggedIn": true,
     "Email": "jiajun@gmail.com",
     "Password": "123456!z",
-    "BoughtTickets": []
+    "BoughtTickets": [
+      {
+        "Booked": true,
+        "PaymentDone": false,
+        "TicketID": 1,
+        "Ticket": {
+          "Passenger": {
+            "ID": 1,
+            "Surname": "jnjw",
+            "Lastname": "wnwjdn",
+            "Sex": "v",
+            "BirthDate": "2000-10-10T00:00:00",
+            "Adress": "cmkdmwk 10  1234ba skmdkwmk",
+            "PhoneNumber": "0612345678"
+          },
+          "Flight": {
+            "FlightNo": 0,
+            "FlightId": "GER7",
+            "DayOrNight": "Night",
+            "Airplane": {
+              "Name": "BOEING747",
+              "Carrierid": "BO",
+              "AirplaneId": 1,
+              "FirstClassSeat": 4,
+              "PremiumSeat": 5,
+              "EconomySeat": 6,
+              "ExtraSpace": 2
+            },
+            "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
+            "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+            "Destination": {
+              "DisplayNo": "1.1",
+              "Country": "GERMANY",
+              "City": "FRANKFURT",
+              "Abbreviation": "(GER)",
+              "Airport": "FRANKFURT AIRPORT",
+              "Distancekm": 100,
+              "FlightDuration": 3,
+              "Status": "On schedule"
+            },
+            "BasePrice": 100.0,
+            "MinPrice": 100.0,
+            "IsDeal": false,
+            "TotalSeats": 102
+          },
+          "Seat": {
+            "SeatNumber": "BO-1",
+            "SeatType": "First-Class",
+            "Price": 600.0
+          },
+          "Gate": "Empty"
+        }
+      }
+    ]
   }
 ]
