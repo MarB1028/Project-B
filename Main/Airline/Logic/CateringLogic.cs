@@ -1,11 +1,11 @@
 ﻿using ConsoleTables;
 
 static class CateringLogic
-{   
+{
     public static List<BasketItem> basketItems = new List<BasketItem>();
     public static List<BookTicket> tickets;
     public static double TotalPrice = 0;
-    
+
     // CHECKT DE DURATION VAN DE VLUCHT. LANGER DAN 90 = LONG, KORTER DAN 90 = SHORT
     public static string CheckFlightDur(Flight flight)
     {
@@ -38,9 +38,9 @@ static class CateringLogic
         Console.WriteLine("\nPlease type number of the food you want");
         Console.Write(": ");
         int foodid = Convert.ToInt32(Console.ReadLine());
-               
+
         if (FindFood(foodid, flight) == null)
-        {   
+        {
             do
             {
                 Console.WriteLine($"Item was not found in menu, please choose again");
@@ -175,7 +175,7 @@ static class CateringLogic
             StartCatering(flight);
         }
     }
-    
+
     // OBJECT FOOD VINDEN, OM CHECKS TE DOEN
     public static Food FindFood(int foodid, Flight flight)
     {
@@ -218,4 +218,4 @@ static class CateringLogic
             Finalize(flight);
         }
     }
-}   
+}

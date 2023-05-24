@@ -33,7 +33,7 @@ static class CateringForm
             Console.WriteLine(CalculateTotalCosts.GetTotalPrice());
 
             Menu.StartScreen();
-            
+
         }
 
         else if (input == "N" || input == "n")

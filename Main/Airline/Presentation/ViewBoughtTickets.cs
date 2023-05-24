@@ -65,7 +65,7 @@ static class ViewBoughtTickets
                 Console.WriteLine($"{TicketOverview.PaymentComplete(Payment)}");
                 Console.WriteLine("");
             }
-            
+
         }
         Console.WriteLine("\nPress any key to go back to main menu.");
         Console.ReadKey();
@@ -88,5 +88,5 @@ static class ViewBoughtTickets
         return false;
     }
 
- 
+
 }

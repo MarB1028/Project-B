@@ -23,6 +23,6 @@
         Destination = destination;
         BasePrice = 100;
         MinPrice = BasePrice;
-        TotalSeats = totalSeats;    
+        TotalSeats = totalSeats;
     }
 }

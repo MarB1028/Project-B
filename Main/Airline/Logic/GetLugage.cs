@@ -56,7 +56,6 @@ public static class GetLugage
                 Console.WriteLine("Invalid input");
             }
         }
-      
 
         TotalCost = totalCost;
         Flight flight = null;

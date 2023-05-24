@@ -49,21 +49,6 @@ static class TicketOverview
    }
 
 
-    /*public static void AddTicket(BookTicket tickets) // schrijft de tickets naar account
-    {
-        List<Account> accounts = SetGetAccounts.ReadAccountsFromJSON();
-
-        foreach (Account account in accounts)
-        {
-            if (account.LoggedIn == true)
-            {
-                account.BoughtTickets.Add(tickets);
-            }
-        }
-
-        SetGetAccounts.WriteAccountToJSON(accounts);
-    }*/
-
     public static bool CheckLogin() //checkt of user is ingelogd of niet
     {
         List<Account> accounts = SetGetAccounts.ReadAccountsFromJSON();

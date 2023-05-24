@@ -8,68 +8,16 @@
       {
         "Booked": true,
         "PaymentDone": false,
-        "TicketID": 2,
+        "TicketID": 1,
         "Ticket": {
           "Passenger": {
-            "ID": 206,
-            "Surname": "a",
-            "Lastname": "a",
+            "ID": 1,
+            "Surname": "jnjw",
+            "Lastname": "wnwjdn",
             "Sex": "v",
-            "BirthDate": "2005-02-20T00:00:00",
-            "Adress": "j 1  1244aa ",
-            "PhoneNumber": "0645213546"
-          },
-          "Flight": {
-            "FlightNo": 0,
-            "FlightId": "GER2",
-            "DayOrNight": "Day",
-            "Airplane": {
-              "Name": "BOEING747",
-              "Carrierid": "BO",
-              "AirplaneId": 1,
-              "FirstClassSeat": 4,
-              "PremiumSeat": 5,
-              "EconomySeat": 6,
-              "ExtraSpace": 2
-            },
-            "BoardingDate": "2023-05-24T07:17:00+02:00",
-            "EstimatedArrival": "2023-05-24T10:17:00+02:00",
-            "Destination": {
-              "DisplayNo": "1.1",
-              "Country": "GERMANY",
-              "City": "FRANKFURT",
-              "Abbreviation": "(GER)",
-              "Airport": "FRANKFURT AIRPORT",
-              "Distancekm": 100,
-              "FlightDuration": 3,
-              "Status": "On schedule"
-            },
-            "BasePrice": 100.0,
-            "MinPrice": 100.0,
-            "IsDeal": false,
-            "TotalSeats": 102
-          },
-          "Seat": {
-            "SeatNumber": "BO-2",
-            "SeatType": "First-Class",
-            "Price": 600.0
-          },
-          "Gate": "Empty"
-        }
-      },
-      {
-        "Booked": true,
-        "PaymentDone": false,
-        "TicketID": 2,
-        "Ticket": {
-          "Passenger": {
-            "ID": 2,
-            "Surname": "a",
-            "Lastname": "a",
-            "Sex": "v",
-            "BirthDate": "2002-02-20T00:00:00",
-            "Adress": "s 1  1236ss s",
-            "PhoneNumber": "0654123654"
+            "BirthDate": "2000-10-10T00:00:00",
+            "Adress": "cmkdmwk 10  1234ba skmdkwmk",
+            "PhoneNumber": "0612345678"
           },
           "Flight": {
             "FlightNo": 0,

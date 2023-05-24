@@ -23,6 +23,7 @@ static class CancelTickets
                 if (ans == bookticket.TicketID) {
                     ticket = bookticket;
                     x = false;
+                    break;
                 }
                 else {
                     Console.WriteLine("That ID does not exist. Try again");

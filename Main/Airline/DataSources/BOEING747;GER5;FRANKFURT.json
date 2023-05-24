@@ -1,22 +1,14 @@
 [
   {
-    "Booked": true,
+    "Booked": false,
     "PaymentDone": false,
     "TicketID": 1,
     "Ticket": {
-      "Passenger": {
-        "ID": 1,
-        "Surname": "jnjw",
-        "Lastname": "wnwjdn",
-        "Sex": "v",
-        "BirthDate": "2000-10-10T00:00:00",
-        "Adress": "cmkdmwk 10  1234ba skmdkwmk",
-        "PhoneNumber": "0612345678"
-      },
+      "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -26,8 +18,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -59,8 +51,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -70,8 +62,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -103,8 +95,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -114,8 +106,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -147,8 +139,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -158,8 +150,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -191,8 +183,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -202,8 +194,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -235,8 +227,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -246,8 +238,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -279,8 +271,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -290,8 +282,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -323,8 +315,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -334,8 +326,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -367,8 +359,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -378,8 +370,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -411,8 +403,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -422,8 +414,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -455,8 +447,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -466,8 +458,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -499,8 +491,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -510,8 +502,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -543,8 +535,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -554,8 +546,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -587,8 +579,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -598,8 +590,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -631,8 +623,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -642,8 +634,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -675,8 +667,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -686,8 +678,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -719,8 +711,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -730,8 +722,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -763,8 +755,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -774,8 +766,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -807,8 +799,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -818,8 +810,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -851,8 +843,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -862,8 +854,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -895,8 +887,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -906,8 +898,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -939,8 +931,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -950,8 +942,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -983,8 +975,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -994,8 +986,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -1027,8 +1019,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1038,8 +1030,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -1071,8 +1063,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1082,8 +1074,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -1115,8 +1107,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1126,8 +1118,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -1159,8 +1151,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1170,8 +1162,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -1203,8 +1195,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1214,8 +1206,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -1247,8 +1239,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1258,8 +1250,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -1291,8 +1283,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1302,8 +1294,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -1335,8 +1327,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1346,8 +1338,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -1379,8 +1371,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1390,8 +1382,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -1423,8 +1415,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1434,8 +1426,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -1467,8 +1459,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1478,8 +1470,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -1511,8 +1503,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1522,8 +1514,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -1555,8 +1547,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1566,8 +1558,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -1599,8 +1591,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1610,8 +1602,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -1643,8 +1635,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1654,8 +1646,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -1687,8 +1679,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1698,8 +1690,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -1731,8 +1723,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1742,8 +1734,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -1775,8 +1767,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1786,8 +1778,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -1819,8 +1811,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1830,8 +1822,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -1863,8 +1855,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1874,8 +1866,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -1907,8 +1899,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1918,8 +1910,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -1951,8 +1943,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -1962,8 +1954,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -1995,8 +1987,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2006,8 +1998,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -2039,8 +2031,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2050,8 +2042,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -2083,8 +2075,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2094,8 +2086,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -2127,8 +2119,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2138,8 +2130,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -2171,8 +2163,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2182,8 +2174,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -2215,8 +2207,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2226,8 +2218,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -2259,8 +2251,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2270,8 +2262,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -2303,8 +2295,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2314,8 +2306,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -2347,8 +2339,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2358,8 +2350,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -2391,8 +2383,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2402,8 +2394,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -2435,8 +2427,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2446,8 +2438,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -2479,8 +2471,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2490,8 +2482,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -2523,8 +2515,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2534,8 +2526,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -2567,8 +2559,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2578,8 +2570,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -2611,8 +2603,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2622,8 +2614,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -2655,8 +2647,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2666,8 +2658,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -2699,8 +2691,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2710,8 +2702,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -2743,8 +2735,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2754,8 +2746,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -2787,8 +2779,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2798,8 +2790,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -2831,8 +2823,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2842,8 +2834,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -2875,8 +2867,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2886,8 +2878,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -2919,8 +2911,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2930,8 +2922,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -2963,8 +2955,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -2974,8 +2966,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -3007,8 +2999,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3018,8 +3010,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -3051,8 +3043,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3062,8 +3054,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -3095,8 +3087,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3106,8 +3098,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -3139,8 +3131,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3150,8 +3142,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -3183,8 +3175,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3194,8 +3186,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -3227,8 +3219,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3238,8 +3230,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -3271,8 +3263,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3282,8 +3274,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -3315,8 +3307,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3326,8 +3318,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -3359,8 +3351,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3370,8 +3362,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -3403,8 +3395,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3414,8 +3406,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -3447,8 +3439,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3458,8 +3450,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -3491,8 +3483,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3502,8 +3494,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -3535,8 +3527,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3546,8 +3538,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -3579,8 +3571,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3590,8 +3582,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -3623,8 +3615,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3634,8 +3626,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -3667,8 +3659,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3678,8 +3670,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -3711,8 +3703,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3722,8 +3714,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -3755,8 +3747,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3766,8 +3758,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -3799,8 +3791,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3810,8 +3802,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -3843,8 +3835,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3854,8 +3846,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -3887,8 +3879,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3898,8 +3890,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -3931,8 +3923,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3942,8 +3934,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -3968,23 +3960,15 @@
     }
   },
   {
-    "Booked": true,
+    "Booked": false,
     "PaymentDone": false,
     "TicketID": 91,
     "Ticket": {
-      "Passenger": {
-        "ID": 208,
-        "Surname": "marie",
-        "Lastname": "de groot",
-        "Sex": "v",
-        "BirthDate": "1000-10-10T00:00:00",
-        "Adress": "hallo 12  1245ab spijk",
-        "PhoneNumber": "0612345676"
-      },
+      "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -3994,8 +3978,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -4027,8 +4011,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -4038,8 +4022,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -4071,8 +4055,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -4082,8 +4066,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -4115,8 +4099,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -4126,8 +4110,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -4159,8 +4143,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -4170,8 +4154,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -4203,8 +4187,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -4214,8 +4198,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -4240,23 +4224,15 @@
     }
   },
   {
-    "Booked": true,
+    "Booked": false,
     "PaymentDone": false,
     "TicketID": 97,
     "Ticket": {
-      "Passenger": {
-        "ID": 210,
-        "Surname": "marissa",
-        "Lastname": "braam",
-        "Sex": "v",
-        "BirthDate": "1000-10-10T00:00:00",
-        "Adress": "knwkdmw 10  1248ah spijk",
-        "PhoneNumber": "Empty"
-      },
+      "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -4266,8 +4242,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -4299,8 +4275,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -4310,8 +4286,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -4343,8 +4319,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -4354,8 +4330,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -4387,8 +4363,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -4398,8 +4374,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -4431,8 +4407,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -4442,8 +4418,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
@@ -4475,8 +4451,8 @@
       "Passenger": null,
       "Flight": {
         "FlightNo": 0,
-        "FlightId": "GER7",
-        "DayOrNight": "Night",
+        "FlightId": "GER5",
+        "DayOrNight": "Day",
         "Airplane": {
           "Name": "BOEING747",
           "Carrierid": "BO",
@@ -4486,8 +4462,8 @@
           "EconomySeat": 6,
           "ExtraSpace": 2
         },
-        "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
-        "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+        "BoardingDate": "2023-08-12T03:21:44.5069034+02:00",
+        "EstimatedArrival": "2023-08-12T06:21:44.5069034+02:00",
         "Destination": {
           "DisplayNo": "1.1",
           "Country": "GERMANY",
