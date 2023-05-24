@@ -1,7 +1,7 @@
 [
   {
     "ID": 1,
-    "LoggedIn": true,
+    "LoggedIn": false,
     "Email": "jiajun@gmail.com",
     "Password": "123456!z",
     "BoughtTickets": [
@@ -58,5 +58,12 @@
         }
       }
     ]
+  },
+  {
+    "ID": 2,
+    "LoggedIn": true,
+    "Email": "h@hotmail.com",
+    "Password": "W2@srt",
+    "BoughtTickets": []
   }
 ]
