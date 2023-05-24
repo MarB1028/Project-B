@@ -337,7 +337,10 @@ class OverviewFlights
                     }
                     else
                     {
-                        Console.WriteLine("You are now being redirected to the booking page");
+                        Console.WriteLine();
+                        Console.Write("Press ENTER to continue...");
+                        Console.ReadLine();
+
                         // FlightNo resetten naar 0
                         foreach (var fl in flToDestination)
                         {
@@ -347,6 +350,7 @@ class OverviewFlights
                         DataFlights.WriteDateToJson(flights);
                         //hier de volgende stap aanroepen
                         MakeTicketsForFlightJson.MakeTickets(selectedFlight); // hier maakt het een "ticket" aan
+                        Console.Clear();
                         CheckSeatAvailability checkSeatAvailability = new CheckSeatAvailability(selectedFlight); //volgende stap wordt aangeroepen
                         checkSeatAvailability.AvailableSeats();
 

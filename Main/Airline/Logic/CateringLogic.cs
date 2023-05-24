@@ -93,7 +93,7 @@ static class CateringLogic
         Console.WriteLine("\n1: [GO BACK]");
         Console.WriteLine("2: [REMOVE ITEM]");
         Console.Write(": ");
-        string input = Console.ReadLine();
+        string input = Console.ReadLine()!;
 
         if (input == "1")
         {
@@ -155,12 +155,18 @@ static class CateringLogic
         Console.WriteLine($"\n[TOTAL PRICE: € {TotalPrice.ToString("F2")},-]");
         Console.WriteLine($"\n1: [CONTINUE PAYMENT]");
         Console.WriteLine($"2: [GO BACK]");
-        string input = Console.ReadLine();
+        string input = Console.ReadLine()!;
 
         if (input == "1")
         {
             Console.WriteLine("N/A");
             ConfirmTicketInformation.Tickets = tickets;
+
+            Console.WriteLine();
+            Console.Write("Press ENTER to continue...");
+            Console.ReadLine();
+            Console.Clear();
+
             ConfirmTicketInformation.PaymentScreen();
         }
 
@@ -194,7 +200,7 @@ static class CateringLogic
         Console.WriteLine("4: [QUIT]");
         Console.Write(": ");
 
-        string input = Console.ReadLine();
+        string input = Console.ReadLine()!;
 
         if (input == "1")
         {

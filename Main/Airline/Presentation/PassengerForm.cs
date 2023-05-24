@@ -42,6 +42,7 @@
             {
                 // Intro zin
                 Console.WriteLine($"Ticket {i + 1}: ");
+
                 if (i == 0)
                 {
                     Console.WriteLine("(Hoofdboeker)");
@@ -87,7 +88,7 @@
             DataTickets.WriteTicketToJson(flight, tickets[i]);
             passengers.Add(passenger0);
         }
-         Luggage.LuggageInfo(tickets);
+        Luggage.LuggageInfo(tickets);
     }
 
     // Print een overview van het formulier en vraagt de gebruiker of het klopt of dat hij/zij het opnieuw wil invullen
@@ -116,8 +117,9 @@
         }
         if (input.ToUpper() == "J")
         {
-            Console.Clear();
-            
+            Console.WriteLine();
+            Console.Write("Press ENTER to continue...");
+            Console.ReadLine();
 
             //DataTickets.WriteTicketToJson()
             return true;

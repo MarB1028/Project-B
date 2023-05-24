@@ -66,9 +66,12 @@ public static class GetLugage
             //Account.BoughtTickets.Add(ticket);
         }
 
-        CateringForm.Catering(flight, tickets);
+        Console.WriteLine();
+        Console.Write("Press ENTER to continue...");
+        Console.ReadLine();
+        Console.Clear();
 
-        // Y --> ga naar volgende stap (roep class/method aan)
+        CateringForm.Catering(flight, tickets);
     }
     public static void CheckInHandLuggage()
     {
