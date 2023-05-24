@@ -7,7 +7,7 @@
     "BoughtTickets": [
       {
         "Booked": true,
-        "PaymentDone": false,
+        "PaymentDone": true,
         "TicketID": 1,
         "Ticket": {
           "Passenger": {
@@ -34,6 +34,58 @@
             },
             "BoardingDate": "2023-05-24T14:46:44.5069048+02:00",
             "EstimatedArrival": "2023-05-24T17:46:44.5069048+02:00",
+            "Destination": {
+              "DisplayNo": "1.1",
+              "Country": "GERMANY",
+              "City": "FRANKFURT",
+              "Abbreviation": "(GER)",
+              "Airport": "FRANKFURT AIRPORT",
+              "Distancekm": 100,
+              "FlightDuration": 3,
+              "Status": "On schedule"
+            },
+            "BasePrice": 100.0,
+            "MinPrice": 100.0,
+            "IsDeal": false,
+            "TotalSeats": 102
+          },
+          "Seat": {
+            "SeatNumber": "BO-1",
+            "SeatType": "First-Class",
+            "Price": 600.0
+          },
+          "Gate": "Empty"
+        }
+      },
+      {
+        "Booked": true,
+        "PaymentDone": false,
+        "TicketID": 2,
+        "Ticket": {
+          "Passenger": {
+            "ID": 2,
+            "Surname": "a",
+            "Lastname": "a",
+            "Sex": "v",
+            "BirthDate": "1111-02-20T00:00:00",
+            "Adress": "   1255aa ",
+            "PhoneNumber": "0652154987"
+          },
+          "Flight": {
+            "FlightNo": 0,
+            "FlightId": "GER1",
+            "DayOrNight": "Day",
+            "Airplane": {
+              "Name": "BOEING747",
+              "Carrierid": "BO",
+              "AirplaneId": 1,
+              "FirstClassSeat": 4,
+              "PremiumSeat": 5,
+              "EconomySeat": 6,
+              "ExtraSpace": 2
+            },
+            "BoardingDate": "2023-05-25T04:46:44.5068647+02:00",
+            "EstimatedArrival": "2023-05-25T07:46:44.5068647+02:00",
             "Destination": {
               "DisplayNo": "1.1",
               "Country": "GERMANY",

@@ -46,14 +46,15 @@ static class TicketOverview
 
     public static string PaymentComplete(bool x)
     {
-        if (x)
+        if (x == true)
         {
             UpdatePaymentStatus(x);
             return "Payment completed";
         }
         else
-
+        {
             return "Payment not done";
+        }
 
     }
 
