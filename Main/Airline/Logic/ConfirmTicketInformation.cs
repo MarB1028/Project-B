@@ -26,15 +26,16 @@
          * van het aantal vliegtickets en de totale prijs*/
         Console.WriteLine("Check the following information and confirm the\ntotal price to continue to payment.");
         Console.WriteLine();
-
+        
+        int count = 1;
         foreach (BookTicket ticket in Tickets)
         {
-            Console.WriteLine($"Passenger {Tickets.Count()}.");
+            Console.WriteLine($"Passenger {count}.");
             Console.WriteLine();
             Console.WriteLine($"First name: {ticket.Ticket.Passenger.Surname}\nLast name: {ticket.Ticket.Passenger.Lastname}\nSex: {ticket.Ticket.Passenger.Sex}");
             Console.WriteLine($"Birth date: {ticket.Ticket.Passenger.BirthDate}\nAddress: {ticket.Ticket.Passenger.Adress}\nPhone number: {ticket.Ticket.Passenger.PhoneNumber}");
             Console.WriteLine();
-
+            count++;
         }
     }
 
