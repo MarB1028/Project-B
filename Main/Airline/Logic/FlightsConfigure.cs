@@ -7,6 +7,7 @@ public static class FlightsConfigure
     public static void ShowAvailableFlights()
     {
         List<Flight> flights = DataFlights.ReadFlightsFromJson();
+        flights = flights.OrderBy(f => f.Destination.City).ToList();
 
         Console.OutputEncoding = System.Text.Encoding.UTF8;
 
@@ -60,19 +61,6 @@ public static class FlightsConfigure
         Console.WriteLine("======================================================");
         Console.ResetColor();
         Console.WriteLine();
-
-        int flightNo;
-        do
-        {
-            Console.Write("Flight number: ");
-            string input = Console.ReadLine();
-            if (int.TryParse(input, out flightNo))
-            {
-                break;
-            }
-            else Console.WriteLine("INVALID NUMBER");
-
-        } while (true);
 
         string flightID;
         do
@@ -245,19 +233,6 @@ public static class FlightsConfigure
 
         } while (true);
 
-        string status;
-        do
-        {
-            Console.Write("Status: ");
-            status = Console.ReadLine().ToUpper();
-            if (!string.IsNullOrEmpty(status))
-            {
-                break;
-            }
-            else Console.WriteLine("INVALID STATUS");
-
-        } while (true);
-
         int minprice;
         do
         {
@@ -273,8 +248,8 @@ public static class FlightsConfigure
 
         int totalseats = (airplane.FirstClassSeat * 6) + (airplane.PremiumSeat * 6) + (airplane.EconomySeat * 6) + (airplane.ExtraSpace * 6);
 
-        Destination newDestination = new Destination(displayNo, country, city, abberation, airport, distance, flightDuration, status);
-        Flight flight = new Flight(flightNo, flightID, type, airplane, boardingdate, arrivaldate, newDestination, minprice, totalseats);
+        Destination newDestination = new Destination(displayNo, country, city, abberation, airport, distance, flightDuration, "On schedule");
+        Flight flight = new Flight(0, flightID, type, airplane, boardingdate, arrivaldate, newDestination, minprice, totalseats);
         Addflight(flight);
         Thread.Sleep(3000);
         StartFlightConfigure();

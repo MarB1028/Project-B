@@ -52,7 +52,7 @@
       "Airport": "FRANKFURT AIRPORT",
       "Distancekm": 100,
       "FlightDuration": 3,
-      "Status": "On schedule"
+      "Status": "Departed"
     },
     "BasePrice": 100.0,
     "MinPrice": 204.53,
@@ -120,7 +120,7 @@
     "TotalSeats": 102
   },
   {
-    "FlightNo": 10,
+    "FlightNo": 11,
     "FlightId": "GER5",
     "DayOrNight": "Day",
     "Airplane": {
@@ -214,7 +214,6 @@
     "FlightId": "GER8",
     "DayOrNight": "Night",
     "Airplane": {
-      "DisplayNo": "1.1",
       "Name": "BOEING747",
       "Carrierid": "BO",
       "AirplaneId": 1,
@@ -643,8 +642,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-05-22T09:03:00+02:00",
-    "EstimatedArrival": "2023-05-22T11:03:00+02:00",
+    "BoardingDate": "2023-06-18T02:12:58.5003127+02:00",
+    "EstimatedArrival": "2023-06-18T04:12:58.5003127+02:00",
     "Destination": {
       "DisplayNo": "2.1",
       "Country": "SPAIN",
@@ -823,8 +822,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-05-19T20:12:00+02:00",
-    "EstimatedArrival": "2023-05-19T22:12:00+02:00",
+    "BoardingDate": "2023-05-29T10:11:58.500323+02:00",
+    "EstimatedArrival": "2023-05-29T12:11:58.500323+02:00",
     "Destination": {
       "DisplayNo": "2.1",
       "Country": "SPAIN",
@@ -853,8 +852,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-05-20T15:43:44.5069171+02:00",
-    "EstimatedArrival": "2023-05-20T17:43:44.5069171+02:00",
+    "BoardingDate": "2023-07-07T12:39:58.5003236+02:00",
+    "EstimatedArrival": "2023-07-07T14:39:58.5003236+02:00",
     "Destination": {
       "DisplayNo": "2.1",
       "Country": "SPAIN",
@@ -1003,8 +1002,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-05-20T11:11:00+02:00",
-    "EstimatedArrival": "2023-05-20T14:11:00+02:00",
+    "BoardingDate": "2023-08-19T21:39:58.5003247+02:00",
+    "EstimatedArrival": "2023-08-20T00:39:58.5003247+02:00",
     "Destination": {
       "DisplayNo": "2.2",
       "Country": "SPAIN",
@@ -1033,8 +1032,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-05-18T06:08:00+02:00",
-    "EstimatedArrival": "2023-05-18T09:08:00+02:00",
+    "BoardingDate": "2023-08-19T00:33:58.5003251+02:00",
+    "EstimatedArrival": "2023-08-19T03:33:58.5003251+02:00",
     "Destination": {
       "DisplayNo": "2.2",
       "Country": "SPAIN",
@@ -1483,8 +1482,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-05-19T16:38:00+02:00",
-    "EstimatedArrival": "2023-05-19T23:38:00+02:00",
+    "BoardingDate": "2023-08-18T12:51:58.5003277+02:00",
+    "EstimatedArrival": "2023-08-18T19:51:58.5003277+02:00",
     "Destination": {
       "DisplayNo": "3.1",
       "Country": "GREECE",
@@ -1513,8 +1512,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-05-22T17:10:00+02:00",
-    "EstimatedArrival": "2023-05-23T00:10:00+02:00",
+    "BoardingDate": "2023-07-19T07:16:58.5003281+02:00",
+    "EstimatedArrival": "2023-07-19T14:16:58.5003281+02:00",
     "Destination": {
       "DisplayNo": "3.1",
       "Country": "GREECE",
@@ -1633,8 +1632,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-05-21T09:29:00+02:00",
-    "EstimatedArrival": "2023-05-21T23:29:00+02:00",
+    "BoardingDate": "2023-05-29T22:35:58.500329+02:00",
+    "EstimatedArrival": "2023-05-30T12:35:58.500329+02:00",
     "Destination": {
       "DisplayNo": "3.2",
       "Country": "GREECE",
@@ -2173,8 +2172,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-05-20T07:11:00+02:00",
-    "EstimatedArrival": "2023-05-20T13:11:00+02:00",
+    "BoardingDate": "2023-08-19T00:05:58.5003323+02:00",
+    "EstimatedArrival": "2023-08-19T06:05:58.5003323+02:00",
     "Destination": {
       "DisplayNo": "4.2",
       "Country": "UNITED KINGDOM",
@@ -2263,8 +2262,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-05-21T06:20:00+02:00",
-    "EstimatedArrival": "2023-05-21T12:20:00+02:00",
+    "BoardingDate": "2023-06-09T22:34:58.500333+02:00",
+    "EstimatedArrival": "2023-06-10T04:34:58.500333+02:00",
     "Destination": {
       "DisplayNo": "4.2",
       "Country": "UNITED KINGDOM",
@@ -2353,8 +2352,8 @@
       "EconomySeat": 6,
       "ExtraSpace": 2
     },
-    "BoardingDate": "2023-05-21T15:58:44.5069412+02:00",
-    "EstimatedArrival": "2023-05-21T21:58:44.5069412+02:00",
+    "BoardingDate": "2023-08-02T13:07:58.5003343+02:00",
+    "EstimatedArrival": "2023-08-02T19:07:58.5003343+02:00",
     "Destination": {
       "DisplayNo": "4.2",
       "Country": "UNITED KINGDOM",
@@ -2429,5 +2428,35 @@
     "MinPrice": 100.0,
     "IsDeal": false,
     "TotalSeats": 102
+  },
+  {
+    "FlightNo": 10,
+    "FlightId": "GER21",
+    "DayOrNight": "DAY",
+    "Airplane": {
+      "Name": "BOEING737",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 8,
+      "PremiumSeat": 10,
+      "EconomySeat": 12,
+      "ExtraSpace": 4
+    },
+    "BoardingDate": "2023-07-15T15:00:00",
+    "EstimatedArrival": "2023-07-16T10:00:00",
+    "Destination": {
+      "DisplayNo": "1.1",
+      "Country": "GERMANY",
+      "City": "FRANKFURT",
+      "Abbreviation": "(GER)",
+      "Airport": "FRANKFURT AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 3,
+      "Status": "On schedule"
+    },
+    "BasePrice": 100.0,
+    "MinPrice": 100.0,
+    "IsDeal": false,
+    "TotalSeats": 204
   }
 ]
