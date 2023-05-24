@@ -334,53 +334,60 @@ class OverviewFlights
                         
                         //Hier print je de volgende flight uit
                         
-                        if (selectedFlightNo < flToDestination.Count()) {
-                            Console.WriteLine("The next flight to this destination will be:");
-                            Console.WriteLine($"{"Flight No",-12} {"Departure",-20} {"Destination",-19} {"Arrival",-20} {"Status",-12} {"Seats",-8}{"Price",-10}{"Operated by"}");
-                            Console.WriteLine(new string('-', 120)); //--- in between elke row ---
-                            Flight nextFlight = flights.FirstOrDefault(fl => fl.FlightNo == selectedFlightNo+1);
-                            Console.Write($"{nextFlight.FlightNo,-12} {nextFlight.BoardingDate.ToString("yyyy-MM-dd HH:mm"),-20} {nextFlight.Destination.City} {nextFlight.Destination.Abbreviation,-8} {nextFlight.EstimatedArrival.ToString("yyyy-MM-dd HH:mm"),-19} ");
-
-                            // Print the status message in red if the flight is full or departed
-                            if (nextFlight.Destination.Status == "Full" || nextFlight.Destination.Status == "Departed")
+                        while (selectedFlightNo < flToDestination.Count()) 
+                        {
+                           
+                            foreach (Flight flight in flights) 
                             {
-                                Console.ForegroundColor = ConsoleColor.Red;
-                                Console.Write($"{nextFlight.Destination.Status,-15}");
-                                Console.ResetColor();
-                            }
-                            else
-                            {
-                                Console.Write($"{nextFlight.Destination.Status,-15}");
-                            }
-
-                            Console.Write($" {nextFlight.TotalSeats,-6}  €{nextFlight.MinPrice},-{nextFlight.Airplane.Name,13}\n");
-
-                            //hier wordt gevraagd of je de volgende vlucht wilt boeken, 
-                            //zo niet wordt je terug gestuurd naar het begin van vlucht boeken
-                            Console.WriteLine("Do you want to book this flight instead? (Y/N)");
-                            string ans = Console.ReadLine().ToUpper();
-                            if (ans == "Y") 
-                            {
-                                Console.WriteLine("You are now being redirected to the booking page");
-                                // FlightNo resetten naar 0
-                                foreach (var fl in flToDestination)
+                                if (flight.FlightNo == selectedFlightNo+1) 
                                 {
-                                    fl.FlightNo = 0;
+                                    if (flight.Destination.Status == "Full") 
+                                    {
+                                        selectedFlightNo++;
+                                    }
+                                    else 
+                                    {
+                                        Flight nextFlight = flights.FirstOrDefault(fl => fl.FlightNo == selectedFlightNo+1);
+                                        Console.WriteLine("The next flight to this destination will be:");
+                                        Console.WriteLine($"{"Flight No",-12} {"Departure",-20} {"Destination",-19} {"Arrival",-20} {"Status",-12} {"Seats",-8}{"Price",-10}{"Operated by"}");
+                                        Console.WriteLine(new string('-', 120)); //--- in between elke row ---
+                                        Console.Write($"{nextFlight.FlightNo,-12} {nextFlight.BoardingDate.ToString("yyyy-MM-dd HH:mm"),-20} {nextFlight.Destination.City} {nextFlight.Destination.Abbreviation,-8} {nextFlight.EstimatedArrival.ToString("yyyy-MM-dd HH:mm"),-19} ");
+                           
+                                        Console.Write($"{nextFlight.Destination.Status,-15}");
 
+                                        Console.Write($" {nextFlight.TotalSeats,-6}  €{nextFlight.MinPrice},-{nextFlight.Airplane.Name,13}\n");
+
+                                        //hier wordt gevraagd of je de volgende vlucht wilt boeken, 
+                                        //zo niet wordt je terug gestuurd naar het begin van vlucht boeken
+                                        Console.WriteLine("Do you want to book this flight instead? (Y/N)");
+                                        string ans = Console.ReadLine().ToUpper();
+                                        if (ans == "Y") 
+                                        {
+                                            Console.WriteLine("You are now being redirected to the booking page");
+                                            // FlightNo resetten naar 0
+                                            foreach (var fl in flToDestination)
+                                            {
+                                                fl.FlightNo = 0;
+
+                                            }
+                                            DataFlights.WriteDateToJson(flights);
+                                            //hier de volgende stap aanroepen
+                                            MakeTicketsForFlightJson.MakeTickets(nextFlight); // hier maakt het een "ticket" aan
+                                            CheckSeatAvailability checkSeatAvailability = new CheckSeatAvailability(nextFlight); //volgende stap wordt aangeroepen
+                                            checkSeatAvailability.AvailableSeats();
+
+                                            x = false; 
+                                        }
+                                    }
                                 }
-                                DataFlights.WriteDateToJson(flights);
-                                //hier de volgende stap aanroepen
-                                MakeTicketsForFlightJson.MakeTickets(nextFlight); // hier maakt het een "ticket" aan
-                                CheckSeatAvailability checkSeatAvailability = new CheckSeatAvailability(nextFlight); //volgende stap wordt aangeroepen
-                                checkSeatAvailability.AvailableSeats();
-
-                                x = false;
-                            }
-                            else
-                            {
-                                ChooseFlight(flights, destination);
                             }
                         }
+                        if (selectedFlightNo >= flToDestination.Count())
+                            {
+                                Console.WriteLine("There are no other flights available in the near future.");
+                                Console.WriteLine("Please, come back soon to check for new flights.\n");
+                                ChooseFlight(flights, destination);
+                            }
                         else 
                         {
                             Console.WriteLine("Please choose another flight or enter 0 to go back.");

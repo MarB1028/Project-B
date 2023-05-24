@@ -52,12 +52,12 @@
       "Airport": "FRANKFURT AIRPORT",
       "Distancekm": 100,
       "FlightDuration": 3,
-      "Status": "On schedule"
+      "Status": "Full"
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
     "IsDeal": false,
-    "TotalSeats": 102
+    "TotalSeats": 0
   },
   {
     "FlightNo": 0,
@@ -2092,7 +2092,7 @@
       "Airport": "FRANKFURT AIRPORT",
       "Distancekm": 100,
       "FlightDuration": 3,
-      "Status": "On schedule"
+      "Status": "Departed"
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
