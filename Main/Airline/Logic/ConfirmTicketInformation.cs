@@ -175,7 +175,6 @@
                                 payment = true;
                                 TicketOverview.tickets = Tickets;
                                 TicketOverview.Ticket(Tickets, payment);
-                                Menu.StartScreen();
                                 x = false;
                                 return true;
 
@@ -210,7 +209,6 @@
                                 payment = true;
                                 TicketOverview.tickets = Tickets;
                                 TicketOverview.Ticket(Tickets, payment);
-                                Menu.StartScreen();
                                 x = false;
                                 return true;
 
@@ -245,7 +243,6 @@
                                 payment = true;
                                 TicketOverview.tickets = Tickets;
                                 TicketOverview.Ticket(Tickets, payment);
-                                Menu.StartScreen();
                                 x = false;
                                 return true;
 
