@@ -23,7 +23,7 @@ static class CateringForm
         Console.WriteLine("BTW% are included in the price.");
 
         Console.Write(": ");
-        string input = Console.ReadLine();
+        string input = Console.ReadLine()!;
         if (input == "Y" || input == "y")
         {
             CateringLogic.StartCatering(flight);
@@ -38,8 +38,13 @@ static class CateringForm
 
         else if (input == "N" || input == "n")
         {
-            Console.WriteLine("");
             ConfirmTicketInformation.Tickets = tickets;
+
+            Console.WriteLine();
+            Console.Write("Press ENTER to continue...");
+            Console.ReadLine();
+            Console.Clear();
+
             ConfirmTicketInformation.PaymentScreen();
         }
 

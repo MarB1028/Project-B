@@ -3,7 +3,6 @@
     public static List<Passenger> AllPassengers = PassengerForm.passengers; //kopie maken van list in PassengerForm
     public static List<BookTicket> Tickets;
     public static double GetPrice;
-    public static bool payment;
 
     public static void PaymentScreen()
     {
@@ -27,15 +26,16 @@
          * van het aantal vliegtickets en de totale prijs*/
         Console.WriteLine("Check the following information and confirm the\ntotal price to continue to payment.");
         Console.WriteLine();
-
+        
+        int count = 1;
         foreach (BookTicket ticket in Tickets)
         {
-            Console.WriteLine($"Passenger {Tickets.Count()}.");
+            Console.WriteLine($"Passenger {count}.");
             Console.WriteLine();
             Console.WriteLine($"First name: {ticket.Ticket.Passenger.Surname}\nLast name: {ticket.Ticket.Passenger.Lastname}\nSex: {ticket.Ticket.Passenger.Sex}");
             Console.WriteLine($"Birth date: {ticket.Ticket.Passenger.BirthDate}\nAddress: {ticket.Ticket.Passenger.Adress}\nPhone number: {ticket.Ticket.Passenger.PhoneNumber}");
             Console.WriteLine();
-
+            count++;
         }
     }
 
@@ -46,10 +46,10 @@
 
         Console.WriteLine("Total price including BTW/VAT");
         Console.WriteLine(" --------------------------------");
-        Console.WriteLine($"Total Tickets            |  € {seatsprice},-");
+        Console.WriteLine($"Total Tickets            |  € {seatsprice},-"); 
         Console.WriteLine($"Total Luggage            |  € {GetLugage.TotalCost},-");
         Console.WriteLine($"Total Catering           |  € {CateringLogic.TotalPrice},-");
-        Console.WriteLine($"Standard Booking costs   |  € 2,95,-");
+        Console.WriteLine($"Standard Booking costs   |  € 2,95,-"); 
         Console.WriteLine("---------------------------------");
 
         Console.WriteLine($"\t       Total  € {GetPrice}, -");
@@ -63,8 +63,7 @@
         {
             if (answer == "Y")
             {
-                if (MakePayment() == true)
-                {
+                if (MakePayment() == true) {
                     Account Account = null;
                     List<Account> accounts = SetGetAccounts.ReadAccountsFromJSON();
 
@@ -73,7 +72,6 @@
                         if (account.LoggedIn == true)
                         {
                             Account = account;
-
                         }
                     }
                     foreach (BookTicket ticket in Tickets)
@@ -82,7 +80,8 @@
                     }
                     //Hier update je het account met de boughttickets lijst
                     SetGetAccounts.UpdateAccountToJSON(Account);
-
+                    //TicketOverview.tickets = Tickets;
+                    //TicketOverview.Ticket();
                     x = false;
                 }
                 x = false;
@@ -99,14 +98,11 @@
                 Console.WriteLine("Invalid input!");
             }
         }
-        TicketOverview.tickets = Tickets;
-        TicketOverview.Ticket(Tickets, payment);
         // Ticket overview of terug naar het menu?
     }
 
     public static bool MakePayment()
     {
-
         Console.WriteLine();
         Console.WriteLine("Would you like to pay the whole price upfront?\nY: I would like to pay the whole price upfront.\nN: I would like to pay in two terms.");
         string answer = Console.ReadLine()!.ToUpper();
@@ -141,10 +137,9 @@
                                 Console.WriteLine("Payment complete!");
                                 Console.WriteLine("Your ticket(s) will be added to your account shortly.");
                                 Console.WriteLine("Check your reservation in your account.");
-                                payment = true;
                                 x = false;
                                 return true;
-
+                                break;
 
                             }
                             else if (confirmPayment == "N")
@@ -174,7 +169,6 @@
                                 Console.WriteLine("Payment complete!");
                                 Console.WriteLine("Your ticket(s) will be added to your account shortly.");
                                 Console.WriteLine("Check your reservation in your account.");
-                                payment = true;
                                 x = false;
                                 return true;
 
@@ -206,7 +200,6 @@
                                 Console.WriteLine("Payment complete!");
                                 Console.WriteLine("Your ticket(s) will be added to your account shortly.");
                                 Console.WriteLine("Check your reservation in your account.");
-                                payment = true;
                                 x = false;
                                 return true;
 
@@ -238,7 +231,6 @@
                                 Console.WriteLine("Payment complete!");
                                 Console.WriteLine("Your ticket(s) will be added to your account shortly.");
                                 Console.WriteLine("Check your reservation in your account.");
-                                payment = true;
                                 x = false;
                                 return true;
 
@@ -423,7 +415,7 @@
             Console.WriteLine("Invalid input!");
         }
         return false;
-    }
+    }  
 
     public static bool MakePaymentLastTerm()
     {
@@ -587,7 +579,7 @@
                     Console.WriteLine("Invalid format!");
                 }
             }
-            else if (answer == "N")
+            else if (answer == "N") 
             {
                 Console.WriteLine("Note: You have until 12 hours before your flight to pay the remaining term!");
                 Console.Clear();

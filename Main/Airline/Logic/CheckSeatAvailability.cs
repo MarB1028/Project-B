@@ -241,7 +241,11 @@ class CheckSeatAvailability
             }
         }
         //eventueel:
-        Console.WriteLine("Continue to information forms ->\n");
+        Console.WriteLine();
+        Console.Write("Press ENTER to continue...");
+        Console.ReadLine();
+
+        Console.Clear();
         PassengerForm.Form(Flight, tickets);
     }
 

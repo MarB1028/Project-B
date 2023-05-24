@@ -2,11 +2,6 @@ static class Menu
 {
     public static void StartScreen()
     {
-        Console.ForegroundColor = ConsoleColor.DarkYellow;
-        Console.WriteLine("STEP 1/5: Entry point of the program.");
-        Console.WriteLine("===============================================");
-        Console.ResetColor();
-
         // start screen
         Console.WriteLine("\nWelcome to Rotterdam Airlines Reservation System!");
         Console.WriteLine("===============================================");
