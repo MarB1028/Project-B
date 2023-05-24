@@ -28,7 +28,7 @@ static class TicketOverview
         }
 
         Console.WriteLine("-----------------------------------------------------------------");
-        Console.WriteLine($"Total cost:");
+        Console.WriteLine($"Total Cost:");
         Console.WriteLine($"{ConfirmTicketInformation.GetPrice}");
         Console.WriteLine($"Booking Status:");
         Console.WriteLine($"{PaymentComplete(payment)}");

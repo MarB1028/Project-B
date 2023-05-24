@@ -38,7 +38,7 @@ public static class GetLugage
         while (y)
         {
             Console.WriteLine();
-            Console.WriteLine("Please confirm above check-in of luggage (Y/N)");
+            Console.WriteLine("Please confirm above check-in of luggage (Y/N).");
             string confirm = Console.ReadLine()!.ToUpper();
 
             if (confirm == "Y")
@@ -80,7 +80,7 @@ public static class GetLugage
         while (x)
         {
             Console.WriteLine();
-            Console.WriteLine("\x1B[4mCheck-in hand luggage\x1B[0m\nInsert the total amount of hand luggage you want to check-in", "\u001b[1m", "\u001b[0m");
+            Console.WriteLine("\x1B[4mCheck-in hand luggage\x1B[0m\nInsert the total amount of hand luggage you want to check-in.", "\u001b[1m", "\u001b[0m");
             int amountOfTickets = tickets.Count();
 
 
@@ -97,7 +97,7 @@ public static class GetLugage
                 }
                 else if (handLuggage > (amountOfTickets * 2))
                 {
-                    Console.WriteLine("You exceeded the maximim amount of hand luggage allowed per person");
+                    Console.WriteLine("You exceeded the maximum amount of hand luggage allowed per person.");
                 }
                 else
                 {
@@ -106,7 +106,7 @@ public static class GetLugage
             }
             else
             {
-                Console.WriteLine("Invalid format");
+                Console.WriteLine("Invalid format!");
             }
         }
     }
@@ -135,7 +135,7 @@ public static class GetLugage
                 }
                 else if (luggage > (amountOfTickets * 2))
                 {
-                    Console.WriteLine("You exceeded the maximim amount of luggage allowed per person");
+                    Console.WriteLine("You exceeded the maximum amount of luggage allowed per person.");
                 }
                 else
                 {
@@ -144,7 +144,7 @@ public static class GetLugage
             }
             else
             {
-                Console.WriteLine("Invalid format");
+                Console.WriteLine("Invalid format!");
             }
         }
     }

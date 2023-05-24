@@ -11,12 +11,12 @@ static class ViewBoughtTickets
         while (CheckLogin() == false)
         {
             Console.WriteLine();
-            Console.WriteLine($"You are not logged in.\nPlease register or login to view your reservation");
-            Console.WriteLine("Press 0 to go back");
+            Console.WriteLine($"You are not logged in.\nPlease register or login to view your reservation.");
+            Console.WriteLine("Press 0 to go back.");
             int FalseLogin = Convert.ToInt32(Console.ReadLine());
             if (FalseLogin == 0)
             {
-                Console.WriteLine("You are now being redirected to the main page");
+                Console.WriteLine("You are now being redirected to the main page...");
                 Thread.Sleep(2500);
                 Console.Clear();
                 Menu.StartScreen();

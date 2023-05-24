@@ -50,7 +50,7 @@ static class CateringForm
 
         else
         {
-            Console.WriteLine("Invalid input");
+            Console.WriteLine("Invalid input.");
             Thread.Sleep(1000);
             Console.Clear();
             Catering(flight, tickets);
