@@ -50,12 +50,13 @@
 
         // [Jiajun] Het selecteren van de Catering en de prijzen uitrekenen
         /*Airplane boeing747 = new Airplane("BOEING747", "BO", 1, 4, 5, 6, 2);
-        Destination frankfort = new Destination("GERMANY", "FRANKFURT", "(GER)", "FRANKFORTAIRPORT", 100, 3, "On Schedule");
+        Destination frankfort = new Destination("0", "GERMANY", "FRANKFURT", "(GER)", "FRANKFORTAIRPORT", 100, 3, "On Schedule");
         Flight flightfrankfort = new Flight(1, "GER1", "Day", boeing747, DateTime.Now, DateTime.Now, frankfort, 100, 100);
         List<BookTicket> books = new List<BookTicket>();
         CateringForm.Catering(flightfrankfort, books);*/
 
-        Menu.StartScreen();
-        /*AdminForm.StartForm();*/
+        /*Menu.StartScreen();*/
+        AdminForm.StartForm();
+
     }
 }

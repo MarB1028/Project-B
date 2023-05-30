@@ -31,7 +31,7 @@ public static class CateringLogic
     }
 
     // DE FUNCTIE OM ETEN TE KIEZEN MET DE GEGEVEN ID
-    public static void FoodSelect(Flight flight)
+    public static void FoodSelect(Flight flight, List<BookTicket> ticket)
     {
         Console.Clear();
         CateringShowMenu(flight);
@@ -66,7 +66,7 @@ public static class CateringLogic
                 i.Quantity += amount;
                 Console.WriteLine($"{amount} sucessfully added to {i.FoodItem.Name}");
                 Thread.Sleep(3000);
-                StartCatering(flight);
+                StartCatering(flight, ticket);
             }
 
         }
@@ -74,11 +74,11 @@ public static class CateringLogic
         Console.WriteLine("Food sucessfully added to basket...");
         basketItems.Add(new BasketItem(FindFood(foodid, flight), amount));
         Thread.Sleep(3000);
-        StartCatering(flight);
+        StartCatering(flight, ticket);
     }
 
     // LAAT DE BASKET ZIEN MET ALLE ITEMS DIE ERIN ZITTEN
-    public static void ShowBasket(Flight flight)
+    public static void ShowBasket(Flight flight, List<BookTicket> ticket)
     {
         Console.OutputEncoding = System.Text.Encoding.UTF8;
         Console.WriteLine(" [BASKET] ");
@@ -97,7 +97,7 @@ public static class CateringLogic
 
         if (input == "1")
         {
-            StartCatering(flight);
+            StartCatering(flight, ticket);
         }
 
         else if (input == "2")
@@ -128,12 +128,12 @@ public static class CateringLogic
 
             Console.WriteLine($"Item succesfully removed from basket");
             Thread.Sleep(3000);
-            StartCatering(flight);
+            StartCatering(flight, ticket);
         }
     }
 
     // DIT IS DE CHECKOUT FUNCTIE. HIJ PAKTE ALLE ITEMS EN LAAT DE TOTALPRIJS ZIEN
-    public static void Finalize(Flight flight)
+    public static void Finalize(Flight flight, List<BookTicket> ticket)
     {
         Console.OutputEncoding = System.Text.Encoding.UTF8;
         Console.Clear();
@@ -160,7 +160,7 @@ public static class CateringLogic
 
         else if (input == "2")
         {
-            StartCatering(flight);
+            StartCatering(flight, ticket);
         }
     }
 
@@ -188,31 +188,45 @@ public static class CateringLogic
     }
 
     // ENTRY POINT VAN CATERING
-    public static void StartCatering(Flight flight)
+    public static void StartCatering(Flight flight, List<BookTicket> ticket)
     {
         CateringShowMenu(flight);
         Console.WriteLine("\n1: [SELECT FOOD]");
         Console.WriteLine("2: [VIEW BASKET]");
-        Console.WriteLine("3: [FINALIZE]");
-        Console.WriteLine("4: [QUIT]");
-        Console.Write(": ");
+        Console.WriteLine("3: [CHECK-OUT]");
+        Console.WriteLine("4: [CANCEL]");
 
-        string input = Console.ReadLine();
+        string input;
+        do
+        {
+            Console.Write(": ");
+            input = Console.ReadLine();
+            if (input == "1" || input == "2" || input == "3" || input == "4")
+            {
+                break;
+            }
+
+        } while (true);
 
         if (input == "1")
         {
-            FoodSelect(flight);
+            FoodSelect(flight, ticket);
         }
 
         else if (input == "2")
         {
             Console.Clear();
-            ShowBasket(flight);
+            ShowBasket(flight, ticket);
         }
 
         else if (input == "3")
         {
-            Finalize(flight);
+            Finalize(flight, ticket);
+        }
+
+        else if (input == "4")
+        {
+            CateringForm.Catering(flight, ticket);
         }
     }
 }
