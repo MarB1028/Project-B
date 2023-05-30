@@ -1,6 +1,6 @@
 ﻿using ConsoleTables;
 
-static class CateringLogic
+public static class CateringLogic
 {
     public static List<BasketItem> basketItems = new List<BasketItem>();
     public static List<BookTicket> tickets;
@@ -146,12 +146,6 @@ static class CateringLogic
         }
         Console.WriteLine(basket);
 
-        foreach (var item in basketItems)
-        {
-            double price = item.FoodItem.Price * item.Quantity;
-            TotalPrice += price;
-        }
-
         Console.WriteLine($"\n[TOTAL PRICE: € {TotalPrice.ToString("F2")},-]");
         Console.WriteLine($"\n1: [CONTINUE PAYMENT]");
         Console.WriteLine($"2: [GO BACK]");
@@ -167,6 +161,15 @@ static class CateringLogic
         else if (input == "2")
         {
             StartCatering(flight);
+        }
+    }
+
+    public static void CalculateTotalCost()
+    {
+        foreach (var item in basketItems)
+        {
+            double price = item.FoodItem.Price * item.Quantity;
+            TotalPrice += price;
         }
     }
 

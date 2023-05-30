@@ -1,4 +1,4 @@
-﻿static class CalculateTotalCosts
+﻿public static class CalculateTotalCosts
 {
     //TODO: Hier moet elke keer een unieke bookingcode worden gegenereerd met 3 letters/3 cijfers
     public static string BookingCode = "ABC123";
