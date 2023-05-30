@@ -10,7 +10,8 @@ static class Menu
         Console.WriteLine("2. Search Flights");
         Console.WriteLine("3. View Reservation");
         Console.WriteLine("4. Cancel Ticket(s)");
-        Console.WriteLine("5. Exit");
+        Console.WriteLine("5. Log Out");
+        Console.WriteLine("6. Exit");
         Console.WriteLine("===============================================");
 
         // user input
@@ -43,8 +44,11 @@ static class Menu
                     CancelTickets.Canceltickets();
                     break;
                 case "5":
+                    LogoutFunc.LogOut();
+                    break;
+                case "6":
+                    LogoutFunc.LoggingOut();
                     Console.WriteLine("Thank you for visiting our site.\nHopefully we see you again.");
-                    // Exit 
                     Environment.Exit(0);
                     break;
                 default:

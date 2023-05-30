@@ -45,6 +45,10 @@ static class ViewBoughtTickets
         }
         else
         {
+            Console.WriteLine(new string('-', 120));
+            Console.WriteLine("\t\t\t\t\t\tTICKET RESERVATION");
+            Console.WriteLine(new string('-', 120));
+
             foreach (var ticketObj in loggedInAccount.BoughtTickets)
             {
                 var ticketJObject = JObject.FromObject(ticketObj);
@@ -63,6 +67,7 @@ static class ViewBoughtTickets
                 Console.WriteLine($"Booking Code: {CalculateTotalCosts.BookingCode}");
                 Console.WriteLine($"Booking Status:");
                 Console.WriteLine($"{TicketOverview.PaymentComplete(Payment)}");
+                Console.WriteLine(new string('-', 120));
                 Console.WriteLine("");
             }
 

@@ -3,6 +3,7 @@
     public static List<Passenger> AllPassengers = PassengerForm.passengers; //kopie maken van list in PassengerForm
     public static List<BookTicket> Tickets;
     public static double GetPrice;
+    public static bool payment;
 
     public static void PaymentScreen()
     {
@@ -90,7 +91,7 @@
             else if (answer == "N")
             {
                 // Verwijder persoonlijke gegevens uit json file en maak de ticket(s) weer beschikbaar!
-                Menu.StartScreen();
+                CancelBooking.BookingCancel(Tickets);
                 x = false;
             }
             else
@@ -137,9 +138,11 @@
                                 Console.WriteLine("Payment complete!");
                                 Console.WriteLine("Your ticket(s) will be added to your account shortly.");
                                 Console.WriteLine("Check your reservation in your account.");
+                                payment = true;
+                                TicketOverview.tickets = Tickets;
+                                TicketOverview.Ticket(Tickets, payment);
                                 x = false;
                                 return true;
-                                break;
 
                             }
                             else if (confirmPayment == "N")
@@ -169,6 +172,9 @@
                                 Console.WriteLine("Payment complete!");
                                 Console.WriteLine("Your ticket(s) will be added to your account shortly.");
                                 Console.WriteLine("Check your reservation in your account.");
+                                payment = true;
+                                TicketOverview.tickets = Tickets;
+                                TicketOverview.Ticket(Tickets, payment);
                                 x = false;
                                 return true;
 
@@ -200,6 +206,9 @@
                                 Console.WriteLine("Payment complete!");
                                 Console.WriteLine("Your ticket(s) will be added to your account shortly.");
                                 Console.WriteLine("Check your reservation in your account.");
+                                payment = true;
+                                TicketOverview.tickets = Tickets;
+                                TicketOverview.Ticket(Tickets, payment);
                                 x = false;
                                 return true;
 
@@ -231,6 +240,9 @@
                                 Console.WriteLine("Payment complete!");
                                 Console.WriteLine("Your ticket(s) will be added to your account shortly.");
                                 Console.WriteLine("Check your reservation in your account.");
+                                payment = true;
+                                TicketOverview.tickets = Tickets;
+                                TicketOverview.Ticket(Tickets, payment);
                                 x = false;
                                 return true;
 
@@ -285,6 +297,9 @@
                                 Console.WriteLine("Payment 1/2 complete!");
                                 Console.WriteLine("Your ticket(s) will be added to your account after the second payment");
                                 Console.WriteLine("is completed. Pay remaining costs till 12 hours before your flight!");
+                                payment = false;
+                                TicketOverview.tickets = Tickets;
+                                TicketOverview.Ticket(Tickets, payment);
                                 x = false;
                                 return true;
 
@@ -316,6 +331,9 @@
                                 Console.WriteLine("Payment 1/2 complete!");
                                 Console.WriteLine("Your ticket(s) will be added to your account after the second payment");
                                 Console.WriteLine("is completed. Pay remaining costs till 12 hours before your flight!");
+                                payment = false;
+                                TicketOverview.tickets = Tickets;
+                                TicketOverview.Ticket(Tickets, payment);
                                 x = false;
                                 return true;
 
@@ -347,6 +365,9 @@
                                 Console.WriteLine("Payment 1/2 complete!");
                                 Console.WriteLine("Your ticket(s) will be added to your account after the second payment");
                                 Console.WriteLine("is completed. Pay remaining costs till 12 hours before your flight!");
+                                payment = false;
+                                TicketOverview.tickets = Tickets;
+                                TicketOverview.Ticket(Tickets, payment);
                                 x = false;
                                 return true;
 
@@ -378,6 +399,9 @@
                                 Console.WriteLine("Payment 1/2 complete!");
                                 Console.WriteLine("Your ticket(s) will be added to your account after the second payment");
                                 Console.WriteLine("is completed. Pay remaining costs till 12 hours before your flight!");
+                                payment = false;
+                                TicketOverview.tickets = Tickets;
+                                TicketOverview.Ticket(Tickets, payment);
                                 x = false;
                                 return true;
 
@@ -451,6 +475,7 @@
                                 Console.WriteLine("Payment complete!");
                                 Console.WriteLine("Your ticket(s) will be added to your account shortly.");
                                 Console.WriteLine("Check your reservation in your account.");
+                                payment = true;
                                 x = false;
                                 return true;
 
@@ -482,6 +507,7 @@
                                 Console.WriteLine("Payment complete!");
                                 Console.WriteLine("Your ticket(s) will be added to your account shortly.");
                                 Console.WriteLine("Check your reservation in your account.");
+                                payment = true;
                                 x = false;
                                 return true;
 
@@ -513,6 +539,7 @@
                                 Console.WriteLine("Payment complete!");
                                 Console.WriteLine("Your ticket(s) will be added to your account shortly.");
                                 Console.WriteLine("Check your reservation in your account.");
+                                payment = true;
                                 x = false;
                                 return true;
 
@@ -544,6 +571,7 @@
                                 Console.WriteLine("Payment complete!");
                                 Console.WriteLine("Your ticket(s) will be added to your account shortly.");
                                 Console.WriteLine("Check your reservation in your account.");
+                                payment = true;
                                 x = false;
                                 return true;
 

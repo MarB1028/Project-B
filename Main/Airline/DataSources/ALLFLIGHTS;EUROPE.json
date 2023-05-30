@@ -2122,7 +2122,7 @@
       "Airport": "FRANKFURT AIRPORT",
       "Distancekm": 100,
       "FlightDuration": 3,
-      "Status": "On schedule"
+      "Status": "Departed"
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,

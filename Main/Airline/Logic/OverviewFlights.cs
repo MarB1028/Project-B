@@ -105,13 +105,13 @@ class OverviewFlights
         while (CheckExistingDestination(endDestination) == false)
         {
             Console.WriteLine();
-            Console.WriteLine($"Unfortunately, we can't find a flight with the destination '{endDestination}'.\nPlease try again.");
+            Console.WriteLine($"Unfortunately, we can't find a flight with '{endDestination}'.\nPlease try again.");
             endDestination = Console.ReadLine().ToUpper();
         }
         Console.Clear();
 
         // de vluchten naar:
-        Console.WriteLine($"Flight Departures:");
+        Console.WriteLine($"Flight Departures");
         Console.WriteLine("");
         Console.WriteLine($"{"Flight No",-12} {"Departure",-20} {"Destination",-19} {"Arrival",-20} {"Status",-12} {"Seats",-8}{"Price",-10}{"Operated by"}");
         Console.WriteLine(new string('-', 120)); //--- in between elke row ---
@@ -152,7 +152,7 @@ class OverviewFlights
         int sortyesno = Convert.ToInt32(Console.ReadLine());
         while (sortyesno != 1 && sortyesno != 2)
         {
-            Console.WriteLine("Please enter 1 or 2!");
+            Console.WriteLine("Please enter 1 or 2");
             sortyesno = Convert.ToInt32(Console.ReadLine());
         }
         if (sortyesno == 1)
@@ -161,7 +161,7 @@ class OverviewFlights
             string sortchoice = Console.ReadLine();
             while (sortchoice != "1" && sortchoice != "2" && sortchoice != "3")
             {
-                Console.WriteLine("Please enter a valid choice!");
+                Console.WriteLine("Please enter a valid choice");
                 sortchoice = Console.ReadLine();
             }
             if (sortchoice == "1") //prijs is nu overal 100
@@ -170,7 +170,7 @@ class OverviewFlights
                 string sortorder = Console.ReadLine();
                 while (sortorder != "1" && sortorder != "2")
                 {
-                    Console.WriteLine("Please enter a valid choice!");
+                    Console.WriteLine("Please enter a valid choice");
                     sortorder = Console.ReadLine();
                 }
                 if (sortorder == "1")
@@ -189,7 +189,7 @@ class OverviewFlights
                 DateTime datesort;
                 while (!DateTime.TryParseExact(datesortstring, "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out datesort)) // date heb ik maar yyyy-MM-dd veranderd, zodat het als de list is.
                 {
-                    Console.WriteLine("Invalid date. Try again!");
+                    Console.WriteLine("Invalid date. Try again");
                     datesortstring = Console.ReadLine();
                 }
 
@@ -205,7 +205,7 @@ class OverviewFlights
                 List<Flight> sortedlist = flights.Where(flight => flight.BoardingDate >= datesort).ToList();
                 if (sortedlist.Count == 0)
                 {
-                    Console.WriteLine("No flights available.\n");
+                    Console.WriteLine("No flights available\n");
                 }
                 else
                 {
@@ -218,7 +218,7 @@ class OverviewFlights
                 string sortorder = Console.ReadLine();
                 while (sortorder != "1" && sortorder != "2")
                 {
-                    Console.WriteLine("Please enter a valid choice!");
+                    Console.WriteLine("Please enter a valid choice");
                     sortorder = Console.ReadLine();
                 }
 
@@ -256,7 +256,7 @@ class OverviewFlights
                     }
 
                     Console.Write($" {fl.TotalSeats,-6}  €{fl.MinPrice},-{fl.Airplane.Name,13}");
-                Console.WriteLine(new string('-', 120)); // --- in between elke row --- 
+                    Console.WriteLine(new string('-', 120)); // --- in between elke row --- 
                 }
                 else
                 {
@@ -266,15 +266,10 @@ class OverviewFlights
                 Console.Write($" {fl.TotalSeats,-6}  €{fl.MinPrice},-{fl.Airplane.Name,13}");
             }
             Console.WriteLine(new string('-', 120)); // --- in between elke row --- 
-        
-            ChooseFlight(flights, Destination);
-
         }
-        else {
-            ChooseFlight(flights, Destination);
-        }
-        
+        ChooseFlight(flights, Destination);
     }
+
 
 
     public void ChooseFlight(List<Flight> flights, string destination)
@@ -291,8 +286,8 @@ class OverviewFlights
                 while (CheckLogin() == false)
                 {
                     Console.WriteLine();
-                    Console.WriteLine($"You are not logged in.\nPlease register or login to book a flight.");
-                    Console.WriteLine("Press 0 to go back.");
+                    Console.WriteLine($"You are not logged in.\nPlease register or login to book a flight");
+                    Console.WriteLine("Press 0 to go back");
                     int FalseLogin = Convert.ToInt32(Console.ReadLine());
                     if (FalseLogin == 0)
                     {
@@ -302,7 +297,7 @@ class OverviewFlights
 
                         }
                         DataFlights.WriteDateToJson(flights);
-                        Console.WriteLine("You are now being redirected to the main page...");
+                        Console.WriteLine("You are now being redirected to the main page");
                         Thread.Sleep(2500);
                         Console.Clear();
                         Menu.StartScreen();
@@ -310,7 +305,7 @@ class OverviewFlights
                     }
                     else // als uder toch besluit om grappig te zijn en een ander int te geven
                     {
-                        Console.WriteLine("Please press 0.");
+                        Console.WriteLine("Please press 0");
                     }
                 }
                 Console.WriteLine("Please enter the number of flight you would like to book."); // welke vlucht?
@@ -333,7 +328,7 @@ class OverviewFlights
                 }
                 else if (selectedFlight != null) //als user een bestaand vlucht heeft gekozen
                 {
-                    // Hier checkt het naar de flight status. if departed or full -> proper message
+                    // hier checkt het naar de flight status. if departed or full -> proper message
                     if (selectedFlight.Destination.Status == "Departed")
                     {
                         Console.WriteLine("Selected flight has already departed.");
@@ -374,8 +369,7 @@ class OverviewFlights
                                         string ans = Console.ReadLine().ToUpper();
                                         if (ans == "Y") 
                                         {
-                                            Console.WriteLine("You are now being redirected to the booking page...");
-                                            Thread.Sleep(2500);
+                                            Console.WriteLine("You are now being redirected to the booking page");
                                             // FlightNo resetten naar 0
                                             foreach (var fl in flToDestination)
                                             {
@@ -390,6 +384,8 @@ class OverviewFlights
 
                                             x = false; 
                                         }
+                                        Console.Clear();
+                                        ChooseFlight(flights,destination);
                                     }
                                 }
                             }
@@ -397,7 +393,7 @@ class OverviewFlights
                         if (selectedFlightNo >= flToDestination.Count())
                             {
                                 Console.WriteLine("There are no other flights available in the near future.");
-                                Console.WriteLine("Please, come back soon to check out new flights.\n");
+                                Console.WriteLine("Please, come back soon to check for new flights.\n");
                                 ChooseFlight(flights, destination);
                             }
                         else 
@@ -418,8 +414,8 @@ class OverviewFlights
 
                         }
                         DataFlights.WriteDateToJson(flights);
-                        MakeTicketsForFlightJson.MakeTickets(selectedFlight); // hier maakt je tickets aan
                         //hier de volgende stap aanroepen
+                        MakeTicketsForFlightJson.MakeTickets(selectedFlight); // hier maakt het een "ticket" aan
                         Console.Clear();
                         CheckSeatAvailability checkSeatAvailability = new CheckSeatAvailability(selectedFlight); //volgende stap wordt aangeroepen
                         checkSeatAvailability.AvailableSeats();
@@ -429,7 +425,7 @@ class OverviewFlights
                 }
                 else
                 {
-                    Console.WriteLine("Invalid flight number. \nPlease try again or enter 0 to go back.");
+                    Console.WriteLine("Invalid flight number. Please try again or enter 0 to go back.");
                 }
             }
             else if (booked == 2) // user wilt niet flight booken
@@ -447,7 +443,7 @@ class OverviewFlights
             }
             else // als user een ander getal toets
             {
-                Console.WriteLine("Please enter 1 or 2.");
+                Console.WriteLine("Please enter 1 or 2");
                 booked = Convert.ToInt32(Console.ReadLine());
             }
         }
