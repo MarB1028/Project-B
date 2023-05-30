@@ -39,11 +39,12 @@
             {
                 // Intro zin
                 Console.WriteLine("Please enter the personal information below:");
-                Console.WriteLine($"Ticket {i + 1}: ");
+                Console.Write($"Ticket {i + 1}: ");
                 if (i == 0)
                 {
-                    Console.WriteLine("(Main booker)\n");
+                    Console.WriteLine("(Main booker)");
                 }
+                Console.WriteLine();
 
                 // Naam
                 firstName = Loop("First name", x => ValidateInput.IsAlpha(x, "'-"), "Invalid first name");

@@ -3,13 +3,6 @@ static class Menu
     public static void StartScreen()
     {
         //Logo
-        Console.WriteLine("  ____       _   _               _                      _    _      _ _                 ");
-        Console.WriteLine(" |  _ \\ ___ | |_| |_ ___ _ __ __| | __ _ _ __ ___      / \\  (_)_ __| (_)_ __   ___  ___ ");
-        Console.WriteLine(" | |_) / _ \\| __| __/ _ \\ '__/ _` |/ _` | '_ ` _ \\    / _ \\ | | '__| | | '_ \\ / _ \\/ __|          __|__");
-        Console.WriteLine(" |  _ < (_) | |_| ||  __/ | | (_| | (_| | | | | | |  / ___ \\| | |  | | | | | |  __/\\__ \\   --------(_)--------");
-        Console.WriteLine(" |_| \\_\\___/ \\__|\\__\\___|_|  \\__,_|\\__,_|_| |_| |_| /_/   \\_\\_|_|  |_|_|_| |_|\\___||___/     O  O       O  O");
-        Console.WriteLine();
-        Console.WriteLine("\n");
         Console.WriteLine("\n");
         Console.WriteLine("       __|__");
         Console.WriteLine("--------(_)--------");
