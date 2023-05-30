@@ -384,6 +384,8 @@ class OverviewFlights
 
                                             x = false; 
                                         }
+                                        Console.Clear();
+                                        ChooseFlight(flights,destination);
                                     }
                                 }
                             }
