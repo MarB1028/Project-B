@@ -3,21 +3,21 @@
     public static int PreviousID = 0;
     public int ID;
     public string FirstName;
-    public string SurName;
-    public string Gender;
+    public string LastName;
+    public string Sex;
     public DateTime BirthDate;
-    public string Adress;
+    public string Address;
     public string PhoneNumber;
 
-    public Passenger(string firstname, string surname, string gender, DateTime birthDate, string adress, string phoneNumber)
+    public Passenger(string firstname, string lastname, string sex, DateTime birthDate, string address, string phoneNumber)
     {
         ID = PreviousID + 1;
         PreviousID = ID;
         FirstName = firstname;
-        SurName = surname;
-        Gender = gender;
+        LastName = lastname;
+        Sex = sex;
         BirthDate = birthDate;
-        Adress = adress;
+        Address = address;
         PhoneNumber = phoneNumber;
     }
 }
