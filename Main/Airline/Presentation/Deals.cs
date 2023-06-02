@@ -4,7 +4,7 @@ static class Deals
     {
         CalculateStartPrice.ApplyDeals();
         List<Flight> flights = DataFlights.ReadFlightsFromJson();
-        Console.WriteLine("\n============================ Last Minute Deals ============================\n");
+        Console.WriteLine("\n============================= Last Minute Deals =============================\n");
         Console.WriteLine("Save up to 75% on flights departing in the next 6 hours! Limited seats available.");
 
         bool dealsAvailable = false;

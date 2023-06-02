@@ -11,12 +11,12 @@ static class ViewBoughtTickets
         while (CheckLogin() == false)
         {
             Console.WriteLine();
-            Console.WriteLine($"You are not logged in.\nPlease register or login to view your reservation");
-            Console.WriteLine("Press 0 to go back");
+            Console.WriteLine($"You are not logged in.\nPlease register or login to view your reservation.");
+            Console.WriteLine("Press 0 to go back.");
             int FalseLogin = Convert.ToInt32(Console.ReadLine());
             if (FalseLogin == 0)
             {
-                Console.WriteLine("You are now being redirected to the main page");
+                Console.WriteLine("You are now being redirected to the main page...");
                 Thread.Sleep(2500);
                 Console.Clear();
                 Menu.StartScreen();
@@ -45,6 +45,10 @@ static class ViewBoughtTickets
         }
         else
         {
+            Console.WriteLine(new string('-', 120));
+            Console.WriteLine("\t\t\t\t\t\tTICKET RESERVATION");
+            Console.WriteLine(new string('-', 120));
+
             foreach (var ticketObj in loggedInAccount.BoughtTickets)
             {
                 var ticketJObject = JObject.FromObject(ticketObj);
@@ -63,6 +67,7 @@ static class ViewBoughtTickets
                 Console.WriteLine($"Booking Code: {CalculateTotalCosts.BookingCode}");
                 Console.WriteLine($"Booking Status:");
                 Console.WriteLine($"{TicketOverview.PaymentComplete(Payment)}");
+                Console.WriteLine(new string('-', 120));
                 Console.WriteLine("");
             }
 

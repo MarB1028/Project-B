@@ -7,6 +7,7 @@ public static class FlightsConfigure
     public static void ShowAvailableFlights()
     {
         List<Flight> flights = DataFlights.ReadFlightsFromJson();
+        flights = flights.OrderBy(f => f.Destination.City).ToList();
 
         Console.OutputEncoding = System.Text.Encoding.UTF8;
 
@@ -61,19 +62,6 @@ public static class FlightsConfigure
         Console.ResetColor();
         Console.WriteLine();
 
-        int flightNo;
-        do
-        {
-            Console.Write("Flight number: ");
-            string input = Console.ReadLine();
-            if (int.TryParse(input, out flightNo))
-            {
-                break;
-            }
-            else Console.WriteLine("INVALID NUMBER");
-
-        } while (true);
-
         string flightID;
         do
         {
@@ -84,7 +72,7 @@ public static class FlightsConfigure
                 flightID = flightID.ToUpper();
                 break;
             }
-            else Console.WriteLine("INVALID FLIGHT ID");
+            else Console.WriteLine("INVALID FLIGHT ID.");
 
         } while (true);
 
@@ -98,7 +86,7 @@ public static class FlightsConfigure
                 type = input.ToUpper();
                 break;
             }
-            else Console.WriteLine("INVALID DAY/NIGHT CYCLE");
+            else Console.WriteLine("INVALID DAY/NIGHT CYCLE.");
 
         } while (true);
 
@@ -112,7 +100,7 @@ public static class FlightsConfigure
                 airplane = SelectAirplane(input);
                 break;
             }
-            else Console.WriteLine("INVALID AIRPLANE");
+            else Console.WriteLine("INVALID AIRPLANE.");
 
         } while (true);
 
@@ -131,7 +119,7 @@ public static class FlightsConfigure
                 boardingdate = DateTime.Parse(input);
                 break;
             }
-            else Console.WriteLine("INVALID DATETIME");
+            else Console.WriteLine("INVALID DATETIME.");
 
         } while (true);
 
@@ -150,20 +138,20 @@ public static class FlightsConfigure
                 arrivaldate = DateTime.Parse(input);
                 break;
             }
-            else Console.WriteLine("INVALID ARRIVALDATE");
+            else Console.WriteLine("INVALID ARRIVALDATE.");
 
         } while (true);
 
         string displayNo;
         do
         {
-            Console.Write("DisplayNo: ");
+            Console.Write("Display Number: ");
             displayNo = Console.ReadLine();
             if (!string.IsNullOrEmpty(displayNo))
             {
                 break;
             }
-            else Console.WriteLine("INVALID DISPLAYNO");
+            else Console.WriteLine("INVALID DISPLAYNO.");
 
         } while (true);
 
@@ -176,7 +164,7 @@ public static class FlightsConfigure
             {
                 break;
             }
-            else Console.WriteLine("INVALID COUNTRY");
+            else Console.WriteLine("INVALID COUNTRY.");
 
         } while (true);
 
@@ -189,20 +177,20 @@ public static class FlightsConfigure
             {
                 break;
             }
-            else Console.WriteLine("INVALID COUNTRY");
+            else Console.WriteLine("INVALID COUNTRY.");
 
         } while (true);
 
         string abberation;
         do
         {
-            Console.Write("Abberation (XXX): ");
+            Console.Write("Abbreviation (XXX): ");
             abberation = Console.ReadLine().ToUpper();
             if (!string.IsNullOrEmpty(abberation))
             {
                 break;
             }
-            else Console.WriteLine("INVALID ABBERATION");
+            else Console.WriteLine("INVALID ABBREVIATION.");
 
         } while (true);
 
@@ -215,20 +203,20 @@ public static class FlightsConfigure
             {
                 break;
             }
-            else Console.WriteLine("INVALID AIRPORT");
+            else Console.WriteLine("INVALID AIRPORT.");
 
         } while (true);
 
         int distance;
         do
         {
-            Console.Write("Distance(KM): ");
+            Console.Write("Distance (KM): ");
             string input = Console.ReadLine();
             if (int.TryParse(input, out distance))
             {
                 break;
             }
-            else Console.WriteLine("INVALID DISTANCE");
+            else Console.WriteLine("INVALID DISTANCE.");
 
         } while (true);
 
@@ -241,20 +229,7 @@ public static class FlightsConfigure
             {
                 break;
             }
-            else Console.WriteLine("INVALID DURATION");
-
-        } while (true);
-
-        string status;
-        do
-        {
-            Console.Write("Status: ");
-            status = Console.ReadLine().ToUpper();
-            if (!string.IsNullOrEmpty(status))
-            {
-                break;
-            }
-            else Console.WriteLine("INVALID STATUS");
+            else Console.WriteLine("INVALID DURATION.");
 
         } while (true);
 
@@ -267,14 +242,14 @@ public static class FlightsConfigure
             {
                 break;
             }
-            else Console.WriteLine("INVALID PRICE");
+            else Console.WriteLine("INVALID PRICE.");
 
         } while (true);
 
         int totalseats = (airplane.FirstClassSeat * 6) + (airplane.PremiumSeat * 6) + (airplane.EconomySeat * 6) + (airplane.ExtraSpace * 6);
 
-        Destination newDestination = new Destination(displayNo, country, city, abberation, airport, distance, flightDuration, status);
-        Flight flight = new Flight(flightNo, flightID, type, airplane, boardingdate, arrivaldate, newDestination, minprice, totalseats);
+        Destination newDestination = new Destination(displayNo, country, city, abberation, airport, distance, flightDuration, "On schedule");
+        Flight flight = new Flight(0, flightID, type, airplane, boardingdate, arrivaldate, newDestination, minprice, totalseats);
         Addflight(flight);
         Thread.Sleep(3000);
         StartFlightConfigure();
@@ -285,7 +260,7 @@ public static class FlightsConfigure
         if (DataFlights.AddFlightToJson(flight))
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine($"\n{flight.FlightId} SUCCESSFULLY ADDED TO TERMINAL...");
+            Console.WriteLine($"\n{flight.FlightId} SUCCESSFULLY ADDED TO THE TERMINAL...");
             Console.WriteLine("GOING BACK TO THE FLIGHT CONFIGURE...");
             Console.ResetColor();
         }
@@ -293,7 +268,7 @@ public static class FlightsConfigure
         else if (!DataFlights.AddFlightToJson(flight))
         {
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine($"\n{flight.FlightId} ALREADY IN TERMINAL");
+            Console.WriteLine($"\n{flight.FlightId} ALREADY IN TERMINAL.");
             Console.WriteLine("GOING BACK TO THE FLIGHT CONFIGURE...");
             Console.ResetColor();
         }
@@ -324,7 +299,7 @@ public static class FlightsConfigure
                 flightID = flightID.ToUpper();
                 break;
             }
-            else Console.WriteLine("INVALID FLIGHT ID");
+            else Console.WriteLine("INVALID FLIGHT ID.");
 
         } while (true);
 

@@ -14,7 +14,7 @@
         Console.WriteLine("+ The maximum weight of check-in luggage starts from {0}23 KG{1}\n  and the maximum amount of check-in luggage allowed is {0}two{1} p.p.", "\u001b[1m", "\u001b[0m");
         Console.WriteLine();
         Console.OutputEncoding = System.Text.Encoding.UTF8; // weergave euro tekens
-        Console.WriteLine($"Extra hand luggage: \u20AC 25,- (Excl. BTW/VAT)\nCheck-in luggage: \u20AC 55,- per luggage (Excl. BTW/VAT)");
+        Console.WriteLine($"Extra hand luggage: \u20AC 25,- (Incl. BTW/VAT)\nCheck-in luggage: \u20AC 55,- per luggage (Incl. BTW/VAT)");
 
         GetLugage.tickets = tickets;
         GetLugage.CostsAllLuggage();

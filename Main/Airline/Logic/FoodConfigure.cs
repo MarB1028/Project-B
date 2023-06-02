@@ -69,7 +69,7 @@ public static class FoodConfigure
             {
                 break;
             }
-            else Console.WriteLine("INVALID NAME");
+            else Console.WriteLine("INVALID NAME.");
 
         } while (true);
 
@@ -82,7 +82,7 @@ public static class FoodConfigure
             {
                 break;
             }
-            else Console.WriteLine("INVALID PRICE");
+            else Console.WriteLine("INVALID PRICE.");
 
         } while (true);
 
@@ -95,7 +95,7 @@ public static class FoodConfigure
             {
                 break;
             }
-            else Console.WriteLine("INVALID DESCRIPTION");
+            else Console.WriteLine("INVALID DESCRIPTION.");
 
         } while (true);
 
@@ -108,7 +108,7 @@ public static class FoodConfigure
             {
                 break;
             }
-            else Console.WriteLine("INVALID TYPE");
+            else Console.WriteLine("INVALID TYPE.");
 
         } while (true);
 
@@ -139,7 +139,7 @@ public static class FoodConfigure
         else if (!DataFood.WriteFoodToJson(food))
         {
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine($"\n{food.Name.ToUpper()} ALREADY IN STORE");
+            Console.WriteLine($"\n{food.Name.ToUpper()} ALREADY IN STORE...");
             Console.WriteLine("GOING BACK TO THE CATERING MENU...");
             Console.ResetColor();
         }
@@ -149,7 +149,7 @@ public static class FoodConfigure
     {
         List<Food> foods = DataFood.ReadFoodFromJson("All");
 
-        Console.WriteLine("\nPlease enter the number of the food you wish to remove");
+        Console.WriteLine("\nPlease enter the number of the food you wish to remove.");
 
         int foodid;
         Food temp = null;

@@ -1,10 +1,18 @@
 [
   {
-    "Booked": false,
+    "Booked": true,
     "PaymentDone": false,
     "TicketID": 1,
     "Ticket": {
-      "Passenger": null,
+      "Passenger": {
+        "ID": 1,
+        "Surname": "jnjw",
+        "Lastname": "wnwjdn",
+        "Sex": "v",
+        "BirthDate": "2000-10-10T00:00:00",
+        "Adress": "cmkdmwk 10  1234ba skmdkwmk",
+        "PhoneNumber": "0612345678"
+      },
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER7",
@@ -3432,7 +3440,7 @@
     }
   },
   {
-    "Booked": true,
+    "Booked": false,
     "PaymentDone": false,
     "TicketID": 79,
     "Ticket": {
@@ -3960,11 +3968,19 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "PaymentDone": false,
     "TicketID": 91,
     "Ticket": {
-      "Passenger": null,
+      "Passenger": {
+        "ID": 208,
+        "Surname": "marie",
+        "Lastname": "de groot",
+        "Sex": "v",
+        "BirthDate": "1000-10-10T00:00:00",
+        "Adress": "hallo 12  1245ab spijk",
+        "PhoneNumber": "0612345676"
+      },
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER7",
@@ -4224,11 +4240,19 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "PaymentDone": false,
     "TicketID": 97,
     "Ticket": {
-      "Passenger": null,
+      "Passenger": {
+        "ID": 210,
+        "Surname": "marissa",
+        "Lastname": "braam",
+        "Sex": "v",
+        "BirthDate": "1000-10-10T00:00:00",
+        "Adress": "knwkdmw 10  1248ah spijk",
+        "PhoneNumber": "Empty"
+      },
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER7",

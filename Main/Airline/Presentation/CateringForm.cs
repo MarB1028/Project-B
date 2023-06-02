@@ -4,7 +4,8 @@ using System.Collections.Generic;
 static class CateringForm
 {
     public static void Catering(Flight flight, List<BookTicket> tickets)
-    {
+    {   
+        Console.Clear();
         CateringLogic.tickets = tickets;
         Console.ForegroundColor = ConsoleColor.DarkYellow;
         Console.WriteLine("STEP 4/5: Option to select catering (Y/N)");
@@ -23,10 +24,10 @@ static class CateringForm
         Console.WriteLine("BTW% are included in the price.");
 
         Console.Write(": ");
-        string input = Console.ReadLine();
+        string input = Console.ReadLine()!;
         if (input == "Y" || input == "y")
         {
-            CateringLogic.StartCatering(flight);
+            CateringLogic.StartCatering(flight, tickets);
 
             CalculateTotalCosts.tickets = tickets;
             //hier berekent hij de totale prijs voor de tickets
@@ -38,14 +39,19 @@ static class CateringForm
 
         else if (input == "N" || input == "n")
         {
-            Console.WriteLine("");
             ConfirmTicketInformation.Tickets = tickets;
+
+            Console.WriteLine();
+            Console.Write("Press ENTER to continue...");
+            Console.ReadLine();
+            Console.Clear();
+
             ConfirmTicketInformation.PaymentScreen();
         }
 
         else
         {
-            Console.WriteLine("Invalid input");
+            Console.WriteLine("Invalid input.");
             Thread.Sleep(1000);
             Console.Clear();
             Catering(flight, tickets);
