@@ -2,6 +2,23 @@ static class Menu
 {
     public static void StartScreen()
     {
+        //Logo
+        Console.WriteLine("\n");
+        Console.WriteLine("       __|__");
+        Console.WriteLine("--------(_)--------");
+        Console.WriteLine("  O  O       O  O");
+        Console.WriteLine(" Rotterdam Airlines");
+        Console.WriteLine("\n");
+
+        
+    
+
+
+        Console.ForegroundColor = ConsoleColor.DarkYellow;
+        Console.WriteLine("STEP 1/5: Entry point of the program.");
+        Console.WriteLine("===============================================");
+        Console.ResetColor();
+
         // start screen
         Console.WriteLine("\nWelcome to Rotterdam Airlines Reservation System!");
         Console.WriteLine("===============================================");

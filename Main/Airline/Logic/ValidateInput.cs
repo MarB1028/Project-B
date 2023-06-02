@@ -4,21 +4,38 @@ public static class ValidateInput
     //Elke method returnt een bool (true=valid of flase=invalid)
     //De volgende vijf methods controleren input op algemene criteria
     //Controleert of de input uitsluitend uit letters bestaat 
-    public static bool IsAlpha(string input, string exception = null) // Je kan uitzonderingen meegeven (exception = "-" maakt marie-claire valid)
+    public static bool IsAlpha(string input, string exception = null)
     {
+        if (input.Replace(" ", "") == "")
+        {
+            return false;
+        }
+        
+        bool isvalid = false;
         foreach (char character in input)
         {
-            if (char.IsLetter(character) == false && Convert.ToString(character) != exception)
+            bool isLetterOrException = char.IsLetter(character) || (exception != null && exception.Contains(character));
+
+            if (!isLetterOrException)
             {
-                return false;
+                isvalid = false;
+                break;
+            }
+            else
+            {
+                isvalid = true;
             }
         }
-        return true;
-    }
+        return isvalid;
+}
 
     // Controleert of een string uitsluitend uit positieve nummers bestaat
     public static bool IsNumber(string input)
     {
+        if (input == "")
+        {
+            return false;
+        }
         foreach (char character in input)
         {
             int number = 0;
@@ -72,12 +89,28 @@ public static class ValidateInput
         checkDate = DateTime.TryParseExact(dateString, "dd-MM-yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out date); // InvariantCulture bevestigt dat dd-mm-jjjj gebruikt moet worden en niet de formaat van de gebruikers locatie
         if (checkDate == true)
         {
-            if (date > DateTime.Now)
+            if (date > DateTime.Now || (DateTime.Now.Year - date.Year) > 150)
             {
                 checkDate = false;
             }
         }
         return checkDate;
+    }
+
+    public static bool ValidateAddition(string input)
+    {
+        if (input == "" || input == " ")
+        {
+            return true;
+        }
+        else
+        {
+            if (IsAlpha(input) == true)
+            {
+                return true;
+            }
+        }
+        return false;
     }
 
 

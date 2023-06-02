@@ -23,7 +23,7 @@ static class TicketOverview
         {
             Console.WriteLine($"{ticket1.Ticket.Seat.SeatType}");
             Console.WriteLine($"Ticket ID: {ticket1.TicketID}");
-            Console.WriteLine($"Passenger: {ticket1.Ticket.Passenger.Surname} {ticket1.Ticket.Passenger.Lastname}");
+            //Console.WriteLine($"Passenger: {ticket1.Ticket.Passenger.FirstName} {ticket1.Ticket.Passenger.SurName}");
             Console.WriteLine($"Flight:    {ticket1.Ticket.Flight.Airplane.Name} {ticket1.Ticket.Flight.BoardingDate} {ticket1.Ticket.Flight.Destination.City} {ticket1.Ticket.Flight.Destination.Airport}");
             Console.WriteLine($"Seat:      {ticket1.Ticket.Seat.SeatNumber}   Boarding gate: {ticket1.Ticket.Gate}");
             Console.WriteLine($"Booking Code: {CalculateTotalCosts.BookingCode}");

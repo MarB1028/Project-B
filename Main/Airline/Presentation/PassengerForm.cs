@@ -22,62 +22,63 @@
     //Hier wordt het formulier gegenereerd
     public static void Form(Flight flight, List<BookTicket> tickets)
     {
-        // Dit bepaalt hoeveel formulieren er moeten worden gegenereerd
-        // In de volgende sprint wordt dit in een andere fase van het boekingsproces gezet.
-
         // Account acc = null;
 
         for (int i = 0; i < tickets.Count(); i++)
         {
             //Hier worden alle variabelen gedeclareerd die vervolgens velden worden voor het object
             Passenger passenger0;
-            string surName;
+            string firstName;
             string lastName;
             string sex;
             DateTime birthDate;
             string birthDateString;
-            string adress;
+            string address;
             string phoneNumber;
             do
             {
                 // Intro zin
+                Console.WriteLine("Please enter the personal information below:");
+                Console.Write($"Ticket {i + 1}: ");
                 Console.WriteLine($"Ticket {i + 1}: ");
 
                 if (i == 0)
                 {
-                    Console.WriteLine("(Hoofdboeker)");
+                    Console.WriteLine("(Main booker)");
                 }
-                Console.WriteLine("Voer de persoonlijke gegevens in:");
+                Console.WriteLine();
 
                 // Naam
-                surName = Loop("Voornaam", x => ValidateInput.IsAlpha(x, "'-"), "Ongeldige voornaam.");
-                lastName = Loop("Achternaam", x => ValidateInput.IsAlpha(x, " "), "Ongeldige achternaam.");
+                firstName = Loop("First name", x => ValidateInput.IsAlpha(x, "'-"), "Invalid first name");
+                lastName = Loop("Last name", x => ValidateInput.IsAlpha(x, "- "), "Invalid last name");
 
                 // Geslacht
-                sex = Loop("Geslacht(M/V)", x => ValidateInput.IsMatch(x, "MV"), "Ongeldige invoer. Voer uw geslacht in (M voor een man en V voor een vrouw).");
+                sex = Loop("Gender(M/F/X)", x => ValidateInput.IsMatch(x, "MFX"), "Invalid input. Enter your gender (M for male, F for female or X for neither).");
 
                 // Geboortedatum
-                birthDateString = Loop("Geboortedatum (DD-MM-JJJJ)", x => ValidateInput.ValidateDate(x), "Ongeldige geboortedatum. Voer een geldige geboortedatum in het juiste formaat (DD-MM-JJJJ).");
+                birthDateString = Loop("Date of Birth (DD-MM-YYYY)", x => ValidateInput.ValidateDate(x), "Invalid input. Please enter your date of birth in the correct format (DD-MM-YYYY).");
                 birthDate = Convert.ToDateTime(birthDateString);
 
                 //Adres
-                string street = Loop("Straatnaam", x => ValidateInput.IsAlpha(x, " "), "Ongeldige straatnaam. Een straatnaam bestaat uitsluitend uit letters.");
-                string housenumber = Loop("Huisnummer", x => ValidateInput.IsNumber(x), "Ongeldige huisnummer. Voer een geldig huisnummer in dat uitsluitend [0=9] bevat.");
-                string addition = Loop("Toevoeging(Druk op ENTER als dit niet van toepassing is)", x => ValidateInput.IsAlpha(x), "Voer een geldige huisnummer toevoeging in.");
-                string zipcode = Loop("Postcode(1234AB)", x => ValidateInput.ValidateZipCode(x), "Ongeldige postcode. Voer een geldige geboortedatum in het juiste formaat (1234AB).");
-                string city = Loop("Plaats", x => ValidateInput.IsAlpha(x), "Ongeldige plaats. Voer een geldige plaats in");
-                adress = $"{street} {housenumber} {addition} {zipcode} {city}";
+                Console.WriteLine("Street name: ");
+                string street = Console.ReadLine();
+                string housenumber = Loop("Housenumber", x => ValidateInput.IsNumber(x), "Invalid housenumber. Please enter a valid housenumber containing numbers only [0-9].");
+                string addition = Loop("Addition (Press ENTER if this does not apply)", x => ValidateInput.ValidateAddition(x), "Please enter a valid housenumber addition or press ENTER if this does not apply.");
+            
+                string zipcode = Loop("Zipcode(1234AB)", x => ValidateInput.ValidateZipCode(x), "Invalid zipcode. Please enter your zipcode in the correct format (1234AB).");
+                string city = Loop("City", x => ValidateInput.IsAlpha(x), "Invalid city. Please enter a valid city");
+                address = $"{street} {housenumber}{addition} {zipcode} {city}";
 
                 //Telefoonnummer
                 if (i == 0)
                 {
-                    phoneNumber = Loop("Telefoonnummer", x => ValidateInput.ValidatePhoneNumber(x), "Ongeldige Telefoonnummer. Voer een geldige telefoonnummer in.");
+                    phoneNumber = Loop("Phonenumber", x => ValidateInput.ValidatePhoneNumber(x), "Invalid phonenumber. Please enter a valid phonenumber starting with either 06 or +316 followed by 8 numbers.");
                 }
                 else
                 {
                     phoneNumber = "Empty";
                 }
-                passenger0 = new Passenger(surName, lastName, sex, birthDate, adress, phoneNumber);
+                passenger0 = new Passenger(firstName, lastName, sex, birthDate, address, phoneNumber);
 
 
             }
@@ -94,28 +95,28 @@
     // Print een overview van het formulier en vraagt de gebruiker of het klopt of dat hij/zij het opnieuw wil invullen
     public static bool Overview(Passenger passenger)
     {
-        Console.WriteLine("De gegevens: ");
-        Console.WriteLine("\n");
-        Console.WriteLine($"\nVoornaam: {passenger.Surname}");
-        Console.WriteLine($"Achternaam: {passenger.Lastname}");
-        Console.WriteLine($"Geslacht: {passenger.Sex}");
-        Console.WriteLine($"Geboortedatum: {passenger.BirthDate.ToString("dd-MM-yyyy")}");
-        Console.WriteLine($"Adres: {passenger.Adress}");
+        Console.WriteLine("Personal information: ");
+        Console.WriteLine("");
+        Console.WriteLine($"First Name: {passenger.FirstName}");
+        Console.WriteLine($"Last name: {passenger.LastName}");
+        Console.WriteLine($"Sex: {passenger.Sex}");
+        Console.WriteLine($"Date of Birth: {passenger.BirthDate.ToString("dd-MM-yyyy")}");
+        Console.WriteLine($"Address: {passenger.Address}");
         if (passenger.PhoneNumber != "Empty")
         {
-            Console.WriteLine($"Telefoonnummer: {passenger.PhoneNumber}");
+            Console.WriteLine($"Phonenumber: {passenger.PhoneNumber}");
         }
         Console.WriteLine("\n");
 
         string input;
-        Console.WriteLine("Kloppen deze gegevens? (J/N)");
+        Console.WriteLine("Is this information Correct (Y/N)?");
         input = Console.ReadLine();
-        while (ValidateInput.IsMatch(input, "JN") == false)
+        while (ValidateInput.IsMatch(input, "YN") == false)
         {
-            Console.WriteLine("Ongeldige invoer. Voer 'J' in als de gegevens kloppen en 'N' als de gegevens niet kloppen.");
+            Console.WriteLine("Invalid input. Please enter Y if the information is correct and N if the information is incorrect.");
             input = Console.ReadLine();
         }
-        if (input.ToUpper() == "J")
+        if (input.ToUpper() == "Y")
         {
             Console.WriteLine();
             Console.Write("Press ENTER to continue...");
