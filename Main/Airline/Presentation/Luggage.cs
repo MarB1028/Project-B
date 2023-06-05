@@ -17,6 +17,6 @@
         Console.WriteLine($"Extra hand luggage: \u20AC 25,- (Incl. BTW/VAT)\nCheck-in luggage: \u20AC 55,- per luggage (Incl. BTW/VAT)");
 
         GetLugage.tickets = tickets;
-        GetLugage.CostsAllLuggage();
+        GetLugage.CheckInHandLuggage();
     }
 }
