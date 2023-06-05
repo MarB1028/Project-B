@@ -148,91 +148,99 @@ class OverviewFlights
     }
     public void PrintSortedInformation(List<Flight> flights, string Destination) //Soufiane's code 
     {
-        Console.WriteLine("\nWould you like to sort?\n1.Yes\n2.No"); // ik heb hier alleen de string naar int veranderd (zo blijft het consistent)
-        int sortyesno = Convert.ToInt32(Console.ReadLine());
-        while (sortyesno != 1 && sortyesno != 2)
-        {
-            Console.WriteLine("Please enter 1 or 2");
-            sortyesno = Convert.ToInt32(Console.ReadLine());
-        }
-        if (sortyesno == 1)
-        {
-            Console.WriteLine("Sort by:\n1. Price\n2. Date\n3. Availability");
-            string sortchoice = Console.ReadLine();
-            while (sortchoice != "1" && sortchoice != "2" && sortchoice != "3")
-            {
-                Console.WriteLine("Please enter a valid choice");
-                sortchoice = Console.ReadLine();
-            }
-            if (sortchoice == "1") //prijs is nu overal 100
-            {
-                Console.WriteLine("How would you like to sort?\n1. Ascending\n2. Descending");
-                string sortorder = Console.ReadLine();
-                while (sortorder != "1" && sortorder != "2")
-                {
-                    Console.WriteLine("Please enter a valid choice");
-                    sortorder = Console.ReadLine();
-                }
-                if (sortorder == "1")
-                {
-                    flights = flights.OrderBy(f => f.MinPrice).ToList();
-                }
-                else if (sortorder == "2")
-                {
-                    flights = flights.OrderByDescending(f => f.MinPrice).ToList();
-                }
-            }
-            else if (sortchoice == "2")
-            {
-                Console.WriteLine("Enter a valid date");
-                string datesortstring = Console.ReadLine();
-                DateTime datesort;
-                while (!DateTime.TryParseExact(datesortstring, "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out datesort)) // date heb ik maar yyyy-MM-dd veranderd, zodat het als de list is.
-                {
-                    Console.WriteLine("Invalid date. Try again");
-                    datesortstring = Console.ReadLine();
-                }
+            int sortyesnoInt;
+            int sortchoiceInt;
+            int sortorderInt;
+            int sortorderPriceInt;
+            
 
-                flights = flights.Select(flight =>
+            Console.WriteLine("\nahahWould you like to sort?\n1.Yes\n2.No"); // ik heb hier alleen de string naar int veranderd (zo blijft het consistent)
+            string sortyesno = Console.ReadLine();
+            while (int.TryParse(sortyesno, out sortyesnoInt) == false && sortyesno != "1" && sortyesno != "2")
+            {
+                Console.WriteLine("Please enter 1 or 2.\nWould you like to sort?\n1.Yes\n2.No"); 
+                sortyesno = Console.ReadLine();
+            }
+            if (sortyesnoInt == 1)
+            {
+                Console.WriteLine("Sort by:\n1. Price\n2. Date\n3. Availability");
+                string sortchoice = Console.ReadLine();
+                while (int.TryParse(sortchoice, out sortchoiceInt) == false && sortyesno != "1" && sortyesno != "2" && sortyesno != "3")
                 {
-                    if (flight.BoardingDate < datesort)
+                    Console.WriteLine("Please enter a valid input.\nSort by:\n1. Price\n2. Date\n3. Availability");
+                    sortchoice = Console.ReadLine();
+                }
+            if (sortchoiceInt == 1) //prijs is nu overal 100
+                {
+                    Console.WriteLine("How would you like to sort?\n1. Ascending\n2. Descending");
+                    string sortorder = Console.ReadLine();
+                    while (int.TryParse(sortorder, out sortorderInt) == false && sortorder != "1" && sortorder != "2")
                     {
-                        flight.FlightNo = 0;
+                        Console.WriteLine("Please enter a valid input.\nHow would you like to sort?\n1. Ascending\n2. Descending");
+                        sortorder = Console.ReadLine();
                     }
-                    return flight;
-                }).ToList();
+                if (sortorderInt == 1)
+                    {
+                        flights = flights.OrderBy(f => f.MinPrice).ToList();
+                    }
+                    else if (sortorderInt == 2)
+                    {
+                        flights = flights.OrderByDescending(f => f.MinPrice).ToList();
+                    }
+                }
+                else if (sortchoiceInt == 2)
+                {
+                    Console.WriteLine("Enter a valid date");
+                    string datesortstring = Console.ReadLine();
+                    DateTime datesort;
+                    while (!DateTime.TryParseExact(datesortstring, "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out datesort)) // date heb ik maar yyyy-MM-dd veranderd, zodat het als de list is.
+                    {
+                        Console.WriteLine("Invalid date. Try again");
+                        datesortstring = Console.ReadLine();
+                    }
 
-                List<Flight> sortedlist = flights.Where(flight => flight.BoardingDate >= datesort).ToList();
-                if (sortedlist.Count == 0)
-                {
-                    Console.WriteLine("No flights available\n");
-                }
-                else
-                {
-                    flights = sortedlist;
-                }
-            }
-            else if (sortchoice == "3")
-            {
-                Console.WriteLine("How would you like to sort?\n1. Ascending\n2. Descending");
-                string sortorder = Console.ReadLine();
-                while (sortorder != "1" && sortorder != "2")
-                {
-                    Console.WriteLine("Please enter a valid choice");
-                    sortorder = Console.ReadLine();
-                }
+                    flights = flights.Select(flight =>
+                    {
+                        if (flight.BoardingDate < datesort)
+                        {
+                            flight.FlightNo = 0;
+                        }
+                        return flight;
+                    }).ToList();
 
-                if (sortorder == "1")
-                {
-                    flights = flights.OrderBy(f => f.TotalSeats).ToList();
+                    List<Flight> sortedlist = flights.Where(flight => flight.BoardingDate >= datesort).ToList();
+                    if (sortedlist.Count == 0)
+                    {
+                        Console.WriteLine("No flights available\n");
+                    }
+                    else
+                    {
+                        flights = sortedlist;
+                    }
                 }
-                else if (sortorder == "2")
+                else if (sortchoiceInt == 3)
                 {
-                    flights = flights.OrderByDescending(f => f.TotalSeats).ToList();
+                    Console.WriteLine("How would you like to sort?\n1. Ascending\n2. Descending");
+                    string sortorderPrice = Console.ReadLine();
+                    while (int.TryParse(sortorderPrice, out sortorderPriceInt) == false && sortorderPrice != "1" && sortorderPrice != "2")
+                    {
+                        Console.WriteLine("Invalid input. How would you like to sort?\n1. Ascending\n2. Descending");
+                        sortorderPrice = Console.ReadLine();
+                    }
+
+                    if (sortorderPriceInt == 1)
+                    {
+                        flights = flights.OrderBy(f => f.TotalSeats).ToList();
+                    }
+                    else if (sortorderPriceInt == 2)
+                    {
+                        flights = flights.OrderByDescending(f => f.TotalSeats).ToList();
+                    }
                 }
-            }
+            
             Console.Clear();
             // Display na het sorteren 
+            Console.WriteLine("Sorted Display:");
             Console.WriteLine($"{"Flight No",-12} {"Departure",-20} {"Destination",-19} {"Arrival",-20} {"Status",-12} {"Seats",-8}{"Price",-10}{"Operated by"}");
             Console.WriteLine(new string('-', 120)); // --- in between elke row ---
             int nummer = 1;
