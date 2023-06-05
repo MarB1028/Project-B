@@ -146,6 +146,7 @@ public static class CateringLogic
         }
         Console.WriteLine(basket);
 
+        CalculateTotalCost();
         Console.WriteLine($"\n[TOTAL PRICE: € {TotalPrice.ToString("F2")},-]");
         Console.WriteLine($"\n1: [CONTINUE PAYMENT]");
         Console.WriteLine($"2: [GO BACK]");
@@ -166,11 +167,14 @@ public static class CateringLogic
 
     public static void CalculateTotalCost()
     {
+        double tempPrice = 0;
         foreach (var item in basketItems)
         {
             double price = item.FoodItem.Price * item.Quantity;
-            TotalPrice += price;
+            tempPrice += price;
         }
+
+        TotalPrice = tempPrice;
     }
 
     // OBJECT FOOD VINDEN, OM CHECKS TE DOEN
