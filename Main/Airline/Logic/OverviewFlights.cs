@@ -282,13 +282,21 @@ class OverviewFlights
 
     public void ChooseFlight(List<Flight> flights, string destination)
     {
+        int bookedInt;
+        int FalseLoginInt;
+        int selectedFlightNoInt;
         Console.WriteLine("Would you like to book a flight?\n1.Yes\n2.No"); // vraag of de user een vlucht wilt selectreren?
-        int booked = Convert.ToInt32(Console.ReadLine());
+        string booked = Console.ReadLine();
+        while (int.TryParse(booked, out bookedInt) == false && booked != "1" && booked != "2")
+            {
+                Console.WriteLine("Invalid input. Would you like to book a flight?\n1.Yes\n2.No");
+                booked = Console.ReadLine();
+            }
         bool x = true;
         while (x)
         {
             var flToDestination = flights.Where(f => f.Destination.DisplayNo == destination).OrderBy(f => f.BoardingDate); //Original json lijst
-            if (booked == 1) // ja?
+            if (bookedInt == 1) // ja?
             {
                 //Wanneer user niet is ingelogd -> message en naar main page sturen
                 while (CheckLogin() == false)
@@ -296,8 +304,14 @@ class OverviewFlights
                     Console.WriteLine();
                     Console.WriteLine($"You are not logged in.\nPlease register or login to book a flight");
                     Console.WriteLine("Press 0 to go back");
-                    int FalseLogin = Convert.ToInt32(Console.ReadLine());
-                    if (FalseLogin == 0)
+                    string FalseLogin = Console.ReadLine();
+                    while (int.TryParse(FalseLogin, out FalseLoginInt) == false && FalseLogin != "0")
+                    {
+                        Console.WriteLine($"You are not logged in.\nPlease register or login to book a flight");
+                        Console.WriteLine("Press 0 to go back");
+                        FalseLogin = Console.ReadLine();
+                    }
+                    if (FalseLoginInt == 0)
                     {
                         foreach (var fl in flToDestination)
                         {
@@ -317,11 +331,17 @@ class OverviewFlights
                     }
                 }
                 Console.WriteLine("Please enter the number of flight you would like to book."); // welke vlucht?
-                int selectedFlightNo = Convert.ToInt32(Console.ReadLine());
+                string selectedFlightNo = Console.ReadLine();
+                while (int.TryParse(selectedFlightNo, out selectedFlightNoInt) == false)
+                {
+                    Console.WriteLine("Invalid input. Please enter the number of flight you would like to book.");
+                    booked = Console.ReadLine();
+                }
 
-                Flight selectedFlight = flights.FirstOrDefault(fl => fl.FlightNo == selectedFlightNo); // zoekt naar de geselecteerde vlucht
 
-                if (selectedFlightNo == 0) // als user 0 enter, dan word je naar de main page gestuurd
+                Flight selectedFlight = flights.FirstOrDefault(fl => fl.FlightNo == selectedFlightNoInt); // zoekt naar de geselecteerde vlucht
+
+                if (selectedFlightNoInt == 0) // als user 0 enter, dan word je naar de main page gestuurd
                 {
                     // FlightNo resetten naar 0
                     foreach (var fl in flToDestination)
@@ -348,20 +368,20 @@ class OverviewFlights
                         
                         //Hier print je de volgende flight uit
                         
-                        while (selectedFlightNo < flToDestination.Count()) 
+                        while (selectedFlightNoInt < flToDestination.Count()) 
                         {
                            
                             foreach (Flight flight in flights) 
                             {
-                                if (flight.FlightNo == selectedFlightNo+1) 
+                                if (flight.FlightNo == selectedFlightNoInt+1) 
                                 {
                                     if (flight.Destination.Status == "Full") 
                                     {
-                                        selectedFlightNo++;
+                                        selectedFlightNoInt++;
                                     }
                                     else 
                                     {
-                                        Flight nextFlight = flights.FirstOrDefault(fl => fl.FlightNo == selectedFlightNo+1);
+                                        Flight nextFlight = flights.FirstOrDefault(fl => fl.FlightNo == selectedFlightNoInt+1);
                                         Console.WriteLine("The next flight to this destination will be:");
                                         Console.WriteLine($"{"Flight No",-12} {"Departure",-20} {"Destination",-19} {"Arrival",-20} {"Status",-12} {"Seats",-8}{"Price",-10}{"Operated by"}");
                                         Console.WriteLine(new string('-', 120)); //--- in between elke row ---
@@ -398,7 +418,7 @@ class OverviewFlights
                                 }
                             }
                         }
-                        if (selectedFlightNo >= flToDestination.Count())
+                        if (selectedFlightNoInt >= flToDestination.Count())
                             {
                                 Console.WriteLine("There are no other flights available in the near future.");
                                 Console.WriteLine("Please, come back soon to check for new flights.\n");
@@ -436,7 +456,7 @@ class OverviewFlights
                     Console.WriteLine("Invalid flight number. Please try again or enter 0 to go back.");
                 }
             }
-            else if (booked == 2) // user wilt niet flight booken
+            else if (bookedInt == 2) // user wilt niet flight booken
             {
                 // FlightNo resetten naar 0
                 foreach (var fl in flToDestination)
@@ -448,11 +468,6 @@ class OverviewFlights
                 Console.Clear();
                 Menu.StartScreen();
                 x = false;
-            }
-            else // als user een ander getal toets
-            {
-                Console.WriteLine("Please enter 1 or 2");
-                booked = Convert.ToInt32(Console.ReadLine());
             }
         }
     }
