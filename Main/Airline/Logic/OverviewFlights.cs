@@ -241,9 +241,7 @@ class OverviewFlights
                 if (fl.Destination.DisplayNo == Destination)
                 {
                     fl.FlightNo = nummer++; //FlightNo updaten 
-                    Console.Write($"{fl.FlightNo,-12} {fl.BoardingDate.ToString("yyyy-MM-dd HH:mm"),-20} {fl.Destination.City} {fl.Destination.Abbreviation,-8} {fl.EstimatedArrival.ToString("yyyy-MM-dd HH:mm"),-19} ");
-
-                    // Print the status message in red if the flight is full or departed
+                    Console.Write($"{fl.FlightNo,-12} {fl.BoardingDate.ToString("yyyy-MM-dd HH:mm"),-20} {fl.Destination.City} {fl.Destination.Abbreviation,-8} {fl.EstimatedArrival.ToString("yyyy-MM-dd HH:mm"),-19} ");                    // Print the status message in red if the flight is full or departed
                     if (fl.Destination.Status == "Full" || fl.Destination.Status == "Departed")
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
@@ -256,18 +254,13 @@ class OverviewFlights
                     }
 
                     Console.Write($" {fl.TotalSeats,-6}  €{fl.MinPrice},-{fl.Airplane.Name,13}");
-                    Console.WriteLine(new string('-', 120)); // --- in between elke row --- 
-                }
-                else
-                {
-                    Console.Write($"{fl.Destination.Status,-15}");
+                    Console.WriteLine(new string('-', 120)); // --- in between elke row ---
+
                 }
 
-                Console.Write($" {fl.TotalSeats,-6}  €{fl.MinPrice},-{fl.Airplane.Name,13}");
             }
-            Console.WriteLine(new string('-', 120)); // --- in between elke row --- 
+         ChooseFlight(flights, Destination);
         }
-        ChooseFlight(flights, Destination);
     }
 
 
