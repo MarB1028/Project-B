@@ -63,11 +63,13 @@ public static class GetLugage
                 if (luggage == 0)
                 {
                     CostsAllLuggage(amountOfHandLuggage, luggage);
+                    x = false;
                 }
                 else if (luggage <= (amountOfTickets * 2))
                 {
                     amountOfLuggage += luggage;
                     CostsAllLuggage(amountOfHandLuggage, amountOfLuggage);
+                    x = false;
                 }
                 else if (luggage > (amountOfTickets * 2))
                 {
