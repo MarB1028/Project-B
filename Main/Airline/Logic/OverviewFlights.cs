@@ -266,11 +266,8 @@ class OverviewFlights
                 Console.Write($" {fl.TotalSeats,-6}  €{fl.MinPrice},-{fl.Airplane.Name,13}");
             }
             Console.WriteLine(new string('-', 120)); // --- in between elke row --- 
-            }
-            ChooseFlight(flights, Destination);
-
         }
-        ChooseFlight(flights, Destination);
+            ChooseFlight(flights, Destination);
     }
 
 
