@@ -65,13 +65,13 @@ public static class GetLugage
             {
                 if (luggage == 0)
                 {
-                    CostsAllLuggage(amountOfHandLuggage, luggage);
+                    ConfirmPrice();
                     x = false;
                 }
                 else if (luggage <= (amountOfTickets * 2))
                 {
                     amountOfLuggage += luggage;
-                    CostsAllLuggage(amountOfHandLuggage, amountOfLuggage);
+                    ConfirmPrice();
                     x = false;
                 }
                 else if (luggage > (amountOfTickets * 2))
@@ -108,26 +108,12 @@ public static class GetLugage
         }
 
         TotalCost = totalCost;
-        Flight flight = null;
-        foreach (BookTicket ticket in tickets)
-        {
-            flight = ticket.Ticket.Flight;
-            //Account.BoughtTickets.Add(ticket);
-        }
-
-
-        ConfirmPrice();
-
-        Console.WriteLine();
-        Console.Write("Press ENTER to continue...");
-        Console.ReadLine();
-        Console.Clear();
-
-        CateringForm.Catering(flight, tickets);
     }
 
     public static void ConfirmPrice()
     {
+        CostsAllLuggage(amountOfHandLuggage, amountOfLuggage);
+
         Console.WriteLine();
         Console.WriteLine(" ---------------------------");
         Console.WriteLine($"{amountOfHandLuggage}x  | Hand Luggage |  € {price1},-");
@@ -145,7 +131,7 @@ public static class GetLugage
 
             if (confirm == "Y")
             {
-                break;
+                y = false;
             }
             else if (confirm == "N")
             {
@@ -158,5 +144,18 @@ public static class GetLugage
                 Console.WriteLine("Invalid input");
             }
         }
+
+        Flight flight = null;
+        foreach (BookTicket ticket in tickets)
+        {
+            flight = ticket.Ticket.Flight;
+        }
+
+        Console.WriteLine();
+        Console.Write("Press ENTER to continue...");
+        Console.ReadLine();
+        Console.Clear();
+
+        CateringForm.Catering(flight, tickets);
     }
 }
