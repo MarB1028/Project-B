@@ -29,19 +29,19 @@ namespace MSTest
         }
 
         [TestMethod]
-        public void Check_CalculateLuggagePrice(int handLuggage, int luggage, double expectedTotalCost)
+        public void Check_CalculateLuggagePrice()
         {
             GetLugage.tickets = new List<BookTicket>()
         {
             new BookTicket(new Ticket(new Passenger(null, null, null, DateTime.Now, null, null), null, new Seat(null, null, 100), null))
         };
 
-            GetLugage.amountOfHandLuggage = handLuggage;
-            GetLugage.amountOfLuggage = luggage;
+            GetLugage.amountOfHandLuggage = 1;
+            GetLugage.amountOfLuggage = 2;
 
-            GetLugage.CostsAllLuggage();
+            GetLugage.CostsAllLuggage(GetLugage.amountOfHandLuggage, GetLugage.amountOfLuggage);
 
-            Assert.AreEqual(expectedTotalCost, GetLugage.TotalCost);
+            Assert.AreEqual(GetLugage.TotalCost, 110);
         }
 
         [TestMethod]
