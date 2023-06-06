@@ -66,7 +66,8 @@ static class CancelTickets
             Menu.StartScreen();
         }
         else if (ans == "N") {
-            Canceltickets();
+            Console.WriteLine("You have been sent back to the menu.");
+            Menu.StartScreen();
         }
         else {
             Console.WriteLine("Please enter Y or N.");
