@@ -1,0 +1,4490 @@
+[
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 307,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-1",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 308,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-2",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 309,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-3",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 310,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-4",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 311,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-5",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 312,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-6",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 313,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-7",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 314,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-8",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 315,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-9",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 316,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-10",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 317,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-11",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 318,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-12",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 319,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-13",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 320,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-14",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 321,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-15",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 322,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-16",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 323,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-17",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 324,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-18",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 325,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-19",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 326,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-20",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 327,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-21",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 328,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-22",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 329,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-23",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 330,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-24",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 331,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-25",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 332,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-26",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 333,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-27",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 334,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-28",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 335,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-29",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 336,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-30",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 337,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-31",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 338,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-32",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 339,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-33",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 340,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-34",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 341,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-35",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 342,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-36",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 343,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-37",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 344,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-38",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 345,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-39",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 346,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-40",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 347,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-41",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 348,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-42",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 349,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-43",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 350,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-44",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 351,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-45",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 352,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-46",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 353,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-47",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 354,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-48",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 355,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-49",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 356,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-50",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 357,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-51",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 358,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-52",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 359,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-53",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 360,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-54",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 361,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-55",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 362,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-56",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 363,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-57",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 364,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-58",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 365,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-59",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 366,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-60",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 367,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-61",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 368,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-62",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 369,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-63",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 370,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-64",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 371,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-65",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 372,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-66",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 373,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-67",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 374,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-68",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 375,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-69",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 376,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-70",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 377,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-71",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 378,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-72",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 379,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-73",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 380,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-74",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 381,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-75",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 382,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-76",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 383,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-77",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 384,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-78",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 385,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-79",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 386,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-80",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 387,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-81",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 388,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-82",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 389,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-83",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 390,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-84",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 391,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-85",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 392,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-86",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 393,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-87",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 394,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-88",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 395,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-89",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 396,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-90",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 397,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-91",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 398,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-92",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 399,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-93",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 400,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-94",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 401,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-95",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 402,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-96",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 403,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-97",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 404,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-98",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 405,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-99",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 406,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-100",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 407,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-101",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 408,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "UK15",
+        "DayOrNight": "Day",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-08-13T00:09:55.5730141+02:00",
+        "EstimatedArrival": "2023-08-13T06:09:55.5730141+02:00",
+        "Destination": {
+          "DisplayNo": "4.2",
+          "Country": "UNITED KINGDOM",
+          "City": "MANCHESTER",
+          "Abbreviation": "(MAN)",
+          "Airport": "MANCHESTER AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 6,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-102",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  }
+]
