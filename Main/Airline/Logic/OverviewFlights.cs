@@ -32,6 +32,7 @@ class OverviewFlights
         // voor elke vlucht in de lijst flights
         foreach (var flight in flights)
         {
+            MakeTicketsForFlightJson.MakeTickets(flight);
             // een ranodm dag wordt added aan de boarding en arrivaldate als de boardingdate expired is
             if (Today > flight.BoardingDate)
             {
@@ -69,7 +70,7 @@ class OverviewFlights
                 flight.EstimatedArrival = estimatedArrivalDateTime;
             }
 
-            if (flight.TotalSeats == 0)
+            if (DataTickets.AvailableSeats(flight) == 0)
             {
                 flight.Destination.Status = "Full";
             }
@@ -122,6 +123,7 @@ class OverviewFlights
         int nummer = 1;
         foreach (var fl in flightsToDestination)
         {
+            
             if (fl.Destination.DisplayNo == endDestination)
             {
                 fl.FlightNo = nummer++; //FlightNo updaten 
@@ -139,13 +141,14 @@ class OverviewFlights
                     Console.Write($"{fl.Destination.Status,-15}");
                 }
 
-                Console.Write($" {fl.TotalSeats,-6}  €{fl.MinPrice},-{fl.Airplane.Name,13}");
+                Console.Write($" {DataTickets.AvailableSeats(fl),-6}  €{fl.MinPrice},-{fl.Airplane.Name,13}");
             }
             Console.WriteLine(new string('-', 120)); // --- in between elke row --- 
             DataFlights.WriteDateToJson(flights);
         }
         PrintSortedInformation(flights, endDestination);
     }
+
     public void PrintSortedInformation(List<Flight> flights, string Destination) //Soufiane's code 
     {
         int sortyesno;
@@ -197,7 +200,7 @@ class OverviewFlights
             }
             else if (sortchoice == 2)
             {
-                Console.WriteLine("Enter a valid date");
+                Console.WriteLine("Enter a valid date (yyyy-MM-dd)");
                 string datesortstring = Console.ReadLine();
                 DateTime datesort;
                 while (!DateTime.TryParseExact(datesortstring, "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out datesort)) // date heb ik maar yyyy-MM-dd veranderd, zodat het als de list is.
@@ -238,11 +241,11 @@ class OverviewFlights
 
                 if (sortorder == 1)
                 {
-                    flights = flights.OrderBy(f => f.TotalSeats).ToList();
+                    flights = flights.OrderBy(f => DataTickets.AvailableSeats(f)).ToList();
                 }
                 else if (sortorder == 2)
                 {
-                    flights = flights.OrderByDescending(f => f.TotalSeats).ToList();
+                    flights = flights.OrderByDescending(f => DataTickets.AvailableSeats(f)).ToList();
                 }
             }
             Console.Clear();
@@ -268,14 +271,14 @@ class OverviewFlights
                         Console.Write($"{fl.Destination.Status,-15}");
                     }
 
-                    Console.Write($" {fl.TotalSeats,-6}  €{fl.MinPrice},-{fl.Airplane.Name,13}");
+                    Console.Write($" {DataTickets.AvailableSeats(fl),-6}  €{fl.MinPrice},-{fl.Airplane.Name,13}");
                     Console.WriteLine(new string('-', 120)); // --- in between elke row ---
 
                 }
 
             }
-         ChooseFlight(flights, Destination);
         }
+        ChooseFlight(flights, Destination);
     }
 
 
@@ -387,7 +390,7 @@ class OverviewFlights
                            
                                         Console.Write($"{nextFlight.Destination.Status,-15}");
 
-                                        Console.Write($" {nextFlight.TotalSeats,-6}  €{nextFlight.MinPrice},-{nextFlight.Airplane.Name,13}\n");
+                                        Console.Write($" {DataTickets.AvailableSeats(nextFlight),-6}  €{nextFlight.MinPrice},-{nextFlight.Airplane.Name,13}\n");
 
                                         //hier wordt gevraagd of je de volgende vlucht wilt boeken, 
                                         //zo niet wordt je terug gestuurd naar het begin van vlucht boeken
@@ -441,7 +444,7 @@ class OverviewFlights
                         }
                         DataFlights.WriteDateToJson(flights);
                         //hier de volgende stap aanroepen
-                        MakeTicketsForFlightJson.MakeTickets(selectedFlight); // hier maakt het een "ticket" aan
+                        // MakeTicketsForFlightJson.MakeTickets(selectedFlight); // hier maakt het een "ticket" aan
                         Console.Clear();
                         CheckSeatAvailability checkSeatAvailability = new CheckSeatAvailability(selectedFlight); //volgende stap wordt aangeroepen
                         checkSeatAvailability.AvailableSeats();

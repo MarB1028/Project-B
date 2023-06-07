@@ -3,7 +3,7 @@ static class DataTickets
 {   
     public static List<BookTicket> ReadTicketsFromJson(Flight flight)
     {
-        string pathfile = $"{GetPathFile.ReturnPathFile()}\\{flight.Airplane.Name};{flight.FlightId};{flight.Destination.City}.json";
+        string pathfile = $"{GetPathFile.ReturnPathFile()}\\Flights\\{flight.Airplane.Name};{flight.FlightId};{flight.Destination.City}.json";
 
         if (!File.Exists(pathfile))
         {
@@ -28,7 +28,18 @@ static class DataTickets
             }
         }
         string UpdateJSON = JsonConvert.SerializeObject(DataFlightTickets, Formatting.Indented);
-        string pathfile = $"{GetPathFile.ReturnPathFile()}\\{flight.Airplane.Name};{flight.FlightId};{flight.Destination.City}.json";
+        string pathfile = $"{GetPathFile.ReturnPathFile()}\\Flights\\{flight.Airplane.Name};{flight.FlightId};{flight.Destination.City}.json";
         File.WriteAllText(pathfile, UpdateJSON);
+    }
+
+    public static int AvailableSeats(Flight flight) {
+        int count = 0;
+        List<BookTicket> tickets = ReadTicketsFromJson(flight);
+        foreach (BookTicket ticket in tickets) {
+            if (ticket.Booked == false) {
+                count++;
+            }
+        }
+        return count;
     }
 }

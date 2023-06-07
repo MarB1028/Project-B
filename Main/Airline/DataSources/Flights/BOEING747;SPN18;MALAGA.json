@@ -1,0 +1,4490 @@
+[
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 103,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-1",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 104,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-2",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 105,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-3",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 106,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-4",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 107,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-5",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 108,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-6",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 109,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-7",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 110,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-8",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 111,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-9",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 112,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-10",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 113,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-11",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 114,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-12",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 115,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-13",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 116,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-14",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 117,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-15",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 118,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-16",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 119,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-17",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 120,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-18",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 121,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-19",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 122,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-20",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 123,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-21",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 124,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-22",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 125,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-23",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 126,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-24",
+        "SeatType": "First-Class",
+        "Price": 600.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 127,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-25",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 128,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-26",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 129,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-27",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 130,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-28",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 131,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-29",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 132,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-30",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 133,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-31",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 134,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-32",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 135,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-33",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 136,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-34",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 137,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-35",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 138,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-36",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 139,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-37",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 140,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-38",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 141,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-39",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 142,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-40",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 143,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-41",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 144,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-42",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 145,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-43",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 146,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-44",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 147,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-45",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 148,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-46",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 149,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-47",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 150,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-48",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 151,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-49",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 152,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-50",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 153,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-51",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 154,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-52",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 155,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-53",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 156,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-54",
+        "SeatType": "Premium-Class",
+        "Price": 300.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 157,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-55",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 158,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-56",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 159,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-57",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 160,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-58",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 161,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-59",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 162,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-60",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 163,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-61",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 164,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-62",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 165,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-63",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 166,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-64",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 167,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-65",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 168,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-66",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 169,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-67",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 170,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-68",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 171,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-69",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 172,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-70",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 173,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-71",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 174,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-72",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 175,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-73",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 176,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-74",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 177,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-75",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 178,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-76",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 179,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-77",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 180,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-78",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 181,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-79",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 182,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-80",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 183,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-81",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 184,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-82",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 185,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-83",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 186,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-84",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 187,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-85",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 188,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-86",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 189,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-87",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 190,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-88",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 191,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-89",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 192,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-90",
+        "SeatType": "Economy-Class",
+        "Price": 100.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 193,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-91",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 194,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-92",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 195,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-93",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 196,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-94",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 197,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-95",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 198,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-96",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 199,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-97",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 200,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-98",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 201,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-99",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 202,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-100",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 203,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-101",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  },
+  {
+    "Booked": false,
+    "PaymentDone": false,
+    "TicketID": 204,
+    "Ticket": {
+      "Passenger": null,
+      "Flight": {
+        "FlightNo": 0,
+        "FlightId": "SPN18",
+        "DayOrNight": "Night",
+        "Airplane": {
+          "Name": "BOEING747",
+          "Carrierid": "BO",
+          "AirplaneId": 1,
+          "FirstClassSeat": 4,
+          "PremiumSeat": 5,
+          "EconomySeat": 6,
+          "ExtraSpace": 2
+        },
+        "BoardingDate": "2023-06-08T20:57:00+02:00",
+        "EstimatedArrival": "2023-06-08T23:57:00+02:00",
+        "Destination": {
+          "DisplayNo": "2.2",
+          "Country": "SPAIN",
+          "City": "MALAGA",
+          "Abbreviation": "(AGP)",
+          "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+          "Distancekm": 100,
+          "FlightDuration": 3,
+          "Status": "On schedule"
+        },
+        "BasePrice": 100.0,
+        "MinPrice": 100.0,
+        "IsDeal": false,
+        "TotalSeats": 102
+      },
+      "Seat": {
+        "SeatNumber": "BO-102",
+        "SeatType": "ExtraSpace-Class",
+        "Price": 175.0
+      },
+      "Gate": "Empty"
+    }
+  }
+]

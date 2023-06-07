@@ -1,7 +1,7 @@
 using Newtonsoft.Json;
 static class DataFlights
 {
-    private static string pathfile = $"{GetPathFile.ReturnPathFile()}\\ALLFLIGHTS;EUROPE.json";
+    private static string pathfile = $"{GetPathFile.ReturnPathFile()}\\Flights\\ALLFLIGHTS;EUROPE.json";
     public static List<Flight> ReadFlightsFromJson()
     {        
         if (!File.Exists(pathfile))
@@ -43,4 +43,6 @@ static class DataFlights
             streamWriter.Write(json);
         }
     }
+
+    
 }
