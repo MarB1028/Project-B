@@ -3,6 +3,7 @@ static class CancelTickets
     public static Account Account = null;
     public static List<BookTicket> futuretickets = new List<BookTicket>();
     public static void Canceltickets() {
+        int ans;
         if (CheckLogin() == false) {
             Console.WriteLine("You are not logged in yet, go back!");
             Menu.StartScreen();
@@ -17,7 +18,13 @@ static class CancelTickets
             Console.WriteLine("Enter the ticket ID of the ticket you want to cancel");
             Console.WriteLine("!WARNING! You won't get your money back from canceling a ticket! \nInstead, you will receive a voucher.");
             //TODO: Er moet nog een voucher gegenereerd worden bij het cancelen van een ticket
-            int ans = Convert.ToInt32(Console.ReadLine());
+            string ans0 = Console.ReadLine();
+            while (int.TryParse(ans0, out ans) == false)
+            {
+                Console.WriteLine("Please enter a valid input.");
+                Console.WriteLine("Enter the ticket ID of the ticket you want to cancel");
+                ans0 = Console.ReadLine();
+            }
 
             foreach (BookTicket bookticket in futuretickets) {
                 if (ans == bookticket.TicketID) {

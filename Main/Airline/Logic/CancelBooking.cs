@@ -3,12 +3,21 @@
 
     public static void BookingCancel(List<BookTicket> tickets)
     {
+        int cancellation;
+
         bool x = true;
         while (x)
         {
             Console.WriteLine("Are you sure you would like to cancel the booking?");
             Console.WriteLine("1. Yes\n2. No");
-            int cancellation = Convert.ToInt32(Console.ReadLine());
+            string cancellation0 = Console.ReadLine();
+            while (int.TryParse(cancellation0, out cancellation) == false && cancellation0 != "1" && cancellation0 != "2")
+            {
+                Console.WriteLine("Please enter a valid input.");
+                Console.WriteLine("Are you sure you would like to cancel the booking?");
+                Console.WriteLine("1. Yes\n2. No");
+                cancellation0 = Console.ReadLine();
+            }
 
             if (cancellation == 1)
             {
@@ -28,11 +37,6 @@
                 Console.WriteLine("You are being redirected back to the last step");
                 ConfirmTicketInformation.PaymentScreen();
                 break;
-            }
-            else
-            {
-                Console.WriteLine("Please insert 1 or 2.");
-                cancellation = Convert.ToInt32(Console.ReadLine());
             }
         }
     }

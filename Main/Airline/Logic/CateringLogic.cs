@@ -33,31 +33,27 @@ public static class CateringLogic
     // DE FUNCTIE OM ETEN TE KIEZEN MET DE GEGEVEN ID
     public static void FoodSelect(Flight flight, List<BookTicket> ticket)
     {
+        int foodid;
+        int amount;
+
         Console.Clear();
         CateringShowMenu(flight);
         Console.WriteLine("\nPlease type number of the food you want");
         Console.Write(": ");
-        int foodid = Convert.ToInt32(Console.ReadLine());
-
-        if (FindFood(foodid, flight) == null)
+        string foodid0 = Console.ReadLine();
+        while (int.TryParse(foodid0, out foodid) == false || FindFood(foodid, flight) == null)
         {
-            do
-            {
-                Console.WriteLine($"Item was not found in menu, please choose again");
-                Console.WriteLine("Please select a new type of food again");
-                Console.Write(": ");
-                foodid = Convert.ToInt32(Console.ReadLine());
-
-                if (FindFood(foodid, flight) != null)
-                {
-                    break;
-                }
-            }
-            while (true);
+            Console.WriteLine($"Item was not found in menu, please choose again");
+            Console.WriteLine("Please select a new type of food again");
+            Console.Write(": ");
         }
 
         Console.Write("\nAmount: ");
-        int amount = Convert.ToInt32(Console.ReadLine());
+        string amount0 = Console.ReadLine();
+        while (int.TryParse(amount0, out amount) == false)
+        {
+            Console.WriteLine("Please enter a valid input");
+        }
 
         foreach (BasketItem i in basketItems)
         {

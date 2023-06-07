@@ -1,4 +1,4 @@
-﻿using ConsoleTables;
+using ConsoleTables;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -148,41 +148,54 @@ class OverviewFlights
     }
     public void PrintSortedInformation(List<Flight> flights, string Destination) //Soufiane's code 
     {
+        int sortyesno;
+        int sortchoice;
+        int sortorderprice;
+        int sortorder;
+
+        
         Console.WriteLine("\nWould you like to sort?\n1.Yes\n2.No"); // ik heb hier alleen de string naar int veranderd (zo blijft het consistent)
-        int sortyesno = Convert.ToInt32(Console.ReadLine());
-        while (sortyesno != 1 && sortyesno != 2)
+        string sortyesno0 = Console.ReadLine();
+        while (int.TryParse(sortyesno0, out sortyesno) == false || (sortyesno0 != "1" && sortyesno0 != "2"))
+            {
+                Console.WriteLine("Please enter a valid input.");
+                Console.WriteLine("Would you like to sort?\n1.Yes\n2.No"); 
+                sortyesno0 = Console.ReadLine();
+            }
+        if (sortyesno == 2)
         {
-            Console.WriteLine("Please enter 1 or 2");
-            sortyesno = Convert.ToInt32(Console.ReadLine());
+            ChooseFlight(flights, Destination);
         }
-        if (sortyesno == 1)
+        else if (sortyesno == 1)
         {
             Console.WriteLine("Sort by:\n1. Price\n2. Date\n3. Availability");
-            string sortchoice = Console.ReadLine();
-            while (sortchoice != "1" && sortchoice != "2" && sortchoice != "3")
+            string sortchoice0 = Console.ReadLine();
+            while (int.TryParse(sortchoice0, out sortchoice) == false || (sortchoice0 != "1" && sortchoice0 != "2" && sortchoice0 != "3"))
             {
-                Console.WriteLine("Please enter a valid choice");
-                sortchoice = Console.ReadLine();
+                Console.WriteLine("Please enter a valid input");
+                Console.WriteLine("Sort by:\n1. Price\n2. Date\n3. Availability");
+                sortchoice0 = Console.ReadLine();
             }
-            if (sortchoice == "1") //prijs is nu overal 100
+            if (sortchoice == 1)
             {
                 Console.WriteLine("How would you like to sort?\n1. Ascending\n2. Descending");
-                string sortorder = Console.ReadLine();
-                while (sortorder != "1" && sortorder != "2")
+                string sortorderprice0 = Console.ReadLine();
+                while (int.TryParse(sortorderprice0, out sortorderprice) == false || (sortorderprice0 != "1" && sortorderprice0 != "2"))
                 {
-                    Console.WriteLine("Please enter a valid choice");
-                    sortorder = Console.ReadLine();
+                    Console.WriteLine("Please enter a valid input");
+                    Console.WriteLine("How would you like to sort?\n1. Ascending\n2. Descending");
+                    sortorderprice0 = Console.ReadLine();
                 }
-                if (sortorder == "1")
+                if (sortorderprice == 1)
                 {
                     flights = flights.OrderBy(f => f.MinPrice).ToList();
                 }
-                else if (sortorder == "2")
+                else if (sortorderprice == 2)
                 {
                     flights = flights.OrderByDescending(f => f.MinPrice).ToList();
                 }
             }
-            else if (sortchoice == "2")
+            else if (sortchoice == 2)
             {
                 Console.WriteLine("Enter a valid date");
                 string datesortstring = Console.ReadLine();
@@ -212,27 +225,29 @@ class OverviewFlights
                     flights = sortedlist;
                 }
             }
-            else if (sortchoice == "3")
+            else if (sortchoice == 3)
             {
                 Console.WriteLine("How would you like to sort?\n1. Ascending\n2. Descending");
-                string sortorder = Console.ReadLine();
-                while (sortorder != "1" && sortorder != "2")
+                string sortorder0 = Console.ReadLine();
+                while (int.TryParse(sortorder0, out sortorder) == false || (sortorder0 != "1" && sortorder0 != "2"))
                 {
-                    Console.WriteLine("Please enter a valid choice");
-                    sortorder = Console.ReadLine();
+                    Console.WriteLine("Please enter a valid input");
+                    Console.WriteLine("How would you like to sort?\n1. Ascending\n2. Descending");
+                    sortorder0 = Console.ReadLine();
                 }
 
-                if (sortorder == "1")
+                if (sortorder == 1)
                 {
                     flights = flights.OrderBy(f => f.TotalSeats).ToList();
                 }
-                else if (sortorder == "2")
+                else if (sortorder == 2)
                 {
                     flights = flights.OrderByDescending(f => f.TotalSeats).ToList();
                 }
             }
             Console.Clear();
             // Display na het sorteren 
+            Console.WriteLine("\nFlight Departures (sorted)\n");
             Console.WriteLine($"{"Flight No",-12} {"Departure",-20} {"Destination",-19} {"Arrival",-20} {"Status",-12} {"Seats",-8}{"Price",-10}{"Operated by"}");
             Console.WriteLine(new string('-', 120)); // --- in between elke row ---
             int nummer = 1;
@@ -267,8 +282,18 @@ class OverviewFlights
 
     public void ChooseFlight(List<Flight> flights, string destination)
     {
+        int booked;
+        int selectedFlightNo;
+        int FalseLogin;
+
         Console.WriteLine("Would you like to book a flight?\n1.Yes\n2.No"); // vraag of de user een vlucht wilt selectreren?
-        int booked = Convert.ToInt32(Console.ReadLine());
+        string booked0 = Console.ReadLine();
+        while (int.TryParse(booked0, out booked) == false || (booked0 != "1" && booked0 != "2"))
+        {
+            Console.WriteLine("Please enter a valid input");
+            Console.WriteLine("Would you like to book a flight?\n1.Yes\n2.No");
+            booked0 = Console.ReadLine();
+        }
         bool x = true;
         while (x)
         {
@@ -281,7 +306,12 @@ class OverviewFlights
                     Console.WriteLine();
                     Console.WriteLine($"You are not logged in.\nPlease register or login to book a flight");
                     Console.WriteLine("Press 0 to go back");
-                    int FalseLogin = Convert.ToInt32(Console.ReadLine());
+                    string FalseLogin0 = Console.ReadLine();
+                    while (int.TryParse(FalseLogin0, out FalseLogin) == false || (FalseLogin0 != "0"))
+                    {
+                        Console.WriteLine("Please press 0");
+                        FalseLogin0 = Console.ReadLine();
+                    }
                     if (FalseLogin == 0)
                     {
                         foreach (var fl in flToDestination)
@@ -296,13 +326,16 @@ class OverviewFlights
                         Menu.StartScreen();
                         x = false;
                     }
-                    else // als uder toch besluit om grappig te zijn en een ander int te geven
-                    {
-                        Console.WriteLine("Please press 0");
-                    }
                 }
                 Console.WriteLine("Please enter the number of flight you would like to book."); // welke vlucht?
-                int selectedFlightNo = Convert.ToInt32(Console.ReadLine());
+                string selectedFlightNo0 = Console.ReadLine();
+                while (int.TryParse(selectedFlightNo0, out selectedFlightNo) == false)
+                {
+                    Console.WriteLine("Please enter a valid input");
+                    Console.WriteLine("Please enter the number of flight you would like to book.");
+                    selectedFlightNo0 = Console.ReadLine();
+                }
+
 
                 Flight selectedFlight = flights.FirstOrDefault(fl => fl.FlightNo == selectedFlightNo); // zoekt naar de geselecteerde vlucht
 
@@ -433,11 +466,6 @@ class OverviewFlights
                 Console.Clear();
                 Menu.StartScreen();
                 x = false;
-            }
-            else // als user een ander getal toets
-            {
-                Console.WriteLine("Please enter 1 or 2");
-                booked = Convert.ToInt32(Console.ReadLine());
             }
         }
     }

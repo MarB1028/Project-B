@@ -7,7 +7,7 @@
         string pathfileJiajun = "C:\\Users\\JiaJun\\Documents\\GitHub\\Project-B\\Main\\Airline\\DataSources";
         string pathfileJiajunLaptop = "C:\\Users\\JiaJun Li\\Documents\\GitHub\\Project-B\\Main\\Airline\\DataSources";
         string patfileMarissa = "C:\\Users\\mbraa\\Development_Y1\\projectB\\_project_B Airline\\Project-B\\Main\\Airline\\DataSources";
-        string pathfileSoufiane = "C:\\Users\\soufi\\OneDrive\\Git\\Project B\\Project-B\\Main\\Airline\\DataSources";
+        string pathfileSoufiane = "C:\\Users\\soufi\\OneDrive\\Git\\Project-B\\Project-B\\Main\\Airline\\DataSources";
         string pathfileMarieClaire = "C:\\Users\\marie\\OneDrive - Hogeschool Rotterdam\\Semester 2\\Project B\\Project-B\\Main\\Airline\\DataSources";
         string pathfileMaria = "C:\\Users\\iimma\\source\\repos\\GitHub\\Project-B\\Main\\Airline\\DataSources";
 

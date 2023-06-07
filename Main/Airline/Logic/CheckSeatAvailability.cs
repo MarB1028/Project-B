@@ -197,17 +197,17 @@ class CheckSeatAvailability
     // Een beschikbare stoel boeken.
     public void BookSeat()
     {
+        int amount;
         //Hier vult de user in hoeveel stoelen hij/zij wilt boeken
         Console.WriteLine("How many seats do you want to book?\n->");
-        int amount = Convert.ToInt32(Console.ReadLine());
+        string amount0 = Console.ReadLine();
+        while (int.TryParse(amount0, out amount) == false || amount <= 0)
+        {
+            Console.WriteLine("Please enter a valid input");
+            amount0 = Console.ReadLine();
+        }
         //Hier wordt een list aangemaakt waar de gekozen stoelen aan worden toegevoegd
         List<BookTicket> tickets = new List<BookTicket>();
-
-        while (amount < 0)
-        {
-            Console.WriteLine("Give a positive number.");
-            amount = Convert.ToInt32(Console.ReadLine());
-        }
 
         //In de geboekte ticket wordt nu de ticket met stoel ingevuld
         for (int x = 0; x < amount; x++)

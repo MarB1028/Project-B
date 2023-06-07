@@ -66,7 +66,7 @@
                 string addition = Loop("Addition (Press ENTER if this does not apply)", x => ValidateInput.ValidateAddition(x), "Please enter a valid housenumber addition or press ENTER if this does not apply.");
             
                 string zipcode = Loop("Zipcode(1234AB)", x => ValidateInput.ValidateZipCode(x), "Invalid zipcode. Please enter your zipcode in the correct format (1234AB).");
-                string city = Loop("City", x => ValidateInput.IsAlpha(x), "Invalid city. Please enter a valid city");
+                string city = Loop("City", x => ValidateInput.IsAlpha(x, "'-"), "Invalid city. Please enter a valid city");
                 address = $"{street} {housenumber}{addition} {zipcode} {city}";
 
                 //Telefoonnummer
