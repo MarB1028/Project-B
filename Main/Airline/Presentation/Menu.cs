@@ -10,14 +10,6 @@ static class Menu
         Console.WriteLine(" Rotterdam Airlines");
         Console.WriteLine("\n");
 
-        
-    
-
-
-        Console.ForegroundColor = ConsoleColor.DarkYellow;
-        Console.WriteLine("STEP 1/5: Entry point of the program.");
-        Console.WriteLine("===============================================");
-        Console.ResetColor();
 
         // start screen
         Console.WriteLine("\nWelcome to Rotterdam Airlines Reservation System!");
@@ -32,7 +24,8 @@ static class Menu
         Console.WriteLine("===============================================");
 
         // user input
-        Console.Write("Enter your choice: ");
+        Console.WriteLine("Please enter your choice.");
+        Console.Write("> ");
         string choice = Console.ReadLine();
         Console.Clear();
 
@@ -43,7 +36,7 @@ static class Menu
             switch (choice)
             {
                 case "1":
-                    Login.LoginpageMessage();
+                    Login.LoginChecker();
                     x = false;
                     // als user is ingelogd -> melding al ingelogd (volgende sprint oppakken)
                     break;

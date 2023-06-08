@@ -18,11 +18,13 @@ static class CancelTickets
             Console.WriteLine("Enter the ticket ID of the ticket you want to cancel");
             Console.WriteLine("!WARNING! You won't get your money back from canceling a ticket! \nInstead, you will receive a voucher.");
             //TODO: Er moet nog een voucher gegenereerd worden bij het cancelen van een ticket
+            Console.Write("> ");
             string ans0 = Console.ReadLine();
             while (int.TryParse(ans0, out ans) == false)
             {
                 Console.WriteLine("Please enter a valid input.");
                 Console.WriteLine("Enter the ticket ID of the ticket you want to cancel");
+                Console.Write("> ");
                 ans0 = Console.ReadLine();
             }
 
@@ -57,9 +59,10 @@ static class CancelTickets
     }
 
     public static void RemoveTicket(BookTicket ticket) {
-        Console.WriteLine("Are you sure that you want to cancel this ticket? Y/N");
+        Console.WriteLine("Are you sure that you want to cancel this ticket?\nq.Yes\n2.No");
+        Console.Write("> ");
         string ans = Console.ReadLine().ToUpper();
-        if (ans == "Y") {
+        if (ans == "1") {
             foreach (BookTicket bookticket in Account.BoughtTickets.ToList()) {
                 if (bookticket == ticket) {
                     Account.BoughtTickets.Remove(bookticket);
@@ -72,12 +75,12 @@ static class CancelTickets
             Console.WriteLine("The ticket has been removed from your account.");
             Menu.StartScreen();
         }
-        else if (ans == "N") {
+        else if (ans == "2") {
             Console.WriteLine("You have been sent back to the menu.");
             Menu.StartScreen();
         }
         else {
-            Console.WriteLine("Please enter Y or N.");
+            Console.WriteLine("Please enter 1 or 2.");
             RemoveTicket(ticket);
         }
         

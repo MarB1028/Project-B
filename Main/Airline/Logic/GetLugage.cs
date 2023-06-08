@@ -17,6 +17,7 @@ public static class GetLugage
         {
             Console.WriteLine();
             Console.WriteLine("\x1B[4mCheck-in hand luggage\x1B[0m\nInsert the total amount of hand luggage you want to check-in", "\u001b[1m", "\u001b[0m");
+            Console.Write("> ");
             int amountOfTickets = tickets.Count();
 
 
@@ -59,6 +60,7 @@ public static class GetLugage
         {
             Console.WriteLine();
             Console.WriteLine("\x1B[4mCheck-in luggage\x1B[0m\nInsert the total amount of luggage you want to check-in");
+            Console.Write("> ");
             int amountOfTickets = tickets.Count();
 
             if (int.TryParse(Console.ReadLine(), out luggage))
@@ -126,14 +128,15 @@ public static class GetLugage
         while (y)
         {
             Console.WriteLine();
-            Console.WriteLine("Please confirm above check-in of luggage (Y/N).");
+            Console.WriteLine($"Please confirm above check-in of luggage\n1.Yes\n2.No");
+            Console.Write("> ");
             string confirm = Console.ReadLine()!.ToUpper();
 
-            if (confirm == "Y")
+            if (confirm == "1")
             {
                 y = false;
             }
-            else if (confirm == "N")
+            else if (confirm == "2")
             {
                 amountOfHandLuggage = 0;
                 amountOfLuggage = 0;

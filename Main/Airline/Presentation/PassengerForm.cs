@@ -50,6 +50,7 @@
 
                 // Naam
                 firstName = Loop("First name", x => ValidateInput.IsAlpha(x, "'-"), "Invalid first name");
+
                 lastName = Loop("Last name", x => ValidateInput.IsAlpha(x, "- "), "Invalid last name");
 
                 // Geslacht
@@ -109,14 +110,16 @@
         Console.WriteLine("\n");
 
         string input;
-        Console.WriteLine("Is this information Correct (Y/N)?");
+        Console.WriteLine("Is this information Correct?\n1.Yes\n2.No");
+        Console.Write("> ");
         input = Console.ReadLine();
-        while (ValidateInput.IsMatch(input, "YN") == false)
+        while (ValidateInput.IsMatch(input, "12") == false)
         {
-            Console.WriteLine("Invalid input. Please enter Y if the information is correct and N if the information is incorrect.");
+            Console.WriteLine("Invalid input. Please enter 1 if the information is correct and 2 if the information is incorrect.");
+            Console.Write("> ");
             input = Console.ReadLine();
         }
-        if (input.ToUpper() == "Y")
+        if (input.ToUpper() == "1")
         {
             Console.WriteLine();
             Console.Write("Press ENTER to continue...");

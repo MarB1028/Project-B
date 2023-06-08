@@ -20,12 +20,12 @@ static class CateringForm
         Console.WriteLine(infomenu);
 
 
-        Console.WriteLine($"\nYour flight to ({flight.Destination.Country}-{flight.Destination.City}-{flight.Destination.Airport})\nIs estimated to be: {flight.Destination.FlightDuration * 60} min long.\nWould you like to buy some food along the trip? (Y/N)");
+        Console.WriteLine($"\nYour flight to ({flight.Destination.Country}-{flight.Destination.City}-{flight.Destination.Airport})\nIs estimated to be: {flight.Destination.FlightDuration * 60} min long.\nWould you like to buy some food along the trip?\n1.Yes\n2.No");
         Console.WriteLine("BTW% are included in the price.");
 
-        Console.Write(": ");
+        Console.Write("> ");
         string input = Console.ReadLine()!;
-        if (input == "Y" || input == "y")
+        if (input == "1")
         {
             CateringLogic.StartCatering(flight, tickets);
 
@@ -37,7 +37,7 @@ static class CateringForm
 
         }
 
-        else if (input == "N" || input == "n")
+        else if (input == "2")
         {
             ConfirmTicketInformation.Tickets = tickets;
 

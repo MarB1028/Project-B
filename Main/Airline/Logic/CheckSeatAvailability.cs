@@ -199,11 +199,13 @@ class CheckSeatAvailability
     {
         int amount;
         //Hier vult de user in hoeveel stoelen hij/zij wilt boeken
-        Console.WriteLine("How many seats do you want to book?\n->");
+        Console.WriteLine("How many seats do you want to book?");
+        Console.Write("> ");
         string amount0 = Console.ReadLine();
         while (int.TryParse(amount0, out amount) == false || amount <= 0)
         {
             Console.WriteLine("Please enter a valid input");
+            Console.Write("> ");
             amount0 = Console.ReadLine();
         }
         //Hier wordt een list aangemaakt waar de gekozen stoelen aan worden toegevoegd
@@ -215,7 +217,8 @@ class CheckSeatAvailability
             bool y = true;
             while (y)
             {
-                Console.WriteLine($"Ticket {x + 1}:\nEnter seat number (For example 01C/11B):\n->");
+                Console.WriteLine($"Ticket {x + 1}:\nEnter seat number (For example 01C/11B)");
+                Console.Write("> ");
                 string SeatNumber = Console.ReadLine().ToUpper();
                 //Checkt of de stoel uberhaupt bestaat in dit vliegtuig
                 if (Seats.ContainsKey(SeatNumber) == false)

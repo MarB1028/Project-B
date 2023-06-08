@@ -10,16 +10,10 @@ static class ViewBoughtTickets
     {
         while (CheckLogin() == false)
         {
-            int FalseLogin;
             Console.WriteLine();
             Console.WriteLine($"You are not logged in.\nPlease register or login to view your reservation.");
             Console.WriteLine("Press 0 to go back.");
-            string FalseLogin0 = Console.ReadLine();
-            while (int.TryParse(FalseLogin0, out FalseLogin) == false || FalseLogin0 != "0")
-            {
-                Console.WriteLine("Please press 0 to go back.");
-                FalseLogin0 = Console.ReadLine();
-            }
+            int FalseLogin = Convert.ToInt32(Console.ReadLine());
             if (FalseLogin == 0)
             {
                 Console.WriteLine("You are now being redirected to the main page...");
@@ -63,16 +57,18 @@ static class ViewBoughtTickets
                 var flight = ticket["Flight"] as JObject;
                 var ticketID = ticketObj.TicketID;
                 var Payment = ticketObj.PaymentDone;
+                var BookingCode = ticketObj.BookingsCode;
 
 
                 Console.WriteLine($"{ticket["Seat"]["SeatType"]}");
                 Console.WriteLine($"Ticket ID: {ticketID}");
-                Console.WriteLine($"Name: {passenger["Surname"]} {passenger["Lastname"]}");
+                Console.WriteLine($"Name: {passenger["FirstName"]} {passenger["LastName"]}");
                 Console.WriteLine($"Flight: {flight["Airplane"]["Name"]} - {flight["Destination"]["City"]}, {flight["Destination"]["Airport"]}");
                 Console.WriteLine($"Seat: {ticket["Seat"]["SeatNumber"]}   Boarding gate: {ticket["Gate"]}");
-                Console.WriteLine($"Booking Code: {CalculateTotalCosts.BookingCode}");
-                Console.WriteLine($"Booking Status:");
+                Console.WriteLine($"Booking Code: {BookingCode}");
+                Console.Write($"Booking Status: ");
                 Console.WriteLine($"{TicketOverview.PaymentComplete(Payment)}");
+                Console.ResetColor();
                 Console.WriteLine(new string('-', 120));
                 Console.WriteLine("");
             }

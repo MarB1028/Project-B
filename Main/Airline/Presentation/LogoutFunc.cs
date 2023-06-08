@@ -24,7 +24,7 @@
     }
 
 
-    public static void LogOut() //checkt of user is ingelogd of niet
+    public static void LogOut()
     {
         List<Account> accounts = SetGetAccounts.ReadAccountsFromJSON();
 
@@ -34,15 +34,16 @@
             {
                 account.LoggedIn = false;
                 SetGetAccounts.WriteAccountToJSON(accounts);
-                Console.WriteLine("You are logged out succesfully");
+                Console.WriteLine("You are logged out successfully");
                 Thread.Sleep(1000);
                 Console.Clear();
+                Menu.StartScreen();
+                break; 
             }
-            Console.WriteLine("No logged in accounts found");
-            Thread.Sleep(1000);
-            Console.Clear();
-            Menu.StartScreen();
-
         }
+        Console.WriteLine("No logged in accounts found");
+        Thread.Sleep(1000);
+        Console.Clear();
+        Menu.StartScreen();
     }
 }

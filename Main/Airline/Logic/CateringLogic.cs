@@ -39,13 +39,13 @@ public static class CateringLogic
         Console.Clear();
         CateringShowMenu(flight);
         Console.WriteLine("\nPlease type number of the food you want");
-        Console.Write(": ");
+        Console.Write("> ");
         string foodid0 = Console.ReadLine();
         while (int.TryParse(foodid0, out foodid) == false || FindFood(foodid, flight) == null)
         {
             Console.WriteLine($"Item was not found in menu, please choose again");
             Console.WriteLine("Please select a new type of food again");
-            Console.Write(": ");
+            Console.Write("> ");
         }
 
         Console.Write("\nAmount: ");
@@ -88,7 +88,7 @@ public static class CateringLogic
 
         Console.WriteLine("\n1: [GO BACK]");
         Console.WriteLine("2: [REMOVE ITEM]");
-        Console.Write(": ");
+        Console.Write("> ");
         string input = Console.ReadLine();
 
         if (input == "1")
@@ -99,7 +99,7 @@ public static class CateringLogic
         else if (input == "2")
         {
             Console.WriteLine("Please enter the number of the food you wish to remove");
-            Console.Write(": ");
+            Console.Write("> ");
             int foodid = Convert.ToInt32(Console.ReadLine());
 
             if (FindFood(foodid, flight) == null)
@@ -108,7 +108,7 @@ public static class CateringLogic
                 {
                     Console.WriteLine($"Item was not found in menu, please choose again");
                     Console.WriteLine("Please select again.");
-                    Console.Write(": ");
+                    Console.Write("> ");
                     foodid = Convert.ToInt32(Console.ReadLine());
 
                     if (FindFood(foodid, flight) != null)
@@ -146,6 +146,7 @@ public static class CateringLogic
         Console.WriteLine($"\n[TOTAL PRICE: € {TotalPrice.ToString("F2")},-]");
         Console.WriteLine($"\n1: [CONTINUE PAYMENT]");
         Console.WriteLine($"2: [GO BACK]");
+        Console.Write("> ");
         string input = Console.ReadLine();
 
         if (input == "1")
@@ -199,7 +200,7 @@ public static class CateringLogic
         string input;
         do
         {
-            Console.Write(": ");
+            Console.Write("> ");
             input = Console.ReadLine();
             if (input == "1" || input == "2" || input == "3" || input == "4")
             {
