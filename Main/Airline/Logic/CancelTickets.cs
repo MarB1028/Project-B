@@ -8,22 +8,35 @@ static class CancelTickets
             Console.WriteLine("You are not logged in yet, go back!");
             Menu.StartScreen();
         }
-        GetTickets();                           
-        foreach (BookTicket bookticket in futuretickets) {      //TODO: hier moet ook een kleine review van de tickets weergegeven worden
-            Console.WriteLine(bookticket.TicketID.ToString(), bookticket.Ticket.Passenger);
-        }
+        GetTickets(); 
+
+        Console.WriteLine(new string('-', 120));
+            Console.WriteLine("\t\t\t\t\t\tFUTURE TICKETS:");
+            Console.WriteLine(new string('-', 120));
+
+            foreach (BookTicket Ticket in futuretickets)
+            {
+                Console.WriteLine($"{Ticket.Ticket.Seat.SeatType}");
+                Console.WriteLine($"Ticket ID: {Ticket.TicketID}");
+                Console.WriteLine($"Passenger: {Ticket.Ticket.Passenger.FirstName} {Ticket.Ticket.Passenger.LastName}");
+                Console.WriteLine($"Flight:    {Ticket.Ticket.Flight.Airplane.Name} {Ticket.Ticket.Flight.BoardingDate} {Ticket.Ticket.Flight.Destination.City} {Ticket.Ticket.Flight.Destination.Airport}");
+                Console.WriteLine($"Seat:      {Ticket.Ticket.Seat.SeatNumber}   Boarding gate: {Ticket.Ticket.Gate}");
+                Console.WriteLine("");
+                //ticket.PaymentDone = payment;
+            }
+
         bool x = true;
         BookTicket ticket = null;
         while (x) {
-            Console.WriteLine("Enter the ticket ID of the ticket you want to cancel");
+            Console.WriteLine("Enter the ticket ID of the ticket you want to cancel.");
             Console.WriteLine("!WARNING! You won't get your money back from canceling a ticket! \nInstead, you will receive a voucher.");
-            //TODO: Er moet nog een voucher gegenereerd worden bij het cancelen van een ticket
+
             Console.Write("> ");
             string ans0 = Console.ReadLine();
             while (int.TryParse(ans0, out ans) == false)
             {
                 Console.WriteLine("Please enter a valid input.");
-                Console.WriteLine("Enter the ticket ID of the ticket you want to cancel");
+                Console.WriteLine("Enter the ticket ID of the ticket you want to cancel.");
                 Console.Write("> ");
                 ans0 = Console.ReadLine();
             }
@@ -35,7 +48,7 @@ static class CancelTickets
                     break;
                 }
                 else {
-                    Console.WriteLine("That ID does not exist. Try again");
+                    Console.WriteLine("That ID does not exist. Try again...");
                 }
             }
         }
@@ -59,7 +72,7 @@ static class CancelTickets
     }
 
     public static void RemoveTicket(BookTicket ticket) {
-        Console.WriteLine("Are you sure that you want to cancel this ticket?\nq.Yes\n2.No");
+        Console.WriteLine("Are you sure that you want to cancel this ticket?\n1.Yes\n2.No");
         Console.Write("> ");
         string ans = Console.ReadLine().ToUpper();
         if (ans == "1") {

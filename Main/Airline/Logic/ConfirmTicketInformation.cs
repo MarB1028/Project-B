@@ -128,7 +128,7 @@
                     Console.WriteLine("Payment options:\n(1) iDeal\n(2) PayPal\n(3) Master Card\n(4) Visa");
                     Console.Write("> ");
                     string paymentType0 = Console.ReadLine()!;
-                    while (int.TryParse(paymentType0, out paymentType) == false || (paymentType0 != "1" && paymentType0 != "2" && paymentType0 != "3" && paymentType0 != "3"))
+                    while (int.TryParse(paymentType0, out paymentType) == false || (paymentType0 != "1" && paymentType0 != "2" && paymentType0 != "3" && paymentType0 != "4"))
                     {
                         Console.WriteLine("Please enter a valid input.");
                         Console.WriteLine("Payment options:\n(1) iDeal\n(2) PayPal\n(3) Master Card\n(4) Visa");

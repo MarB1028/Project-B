@@ -1,23 +1,23 @@
 [
   {
     "ID": 1,
-    "Name": "a",
-    "Price": 1.0,
-    "Description": "a",
+    "Name": "Burger and fries",
+    "Price": 12.0,
+    "Description": "Burger with salad and fries",
     "Type": "Long"
   },
   {
     "ID": 2,
-    "Name": "c",
-    "Price": 1.0,
-    "Description": "c",
+    "Name": "Pasta bolognese",
+    "Price": 12.0,
+    "Description": "A simple pasta bolognese",
     "Type": "Long"
   },
   {
     "ID": 3,
-    "Name": "d",
-    "Price": 1.0,
-    "Description": "d",
+    "Name": "Veggie noodles",
+    "Price": 10.0,
+    "Description": "Vegetarian noodles",
     "Type": "Long"
   }
 ]

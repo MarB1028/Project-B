@@ -595,7 +595,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 309.0,
+    "MinPrice": 304.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1255,7 +1255,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 333.0,
+    "MinPrice": 328.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1495,7 +1495,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 341.0,
+    "MinPrice": 335.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1615,7 +1615,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 325.0,
+    "MinPrice": 320.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1825,7 +1825,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 113.0,
+    "MinPrice": 111.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1855,7 +1855,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 115.0,
+    "MinPrice": 113.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1885,7 +1885,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 115.0,
+    "MinPrice": 114.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1915,7 +1915,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 122.0,
+    "MinPrice": 120.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1945,7 +1945,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 123.0,
+    "MinPrice": 121.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -1975,7 +1975,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 133.0,
+    "MinPrice": 131.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -2005,7 +2005,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 134.0,
+    "MinPrice": 132.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -2035,7 +2035,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 135.0,
+    "MinPrice": 133.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -2065,7 +2065,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 137.0,
+    "MinPrice": 135.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -2095,7 +2095,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 147.0,
+    "MinPrice": 145.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -2125,7 +2125,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 153.0,
+    "MinPrice": 150.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -2155,7 +2155,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 169.0,
+    "MinPrice": 166.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -2185,7 +2185,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 176.0,
+    "MinPrice": 173.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -2215,7 +2215,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 176.0,
+    "MinPrice": 173.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -2245,7 +2245,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 183.0,
+    "MinPrice": 180.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -2275,7 +2275,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 183.0,
+    "MinPrice": 180.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -2305,7 +2305,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 204.0,
+    "MinPrice": 201.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -2335,7 +2335,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 216.0,
+    "MinPrice": 212.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -2365,7 +2365,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 221.0,
+    "MinPrice": 217.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -2395,7 +2395,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 283.0,
+    "MinPrice": 278.0,
     "IsDeal": false,
     "TotalSeats": 102
   },
@@ -2425,7 +2425,7 @@
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
-    "MinPrice": 303.0,
+    "MinPrice": 299.0,
     "IsDeal": false,
     "TotalSeats": 102
   }
