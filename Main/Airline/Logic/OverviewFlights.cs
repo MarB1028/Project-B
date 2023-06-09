@@ -185,6 +185,7 @@ class OverviewFlights
                 Console.Write("> ");
                 sortchoice0 = Console.ReadLine();
             }
+
             if (sortchoice == 1)
             {
                 Console.WriteLine("How would you like to sort?\n1. Ascending\n2. Descending");
@@ -212,7 +213,7 @@ class OverviewFlights
                 Console.Write("> ");
                 string datesortstring = Console.ReadLine();
                 DateTime datesort;
-                while (!DateTime.TryParseExact(datesortstring, "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out datesort)) // date heb ik maar yyyy-MM-dd veranderd, zodat het als de list is.
+                while (!DateTime.TryParseExact(datesortstring, "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out datesort) || datesort < DateTime.Now.AddDays(-2)) // date heb ik maar yyyy-MM-dd veranderd, zodat het als de list is.
                 {
                     Console.WriteLine("Invalid date. Try again");
                     Console.Write("> ");
@@ -227,9 +228,12 @@ class OverviewFlights
                     }
                 }
 
-                if (sortedlist.Count == 0)
+                if (sortedlist.Count == 0 || sortedlist == null)
                 {
                     Console.WriteLine("No flights available\n");
+                    Thread.Sleep(3000);
+                    PrintSortedInformation(flights, Destination);
+                    return;
                 }
                 else
                 {
@@ -237,7 +241,6 @@ class OverviewFlights
                     flights = flights.OrderBy(f => f.BoardingDate).ToList();
                 }
             }
-
             else if (sortchoice == 3)
             {
                 Console.WriteLine("How would you like to sort?\n1. Ascending\n2. Descending");
