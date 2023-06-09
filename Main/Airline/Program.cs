@@ -49,9 +49,10 @@
         Luggage.LuggageInfo(CalculateTotalCosts.tickets);*/
 
         // [Jiajun] Het selecteren van de Catering en de prijzen uitrekenen
-        // DateTime now = DateTime.Now;
-        // Voucher voucher = new Voucher("AJNRJ#%#%", now, now.AddYears(1), "Munchen (MUN)  2023-10-20", 542);
-        // GenerateVoucher.PrintVoucher(voucher);
+        //DateTime now = DateTime.Now;
+        //Voucher voucher = new Voucher("AJNRJ#%#%", now, now.AddYears(1), "Munchen (MUN)  2023-10-20", 542);
+        //GenerateVoucher.PrintVoucher(voucher);
+        //Console.WriteLine($"{GenerateVoucher.GenerateVoucherCode()}");
         Menu.StartScreen();
         // CalculateStartPrice.ApplyDeals();
         // CalculateStartPrice.ApplyPriceRise();

@@ -144,17 +144,17 @@ public static class ValidateInput
         string phoneNumber = input.Replace(" ", "");
         if (phoneNumber.StartsWith("+316"))
         {
-            phoneNumber.Remove(0, 3);
+            phoneNumber = phoneNumber.Remove(0, 4);
         }
         else if (phoneNumber.StartsWith("06"))
         {
-            phoneNumber.Remove(0, 2);
+            phoneNumber = phoneNumber.Remove(0, 2);
         }
         else
         {
             return false;
         }
-        return (IsNumber(phoneNumber) && (IsLength(phoneNumber, 10)));
+        return (IsNumber(phoneNumber) && (IsLength(phoneNumber, 8)));
     }
 
     // Dit checkt de leeftijd van een persoon en berekent het percentage dat de persoon moet betalen op basis van leeftijd 

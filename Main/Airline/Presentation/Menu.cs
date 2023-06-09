@@ -10,7 +10,7 @@ static class Menu
         Console.WriteLine(" Rotterdam Airlines");
         Console.WriteLine("\n");
 
-
+        
         // start screen
         Console.WriteLine("\nWelcome to Rotterdam Airlines Reservation System!");
         Console.WriteLine("===============================================");
@@ -18,9 +18,10 @@ static class Menu
         Console.WriteLine("1. Log In / Register");
         Console.WriteLine("2. Search Flights");
         Console.WriteLine("3. View Reservation");
-        Console.WriteLine("4. Cancel Ticket(s)");
-        Console.WriteLine("5. Log Out");
-        Console.WriteLine("6. Exit");
+        Console.WriteLine("4. View Vouchers");
+        Console.WriteLine("5. Cancel Ticket(s)");
+        Console.WriteLine("6. Log Out");
+        Console.WriteLine("7. Exit");
         Console.WriteLine("===============================================");
 
         // user input
@@ -51,12 +52,18 @@ static class Menu
                     StartScreen();
                     break;
                 case "4":
-                    CancelTickets.Canceltickets();
+                    ViewVouchers.Info();
+                    Console.Clear();
+                    
+                    StartScreen();
                     break;
                 case "5":
-                    LogoutFunc.LogOut();
+                    CancelTickets.Canceltickets();
                     break;
                 case "6":
+                    LogoutFunc.LogOut();
+                    break;
+                case "7":
                     LogoutFunc.LoggingOut();
                     Console.WriteLine("Thank you for visiting our site.\nHopefully we see you again.");
                     Environment.Exit(0);

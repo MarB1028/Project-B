@@ -73,6 +73,7 @@ static class CancelTickets
             ticket.Ticket.Passenger = null;
             DataTickets.WriteTicketToJson(ticket.Ticket.Flight, ticket);
             Console.WriteLine("The ticket has been removed from your account.");
+            GenerateVoucher.CreateVoucherObj(ticket.Ticket, ticket.Ticket.Flight.MinPrice / 2);
             Menu.StartScreen();
         }
         else if (ans == "2") {
