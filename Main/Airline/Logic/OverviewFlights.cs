@@ -1,4 +1,4 @@
-using ConsoleTables;
+﻿using ConsoleTables;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -218,17 +218,15 @@ class OverviewFlights
                     Console.Write("> ");
                     datesortstring = Console.ReadLine();
                 }
-
-                flights = flights.Select(flight =>
+                List<Flight> sortedlist = new List<Flight> ();
+                foreach (Flight flight in flights)
                 {
-                    if (flight.BoardingDate < datesort)
+                    if (flight.BoardingDate > datesort)
                     {
-                        flight.FlightNo = 0;
+                        sortedlist.Add(flight);
                     }
-                    return flight;
-                }).ToList();
+                }
 
-                List<Flight> sortedlist = flights.Where(flight => flight.BoardingDate >= datesort).ToList();
                 if (sortedlist.Count == 0)
                 {
                     Console.WriteLine("No flights available\n");
@@ -236,8 +234,10 @@ class OverviewFlights
                 else
                 {
                     flights = sortedlist;
+                    flights = flights.OrderBy(f => f.BoardingDate).ToList();
                 }
             }
+
             else if (sortchoice == 3)
             {
                 Console.WriteLine("How would you like to sort?\n1. Ascending\n2. Descending");
@@ -427,6 +427,7 @@ class OverviewFlights
                                             DataFlights.WriteDateToJson(flights);
                                             //hier de volgende stap aanroepen
                                             MakeTicketsForFlightJson.MakeTickets(nextFlight); // hier maakt het een "ticket" aan
+                                            Console.WriteLine("\nYou have selectected flight: ");
                                             CheckSeatAvailability checkSeatAvailability = new CheckSeatAvailability(nextFlight); //volgende stap wordt aangeroepen
                                             checkSeatAvailability.AvailableSeats();
 
