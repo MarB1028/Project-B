@@ -19,5 +19,12 @@
     "Price": 10.0,
     "Description": "Vegetarian noodles",
     "Type": "Long"
+  },
+  {
+    "ID": 4,
+    "Name": "Sandwich",
+    "Price": 10.0,
+    "Description": "Sandwich with ham and cheese",
+    "Type": "Short"
   }
 ]
