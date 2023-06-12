@@ -57,10 +57,10 @@
         // CalculateStartPrice.ApplyPriceRise();
         // List<Flight> flights = DataFlights.ReadFlightsFromJson();
 
-        Airplane boeing = new Airplane("BOEING747", "BO", 1, 4, 5, 6, 2);
+        /*Airplane boeing = new Airplane("BOEING747", "BO", 1, 4, 5, 6, 2);
         Destination frankfort = new Destination("1.1", "GERMANY", "FRANKFURT", "(GER)", "FRANKFORTAIRPORT", 100, 2, "On Schedule");
         Flight flightfrankfort = new Flight(1, "GER1", "Day", boeing, DateTime.Now, DateTime.Now, frankfort, 100, 200);
         List<BookTicket> ticket = new List<BookTicket>();
-        CateringForm.Catering(flightfrankfort, ticket);
+        CateringForm.Catering(flightfrankfort, ticket);*/
     }
 }
