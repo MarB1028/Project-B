@@ -1,4 +1,4 @@
-﻿public class BasketItem
+﻿public class BasketItem : IBasketItem
 {
     public Food FoodItem { get; set; }
     public int Quantity { get; set; }

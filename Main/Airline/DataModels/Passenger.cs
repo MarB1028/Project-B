@@ -1,13 +1,13 @@
-﻿public class Passenger
+﻿public class Passenger : IPassenger
 {
     public static int PreviousID = 0;
-    public int ID;
-    public string FirstName;
-    public string LastName;
-    public string Sex;
-    public DateTime BirthDate;
-    public string Address;
-    public string PhoneNumber;
+    public int ID { get; set; }
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+    public string Sex { get; set; }
+    public DateTime BirthDate { get; set; }
+    public string Address { get; set; }
+    public string PhoneNumber { get; set; }
 
     public Passenger(string firstname, string lastname, string sex, DateTime birthDate, string address, string phoneNumber)
     {

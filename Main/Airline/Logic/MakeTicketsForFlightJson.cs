@@ -14,7 +14,6 @@ static class MakeTicketsForFlightJson
             "Economy-Class",
             "ExtraSpace-Class"
         };
-        
 
         // Een lijst met hoeveel stoelen er zijn voor elk type.
         List<int> AllSeats = new List<int>()
@@ -67,7 +66,8 @@ static class MakeTicketsForFlightJson
         if (!File.Exists(pathfile))
         {
             File.WriteAllText(pathfile, json);
-            BookTicket.ResetCounter();
+            BookTicket reset = new BookTicket(null);
+            reset.ResetCounter();
         }
        
     }

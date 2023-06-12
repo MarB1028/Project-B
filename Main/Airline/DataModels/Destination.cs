@@ -1,13 +1,13 @@
-﻿public class Destination
+﻿public class Destination : IDestination
 {
-    public string DisplayNo;
-    public string Country;
-    public string City;
-    public string Abbreviation;
-    public string Airport;
-    public int Distancekm;
-    public int FlightDuration;
-    public string Status;
+    public string DisplayNo { get; set; }
+    public string Country { get; set; }
+    public string City { get; set; }
+    public string Abbreviation { get; set; }
+    public string Airport { get; set; }
+    public int Distancekm { get; set; }
+    public int FlightDuration { get; set; }
+    public string Status { get; set; }
 
     public Destination(string displayNo, string country, string city, string abbreviation, string airport, int distancekm, int flightDuration, string status)
     {
