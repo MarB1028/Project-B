@@ -1,10 +1,10 @@
-public class Voucher
+public class Voucher : IVoucher
 {
-    public string VoucherCode;
-    public DateTime Cancellationdate;
-    public DateTime Expirationdate;
-    public string Flightinfo;
-    public double Price;
+    public string VoucherCode { get; set; }
+    public DateTime Cancellationdate { get; set; }
+    public DateTime Expirationdate { get; set; }
+    public string Flightinfo { get; set; }
+    public double Price { get; set; }
 
     public Voucher(string voucherCode, DateTime cancellationdate, DateTime expirationdate, string flightInfo, double price)
     {

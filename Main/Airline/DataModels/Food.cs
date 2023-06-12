@@ -1,10 +1,10 @@
-﻿public class Food
+﻿public class Food : IFood
 {
-    public int ID;
-    public string Name;
-    public double Price;
-    public string Description;
-    public string Type;
+    public int ID { get; set; }
+    public string Name { get; set; }
+    public double Price { get; set; }
+    public string Description { get; set; }
+    public string Type { get; set; }
 
     public Food(int id, string name, double price, string description, string type)
     {

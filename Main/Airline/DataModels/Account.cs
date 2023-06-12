@@ -1,14 +1,14 @@
 ﻿using Newtonsoft.Json;
-public class Account
+public class Account : IAccount
 {
-    public int ID;
+    public int ID { get; set; }
     private static int _counter = 0;
-    public bool LoggedIn;
-    public string Email;
+    public bool LoggedIn { get; set; }
+    public string Email { get; set; }
 
     [JsonProperty(Order = 2)] // veranderd de volgorde binnen het json bestand waardoor de list met tickets altijd onderaan staat
-    public List<BookTicket> BoughtTickets;
-    public List<Voucher> Vouchers;
+    public List<BookTicket> BoughtTickets { get; set; }
+    public List<Voucher> Vouchers { get; set; }
 
     [JsonProperty(Order = 1)]
     public string Password { get; set; }

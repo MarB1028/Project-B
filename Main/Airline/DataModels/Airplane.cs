@@ -1,21 +1,13 @@
-﻿public class Airplane
+﻿public class Airplane : AirplaneSeatInformation
 {
-    public string Name;
-    public string Carrierid;
-    public int AirplaneId;
-    public int FirstClassSeat;
-    public int PremiumSeat;
-    public int EconomySeat;
-    public int ExtraSpace;
+    public string Name { get; set; }
+    public string Carrierid { get; set; }
+    public int AirplaneId { get; set; }
 
-    public Airplane(string name, string carrierintid, int airplaneid, int firstclassseat, int premiumseat, int economyseat, int extraspace)
+    public Airplane(string name, string carrierintid, int airplaneid, int firstclassseat, int premiumseat, int economyseat, int extraspace) : base(firstclassseat, premiumseat, economyseat, extraspace)
     {
         Name = name;
         Carrierid = carrierintid;
         AirplaneId = airplaneid;
-        FirstClassSeat = firstclassseat;
-        PremiumSeat = premiumseat;
-        EconomySeat = economyseat;
-        ExtraSpace = extraspace;
     }
 }

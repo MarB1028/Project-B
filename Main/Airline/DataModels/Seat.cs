@@ -1,8 +1,8 @@
-﻿public class Seat
+﻿public class Seat : ISeat
 {
-    public string SeatNumber;
-    public string SeatType;
-    public double Price;
+    public string SeatNumber { get; set; }
+    public string SeatType { get; set; }
+    public double Price { get; set; }
 
     public Seat(string seatNumber, string seattype, double price)
     {

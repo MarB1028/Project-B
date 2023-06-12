@@ -67,7 +67,8 @@ static class MakeTicketsForFlightJson
         if (!File.Exists(pathfile))
         {
             File.WriteAllText(pathfile, json);
-            BookTicket.ResetCounter();
+            BookTicket reset = new BookTicket(null);
+            reset.ResetCounter();
         }
        
     }
