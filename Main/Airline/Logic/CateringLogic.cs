@@ -34,27 +34,31 @@ public static class CateringLogic
     public static void FoodSelect(Flight flight, List<BookTicket> ticket)
     {
         int foodid;
+        do
+        {
+            Console.Write("Select Food: ");
+            foodid = Convert.ToInt32(Console.ReadLine());
+            if (foodid > 0 && FindFood(foodid, flight) != null)
+            {
+                break;
+            }
+            else Console.WriteLine("INVALID FOOD.");
+
+        } while (true);
+
         int amount;
-
-        Console.Clear();
-        CateringShowMenu(flight);
-        Console.WriteLine("\nPlease type number of the food you want");
-        Console.Write(": ");
-        string foodid0 = Console.ReadLine();
-        while (int.TryParse(foodid0, out foodid) == false || FindFood(foodid, flight) == null)
+        do
         {
-            Console.WriteLine($"Item was not found in menu, please choose again");
-            Console.WriteLine("Please select a new type of food again");
-            Console.Write(": ");
-        }
+            Console.Write("Select amount: ");
+            amount = Convert.ToInt32(Console.ReadLine());
+            if (amount > 0)
+            {
+                break;
+            }
+            else Console.WriteLine("INVALID AMOUNT.");
 
-        Console.Write("\nAmount: ");
-        string amount0 = Console.ReadLine();
-        while (int.TryParse(amount0, out amount) == false)
-        {
-            Console.WriteLine("Please enter a valid input");
-        }
-
+        } while (true);
+   
         foreach (BasketItem i in basketItems)
         {
             if (i.FoodItem.ID == foodid)
@@ -64,10 +68,9 @@ public static class CateringLogic
                 Thread.Sleep(3000);
                 StartCatering(flight, ticket);
             }
-
         }
 
-        Console.WriteLine("Food sucessfully added to basket...");
+        Console.WriteLine($"{FindFood(foodid, flight).Name} sucessfully added to basket...");
         basketItems.Add(new BasketItem(FindFood(foodid, flight), amount));
         Thread.Sleep(3000);
         StartCatering(flight, ticket);

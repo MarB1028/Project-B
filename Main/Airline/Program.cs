@@ -49,13 +49,18 @@
         Luggage.LuggageInfo(CalculateTotalCosts.tickets);*/
 
         // [Jiajun] Het selecteren van de Catering en de prijzen uitrekenen
-        DateTime now = DateTime.Now;
+        /*DateTime now = DateTime.Now;
         Voucher voucher = new Voucher("AJNRJ#%#%", now, now.AddYears(1), "Munchen (MUN)  2023-10-20", 542);
         GenerateVoucher.PrintVoucher(voucher);
-        Menu.StartScreen();
+        Menu.StartScreen();*/
         // CalculateStartPrice.ApplyDeals();
         // CalculateStartPrice.ApplyPriceRise();
         // List<Flight> flights = DataFlights.ReadFlightsFromJson();
-        
+
+        Airplane boeing = new Airplane("BOEING747", "BO", 1, 4, 5, 6, 2);
+        Destination frankfort = new Destination("1.1", "GERMANY", "FRANKFURT", "(GER)", "FRANKFORTAIRPORT", 100, 2, "On Schedule");
+        Flight flightfrankfort = new Flight(1, "GER1", "Day", boeing, DateTime.Now, DateTime.Now, frankfort, 100, 200);
+        List<BookTicket> ticket = new List<BookTicket>();
+        CateringForm.Catering(flightfrankfort, ticket);
     }
 }
