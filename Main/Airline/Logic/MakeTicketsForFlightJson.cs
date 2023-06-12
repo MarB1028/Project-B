@@ -14,7 +14,6 @@ static class MakeTicketsForFlightJson
             "Economy-Class",
             "ExtraSpace-Class"
         };
-        
 
         // Een lijst met hoeveel stoelen er zijn voor elk type.
         List<int> AllSeats = new List<int>()
