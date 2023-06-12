@@ -81,7 +81,13 @@
     public bool CheckNewValidEmail(string email) // checkt of de email aan de criteria voldoet
     {
         List<string> emailEndings = new List<string>() { ".nl", ".be", ".com", ".org", ".net", ".edu", ".gov", ".co", ".io", ".info", ".mail" };
-
+        List<Account> accounts = SetGetAccounts.ReadAccountsFromJSON();
+        foreach (Account account in accounts) {
+            if (email == account.Email) {
+                Console.WriteLine("This email has already registered.");
+                return false;
+            }
+        }
         if (email.Contains("@"))
         {
             foreach (string ending in emailEndings)
