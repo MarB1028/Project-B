@@ -47,10 +47,10 @@
 
         Console.WriteLine("Total price including BTW/VAT");
         Console.WriteLine(" --------------------------------");
-        Console.WriteLine($"Total Tickets            |  € {seatsprice},-"); 
+        Console.WriteLine($"Total Tickets            |  € {seatsprice},-");
         Console.WriteLine($"Total Luggage            |  € {GetLugage.TotalCost},-");
         Console.WriteLine($"Total Catering           |  € {CateringLogic.TotalPrice},-");
-        Console.WriteLine($"Standard Booking costs   |  € 2,95,-"); 
+        Console.WriteLine($"Standard Booking costs   |  € 2,95,-");
         Console.WriteLine("---------------------------------");
 
         Console.WriteLine($"\t       Total  € {GetPrice}, -");
@@ -64,83 +64,86 @@
         bool X = false;
         while (X == false)
         {
-        Console.WriteLine("Would you like to use a voucher?\n1. Yes\n2. No");
-        string usevoucher0 = Console.ReadLine();
-        while (int.TryParse(usevoucher0, out usevoucher) == false || (usevoucher0 != "1" && usevoucher0 != "2"))
-        {
-            Console.WriteLine("Please enter a valid input");
-            Console.WriteLine("Do you have a voucher that you would like to use?\n1. Yes\n2. No");
-            usevoucher0 = Console.ReadLine();
-        }
-        if (usevoucher == 2)
-        {
-            X = true;
-        }
-        else if (usevoucher == 1)
-        {
-            Console.WriteLine("Enter your vouchercode.");
-            string code = Console.ReadLine();
-            bool codeExists = false;
-            foreach (Voucher voucher in GetAccount().Vouchers)
+            Console.WriteLine("Would you like to use a voucher?\n1. Yes\n2. No");
+            string usevoucher0 = Console.ReadLine();
+            while (int.TryParse(usevoucher0, out usevoucher) == false || (usevoucher0 != "1" && usevoucher0 != "2"))
             {
-                if (code == voucher.VoucherCode)
+                Console.WriteLine("Please enter a valid input");
+                Console.WriteLine("Do you have a voucher that you would like to use?\n1. Yes\n2. No");
+                usevoucher0 = Console.ReadLine();
+            }
+            if (usevoucher == 2)
+            {
+                X = true;
+            }
+            else if (usevoucher == 1)
+            {
+                Console.WriteLine("Enter your vouchercode.");
+                string code = Console.ReadLine();
+                bool codeExists = false;
+                foreach (Voucher voucher in GetAccount().Vouchers)
                 {
-                    voucher1 = voucher;
-                    codeExists = true;
-                    X = true;
-                    break;
+                    if (code == voucher.VoucherCode)
+                    {
+                        voucher1 = voucher;
+                        codeExists = true;
+                        X = true;
+                        break;
+                    }
                 }
-            }
-            if (codeExists == false)
-            {
-                Console.WriteLine("Incorrect Vouchercode");
-            }
-            else
-            {
-                GenerateVoucher.PrintVoucher(voucher1);
-                Console.WriteLine("Confirm to use the voucher above.\n1. Yes\n2. No");
-                string confirmvoucher0 = Console.ReadLine();
-                while (int.TryParse(confirmvoucher0, out confirmvoucher) == false || (confirmvoucher0 != "1" && confirmvoucher0 != "2"))
+                if (codeExists == false)
                 {
-                    Console.WriteLine("Please enter a valid input");
+                    Console.WriteLine("Incorrect Vouchercode");
+                }
+                else
+                {
+                    GenerateVoucher.PrintVoucher(voucher1);
                     Console.WriteLine("Confirm to use the voucher above.\n1. Yes\n2. No");
-                    confirmvoucher0 = Console.ReadLine();
-                }
-                if (confirmvoucher == 1)
-                {
-                    double discount = voucher1.Price;
-                    Console.WriteLine("Total price including BTW/VAT");
-                    Console.WriteLine(" --------------------------------");
-                    Console.WriteLine($"Total Tickets            |  € {seatsprice},-"); 
-                    Console.WriteLine($"Total Luggage            |  € {GetLugage.TotalCost},-");
-                    Console.WriteLine($"Total Catering           |  € {CateringLogic.TotalPrice},-");
-                    Console.WriteLine($"Standard Booking costs   |  € 2,95,-"); 
-                    Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine($"Voucher                  |  € {voucher1.Price}"); 
-                    Console.ResetColor();
-                    Console.WriteLine("---------------------------------");
-                    if (GetPrice - voucher1.Price < 0)
+                    string confirmvoucher0 = Console.ReadLine();
+                    while (int.TryParse(confirmvoucher0, out confirmvoucher) == false || (confirmvoucher0 != "1" && confirmvoucher0 != "2"))
                     {
-                        GetPrice = 0;
+                        Console.WriteLine("Please enter a valid input");
+                        Console.WriteLine("Confirm to use the voucher above.\n1. Yes\n2. No");
+                        confirmvoucher0 = Console.ReadLine();
                     }
-                    else
+                    if (confirmvoucher == 1)
                     {
-                        GetPrice = GetPrice - voucher1.Price;
-                    }
-                    Console.WriteLine($"\t       Total  € {GetPrice}, -");
-                    Console.WriteLine();
+                        double discount = voucher1.Price;
+                        Console.WriteLine("Total price including BTW/VAT");
+                        Console.WriteLine(" --------------------------------");
+                        Console.WriteLine($"Total Tickets            |  € {seatsprice},-");
+                        Console.WriteLine($"Total Luggage            |  € {GetLugage.TotalCost},-");
+                        Console.WriteLine($"Total Catering           |  € {CateringLogic.TotalPrice},-");
+                        Console.WriteLine($"Standard Booking costs   |  € 2,95,-");
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine($"Voucher                  |  € {voucher1.Price}");
+                        Console.ResetColor();
+                        Console.WriteLine("---------------------------------");
+                        if (GetPrice - voucher1.Price < 0)
+                        {
+                            GetPrice = 0;
+                        }
+                        else
+                        {
+                            GetPrice = GetPrice - voucher1.Price;
+                        }
+                        Console.WriteLine($"\t       Total  € {GetPrice}, -");
+                        Console.WriteLine();
 
-                    //Voucher verwijderen
-                    Account acc = GetAccount();
-                    acc.Vouchers.Remove(voucher1);
-                    SetGetAccounts.UpdateAccountToJSON(acc);
-                    X = true;
+                        //Voucher verwijderen
+                        Account acc = GetAccount();
+                        acc.Vouchers.Remove(voucher1);
+                        SetGetAccounts.UpdateAccountToJSON(acc);
+                        X = true;
+                    }
                 }
             }
         }
-            
+        ConfirmPrice();
+    }
 
-        }
+    public static void ConfirmPrice()
+    { 
         Console.WriteLine("Confirm the price above.\n1.Yes\n2.No");
         Console.Write("> ");
         string answer = Console.ReadLine()!.ToUpper();
