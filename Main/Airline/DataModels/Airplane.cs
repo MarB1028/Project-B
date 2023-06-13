@@ -10,5 +10,4 @@
         Carrierid = carrierintid;
         AirplaneId = airplaneid;
     }
-
 }

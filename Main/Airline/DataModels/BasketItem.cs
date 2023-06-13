@@ -8,4 +8,10 @@
         FoodItem = fooditem;
         Quantity = quantity;
     }
+
+    public BasketItem(Food fooditem)
+    {
+        FoodItem = fooditem;
+        Quantity = 1;
+    }
 }

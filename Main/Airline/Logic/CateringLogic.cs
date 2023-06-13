@@ -64,7 +64,7 @@ public static class CateringLogic
             if (i.FoodItem.ID == foodid)
             {
                 i.Quantity += amount;
-                Console.WriteLine($"{amount} sucessfully added to {i.FoodItem.Name}");
+                Console.WriteLine($"Amount: {amount} sucessfully added to {i.FoodItem.Name} in basket");
                 Thread.Sleep(3000);
                 StartCatering(flight, ticket);
             }
