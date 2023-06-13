@@ -62,5 +62,6 @@
         Flight flightfrankfort = new Flight(1, "GER1", "Day", boeing, DateTime.Now, DateTime.Now, frankfort, 100, 200);
         List<BookTicket> ticket = new List<BookTicket>();
         CateringForm.Catering(flightfrankfort, ticket);*/
+        Menu.StartScreen();
     }
 }
