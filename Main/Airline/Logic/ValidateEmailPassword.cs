@@ -108,29 +108,21 @@
     {
         List<string> emailEndings = new List<string>() { "@icloud.com", "@hotmail.com", "@gmail.com", "@outlook.com", "@yahoo.com", "@kpnmail.nl", "@ziggo.nl", "@upcmail.nl", "@live.nl", "@telfort.nl", "@xs4all.nl", "@planet.nl" };
 
-        if (email.Contains("@"))
+        foreach (string ending in emailEndings)
         {
-            foreach (string ending in emailEndings)
+            if (email.EndsWith(ending))
             {
-                if (email.EndsWith(ending))
-                {
-                    Console.WriteLine("Email adress is valid.");
-                    return true;
-                }
+                Console.WriteLine("Email adress is valid.");
+                return true;
             }
-            Console.WriteLine("Email adress is invalid.");
-            return false;
         }
-        else
-        {
-            Console.WriteLine("Email adress is invalid.");
-            return false;
-        }
+        Console.WriteLine("Email adress is invalid.");
+        return false;
     }
 
     public bool CheckNewValidPassword(string password) // checkt of het wachtwoord aan de criteria voldoet
     {
-        List<string> SpecialChar = new List<string>() { "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "+", "=", "/", "\", "|", "[", "]", "{", "}", ";", ":", "<", ">", ".", ",", "?", "!", "_", "~"};
+        List<string> SpecialChar = new List<string>() { "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "+", "=", "/", "|", "[", "]", "{", "}", ";", ":", "<", ">", ".", ",", "?", "!", "_", "~"};
         List<string> Numbers = new List<string>() { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 
         foreach (string character in SpecialChar)
