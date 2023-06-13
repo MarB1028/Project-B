@@ -11,10 +11,4 @@
         AirplaneId = airplaneid;
     }
 
-    public Airplane(string name, string carrierintid, int airplaneid) : base(4, 6, 8, 2)
-    {
-        Name = name;
-        Carrierid = carrierintid;
-        AirplaneId = airplaneid;
-    }
 }

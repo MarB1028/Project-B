@@ -30,7 +30,7 @@
                 do
                 {
                     Console.Write("Username: ");
-                    username = Console.ReadLine();
+                    username = Console.ReadLine()!;
                     if (username == _username)
                     {
                         break;
@@ -43,7 +43,7 @@
                 do
                 {
                     Console.Write("Password: ");
-                    password = Console.ReadLine();
+                    password = Console.ReadLine()!;
                     if (password == _password)
                     {
                         break;
@@ -106,7 +106,7 @@
 
     public bool CheckNewValidEmail(string email) // checkt of de email aan de criteria voldoet
     {
-        List<string> emailEndings = new List<string>() { ".nl", ".be", ".com", ".org", ".net", ".edu", ".gov", ".co", ".io", ".info", ".mail" };
+        List<string> emailEndings = new List<string>() { "@icloud.com", "@hotmail.com", "@gmail.com", "@outlook.com", "@yahoo.com", "@kpnmail.nl", "@ziggo.nl", "@upcmail.nl", "@live.nl", "@telfort.nl", "@xs4all.nl", "@planet.nl" };
 
         if (email.Contains("@"))
         {
@@ -130,7 +130,7 @@
 
     public bool CheckNewValidPassword(string password) // checkt of het wachtwoord aan de criteria voldoet
     {
-        List<string> SpecialChar = new List<string>() { "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "+", "=", "/", "\\", "|", "[", "]", "{", "}", ";", ":", "<", ">", ".", ",", "?", "!" };
+        List<string> SpecialChar = new List<string>() { "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "+", "=", "/", "\\", "|", "[", "]", "{", "}", ";", ":", "<", ">", ".", ",", "?", "!", "_", "~"};
         List<string> Numbers = new List<string>() { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 
         foreach (string character in SpecialChar)
