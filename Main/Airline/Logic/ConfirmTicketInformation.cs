@@ -61,6 +61,9 @@
         int usevoucher;
         int confirmvoucher;
         Voucher voucher1 = null;
+        Account acc = GetAccount();
+        if (acc.Vouchers.Count > 0)
+        {
         bool X = false;
         while (X == false)
         {
@@ -78,7 +81,7 @@
             }
             else if (usevoucher == 1)
             {
-                Console.WriteLine("Enter your vouchercode.");
+                Console.WriteLine("Enter your Vouchercode.");
                 string code = Console.ReadLine();
                 bool codeExists = false;
                 foreach (Voucher voucher in GetAccount().Vouchers)
@@ -93,7 +96,7 @@
                 }
                 if (codeExists == false)
                 {
-                    Console.WriteLine("Incorrect Vouchercode");
+                    Console.WriteLine("Incorrect vouchercode");
                 }
                 else
                 {
@@ -131,13 +134,13 @@
                         Console.WriteLine();
 
                         //Voucher verwijderen
-                        Account acc = GetAccount();
                         acc.Vouchers.Remove(voucher1);
                         SetGetAccounts.UpdateAccountToJSON(acc);
                         X = true;
                     }
                 }
             }
+        }
         }
         ConfirmPrice();
     }

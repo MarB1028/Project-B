@@ -156,7 +156,12 @@ public static class FoodConfigure
         do
         {
             Console.Write(": ");
-            foodid = Convert.ToInt32(Console.ReadLine());
+            string foodid0 = Console.ReadLine();
+            while (int.TryParse(foodid0, out foodid) == false)
+            {
+                Console.WriteLine("Please enter a valid input");
+                foodid0 = Console.ReadLine();
+            }
 
             foreach (var item in foods)
             {

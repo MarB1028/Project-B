@@ -1,7 +1,8 @@
 [
   {
-    "FlightNo": 1,
+    "FlightNo": 0,
     "FlightId": "GER20",
+    "IsDeal": false,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -26,12 +27,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
-    "FlightNo": 2,
+    "FlightNo": 0,
     "FlightId": "GER14",
+    "IsDeal": false,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -56,12 +57,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "SPN14",
+    "IsDeal": false,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -86,12 +87,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "SPN12",
+    "IsDeal": false,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -116,12 +117,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "GRC16",
+    "IsDeal": false,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -146,12 +147,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "GRC15",
+    "IsDeal": false,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -176,12 +177,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "GRC6",
+    "IsDeal": false,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -206,12 +207,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "SPN19",
+    "IsDeal": false,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -236,12 +237,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "UK11",
+    "IsDeal": false,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -266,12 +267,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "SPN8",
+    "IsDeal": false,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -296,12 +297,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "GRC14",
+    "IsDeal": false,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -326,12 +327,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "GRC13",
+    "IsDeal": false,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -356,12 +357,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
-    "FlightNo": 3,
+    "FlightNo": 0,
     "FlightId": "GER13",
+    "IsDeal": false,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -386,12 +387,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "GER4",
+    "IsDeal": false,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -416,12 +417,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 0
   },
   {
     "FlightNo": 0,
     "FlightId": "UK18",
+    "IsDeal": false,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -446,12 +447,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
-    "FlightNo": 4,
+    "FlightNo": 0,
     "FlightId": "GER18",
+    "IsDeal": false,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -476,12 +477,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "UK10",
+    "IsDeal": false,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -506,12 +507,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "GRC17",
+    "IsDeal": false,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -536,12 +537,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "UK6",
+    "IsDeal": false,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -566,12 +567,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "GRC3",
+    "IsDeal": false,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -596,12 +597,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "GER2",
+    "IsDeal": false,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -626,12 +627,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
-    "FlightNo": 5,
+    "FlightNo": 0,
     "FlightId": "GER16",
+    "IsDeal": false,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -656,12 +657,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "GER9",
+    "IsDeal": false,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -686,12 +687,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "UK16",
+    "IsDeal": false,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -716,12 +717,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "SPN7",
+    "IsDeal": false,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -746,12 +747,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "UK9",
+    "IsDeal": false,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -776,12 +777,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "GER3",
+    "IsDeal": false,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -806,12 +807,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 0
   },
   {
     "FlightNo": 0,
     "FlightId": "UK3",
+    "IsDeal": false,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -836,12 +837,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
-    "FlightNo": 6,
+    "FlightNo": 0,
     "FlightId": "GER19",
+    "IsDeal": false,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -866,12 +867,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "SPN10",
+    "IsDeal": false,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -896,12 +897,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "UK2",
+    "IsDeal": false,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -926,12 +927,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "UK14",
+    "IsDeal": false,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -956,12 +957,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "SPN17",
+    "IsDeal": false,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -986,12 +987,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "UK5",
+    "IsDeal": false,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -1016,12 +1017,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "SPN2",
+    "IsDeal": false,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -1046,12 +1047,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "SPN13",
+    "IsDeal": false,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -1076,12 +1077,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "SPN18",
+    "IsDeal": false,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -1106,12 +1107,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "GER6",
+    "IsDeal": false,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -1136,12 +1137,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "UK17",
+    "IsDeal": false,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -1166,12 +1167,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "GRC1",
+    "IsDeal": false,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -1196,12 +1197,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "GER5",
+    "IsDeal": false,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -1226,12 +1227,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "UK15",
+    "IsDeal": false,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -1256,12 +1257,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "SPN1",
+    "IsDeal": false,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -1286,12 +1287,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "SPN16",
+    "IsDeal": false,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -1316,12 +1317,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "GER8",
+    "IsDeal": false,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -1346,12 +1347,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
-    "FlightNo": 7,
+    "FlightNo": 0,
     "FlightId": "GER11",
+    "IsDeal": false,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -1376,12 +1377,12 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   },
   {
     "FlightNo": 0,
     "FlightId": "GRC19",
+    "IsDeal": false,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -1406,7 +1407,6 @@
     },
     "BasePrice": 100.0,
     "MinPrice": 100.0,
-    "IsDeal": false,
     "TotalSeats": 102
   }
 ]

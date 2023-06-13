@@ -1,0 +1,10 @@
+[
+  {
+    "ID": 1,
+    "LoggedIn": true,
+    "Email": "aaaaaaa@gmail.com",
+    "Vouchers": [],
+    "Password": "abc123!",
+    "BoughtTickets": []
+  }
+]
