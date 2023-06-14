@@ -1,10 +1,18 @@
 [
   {
     "ID": 1,
-    "LoggedIn": true,
+    "LoggedIn": false,
     "Email": "aaaaaaa@gmail.com",
     "Vouchers": [],
     "Password": "abc123!",
+    "BoughtTickets": []
+  },
+  {
+    "ID": 4,
+    "LoggedIn": true,
+    "Email": "a@gmail.com",
+    "Vouchers": [],
+    "Password": "ABCDEF123!",
     "BoughtTickets": []
   }
 ]
