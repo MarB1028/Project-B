@@ -67,6 +67,19 @@
         bool X = false;
         while (X == false)
         {
+            if (acc.Vouchers.Count == 1)
+            {
+                Console.WriteLine($"You have {acc.Vouchers.Count} voucher:");
+            }
+            else
+            { 
+                Console.WriteLine($"You have {acc.Vouchers.Count} vouchers:");
+            }
+            
+            foreach (Voucher voucher in acc.Vouchers)
+            {
+                GenerateVoucher.PrintVoucher(voucher);
+            }
             Console.WriteLine("Would you like to use a voucher?\n1. Yes\n2. No");
             string usevoucher0 = Console.ReadLine();
             while (int.TryParse(usevoucher0, out usevoucher) == false || (usevoucher0 != "1" && usevoucher0 != "2"))

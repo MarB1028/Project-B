@@ -3555,12 +3555,20 @@
     }
   },
   {
-    "Booked": false,
+    "Booked": true,
     "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 182,
     "Ticket": {
-      "Passenger": null,
+      "Passenger": {
+        "ID": 87,
+        "FirstName": "m",
+        "LastName": "a",
+        "Sex": "m",
+        "BirthDate": "2002-10-11T00:00:00",
+        "Address": "a 4 1111kk a",
+        "PhoneNumber": "0623110990"
+      },
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER11",
