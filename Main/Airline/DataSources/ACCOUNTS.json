@@ -1,0 +1,308 @@
+[
+  {
+    "ID": 1,
+    "LoggedIn": false,
+    "Email": "marie@gmail.com",
+    "Vouchers": [
+      {
+        "VoucherCode": "SMG774MLI",
+        "Cancellationdate": "2023-06-14T14:30:56.1164097+02:00",
+        "Expirationdate": "2024-06-14T14:30:56.1164097+02:00",
+        "Flightinfo": "FRANKFURT ((GER))  2023-07-09 09:31",
+        "Price": 50.0
+      }
+    ],
+    "Password": "kmkm12!",
+    "BoughtTickets": [
+      {
+        "Booked": true,
+        "BookingsCode": "XVV026",
+        "PaymentDone": true,
+        "TicketID": 103,
+        "Ticket": {
+          "Passenger": {
+            "ID": 4,
+            "FirstName": "Marie",
+            "LastName": "dee groot",
+            "Sex": "f",
+            "BirthDate": "2006-10-13T00:00:00",
+            "Address": "sjdnwjd 12 1234ah dwkw",
+            "PhoneNumber": "0612345678"
+          },
+          "Flight": {
+            "FlightNo": 0,
+            "FlightId": "GER4",
+            "IsDeal": false,
+            "DayOrNight": "Day",
+            "Airplane": {
+              "Name": "BOEING747",
+              "Carrierid": "BO",
+              "AirplaneId": 1,
+              "FirstClassSeat": 4,
+              "PremiumSeat": 5,
+              "EconomySeat": 6,
+              "ExtraSpace": 2
+            },
+            "BoardingDate": "2023-07-09T09:31:00+02:00",
+            "EstimatedArrival": "2023-07-09T12:31:00+02:00",
+            "Destination": {
+              "DisplayNo": "1.1",
+              "Country": "GERMANY",
+              "City": "FRANKFURT",
+              "Abbreviation": "(GER)",
+              "Airport": "FRANKFURT AIRPORT",
+              "Distancekm": 100,
+              "FlightDuration": 3,
+              "Status": "On schedule"
+            },
+            "BasePrice": 100.0,
+            "MinPrice": 100.0,
+            "TotalSeats": 0
+          },
+          "Seat": {
+            "SeatNumber": "BO-1",
+            "SeatType": "First-Class",
+            "Price": 600.0
+          },
+          "Gate": "Empty"
+        }
+      },
+      {
+        "Booked": true,
+        "BookingsCode": "PRL368",
+        "PaymentDone": false,
+        "TicketID": 103,
+        "Ticket": {
+          "Passenger": {
+            "ID": 5,
+            "FirstName": "marie",
+            "LastName": "de groot",
+            "Sex": "f",
+            "BirthDate": "2000-10-10T00:00:00",
+            "Address": "kjdiwjdw 1 1234fd kwdmkw",
+            "PhoneNumber": "0612345678"
+          },
+          "Flight": {
+            "FlightNo": 0,
+            "FlightId": "SPN14",
+            "IsDeal": false,
+            "DayOrNight": "Day",
+            "Airplane": {
+              "Name": "BOEING747",
+              "Carrierid": "BO",
+              "AirplaneId": 1,
+              "FirstClassSeat": 4,
+              "PremiumSeat": 5,
+              "EconomySeat": 6,
+              "ExtraSpace": 2
+            },
+            "BoardingDate": "2023-07-02T22:33:55.5730041+02:00",
+            "EstimatedArrival": "2023-07-03T01:33:55.5730041+02:00",
+            "Destination": {
+              "DisplayNo": "2.2",
+              "Country": "SPAIN",
+              "City": "MALAGA",
+              "Abbreviation": "(AGP)",
+              "Airport": "MÁLAGA-COSTA DEL SOL AIRPORT",
+              "Distancekm": 100,
+              "FlightDuration": 3,
+              "Status": "On schedule"
+            },
+            "BasePrice": 100.0,
+            "MinPrice": 100.0,
+            "TotalSeats": 102
+          },
+          "Seat": {
+            "SeatNumber": "BO-1",
+            "SeatType": "First-Class",
+            "Price": 600.0
+          },
+          "Gate": "Empty"
+        }
+      },
+      {
+        "Booked": true,
+        "BookingsCode": "BBP116",
+        "PaymentDone": false,
+        "TicketID": 175,
+        "Ticket": {
+          "Passenger": {
+            "ID": 18,
+            "FirstName": "kemdkw",
+            "LastName": "dkmwkmw",
+            "Sex": "m",
+            "BirthDate": "2020-10-10T00:00:00",
+            "Address": "kdmwldmw 1km 1234ks qkmdkw",
+            "PhoneNumber": "0612345678"
+          },
+          "Flight": {
+            "FlightNo": 0,
+            "FlightId": "GRC6",
+            "IsDeal": false,
+            "DayOrNight": "Night",
+            "Airplane": {
+              "Name": "BOEING747",
+              "Carrierid": "BO",
+              "AirplaneId": 1,
+              "FirstClassSeat": 4,
+              "PremiumSeat": 5,
+              "EconomySeat": 6,
+              "ExtraSpace": 2
+            },
+            "BoardingDate": "2023-07-04T20:19:00+02:00",
+            "EstimatedArrival": "2023-07-05T03:19:00+02:00",
+            "Destination": {
+              "DisplayNo": "3.1",
+              "Country": "GREECE",
+              "City": "ATHENS",
+              "Abbreviation": "(ATH)",
+              "Airport": "ATHENS INTERNATIONAL AIRPORT",
+              "Distancekm": 100,
+              "FlightDuration": 7,
+              "Status": "On schedule"
+            },
+            "BasePrice": 100.0,
+            "MinPrice": 100.0,
+            "TotalSeats": 102
+          },
+          "Seat": {
+            "SeatNumber": "BO-73",
+            "SeatType": "Economy-Class",
+            "Price": 100.0
+          },
+          "Gate": "Empty"
+        }
+      }
+    ]
+  },
+  {
+    "ID": 3,
+    "LoggedIn": true,
+    "Email": "test123@gmail.com",
+    "Vouchers": [
+      {
+        "VoucherCode": "SHY351CCF",
+        "Cancellationdate": "2023-06-14T23:46:18.4404935+02:00",
+        "Expirationdate": "2024-06-14T23:46:18.4404935+02:00",
+        "Flightinfo": "ATHENS ((ATH))  2023-07-04 20:19",
+        "Price": 50.0
+      },
+      {
+        "VoucherCode": "MIK175PKS",
+        "Cancellationdate": "2023-06-14T23:58:25.7559026+02:00",
+        "Expirationdate": "2024-06-14T23:58:25.7559026+02:00",
+        "Flightinfo": "MALAGA ((AGP))  2023-07-02 22:33",
+        "Price": 50.0
+      }
+    ],
+    "Password": "test123!",
+    "BoughtTickets": [
+      {
+        "Booked": true,
+        "BookingsCode": null,
+        "PaymentDone": false,
+        "TicketID": 103,
+        "Ticket": {
+          "Passenger": {
+            "ID": 215,
+            "FirstName": "wkdkw",
+            "LastName": "qkmsksm",
+            "Sex": "m",
+            "BirthDate": "2020-10-10T00:00:00",
+            "Address": "mksm 1 1234bs kwmkdmw",
+            "PhoneNumber": "0612345678"
+          },
+          "Flight": {
+            "FlightNo": 0,
+            "FlightId": "GRC6",
+            "IsDeal": false,
+            "DayOrNight": "Night",
+            "Airplane": {
+              "Name": "BOEING747",
+              "Carrierid": "BO",
+              "AirplaneId": 1,
+              "FirstClassSeat": 4,
+              "PremiumSeat": 5,
+              "EconomySeat": 6,
+              "ExtraSpace": 2
+            },
+            "BoardingDate": "2023-07-04T20:19:00+02:00",
+            "EstimatedArrival": "2023-07-05T03:19:00+02:00",
+            "Destination": {
+              "DisplayNo": "3.1",
+              "Country": "GREECE",
+              "City": "ATHENS",
+              "Abbreviation": "(ATH)",
+              "Airport": "ATHENS INTERNATIONAL AIRPORT",
+              "Distancekm": 100,
+              "FlightDuration": 7,
+              "Status": "On schedule"
+            },
+            "BasePrice": 100.0,
+            "MinPrice": 100.0,
+            "TotalSeats": 102
+          },
+          "Seat": {
+            "SeatNumber": "BO-1",
+            "SeatType": "First-Class",
+            "Price": 600.0
+          },
+          "Gate": "Empty"
+        }
+      },
+      {
+        "Booked": true,
+        "BookingsCode": null,
+        "PaymentDone": false,
+        "TicketID": 103,
+        "Ticket": {
+          "Passenger": {
+            "ID": 245,
+            "FirstName": "wdkmwkmdw",
+            "LastName": "wkmdkwmdw",
+            "Sex": "f",
+            "BirthDate": "2020-10-10T00:00:00",
+            "Address": "efefe 1 1234as wdwd",
+            "PhoneNumber": "0612345678"
+          },
+          "Flight": {
+            "FlightNo": 0,
+            "FlightId": "SPN8",
+            "IsDeal": false,
+            "DayOrNight": "Night",
+            "Airplane": {
+              "Name": "BOEING747",
+              "Carrierid": "BO",
+              "AirplaneId": 1,
+              "FirstClassSeat": 4,
+              "PremiumSeat": 5,
+              "EconomySeat": 6,
+              "ExtraSpace": 2
+            },
+            "BoardingDate": "2023-07-05T11:08:55.573002+02:00",
+            "EstimatedArrival": "2023-07-05T13:08:55.573002+02:00",
+            "Destination": {
+              "DisplayNo": "2.1",
+              "Country": "SPAIN",
+              "City": "BARCELONA",
+              "Abbreviation": "(BCN)",
+              "Airport": "JOSEPH TARRADELLAS BARCELONA-EL PRAT AIRPORT",
+              "Distancekm": 100,
+              "FlightDuration": 2,
+              "Status": "On schedule"
+            },
+            "BasePrice": 100.0,
+            "MinPrice": 100.0,
+            "TotalSeats": 102
+          },
+          "Seat": {
+            "SeatNumber": "BO-1",
+            "SeatType": "First-Class",
+            "Price": 600.0
+          },
+          "Gate": "Empty"
+        }
+      }
+    ]
+  }
+]
