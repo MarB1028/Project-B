@@ -158,8 +158,8 @@ public static class CateringLogic
             int foodid;
             do
             {
-                Console.Write(": ");
                 string userinput = Console.ReadLine();
+                Console.Write(": ");
 
                 if (int.TryParse(userinput, out foodid))
                 {
