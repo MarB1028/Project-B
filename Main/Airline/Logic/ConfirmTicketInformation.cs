@@ -81,12 +81,12 @@
                 GenerateVoucher.PrintVoucher(voucher);
             }
             Console.WriteLine("Would you like to use a voucher?\n1. Yes\n2. No");
-            string usevoucher0 = Console.ReadLine();
+            string usevoucher0 = Console.ReadLine()!;
             while (int.TryParse(usevoucher0, out usevoucher) == false || (usevoucher0 != "1" && usevoucher0 != "2"))
             {
                 Console.WriteLine("Please enter a valid input");
                 Console.WriteLine("Do you have a voucher that you would like to use?\n1. Yes\n2. No");
-                usevoucher0 = Console.ReadLine();
+                usevoucher0 = Console.ReadLine()!;
             }
             if (usevoucher == 2)
             {
@@ -94,8 +94,8 @@
             }
             else if (usevoucher == 1)
             {
-                Console.WriteLine("Enter your Vouchercode.");
-                string code = Console.ReadLine();
+                Console.WriteLine("Enter your vouchercode.");
+                string code = Console.ReadLine()!;
                 bool codeExists = false;
                 foreach (Voucher voucher in GetAccount().Vouchers)
                 {
@@ -115,12 +115,12 @@
                 {
                     GenerateVoucher.PrintVoucher(voucher1);
                     Console.WriteLine("Confirm to use the voucher above.\n1. Yes\n2. No");
-                    string confirmvoucher0 = Console.ReadLine();
+                    string confirmvoucher0 = Console.ReadLine()!;
                     while (int.TryParse(confirmvoucher0, out confirmvoucher) == false || (confirmvoucher0 != "1" && confirmvoucher0 != "2"))
                     {
                         Console.WriteLine("Please enter a valid input");
                         Console.WriteLine("Confirm to use the voucher above.\n1. Yes\n2. No");
-                        confirmvoucher0 = Console.ReadLine();
+                        confirmvoucher0 = Console.ReadLine()!;
                     }
                     if (confirmvoucher == 1)
                     {
@@ -205,7 +205,6 @@
                 Console.WriteLine("Invalid input!");
             }
         }
-        // Ticket overview of terug naar het menu?
     }
 
     public static bool MakePayment()
