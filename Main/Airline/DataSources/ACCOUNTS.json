@@ -177,7 +177,7 @@
   },
   {
     "ID": 9,
-    "LoggedIn": true,
+    "LoggedIn": false,
     "Email": "abc123@gmail.com",
     "Vouchers": [],
     "Password": "abc123!",
@@ -342,5 +342,28 @@
         }
       }
     ]
+  },
+  {
+    "ID": 16,
+    "LoggedIn": true,
+    "Email": "Test123@gmail.com",
+    "Vouchers": [
+      {
+        "VoucherCode": "XDD631JTJ",
+        "Cancellationdate": "2023-06-15T17:05:15.0043767+02:00",
+        "Expirationdate": "2024-06-15T17:05:15.0043767+02:00",
+        "Flightinfo": "FRANKFURT ((GER))  2023-07-13 12:28",
+        "Price": 50.0
+      },
+      {
+        "VoucherCode": "HPK588UYK",
+        "Cancellationdate": "2023-06-15T17:37:11.9766674+02:00",
+        "Expirationdate": "2024-06-15T17:37:11.9766674+02:00",
+        "Flightinfo": "MUNCHEN ((MUC))  2023-07-12 16:57",
+        "Price": 50.0
+      }
+    ],
+    "Password": "Test123!",
+    "BoughtTickets": []
   }
 ]
