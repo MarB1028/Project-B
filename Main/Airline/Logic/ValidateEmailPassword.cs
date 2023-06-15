@@ -85,7 +85,7 @@
         string email = Console.ReadLine()!;
         Console.WriteLine();
 
-        while (CheckNewValidEmail(email) == false ) // roept CheckNewValideEmail() aan en checkt de criteria van een email
+        while (CheckNewValidEmail(email) == false) // roept CheckNewValideEmail() aan en checkt de criteria van een email
         {
             Console.WriteLine("Input a valid email adress:");
             email = Console.ReadLine()!;
@@ -114,10 +114,12 @@
     {
         List<string> emailEndings = new List<string>() { "@icloud.com", "@hotmail.com", "@gmail.com", "@outlook.com", "@yahoo.com", "@kpnmail.nl", "@ziggo.nl", "@upcmail.nl", "@live.nl", "@telfort.nl", "@xs4all.nl", "@planet.nl" };
         
-        if (CheckExistingEmail(email)) {
+        if (CheckExistingEmail(email)) 
+        {
             Console.WriteLine("Email adress has already registered.");
             return false;
         }
+        
         foreach (string ending in emailEndings)
         {
             if (email.EndsWith(ending))
