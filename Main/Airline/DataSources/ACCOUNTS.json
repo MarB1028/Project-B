@@ -179,15 +179,7 @@
     "ID": 9,
     "LoggedIn": true,
     "Email": "abc123@gmail.com",
-    "Vouchers": [
-      {
-        "VoucherCode": "AFU216JWE",
-        "Cancellationdate": "2023-06-14T14:49:12.746141+02:00",
-        "Expirationdate": "2024-06-14T14:49:12.746141+02:00",
-        "Flightinfo": "MUNCHEN ((MUC))  2023-08-30 00:56",
-        "Price": 50.0
-      }
-    ],
+    "Vouchers": [],
     "Password": "abc123!",
     "BoughtTickets": [
       {
@@ -292,6 +284,59 @@
             "SeatNumber": "BO-28",
             "SeatType": "Premium-Class",
             "Price": 300.0
+          },
+          "Gate": "Empty"
+        }
+      },
+      {
+        "Booked": true,
+        "BookingsCode": null,
+        "PaymentDone": false,
+        "TicketID": 161,
+        "Ticket": {
+          "Passenger": {
+            "ID": 1459,
+            "FirstName": "a",
+            "LastName": "a",
+            "Sex": "m",
+            "BirthDate": "2002-10-11T00:00:00",
+            "Address": "a 1 1111aa a",
+            "PhoneNumber": "0623110990"
+          },
+          "Flight": {
+            "FlightNo": 0,
+            "FlightId": "GER16",
+            "IsDeal": false,
+            "DayOrNight": "Night",
+            "Airplane": {
+              "Name": "BOEING747",
+              "Carrierid": "BO",
+              "AirplaneId": 1,
+              "FirstClassSeat": 4,
+              "PremiumSeat": 5,
+              "EconomySeat": 6,
+              "ExtraSpace": 2
+            },
+            "BoardingDate": "2023-07-12T16:57:00+02:00",
+            "EstimatedArrival": "2023-07-12T20:57:00+02:00",
+            "Destination": {
+              "DisplayNo": "1.2",
+              "Country": "GERMANY",
+              "City": "MUNCHEN",
+              "Abbreviation": "(MUC)",
+              "Airport": "MUNICH INTERNATIONAL AIRPORT",
+              "Distancekm": 100,
+              "FlightDuration": 4,
+              "Status": "On schedule"
+            },
+            "BasePrice": 100.0,
+            "MinPrice": 100.0,
+            "TotalSeats": 102
+          },
+          "Seat": {
+            "SeatNumber": "BO-59",
+            "SeatType": "Economy-Class",
+            "Price": 100.0
           },
           "Gate": "Empty"
         }

@@ -34,6 +34,7 @@ static class SetGetAccounts
             if (Account.Email == account.Email)
             {
                 Account.BoughtTickets = account.BoughtTickets;
+                Account.Vouchers = account.Vouchers;
             }
         }
         string UpdateJSON = JsonConvert.SerializeObject(DataAccounts, Formatting.Indented);
