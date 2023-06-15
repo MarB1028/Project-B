@@ -148,6 +148,8 @@ public static class GetLugage
 
             if (confirm == "1")
             {
+                amountOfHandLuggage = 0;
+                amountOfLuggage = 0;
                 y = false;
             }
             else if (confirm == "2")

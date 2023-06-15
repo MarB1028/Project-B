@@ -5,69 +5,75 @@
 
     public void CheckLoginOrRegister() // check of de gebruiker wilt inloggen/registeren of terug wilt gaan naar het menu
     {
-        try
+        bool x = true;
+
+        while (x)
         {
-            Console.WriteLine("1. Login into your account\n2. Register for a new account\n3. Admin login\n4. Back to the main menu");
-            int loginOrRegister = Convert.ToInt32(Console.ReadLine());
+            try
+            {
+                Console.WriteLine("1. Login into your account\n2. Register for a new account\n3. Admin login\n4. Back to the main menu");
+                int loginOrRegister = Convert.ToInt32(Console.ReadLine());
 
-            if (loginOrRegister == 1) // login met bestaande account
-            {
-                Console.Clear();
-                CheckLogin();
-                // ga naar overzicht beschikbare tickets na het registreren of het menu?
-            }
-            else if (loginOrRegister == 2) // register nieuw account
-            {
-                Console.Clear();
-                SetNewAccount();
-                // ga naar overzicht beschikbare tickets na het registreren of het menu?
-            }
-            else if (loginOrRegister == 3) // admin login
-            {
-                Console.Clear();
-
-                string username;
-                do
+                if (loginOrRegister == 1) // login met bestaande account
                 {
-                    Console.Write("Username: ");
-                    username = Console.ReadLine()!;
-                    if (username == _username)
-                    {
-                        break;
-                    }
-                    else Console.WriteLine("INVALID ADMIN USERNAME.");
-
-                } while (true);
-
-                string password;
-                do
+                    Console.Clear();
+                    CheckLogin();
+                    // ga naar overzicht beschikbare tickets na het registreren of het menu?
+                }
+                else if (loginOrRegister == 2) // register nieuw account
                 {
-                    Console.Write("Password: ");
-                    password = Console.ReadLine()!;
-                    if (password == _password)
+                    Console.Clear();
+                    SetNewAccount();
+                    // ga naar overzicht beschikbare tickets na het registreren of het menu?
+                }
+                else if (loginOrRegister == 3) // admin login
+                {
+                    Console.Clear();
+
+                    string username;
+                    do
                     {
-                        break;
-                    }
-                    else Console.WriteLine("INVALID ADMIN PASSWORD.");
+                        Console.Write("Username: ");
+                        username = Console.ReadLine()!;
+                        if (username == _username)
+                        {
+                            x = false;
+                            break;
+                        }
+                        else Console.WriteLine("INVALID ADMIN USERNAME.");
 
-                } while (true);
+                    } while (true);
 
-                AdminForm.StartForm();
+                    string password;
+                    do
+                    {
+                        Console.Write("Password: ");
+                        password = Console.ReadLine()!;
+                        if (password == _password)
+                        {
+                            x = false;
+                            break;
+                        }
+                        else Console.WriteLine("INVALID ADMIN PASSWORD.");
+
+                    } while (true);
+
+                    AdminForm.StartForm();
+                }
+                else if (loginOrRegister == 4) // terug naar het hoofdmenu
+                {
+                    Console.Clear();
+                    Menu.StartScreen();
+                }
+                else
+                {
+                    Console.WriteLine("Invalid input!");
+                }
             }
-            else if (loginOrRegister == 4) // terug naar het hoofdmenu
+            catch (FormatException)
             {
-                Console.Clear();
-                Menu.StartScreen();
-                // menu [moet nog aangeroepen worden]
+                Console.WriteLine("Invalid format!");
             }
-            else
-            {
-                Console.WriteLine("Invalid input!");
-            }
-        }
-        catch (FormatException)
-        {
-            Console.WriteLine("Invalid format!");
         }
     }
 
@@ -156,8 +162,24 @@
                 while (CheckExistingEmail(email) == false)
                 {
                     Console.WriteLine();
-                    Console.WriteLine("The given email does not exist in our system.\nTry again");
-                    email = Console.ReadLine()!;
+                    Console.WriteLine("The given email does not exist in our system.\n1. Try again\n2. Back to menu");
+                    int answer = Convert.ToInt32((Console.ReadLine()!));
+
+                    if (answer == 1)
+                    {
+                        Console.WriteLine();
+                        Console.WriteLine("Input your email adress:");
+                        email = Console.ReadLine()!;
+                    }
+                    else if (answer == 2)
+                    {
+                        Menu.StartScreen();
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid input!");
+                    }
                 }
 
                 Console.WriteLine();
@@ -195,7 +217,7 @@
                     }
                     else if (answer == 3)
                     {
-                        // terug naar het hoofdmenu [nog aanroepen]
+                        Menu.StartScreen();
                         break;
                     }
                     else
