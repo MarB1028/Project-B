@@ -1,0 +1,301 @@
+[
+  {
+    "ID": 1,
+    "LoggedIn": false,
+    "Email": "aaaaaaa@gmail.com",
+    "Vouchers": [],
+    "Password": "abc123!",
+    "BoughtTickets": []
+  },
+  {
+    "ID": 4,
+    "LoggedIn": false,
+    "Email": "a@gmail.com",
+    "Vouchers": [],
+    "Password": "ABCDEF123!",
+    "BoughtTickets": [
+      {
+        "Booked": true,
+        "BookingsCode": null,
+        "PaymentDone": false,
+        "TicketID": 157,
+        "Ticket": {
+          "Passenger": {
+            "ID": 3,
+            "FirstName": "a",
+            "LastName": "a",
+            "Sex": "m",
+            "BirthDate": "2002-10-11T00:00:00",
+            "Address": "s 1 3074WR a",
+            "PhoneNumber": "0623110990"
+          },
+          "Flight": {
+            "FlightNo": 0,
+            "FlightId": "GER16",
+            "IsDeal": false,
+            "DayOrNight": "Night",
+            "Airplane": {
+              "Name": "BOEING747",
+              "Carrierid": "BO",
+              "AirplaneId": 1,
+              "FirstClassSeat": 4,
+              "PremiumSeat": 5,
+              "EconomySeat": 6,
+              "ExtraSpace": 2
+            },
+            "BoardingDate": "2023-07-12T16:57:00+02:00",
+            "EstimatedArrival": "2023-07-12T20:57:00+02:00",
+            "Destination": {
+              "DisplayNo": "1.2",
+              "Country": "GERMANY",
+              "City": "MUNCHEN",
+              "Abbreviation": "(MUC)",
+              "Airport": "MUNICH INTERNATIONAL AIRPORT",
+              "Distancekm": 100,
+              "FlightDuration": 4,
+              "Status": "On schedule"
+            },
+            "BasePrice": 100.0,
+            "MinPrice": 100.0,
+            "TotalSeats": 102
+          },
+          "Seat": {
+            "SeatNumber": "BO-55",
+            "SeatType": "Economy-Class",
+            "Price": 100.0
+          },
+          "Gate": "Empty"
+        }
+      },
+      {
+        "Booked": true,
+        "BookingsCode": null,
+        "PaymentDone": false,
+        "TicketID": 158,
+        "Ticket": {
+          "Passenger": {
+            "ID": 216,
+            "FirstName": "a",
+            "LastName": "b",
+            "Sex": "m",
+            "BirthDate": "2002-10-11T00:00:00",
+            "Address": "a 1 1111nn k",
+            "PhoneNumber": "0623110990"
+          },
+          "Flight": {
+            "FlightNo": 0,
+            "FlightId": "GER16",
+            "IsDeal": false,
+            "DayOrNight": "Night",
+            "Airplane": {
+              "Name": "BOEING747",
+              "Carrierid": "BO",
+              "AirplaneId": 1,
+              "FirstClassSeat": 4,
+              "PremiumSeat": 5,
+              "EconomySeat": 6,
+              "ExtraSpace": 2
+            },
+            "BoardingDate": "2023-07-12T16:57:00+02:00",
+            "EstimatedArrival": "2023-07-12T20:57:00+02:00",
+            "Destination": {
+              "DisplayNo": "1.2",
+              "Country": "GERMANY",
+              "City": "MUNCHEN",
+              "Abbreviation": "(MUC)",
+              "Airport": "MUNICH INTERNATIONAL AIRPORT",
+              "Distancekm": 100,
+              "FlightDuration": 4,
+              "Status": "On schedule"
+            },
+            "BasePrice": 100.0,
+            "MinPrice": 100.0,
+            "TotalSeats": 102
+          },
+          "Seat": {
+            "SeatNumber": "BO-56",
+            "SeatType": "Economy-Class",
+            "Price": 100.0
+          },
+          "Gate": "Empty"
+        }
+      },
+      {
+        "Booked": true,
+        "BookingsCode": null,
+        "PaymentDone": false,
+        "TicketID": 159,
+        "Ticket": {
+          "Passenger": {
+            "ID": 626,
+            "FirstName": "a",
+            "LastName": "b",
+            "Sex": "m",
+            "BirthDate": "2002-10-11T00:00:00",
+            "Address": "k 51a 3333jj j",
+            "PhoneNumber": "0623110990"
+          },
+          "Flight": {
+            "FlightNo": 0,
+            "FlightId": "GER16",
+            "IsDeal": false,
+            "DayOrNight": "Night",
+            "Airplane": {
+              "Name": "BOEING747",
+              "Carrierid": "BO",
+              "AirplaneId": 1,
+              "FirstClassSeat": 4,
+              "PremiumSeat": 5,
+              "EconomySeat": 6,
+              "ExtraSpace": 2
+            },
+            "BoardingDate": "2023-07-12T16:57:00+02:00",
+            "EstimatedArrival": "2023-07-12T20:57:00+02:00",
+            "Destination": {
+              "DisplayNo": "1.2",
+              "Country": "GERMANY",
+              "City": "MUNCHEN",
+              "Abbreviation": "(MUC)",
+              "Airport": "MUNICH INTERNATIONAL AIRPORT",
+              "Distancekm": 100,
+              "FlightDuration": 4,
+              "Status": "On schedule"
+            },
+            "BasePrice": 100.0,
+            "MinPrice": 100.0,
+            "TotalSeats": 102
+          },
+          "Seat": {
+            "SeatNumber": "BO-57",
+            "SeatType": "Economy-Class",
+            "Price": 100.0
+          },
+          "Gate": "Empty"
+        }
+      }
+    ]
+  },
+  {
+    "ID": 9,
+    "LoggedIn": true,
+    "Email": "abc123@gmail.com",
+    "Vouchers": [
+      {
+        "VoucherCode": "AFU216JWE",
+        "Cancellationdate": "2023-06-14T14:49:12.746141+02:00",
+        "Expirationdate": "2024-06-14T14:49:12.746141+02:00",
+        "Flightinfo": "MUNCHEN ((MUC))  2023-08-30 00:56",
+        "Price": 50.0
+      }
+    ],
+    "Password": "abc123!",
+    "BoughtTickets": [
+      {
+        "Booked": true,
+        "BookingsCode": null,
+        "PaymentDone": false,
+        "TicketID": 169,
+        "Ticket": {
+          "Passenger": {
+            "ID": 1900,
+            "FirstName": "a",
+            "LastName": "b",
+            "Sex": "m",
+            "BirthDate": "2002-10-11T00:00:00",
+            "Address": "a 1 1111aa m",
+            "PhoneNumber": "0623110990"
+          },
+          "Flight": {
+            "FlightNo": 0,
+            "FlightId": "GER16",
+            "IsDeal": false,
+            "DayOrNight": "Night",
+            "Airplane": {
+              "Name": "BOEING747",
+              "Carrierid": "BO",
+              "AirplaneId": 1,
+              "FirstClassSeat": 4,
+              "PremiumSeat": 5,
+              "EconomySeat": 6,
+              "ExtraSpace": 2
+            },
+            "BoardingDate": "2023-07-12T16:57:00+02:00",
+            "EstimatedArrival": "2023-07-12T20:57:00+02:00",
+            "Destination": {
+              "DisplayNo": "1.2",
+              "Country": "GERMANY",
+              "City": "MUNCHEN",
+              "Abbreviation": "(MUC)",
+              "Airport": "MUNICH INTERNATIONAL AIRPORT",
+              "Distancekm": 100,
+              "FlightDuration": 4,
+              "Status": "On schedule"
+            },
+            "BasePrice": 100.0,
+            "MinPrice": 100.0,
+            "TotalSeats": 102
+          },
+          "Seat": {
+            "SeatNumber": "BO-67",
+            "SeatType": "Economy-Class",
+            "Price": 100.0
+          },
+          "Gate": "Empty"
+        }
+      },
+      {
+        "Booked": true,
+        "BookingsCode": null,
+        "PaymentDone": false,
+        "TicketID": 130,
+        "Ticket": {
+          "Passenger": {
+            "ID": 19,
+            "FirstName": "a",
+            "LastName": "a",
+            "Sex": "m",
+            "BirthDate": "2002-10-11T00:00:00",
+            "Address": "a 1a 1111kk a",
+            "PhoneNumber": "0623110990"
+          },
+          "Flight": {
+            "FlightNo": 0,
+            "FlightId": "GER11",
+            "IsDeal": false,
+            "DayOrNight": "Day",
+            "Airplane": {
+              "Name": "BOEING747",
+              "Carrierid": "BO",
+              "AirplaneId": 1,
+              "FirstClassSeat": 4,
+              "PremiumSeat": 5,
+              "EconomySeat": 6,
+              "ExtraSpace": 2
+            },
+            "BoardingDate": "2023-08-30T00:56:38.5406741+02:00",
+            "EstimatedArrival": "2023-08-30T04:56:38.5406741+02:00",
+            "Destination": {
+              "DisplayNo": "1.2",
+              "Country": "GERMANY",
+              "City": "MUNCHEN",
+              "Abbreviation": "(MUC)",
+              "Airport": "MUNICH INTERNATIONAL AIRPORT",
+              "Distancekm": 100,
+              "FlightDuration": 4,
+              "Status": "On schedule"
+            },
+            "BasePrice": 100.0,
+            "MinPrice": 100.0,
+            "TotalSeats": 102
+          },
+          "Seat": {
+            "SeatNumber": "BO-28",
+            "SeatType": "Premium-Class",
+            "Price": 300.0
+          },
+          "Gate": "Empty"
+        }
+      }
+    ]
+  }
+]

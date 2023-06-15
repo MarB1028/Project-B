@@ -37,9 +37,7 @@
             }
             else if (cancellation == 2)
             {
-                Console.WriteLine("You are being redirected back to the last step");
-                Console.Clear();
-                ConfirmTicketInformation.PaymentScreen();
+                ConfirmTicketInformation.ConfirmPrice();
                 break;
             }
             else

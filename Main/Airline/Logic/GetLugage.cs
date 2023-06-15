@@ -30,9 +30,16 @@ public static class GetLugage
                 }
                 else if (handLuggage <= (amountOfTickets * 2))
                 {
-                    amountOfHandLuggage += handLuggage;
-                    CheckInLuggage(amountOfHandLuggage);
-                    x = false;
+                    if (handLuggage >= 1)
+                    {
+                        amountOfHandLuggage += handLuggage;
+                        CheckInLuggage(amountOfHandLuggage);
+                        x = false;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid input! Amount of hand luggage cannot be negative.");
+                    }
                 }
                 else if (handLuggage > (amountOfTickets * 2))
                 {
@@ -45,7 +52,7 @@ public static class GetLugage
             }
             else
             {
-                Console.WriteLine("Invalid format");
+                Console.WriteLine("Invalid format!");
             }
         }
         return 0;
@@ -72,9 +79,16 @@ public static class GetLugage
                 }
                 else if (luggage <= (amountOfTickets * 2))
                 {
-                    amountOfLuggage += luggage;
-                    ConfirmPrice();
-                    x = false;
+                    if (luggage >= 1)
+                    {
+                        amountOfLuggage += luggage;
+                        ConfirmPrice();
+                        x = false;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid input! Amount of luggage cannot be negative.");
+                    }
                 }
                 else if (luggage > (amountOfTickets * 2))
                 {
@@ -87,7 +101,7 @@ public static class GetLugage
             }
             else
             {
-                Console.WriteLine("Invalid format");
+                Console.WriteLine("Invalid format!");
             }
         }
         return 0;
@@ -134,6 +148,8 @@ public static class GetLugage
 
             if (confirm == "1")
             {
+                amountOfHandLuggage = 0;
+                amountOfLuggage = 0;
                 y = false;
             }
             else if (confirm == "2")

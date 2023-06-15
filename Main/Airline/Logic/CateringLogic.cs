@@ -6,11 +6,6 @@ public static class CateringLogic
     public static List<BookTicket> tickets;
     public static double TotalPrice = 0;
 
-    public static void ResetTotalPrice()
-    {
-        TotalPrice = 0;
-    }
-    
     // CHECKT DE DURATION VAN DE VLUCHT. LANGER DAN 90 = LONG, KORTER DAN 90 = SHORT
     public static string CheckFlightDur(Flight flight)
     {
@@ -41,64 +36,42 @@ public static class CateringLogic
         int foodid;
         do
         {
-            try
+            Console.Write("Select Food: ");
+            foodid = Convert.ToInt32(Console.ReadLine());
+            if (foodid > 0 && FindFood(foodid, flight) != null)
             {
-                Console.Write("Select Food: ");
-                foodid = Convert.ToInt32(Console.ReadLine());
+                break;
+            }
+            else Console.WriteLine("INVALID FOOD.");
 
-                if (foodid > 0 && FindFood(foodid, flight) != null)
-                {
-                    break;
-                }
-                else Console.WriteLine("INVALID FOOD.");
-            }
-            
-            catch (FormatException)
-            {
-                Console.WriteLine("Invalid number. Please enter a valid number.");
-            }
-            
         } while (true);
 
         int amount;
         do
         {
-            try
+            Console.Write("Select amount: ");
+            amount = Convert.ToInt32(Console.ReadLine());
+            if (amount > 0)
             {
-                Console.Write("Select amount: ");
-                amount = Convert.ToInt32(Console.ReadLine());
-                if (amount > 0)
-                {
-                    break;
-                }
-                else Console.WriteLine("INVALID AMOUNT.");
+                break;
             }
-            
-            catch (FormatException)
-            {
-                Console.WriteLine("Invalid amount. Please enter a valid amount.");
-            }
+            else Console.WriteLine("INVALID AMOUNT.");
 
         } while (true);
-
-        bool foundInBasket = false;
+   
         foreach (BasketItem i in basketItems)
         {
             if (i.FoodItem.ID == foodid)
             {
                 i.Quantity += amount;
-                Console.WriteLine($"{amount} successfully added to {i.FoodItem.Name}");
-                foundInBasket = true;
-                break;
+                Console.WriteLine($"Amount: {amount} sucessfully added to {i.FoodItem.Name} in basket");
+                Thread.Sleep(3000);
+                StartCatering(flight, ticket);
             }
         }
 
-        if (!foundInBasket)
-        {
-            Console.WriteLine($"{FindFood(foodid, flight).Name} successfully added to basket...");
-            basketItems.Add(new BasketItem(FindFood(foodid, flight), amount));
-        }
-
+        Console.WriteLine($"{FindFood(foodid, flight).Name} sucessfully added to basket...");
+        basketItems.Add(new BasketItem(FindFood(foodid, flight), amount));
         Thread.Sleep(3000);
         StartCatering(flight, ticket);
     }
@@ -106,37 +79,20 @@ public static class CateringLogic
     // LAAT DE BASKET ZIEN MET ALLE ITEMS DIE ERIN ZITTEN
     public static void ShowBasket(Flight flight, List<BookTicket> ticket)
     {
-        Console.Clear();
-
         Console.OutputEncoding = System.Text.Encoding.UTF8;
         Console.WriteLine(" [BASKET] ");
         var basket = new ConsoleTable("Number", "Name", "Amount", "Price");
 
-        for (int i = 0; i < basketItems.Count; i++)
+        foreach (var item in basketItems)
         {
-            var item = basketItems[i];
             basket.AddRow(item.FoodItem.ID, item.FoodItem.Name, $"x {item.Quantity}", $"€ {item.FoodItem.Price},-");
         }
-
         Console.WriteLine(basket);
 
         Console.WriteLine("\n1: [GO BACK]");
         Console.WriteLine("2: [REMOVE ITEM]");
         Console.Write(": ");
-
-        string input;
-        do
-        {
-            input = Console.ReadLine();
-            Console.Write(": ");
-            if (!string.IsNullOrEmpty(input))
-            {
-                if (input == "1" || input == "2")
-                {
-                    break;
-                }
-            }
-        } while (true);
+        string input = Console.ReadLine();
 
         if (input == "1")
         {
@@ -145,57 +101,33 @@ public static class CateringLogic
 
         else if (input == "2")
         {
-
-            if (basketItems.Count == 0)
-            {
-                Console.WriteLine("Basket is empty!");
-                Thread.Sleep(2000);
-                StartCatering(flight, ticket);
-            }
-
             Console.WriteLine("Please enter the number of the food you wish to remove");
-            
-            int foodid;
-            do
+            Console.Write(": ");
+            int foodid = Convert.ToInt32(Console.ReadLine());
+
+            if (FindFood(foodid, flight) == null)
             {
-                Console.Write(": ");
-                string userinput = Console.ReadLine();
-
-                if (int.TryParse(userinput, out foodid))
+                do
                 {
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("Invalid input. Please enter a valid number.");
-                }
+                    Console.WriteLine($"Item was not found in menu, please choose again");
+                    Console.WriteLine("Please select again.");
+                    Console.Write(": ");
+                    foodid = Convert.ToInt32(Console.ReadLine());
 
-            } while (true);
-
-
-            bool itemFound = false;
-            for (int i = basketItems.Count - 1; i >= 0; i--)
-            {
-                var item = basketItems[i];
-                if (item.FoodItem.ID == foodid)
-                {
-                    basketItems.RemoveAt(i);
-                    itemFound = true;
-                    break;
+                    if (FindFood(foodid, flight) != null)
+                    {
+                        break;
+                    }
                 }
+                while (true);
             }
 
-            if (itemFound)
-            {
-                Console.WriteLine("Item successfully removed from the basket.");
-            }
-            else
-            {
-                Console.WriteLine("Item not found in the basket.");
-            }
+            BasketItem item = basketItems.FirstOrDefault(p => p.FoodItem.ID == foodid);
+            basketItems.Remove(item);
 
+            Console.WriteLine($"Item succesfully removed from basket");
             Thread.Sleep(3000);
-            ShowBasket(flight, ticket);
+            StartCatering(flight, ticket);
         }
     }
 
@@ -217,22 +149,7 @@ public static class CateringLogic
         Console.WriteLine($"\n[TOTAL PRICE: € {TotalPrice.ToString("F2")},-]");
         Console.WriteLine($"\n1: [CONTINUE PAYMENT]");
         Console.WriteLine($"2: [GO BACK]");
-        Console.Write(":");
-
-        string input;
-        do
-        {
-            input = Console.ReadLine();
-            Console.Write(":");
-            if (!string.IsNullOrEmpty(input))
-            {
-                if (input == "1" || input == "2")
-                {
-                    break;
-                }
-            }
-
-        } while (true);
+        string input = Console.ReadLine();
 
         if (input == "1")
         {

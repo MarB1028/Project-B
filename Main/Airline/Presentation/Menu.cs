@@ -69,7 +69,7 @@ static class Menu
                     Environment.Exit(0);
                     break;
                 default:
-                    Console.WriteLine("Invalid choice.\nPlease enter a valid choice (1 to 5)");
+                    Console.WriteLine("Invalid choice.\nPlease enter a valid choice (1 to 7)");
                     Thread.Sleep(2000);
                     Console.Clear();
                     StartScreen();

@@ -36,8 +36,9 @@
         }
 
         else if (input == "3")
-        {
-            
+        {   
+            Console.Clear();
+            Menu.StartScreen();
         }
     }
 }

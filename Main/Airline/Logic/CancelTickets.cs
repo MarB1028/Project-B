@@ -46,10 +46,10 @@ static class CancelTickets
                     ticket = bookticket;
                     x = false;
                     break;
-                }
-                else {
-                    Console.WriteLine("That ID does not exist. Try again...");
-                }
+                }   
+            }
+            if (ticket == null) {
+                Console.WriteLine("That ID does not exist. Try again...");
             }
         }
             int timedif = (ticket.Ticket.Flight.BoardingDate - DateTime.Now).Hours;
@@ -87,10 +87,12 @@ static class CancelTickets
             DataTickets.WriteTicketToJson(ticket.Ticket.Flight, ticket);
             Console.WriteLine("The ticket has been removed from your account.");
             GenerateVoucher.CreateVoucherObj(ticket.Ticket, ticket.Ticket.Flight.MinPrice / 2);
+            futuretickets.Clear();
             Menu.StartScreen();
         }
         else if (ans == "2") {
             Console.WriteLine("You have been sent back to the menu.");
+            futuretickets.Clear();
             Menu.StartScreen();
         }
         else {
