@@ -59,6 +59,7 @@ static class CancelTickets
                 }
                 else {
                     Console.WriteLine("Unfortunately it's to late to cancel this ticket!");
+                    futuretickets.Clear();
                 }
             }
             else {
@@ -67,6 +68,7 @@ static class CancelTickets
                 }
                 else {
                     Console.WriteLine("Unfortunately it's to late to cancel this ticket!");
+                    futuretickets.Clear();
                 }
             }
     }
