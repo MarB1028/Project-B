@@ -1,7 +1,7 @@
 [
   {
     "ID": 1,
-    "LoggedIn": false,
+    "LoggedIn": true,
     "Email": "aaaaaaa@gmail.com",
     "Vouchers": [],
     "Password": "abc123!",
@@ -177,7 +177,7 @@
   },
   {
     "ID": 9,
-    "LoggedIn": true,
+    "LoggedIn": false,
     "Email": "abc123@gmail.com",
     "Vouchers": [],
     "Password": "abc123!",
