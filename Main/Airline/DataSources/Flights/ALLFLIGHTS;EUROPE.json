@@ -1,128 +1,9 @@
 [
   {
     "FlightNo": 0,
-    "FlightId": "GER2",
-    "IsDeal": false,
-    "DayOrNight": "Day",
-    "Airplane": {
-      "Name": "BOEING747",
-      "Carrierid": "BO",
-      "AirplaneId": 1,
-      "FirstClassSeat": 4,
-      "PremiumSeat": 5,
-      "EconomySeat": 6,
-      "ExtraSpace": 2
-    },
-    "BoardingDate": "2023-07-12T08:22:48.7878959+02:00",
-    "EstimatedArrival": "2023-07-12T11:22:48.7878959+02:00",
-    "Destination": {
-      "DisplayNo": "1.1",
-      "Country": "GERMANY",
-      "City": "FRANKFURT",
-      "Abbreviation": "(GER)",
-      "Airport": "FRANKFURT AIRPORT",
-      "Distancekm": 100,
-      "FlightDuration": 3,
-      "Status": "On schedule"
-    },
-    "BasePrice": 100.0,
-    "MinPrice": 100.0,
-    "TotalSeats": 102
-  },
-  {
-    "FlightNo": 0,
-    "FlightId": "GER16",
-    "IsDeal": false,
-    "DayOrNight": "Night",
-    "Airplane": {
-      "Name": "BOEING747",
-      "Carrierid": "BO",
-      "AirplaneId": 1,
-      "FirstClassSeat": 4,
-      "PremiumSeat": 5,
-      "EconomySeat": 6,
-      "ExtraSpace": 2
-    },
-    "BoardingDate": "2023-07-12T16:57:00+02:00",
-    "EstimatedArrival": "2023-07-12T20:57:00+02:00",
-    "Destination": {
-      "DisplayNo": "1.2",
-      "Country": "GERMANY",
-      "City": "MUNCHEN",
-      "Abbreviation": "(MUC)",
-      "Airport": "MUNICH INTERNATIONAL AIRPORT",
-      "Distancekm": 100,
-      "FlightDuration": 4,
-      "Status": "On schedule"
-    },
-    "BasePrice": 100.0,
-    "MinPrice": 100.0,
-    "TotalSeats": 102
-  },
-  {
-    "FlightNo": 0,
-    "FlightId": "GER9",
-    "IsDeal": false,
-    "DayOrNight": "Night",
-    "Airplane": {
-      "Name": "BOEING747",
-      "Carrierid": "BO",
-      "AirplaneId": 1,
-      "FirstClassSeat": 4,
-      "PremiumSeat": 5,
-      "EconomySeat": 6,
-      "ExtraSpace": 2
-    },
-    "BoardingDate": "2023-07-13T00:04:48.7878327+02:00",
-    "EstimatedArrival": "2023-07-13T03:04:48.7878327+02:00",
-    "Destination": {
-      "DisplayNo": "1.1",
-      "Country": "GERMANY",
-      "City": "FRANKFURT",
-      "Abbreviation": "(GER)",
-      "Airport": "FRANKFURT AIRPORT",
-      "Distancekm": 100,
-      "FlightDuration": 3,
-      "Status": "On schedule"
-    },
-    "BasePrice": 100.0,
-    "MinPrice": 100.0,
-    "TotalSeats": 102
-  },
-  {
-    "FlightNo": 0,
-    "FlightId": "GER4",
-    "IsDeal": false,
-    "DayOrNight": "Day",
-    "Airplane": {
-      "Name": "BOEING747",
-      "Carrierid": "BO",
-      "AirplaneId": 1,
-      "FirstClassSeat": 4,
-      "PremiumSeat": 5,
-      "EconomySeat": 6,
-      "ExtraSpace": 2
-    },
-    "BoardingDate": "2023-07-09T09:31:00+02:00",
-    "EstimatedArrival": "2023-07-09T12:31:00+02:00",
-    "Destination": {
-      "DisplayNo": "1.1",
-      "Country": "GERMANY",
-      "City": "FRANKFURT",
-      "Abbreviation": "(GER)",
-      "Airport": "FRANKFURT AIRPORT",
-      "Distancekm": 100,
-      "FlightDuration": 3,
-      "Status": "On schedule"
-    },
-    "BasePrice": 100.0,
-    "MinPrice": 100.0,
-    "TotalSeats": 102
-  },
-  {
-    "FlightNo": 0,
     "FlightId": "SPN7",
     "IsDeal": false,
+    "DateSort": false,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -153,6 +34,7 @@
     "FlightNo": 0,
     "FlightId": "UK9",
     "IsDeal": false,
+    "DateSort": false,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -181,8 +63,133 @@
   },
   {
     "FlightNo": 0,
+    "FlightId": "GER4",
+    "IsDeal": false,
+    "DateSort": false,
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-07-09T09:31:00+02:00",
+    "EstimatedArrival": "2023-07-09T12:31:00+02:00",
+    "Destination": {
+      "DisplayNo": "1.1",
+      "Country": "GERMANY",
+      "City": "FRANKFURT",
+      "Abbreviation": "(GER)",
+      "Airport": "FRANKFURT AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 3,
+      "Status": "On schedule"
+    },
+    "BasePrice": 100.0,
+    "MinPrice": 100.0,
+    "TotalSeats": 102
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GER2",
+    "IsDeal": false,
+    "DateSort": false,
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-07-12T08:22:48.7878959+02:00",
+    "EstimatedArrival": "2023-07-12T11:22:48.7878959+02:00",
+    "Destination": {
+      "DisplayNo": "1.1",
+      "Country": "GERMANY",
+      "City": "FRANKFURT",
+      "Abbreviation": "(GER)",
+      "Airport": "FRANKFURT AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 3,
+      "Status": "On schedule"
+    },
+    "BasePrice": 100.0,
+    "MinPrice": 100.0,
+    "TotalSeats": 102
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GER16",
+    "IsDeal": false,
+    "DateSort": false,
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-07-12T16:57:00+02:00",
+    "EstimatedArrival": "2023-07-12T20:57:00+02:00",
+    "Destination": {
+      "DisplayNo": "1.2",
+      "Country": "GERMANY",
+      "City": "MUNCHEN",
+      "Abbreviation": "(MUC)",
+      "Airport": "MUNICH INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 4,
+      "Status": "On schedule"
+    },
+    "BasePrice": 100.0,
+    "MinPrice": 100.0,
+    "TotalSeats": 102
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GER9",
+    "IsDeal": false,
+    "DateSort": false,
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-07-13T00:04:48.7878327+02:00",
+    "EstimatedArrival": "2023-07-13T03:04:48.7878327+02:00",
+    "Destination": {
+      "DisplayNo": "1.1",
+      "Country": "GERMANY",
+      "City": "FRANKFURT",
+      "Abbreviation": "(GER)",
+      "Airport": "FRANKFURT AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 3,
+      "Status": "On schedule"
+    },
+    "BasePrice": 100.0,
+    "MinPrice": 100.0,
+    "TotalSeats": 102
+  },
+  {
+    "FlightNo": 0,
     "FlightId": "GER3",
     "IsDeal": false,
+    "DateSort": false,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -213,6 +220,7 @@
     "FlightNo": 0,
     "FlightId": "UK3",
     "IsDeal": false,
+    "DateSort": false,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -243,6 +251,7 @@
     "FlightNo": 0,
     "FlightId": "GER19",
     "IsDeal": false,
+    "DateSort": false,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -273,6 +282,7 @@
     "FlightNo": 0,
     "FlightId": "SPN10",
     "IsDeal": false,
+    "DateSort": false,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -303,6 +313,7 @@
     "FlightNo": 0,
     "FlightId": "UK2",
     "IsDeal": false,
+    "DateSort": false,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -333,6 +344,7 @@
     "FlightNo": 0,
     "FlightId": "UK14",
     "IsDeal": false,
+    "DateSort": false,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -363,6 +375,7 @@
     "FlightNo": 0,
     "FlightId": "SPN17",
     "IsDeal": false,
+    "DateSort": true,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -393,6 +406,7 @@
     "FlightNo": 0,
     "FlightId": "UK5",
     "IsDeal": false,
+    "DateSort": true,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -423,6 +437,7 @@
     "FlightNo": 0,
     "FlightId": "SPN2",
     "IsDeal": false,
+    "DateSort": true,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -453,6 +468,7 @@
     "FlightNo": 0,
     "FlightId": "SPN13",
     "IsDeal": false,
+    "DateSort": true,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -483,6 +499,7 @@
     "FlightNo": 0,
     "FlightId": "SPN18",
     "IsDeal": false,
+    "DateSort": true,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -513,6 +530,7 @@
     "FlightNo": 0,
     "FlightId": "GER6",
     "IsDeal": false,
+    "DateSort": true,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -543,6 +561,7 @@
     "FlightNo": 0,
     "FlightId": "UK17",
     "IsDeal": false,
+    "DateSort": true,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -573,6 +592,7 @@
     "FlightNo": 0,
     "FlightId": "GRC1",
     "IsDeal": false,
+    "DateSort": true,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -603,6 +623,7 @@
     "FlightNo": 0,
     "FlightId": "GER5",
     "IsDeal": false,
+    "DateSort": true,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -633,6 +654,7 @@
     "FlightNo": 0,
     "FlightId": "UK15",
     "IsDeal": false,
+    "DateSort": true,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -663,6 +685,7 @@
     "FlightNo": 0,
     "FlightId": "SPN1",
     "IsDeal": false,
+    "DateSort": true,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -693,6 +716,7 @@
     "FlightNo": 0,
     "FlightId": "SPN16",
     "IsDeal": false,
+    "DateSort": true,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -723,6 +747,7 @@
     "FlightNo": 0,
     "FlightId": "GER8",
     "IsDeal": false,
+    "DateSort": true,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",
@@ -753,6 +778,7 @@
     "FlightNo": 0,
     "FlightId": "GER11",
     "IsDeal": false,
+    "DateSort": true,
     "DayOrNight": "Day",
     "Airplane": {
       "Name": "BOEING747",
@@ -783,6 +809,7 @@
     "FlightNo": 0,
     "FlightId": "GRC19",
     "IsDeal": false,
+    "DateSort": true,
     "DayOrNight": "Night",
     "Airplane": {
       "Name": "BOEING747",

@@ -17,6 +17,7 @@ class OverviewFlights
     public void ShowAvailableFlights()
     {
         List<Flight> flights = DataFlights.ReadFlightsFromJson();
+        flights = flights.OrderBy(flight => flight.BoardingDate).ToList();
 
         // Morgen datum
         DateTime Today = DateTime.Today;
@@ -32,6 +33,7 @@ class OverviewFlights
         // voor elke vlucht in de lijst flights
         foreach (var flight in flights)
         {
+            flight.DateSort = true;
             MakeTicketsForFlightJson.MakeTickets(flight);
             // een ranodm dag wordt added aan de boarding en arrivaldate als de boardingdate expired is
             if (Today > flight.BoardingDate)
@@ -224,11 +226,25 @@ class OverviewFlights
                 {
                     if (flight.BoardingDate > datesort)
                     {
+                        flight.DateSort = true;
+                        sortedlist.Add(flight);
+                    }
+                    else
+                    {
+                        flight.DateSort = false;
                         sortedlist.Add(flight);
                     }
                 }
+                List<Flight> checklist = new List<Flight> ();
+                foreach ( Flight flight in sortedlist)
+                {
+                    if (flight.DateSort == true)
+                    {
+                        checklist.Add(flight);
+                    }
+                }
 
-                if (sortedlist.Count == 0 || sortedlist == null)
+                if (checklist.Count == 0 || checklist == null)
                 {
                     Console.WriteLine("No flights available\n");
                     Thread.Sleep(3000);
@@ -271,24 +287,27 @@ class OverviewFlights
             int nummer = 1;
             foreach (var fl in flights)
             {
-                if (fl.Destination.DisplayNo == Destination)
+                if (fl.DateSort == true)
                 {
-                    fl.FlightNo = nummer++; //FlightNo updaten 
-                    Console.Write($"{fl.FlightNo,-12} {fl.BoardingDate.ToString("yyyy-MM-dd HH:mm"),-20} {fl.Destination.City} {fl.Destination.Abbreviation,-8} {fl.EstimatedArrival.ToString("yyyy-MM-dd HH:mm"),-19} ");                    // Print the status message in red if the flight is full or departed
-                    if (fl.Destination.Status == "Full" || fl.Destination.Status == "Departed")
+                    if (fl.Destination.DisplayNo == Destination)
                     {
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.Write($"{fl.Destination.Status,-15}");
-                        Console.ResetColor();
-                    }
-                    else
-                    {
-                        Console.Write($"{fl.Destination.Status,-15}");
-                    }
+                        fl.FlightNo = nummer++; //FlightNo updaten 
+                        Console.Write($"{fl.FlightNo,-12} {fl.BoardingDate.ToString("yyyy-MM-dd HH:mm"),-20} {fl.Destination.City} {fl.Destination.Abbreviation,-8} {fl.EstimatedArrival.ToString("yyyy-MM-dd HH:mm"),-19} ");                    // Print the status message in red if the flight is full or departed
+                        if (fl.Destination.Status == "Full" || fl.Destination.Status == "Departed")
+                        {
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.Write($"{fl.Destination.Status,-15}");
+                            Console.ResetColor();
+                        }
+                        else
+                        {
+                            Console.Write($"{fl.Destination.Status,-15}");
+                        }
 
-                    Console.Write($" {DataTickets.AvailableSeats(fl),-6}  €{fl.MinPrice},-{fl.Airplane.Name,13}");
-                    Console.WriteLine(new string('-', 120)); // --- in between elke row ---
+                        Console.Write($" {DataTickets.AvailableSeats(fl),-6}  €{fl.MinPrice},-{fl.Airplane.Name,13}");
+                        Console.WriteLine(new string('-', 120)); // --- in between elke row ---
 
+                    }
                 }
 
             }
@@ -420,6 +439,8 @@ class OverviewFlights
                                         string ans = Console.ReadLine().ToUpper();
                                         if (ans == "1") 
                                         {
+                                            Console.WriteLine($" Selected flight:   {nextFlight.BoardingDate}   {nextFlight.FlightNo}     {nextFlight.EstimatedArrival}");
+                                            Thread.Sleep(5000);
                                             Console.WriteLine("You are now being redirected to the booking page");
                                             // FlightNo resetten naar 0
                                             foreach (var fl in flToDestination)
@@ -466,6 +487,8 @@ class OverviewFlights
 
                         }
                         DataFlights.WriteDateToJson(flights);
+                        Console.WriteLine($" Selected flight:   {selectedFlight.BoardingDate}   {selectedFlight.FlightNo}     {selectedFlight.EstimatedArrival}");
+                        Thread.Sleep(5000);
                         //hier de volgende stap aanroepen
                         // MakeTicketsForFlightJson.MakeTickets(selectedFlight); // hier maakt het een "ticket" aan
                         Console.Clear();
