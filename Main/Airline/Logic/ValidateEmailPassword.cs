@@ -113,7 +113,13 @@
     public bool CheckNewValidEmail(string email) // checkt of de email aan de criteria voldoet
     {
         List<string> emailEndings = new List<string>() { "@icloud.com", "@hotmail.com", "@gmail.com", "@outlook.com", "@yahoo.com", "@kpnmail.nl", "@ziggo.nl", "@upcmail.nl", "@live.nl", "@telfort.nl", "@xs4all.nl", "@planet.nl" };
-
+        
+        if (CheckExistingEmail(email)) 
+        {
+            Console.WriteLine("Email adress has already registered.");
+            return false;
+        }
+        
         foreach (string ending in emailEndings)
         {
             if (email.EndsWith(ending))

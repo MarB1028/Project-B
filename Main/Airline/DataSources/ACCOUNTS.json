@@ -177,7 +177,7 @@
   },
   {
     "ID": 9,
-    "LoggedIn": true,
+    "LoggedIn": false,
     "Email": "abc123@gmail.com",
     "Vouchers": [],
     "Password": "abc123!",
@@ -342,5 +342,13 @@
         }
       }
     ]
+  },
+  {
+    "ID": 16,
+    "LoggedIn": false,
+    "Email": "abc@gmail.com",
+    "Vouchers": [],
+    "Password": "abc123!",
+    "BoughtTickets": []
   }
 ]
