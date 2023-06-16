@@ -1,66 +1,6 @@
 [
   {
     "FlightNo": 0,
-    "FlightId": "GER16",
-    "IsDeal": false,
-    "DayOrNight": "Night",
-    "Airplane": {
-      "Name": "BOEING747",
-      "Carrierid": "BO",
-      "AirplaneId": 1,
-      "FirstClassSeat": 4,
-      "PremiumSeat": 5,
-      "EconomySeat": 6,
-      "ExtraSpace": 2
-    },
-    "BoardingDate": "2023-07-12T16:57:00+02:00",
-    "EstimatedArrival": "2023-07-12T20:57:00+02:00",
-    "Destination": {
-      "DisplayNo": "1.2",
-      "Country": "GERMANY",
-      "City": "MUNCHEN",
-      "Abbreviation": "(MUC)",
-      "Airport": "MUNICH INTERNATIONAL AIRPORT",
-      "Distancekm": 100,
-      "FlightDuration": 4,
-      "Status": "On schedule"
-    },
-    "BasePrice": 100.0,
-    "MinPrice": 100.0,
-    "TotalSeats": 102
-  },
-  {
-    "FlightNo": 0,
-    "FlightId": "GER11",
-    "IsDeal": false,
-    "DayOrNight": "Day",
-    "Airplane": {
-      "Name": "BOEING747",
-      "Carrierid": "BO",
-      "AirplaneId": 1,
-      "FirstClassSeat": 4,
-      "PremiumSeat": 5,
-      "EconomySeat": 6,
-      "ExtraSpace": 2
-    },
-    "BoardingDate": "2023-08-29T12:32:48.7878995+02:00",
-    "EstimatedArrival": "2023-08-29T16:32:48.7878995+02:00",
-    "Destination": {
-      "DisplayNo": "1.2",
-      "Country": "GERMANY",
-      "City": "MUNCHEN",
-      "Abbreviation": "(MUC)",
-      "Airport": "MUNICH INTERNATIONAL AIRPORT",
-      "Distancekm": 100,
-      "FlightDuration": 4,
-      "Status": "On schedule"
-    },
-    "BasePrice": 100.0,
-    "MinPrice": 100.0,
-    "TotalSeats": 102
-  },
-  {
-    "FlightNo": 0,
     "FlightId": "GER2",
     "IsDeal": false,
     "DayOrNight": "Day",
@@ -83,6 +23,36 @@
       "Airport": "FRANKFURT AIRPORT",
       "Distancekm": 100,
       "FlightDuration": 3,
+      "Status": "On schedule"
+    },
+    "BasePrice": 100.0,
+    "MinPrice": 100.0,
+    "TotalSeats": 102
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GER16",
+    "IsDeal": false,
+    "DayOrNight": "Night",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-07-12T16:57:00+02:00",
+    "EstimatedArrival": "2023-07-12T20:57:00+02:00",
+    "Destination": {
+      "DisplayNo": "1.2",
+      "Country": "GERMANY",
+      "City": "MUNCHEN",
+      "Abbreviation": "(MUC)",
+      "Airport": "MUNICH INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 4,
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
@@ -151,66 +121,6 @@
   },
   {
     "FlightNo": 0,
-    "FlightId": "GER3",
-    "IsDeal": false,
-    "DayOrNight": "Day",
-    "Airplane": {
-      "Name": "BOEING747",
-      "Carrierid": "BO",
-      "AirplaneId": 1,
-      "FirstClassSeat": 4,
-      "PremiumSeat": 5,
-      "EconomySeat": 6,
-      "ExtraSpace": 2
-    },
-    "BoardingDate": "2023-07-15T08:12:00+02:00",
-    "EstimatedArrival": "2023-07-15T11:12:00+02:00",
-    "Destination": {
-      "DisplayNo": "1.1",
-      "Country": "GERMANY",
-      "City": "FRANKFURT",
-      "Abbreviation": "(GER)",
-      "Airport": "FRANKFURT AIRPORT",
-      "Distancekm": 100,
-      "FlightDuration": 3,
-      "Status": "On schedule"
-    },
-    "BasePrice": 100.0,
-    "MinPrice": 100.0,
-    "TotalSeats": 0
-  },
-  {
-    "FlightNo": 0,
-    "FlightId": "UK3",
-    "IsDeal": false,
-    "DayOrNight": "Day",
-    "Airplane": {
-      "Name": "BOEING747",
-      "Carrierid": "BO",
-      "AirplaneId": 1,
-      "FirstClassSeat": 4,
-      "PremiumSeat": 5,
-      "EconomySeat": 6,
-      "ExtraSpace": 2
-    },
-    "BoardingDate": "2023-07-16T09:27:00+02:00",
-    "EstimatedArrival": "2023-07-16T10:27:00+02:00",
-    "Destination": {
-      "DisplayNo": "4.1",
-      "Country": "UNITED KINGDOM",
-      "City": "LONDON",
-      "Abbreviation": "(LCY)",
-      "Airport": "LONDON CITY AIRPORT",
-      "Distancekm": 100,
-      "FlightDuration": 1,
-      "Status": "On schedule"
-    },
-    "BasePrice": 100.0,
-    "MinPrice": 100.0,
-    "TotalSeats": 102
-  },
-  {
-    "FlightNo": 0,
     "FlightId": "SPN7",
     "IsDeal": false,
     "DayOrNight": "Night",
@@ -263,6 +173,66 @@
       "Airport": "ATHENS INTERNATIONAL AIRPORT",
       "Distancekm": 100,
       "FlightDuration": 7,
+      "Status": "On schedule"
+    },
+    "BasePrice": 100.0,
+    "MinPrice": 100.0,
+    "TotalSeats": 102
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GER3",
+    "IsDeal": false,
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-07-15T08:12:00+02:00",
+    "EstimatedArrival": "2023-07-15T11:12:00+02:00",
+    "Destination": {
+      "DisplayNo": "1.1",
+      "Country": "GERMANY",
+      "City": "FRANKFURT",
+      "Abbreviation": "(GER)",
+      "Airport": "FRANKFURT AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 3,
+      "Status": "On schedule"
+    },
+    "BasePrice": 100.0,
+    "MinPrice": 100.0,
+    "TotalSeats": 0
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "UK3",
+    "IsDeal": false,
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-07-16T09:27:00+02:00",
+    "EstimatedArrival": "2023-07-16T10:27:00+02:00",
+    "Destination": {
+      "DisplayNo": "4.1",
+      "Country": "UNITED KINGDOM",
+      "City": "LONDON",
+      "Abbreviation": "(LCY)",
+      "Airport": "LONDON CITY AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 1,
       "Status": "On schedule"
     },
     "BasePrice": 100.0,
@@ -773,6 +743,36 @@
       "Airport": "FRANKFURT AIRPORT",
       "Distancekm": 100,
       "FlightDuration": 3,
+      "Status": "On schedule"
+    },
+    "BasePrice": 100.0,
+    "MinPrice": 100.0,
+    "TotalSeats": 102
+  },
+  {
+    "FlightNo": 0,
+    "FlightId": "GER11",
+    "IsDeal": false,
+    "DayOrNight": "Day",
+    "Airplane": {
+      "Name": "BOEING747",
+      "Carrierid": "BO",
+      "AirplaneId": 1,
+      "FirstClassSeat": 4,
+      "PremiumSeat": 5,
+      "EconomySeat": 6,
+      "ExtraSpace": 2
+    },
+    "BoardingDate": "2023-08-29T12:32:48.7878995+02:00",
+    "EstimatedArrival": "2023-08-29T16:32:48.7878995+02:00",
+    "Destination": {
+      "DisplayNo": "1.2",
+      "Country": "GERMANY",
+      "City": "MUNCHEN",
+      "Abbreviation": "(MUC)",
+      "Airport": "MUNICH INTERNATIONAL AIRPORT",
+      "Distancekm": 100,
+      "FlightDuration": 4,
       "Status": "On schedule"
     },
     "BasePrice": 100.0,

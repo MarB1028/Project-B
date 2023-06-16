@@ -2475,20 +2475,12 @@
     }
   },
   {
-    "Booked": true,
+    "Booked": false,
     "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 158,
     "Ticket": {
-      "Passenger": {
-        "ID": 51,
-        "FirstName": "Ralph",
-        "LastName": "de Groot",
-        "Sex": "M",
-        "BirthDate": "2018-01-01T00:00:00",
-        "Address": "Visserstraat 12 12 1234 AB fuckstad",
-        "PhoneNumber": "+31641606401"
-      },
+      "Passenger": null,
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER2",
@@ -2528,20 +2520,12 @@
     }
   },
   {
-    "Booked": true,
+    "Booked": false,
     "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 159,
     "Ticket": {
-      "Passenger": {
-        "ID": 52,
-        "FirstName": "MC",
-        "LastName": "de GR",
-        "Sex": "X",
-        "BirthDate": "2022-01-01T00:00:00",
-        "Address": "straat 245qwerrtfg 1234 ty hochiminstad",
-        "PhoneNumber": "Empty"
-      },
+      "Passenger": null,
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER2",

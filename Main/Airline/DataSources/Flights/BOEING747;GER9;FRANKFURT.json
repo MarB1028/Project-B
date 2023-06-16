@@ -1,7 +1,6 @@
 [
   {
     "Booked": true,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 103,
     "Ticket": {
@@ -9,7 +8,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -34,6 +32,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -46,7 +45,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 104,
     "Ticket": {
@@ -54,7 +52,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -79,6 +76,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -91,7 +89,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 105,
     "Ticket": {
@@ -99,7 +96,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -124,6 +120,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -136,7 +133,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 106,
     "Ticket": {
@@ -144,7 +140,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -169,6 +164,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -181,7 +177,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 107,
     "Ticket": {
@@ -189,7 +184,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -214,6 +208,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -226,7 +221,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 108,
     "Ticket": {
@@ -234,7 +228,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -259,6 +252,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -271,7 +265,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 109,
     "Ticket": {
@@ -279,7 +272,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -304,6 +296,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -316,7 +309,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 110,
     "Ticket": {
@@ -324,7 +316,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -349,6 +340,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -361,7 +353,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 111,
     "Ticket": {
@@ -369,7 +360,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -394,6 +384,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -406,7 +397,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 112,
     "Ticket": {
@@ -414,7 +404,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -439,6 +428,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -451,7 +441,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 113,
     "Ticket": {
@@ -459,7 +448,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -484,6 +472,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -496,7 +485,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 114,
     "Ticket": {
@@ -504,7 +492,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -529,6 +516,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -541,7 +529,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 115,
     "Ticket": {
@@ -549,7 +536,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -574,6 +560,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -586,7 +573,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 116,
     "Ticket": {
@@ -594,7 +580,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -619,6 +604,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -631,7 +617,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 117,
     "Ticket": {
@@ -639,7 +624,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -664,6 +648,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -676,7 +661,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 118,
     "Ticket": {
@@ -684,7 +668,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -709,6 +692,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -721,7 +705,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 119,
     "Ticket": {
@@ -729,7 +712,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -754,6 +736,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -766,7 +749,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 120,
     "Ticket": {
@@ -774,7 +756,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -799,6 +780,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -811,7 +793,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 121,
     "Ticket": {
@@ -819,7 +800,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -844,6 +824,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -856,7 +837,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 122,
     "Ticket": {
@@ -864,7 +844,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -889,6 +868,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -901,7 +881,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 123,
     "Ticket": {
@@ -909,7 +888,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -934,6 +912,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -946,7 +925,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 124,
     "Ticket": {
@@ -954,7 +932,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -979,6 +956,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -991,7 +969,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 125,
     "Ticket": {
@@ -999,7 +976,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1024,6 +1000,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -1036,7 +1013,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 126,
     "Ticket": {
@@ -1044,7 +1020,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1069,6 +1044,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -1081,7 +1057,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 127,
     "Ticket": {
@@ -1089,7 +1064,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1114,6 +1088,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -1126,7 +1101,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 128,
     "Ticket": {
@@ -1134,7 +1108,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1159,6 +1132,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -1171,7 +1145,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 129,
     "Ticket": {
@@ -1179,7 +1152,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1204,6 +1176,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -1216,7 +1189,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 130,
     "Ticket": {
@@ -1224,7 +1196,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1249,6 +1220,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -1261,7 +1233,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 131,
     "Ticket": {
@@ -1269,7 +1240,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1294,6 +1264,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -1306,7 +1277,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 132,
     "Ticket": {
@@ -1314,7 +1284,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1339,6 +1308,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -1351,7 +1321,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 133,
     "Ticket": {
@@ -1359,7 +1328,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1384,6 +1352,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -1396,7 +1365,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 134,
     "Ticket": {
@@ -1404,7 +1372,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1429,6 +1396,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -1441,7 +1409,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 135,
     "Ticket": {
@@ -1449,7 +1416,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1474,6 +1440,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -1486,7 +1453,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 136,
     "Ticket": {
@@ -1494,7 +1460,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1519,6 +1484,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -1531,7 +1497,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 137,
     "Ticket": {
@@ -1539,7 +1504,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1564,6 +1528,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -1576,7 +1541,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 138,
     "Ticket": {
@@ -1584,7 +1548,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1609,6 +1572,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -1621,7 +1585,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 139,
     "Ticket": {
@@ -1629,7 +1592,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1654,6 +1616,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -1666,7 +1629,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 140,
     "Ticket": {
@@ -1674,7 +1636,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1699,6 +1660,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -1711,7 +1673,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 141,
     "Ticket": {
@@ -1719,7 +1680,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1744,6 +1704,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -1756,7 +1717,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 142,
     "Ticket": {
@@ -1764,7 +1724,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1789,6 +1748,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -1801,7 +1761,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 143,
     "Ticket": {
@@ -1809,7 +1768,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1834,6 +1792,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -1846,7 +1805,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 144,
     "Ticket": {
@@ -1854,7 +1812,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1879,6 +1836,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -1891,7 +1849,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 145,
     "Ticket": {
@@ -1899,7 +1856,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1924,6 +1880,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -1936,7 +1893,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 146,
     "Ticket": {
@@ -1944,7 +1900,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -1969,6 +1924,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -1981,7 +1937,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 147,
     "Ticket": {
@@ -1989,7 +1944,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2014,6 +1968,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -2026,7 +1981,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 148,
     "Ticket": {
@@ -2034,7 +1988,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2059,6 +2012,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -2071,7 +2025,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 149,
     "Ticket": {
@@ -2079,7 +2032,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2104,6 +2056,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -2116,7 +2069,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 150,
     "Ticket": {
@@ -2124,7 +2076,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2149,6 +2100,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -2161,7 +2113,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 151,
     "Ticket": {
@@ -2169,7 +2120,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2194,6 +2144,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -2206,7 +2157,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 152,
     "Ticket": {
@@ -2214,7 +2164,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2239,6 +2188,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -2251,7 +2201,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 153,
     "Ticket": {
@@ -2259,7 +2208,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2284,6 +2232,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -2296,7 +2245,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 154,
     "Ticket": {
@@ -2304,7 +2252,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2329,6 +2276,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -2341,7 +2289,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 155,
     "Ticket": {
@@ -2349,7 +2296,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2374,6 +2320,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -2386,7 +2333,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 156,
     "Ticket": {
@@ -2394,7 +2340,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2419,6 +2364,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -2431,7 +2377,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 157,
     "Ticket": {
@@ -2439,7 +2384,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2464,6 +2408,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -2476,7 +2421,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 158,
     "Ticket": {
@@ -2484,7 +2428,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2509,6 +2452,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -2521,7 +2465,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 159,
     "Ticket": {
@@ -2529,7 +2472,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2554,6 +2496,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -2566,7 +2509,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 160,
     "Ticket": {
@@ -2574,7 +2516,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2599,6 +2540,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -2611,7 +2553,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 161,
     "Ticket": {
@@ -2619,7 +2560,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2644,6 +2584,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -2656,7 +2597,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 162,
     "Ticket": {
@@ -2664,7 +2604,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2689,6 +2628,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -2701,7 +2641,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 163,
     "Ticket": {
@@ -2709,7 +2648,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2734,6 +2672,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -2746,7 +2685,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 164,
     "Ticket": {
@@ -2754,7 +2692,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2779,6 +2716,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -2791,7 +2729,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 165,
     "Ticket": {
@@ -2799,7 +2736,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2824,6 +2760,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -2836,7 +2773,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 166,
     "Ticket": {
@@ -2844,7 +2780,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2869,6 +2804,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -2881,7 +2817,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 167,
     "Ticket": {
@@ -2889,7 +2824,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2914,6 +2848,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -2926,7 +2861,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 168,
     "Ticket": {
@@ -2934,7 +2868,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -2959,6 +2892,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -2971,7 +2905,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 169,
     "Ticket": {
@@ -2979,7 +2912,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3004,6 +2936,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -3016,7 +2949,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 170,
     "Ticket": {
@@ -3024,7 +2956,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3049,6 +2980,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -3061,7 +2993,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 171,
     "Ticket": {
@@ -3069,7 +3000,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3094,6 +3024,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -3106,7 +3037,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 172,
     "Ticket": {
@@ -3114,7 +3044,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3139,6 +3068,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -3151,7 +3081,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 173,
     "Ticket": {
@@ -3159,7 +3088,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3184,6 +3112,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -3196,7 +3125,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 174,
     "Ticket": {
@@ -3204,7 +3132,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3229,6 +3156,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -3241,7 +3169,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 175,
     "Ticket": {
@@ -3249,7 +3176,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3274,6 +3200,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -3286,7 +3213,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 176,
     "Ticket": {
@@ -3294,7 +3220,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3319,6 +3244,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -3331,7 +3257,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 177,
     "Ticket": {
@@ -3339,7 +3264,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3364,6 +3288,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -3376,7 +3301,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 178,
     "Ticket": {
@@ -3384,7 +3308,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3409,6 +3332,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -3421,7 +3345,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 179,
     "Ticket": {
@@ -3429,7 +3352,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3454,6 +3376,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -3466,7 +3389,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 180,
     "Ticket": {
@@ -3474,7 +3396,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3499,6 +3420,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -3511,7 +3433,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 181,
     "Ticket": {
@@ -3519,7 +3440,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3544,6 +3464,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -3556,7 +3477,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 182,
     "Ticket": {
@@ -3564,7 +3484,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3589,6 +3508,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -3601,7 +3521,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 183,
     "Ticket": {
@@ -3609,7 +3528,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3634,6 +3552,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -3646,7 +3565,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 184,
     "Ticket": {
@@ -3654,7 +3572,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3679,6 +3596,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -3691,7 +3609,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 185,
     "Ticket": {
@@ -3699,7 +3616,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3724,6 +3640,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -3736,7 +3653,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 186,
     "Ticket": {
@@ -3744,7 +3660,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3769,6 +3684,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -3781,7 +3697,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 187,
     "Ticket": {
@@ -3789,7 +3704,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3814,6 +3728,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -3826,7 +3741,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 188,
     "Ticket": {
@@ -3834,7 +3748,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3859,6 +3772,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -3871,7 +3785,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 189,
     "Ticket": {
@@ -3879,7 +3792,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3904,6 +3816,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -3916,7 +3829,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 190,
     "Ticket": {
@@ -3924,7 +3836,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3949,6 +3860,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -3961,7 +3873,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 191,
     "Ticket": {
@@ -3969,7 +3880,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -3994,6 +3904,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -4006,7 +3917,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 192,
     "Ticket": {
@@ -4014,7 +3924,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -4039,6 +3948,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -4051,7 +3961,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 193,
     "Ticket": {
@@ -4059,7 +3968,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -4084,6 +3992,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -4096,7 +4005,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 194,
     "Ticket": {
@@ -4104,7 +4012,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -4129,6 +4036,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -4141,7 +4049,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 195,
     "Ticket": {
@@ -4149,7 +4056,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -4174,6 +4080,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -4186,7 +4093,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 196,
     "Ticket": {
@@ -4194,7 +4100,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -4219,6 +4124,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -4231,7 +4137,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 197,
     "Ticket": {
@@ -4239,7 +4144,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -4264,6 +4168,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -4276,7 +4181,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 198,
     "Ticket": {
@@ -4284,7 +4188,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -4309,6 +4212,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -4321,7 +4225,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 199,
     "Ticket": {
@@ -4329,7 +4232,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -4354,6 +4256,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -4366,7 +4269,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 200,
     "Ticket": {
@@ -4374,7 +4276,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -4399,6 +4300,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -4411,7 +4313,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 201,
     "Ticket": {
@@ -4419,7 +4320,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -4444,6 +4344,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -4456,7 +4357,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 202,
     "Ticket": {
@@ -4464,7 +4364,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -4489,6 +4388,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -4501,7 +4401,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 203,
     "Ticket": {
@@ -4509,7 +4408,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -4534,6 +4432,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
@@ -4546,7 +4445,6 @@
   },
   {
     "Booked": false,
-    "BookingsCode": null,
     "PaymentDone": false,
     "TicketID": 204,
     "Ticket": {
@@ -4554,7 +4452,6 @@
       "Flight": {
         "FlightNo": 0,
         "FlightId": "GER9",
-        "IsDeal": false,
         "DayOrNight": "Night",
         "Airplane": {
           "Name": "BOEING747",
@@ -4579,6 +4476,7 @@
         },
         "BasePrice": 100.0,
         "MinPrice": 100.0,
+        "IsDeal": false,
         "TotalSeats": 102
       },
       "Seat": {
