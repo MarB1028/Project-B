@@ -99,6 +99,7 @@ static class GenerateVoucher
         Thread.Sleep(3000);
         Console.WriteLine("The voucher has succesfully been added to your account and expires in a year.");
         PrintVoucher(voucher);
+        Thread.Sleep(3000);
 
     }
 
@@ -136,6 +137,7 @@ static class GenerateVoucher
         Console.WriteLine("\t\t\t\t║                                               ║");
         Console.WriteLine("\t\t\t\t║                                               ║");
         Console.WriteLine("\t\t\t\t╚═══════════════════════════════════════════════╝");
+        Console.WriteLine();
 
     }
 
