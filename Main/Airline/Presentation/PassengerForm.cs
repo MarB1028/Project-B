@@ -40,7 +40,6 @@
                 // Intro zin
                 Console.WriteLine("Please enter the personal information below:");
                 Console.Write($"Ticket {i + 1}: ");
-                Console.WriteLine($"Ticket {i + 1}: ");
 
                 if (i == 0)
                 {
@@ -57,7 +56,14 @@
                 sex = Loop("Gender(M/F/X)", x => ValidateInput.IsMatch(x, "MFX"), "Invalid input. Enter your gender (M for male, F for female or X for neither).");
 
                 // Geboortedatum
-                birthDateString = Loop("Date of Birth (DD-MM-YYYY)", x => ValidateInput.ValidateDate(x), "Invalid input. Please enter your date of birth in the correct format (DD-MM-YYYY).");
+                if (i == 0)
+                {
+                    birthDateString = Loop("Date of Birth (DD-MM-YYYY)", x => ValidateInput.ValidateDateMainBooker(x), "Invalid input. Please enter your date of birth in the correct format (DD-MM-YYYY).");
+                }
+                else
+                {
+                    birthDateString = Loop("Date of Birth (DD-MM-YYYY)", x => ValidateInput.ValidateDate(x), "Invalid input. Please enter your date of birth in the correct format (DD-MM-YYYY).");
+                } 
                 birthDate = Convert.ToDateTime(birthDateString);
 
                 //Adres

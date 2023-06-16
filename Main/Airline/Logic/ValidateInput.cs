@@ -97,6 +97,23 @@ public static class ValidateInput
         return checkDate;
     }
 
+    //Deze method werkt hetzelfde als ValidateDate alleen checkt ie of de persoon ouder is dan 16
+    public static bool ValidateDateMainBooker(string input)
+    {
+        string dateString = input;
+        DateTime date;
+        bool checkDate = true;
+        checkDate = DateTime.TryParseExact(dateString, "dd-MM-yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out date); // InvariantCulture bevestigt dat dd-mm-jjjj gebruikt moet worden en niet de formaat van de gebruikers locatie
+        if (checkDate == true)
+        {
+            if (date > DateTime.Now || (DateTime.Now.Year - date.Year) > 150 || (DateTime.Now.Year - date.Year) < 16)
+            {
+                checkDate = false;
+            }
+        }
+        return checkDate;
+    }
+
     public static bool ValidateAddition(string input)
     {
         if (input == "" || input == " ")
