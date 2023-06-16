@@ -28,6 +28,7 @@ class OverviewFlights
         DateTime endDate = startDate.AddMonths(3);
         TimeSpan timeSpan = endDate - startDate;
         int totalDays = (int)timeSpan.TotalDays;
+        flights = flights.OrderBy(flight => flight.BoardingDate).ToList();
 
         // voor elke vlucht in de lijst flights
         foreach (var flight in flights)
@@ -155,6 +156,7 @@ class OverviewFlights
     {
         int sortyesno;
         int sortchoice;
+        int sortorderdate;
         int sortorderprice;
         int sortorder;
 
@@ -209,36 +211,23 @@ class OverviewFlights
             }
             else if (sortchoice == 2)
             {
-                Console.WriteLine("Enter a valid date (yyyy-MM-dd)");
+                Console.WriteLine("How would you like to sort?\n1. Ascending\n2. Descending");
                 Console.Write("> ");
-                string datesortstring = Console.ReadLine();
-                DateTime datesort;
-                while (!DateTime.TryParseExact(datesortstring, "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out datesort) || datesort < DateTime.Now.AddDays(-2)) // date heb ik maar yyyy-MM-dd veranderd, zodat het als de list is.
+                string sortorderdate0 = Console.ReadLine();
+                while (int.TryParse(sortorderdate0, out sortorderdate) == false || (sortorderdate0 != "1" && sortorderdate0 != "2"))
                 {
-                    Console.WriteLine("Invalid date. Try again");
+                    Console.WriteLine("Please enter a valid input");
+                    Console.WriteLine("How would you like to sort?\n1. Ascending\n2. Descending");
                     Console.Write("> ");
-                    datesortstring = Console.ReadLine();
+                    sortorderdate0 = Console.ReadLine();
                 }
-                List<Flight> sortedlist = new List<Flight> ();
-                foreach (Flight flight in flights)
+                if (sortorderdate == 1)
                 {
-                    if (flight.BoardingDate > datesort)
-                    {
-                        sortedlist.Add(flight);
-                    }
-                }
-
-                if (sortedlist.Count == 0 || sortedlist == null)
-                {
-                    Console.WriteLine("No flights available\n");
-                    Thread.Sleep(3000);
-                    PrintSortedInformation(flights, Destination);
-                    return;
-                }
-                else
-                {
-                    flights = sortedlist;
                     flights = flights.OrderBy(f => f.BoardingDate).ToList();
+                }
+                else if (sortorderdate == 2)
+                {
+                    flights = flights.OrderByDescending(f => f.BoardingDate).ToList();
                 }
             }
             else if (sortchoice == 3)
