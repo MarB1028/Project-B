@@ -67,7 +67,7 @@ public static class CateringLogic
             {
                 Console.Write("Select amount: ");
                 amount = Convert.ToInt32(Console.ReadLine());
-                if (amount > 0)
+                if (amount > 0 && amount <= 10)
                 {
                     break;
                 }
